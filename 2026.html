@@ -1,0 +1,2031 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 FIFA 월드컵 토너먼트 예측 시뮬레이터</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-main: #0b0f19;
+            --bg-card: #151f32;
+            --bg-card-hover: #1e2d4a;
+            --border-left: #3b82f6;
+            --border-right: #f97316;
+            --text-winner: #10b981;
+            --text-muted: #64748b;
+            --korea-color: #ff0055;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: #f8fafc;
+            font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+            padding-bottom: 60px;
+        }
+
+        .hero-section {
+            background: linear-gradient(180deg, #1e3a8a 0%, #0b0f19 100%);
+            padding: 35px 20px;
+            text-align: center;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        /* 🏆 대진표 메인 컨테이너 */
+        .bracket-scroll-container {
+            padding: 40px 20px;
+            overflow-x: auto;
+            overflow-y: visible;
+        }
+
+        /* 대진표 전체 구조 정의 (PC 기본) */
+        .tournament-bracket {
+            display: flex;
+            gap: 24px;
+            margin: 0 auto;
+            justify-content: flex-start;
+            width: max-content;
+            min-width: max-content;
+        }
+
+        /* 각 라운드(열) 레이아웃 */
+        .bracket-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 210px;
+            flex-shrink: 0;
+        }
+
+        .round-header {
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: 800;
+            color: #94a3b8;
+            background: #1e293b;
+            padding: 8px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            border: 1px solid #334155;
+            letter-spacing: 0.05rem;
+        }
+
+        /* 매치업 박스 디자인 */
+        .matchup-box {
+            background-color: var(--bg-card);
+            border-radius: 10px;
+            padding: 12px;
+            border: 1px solid #233149;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+            margin: 15px 0;
+            transition: all 0.2s ease;
+        }
+        .matchup-box:hover {
+            transform: translateY(-2px);
+            background-color: var(--bg-card-hover);
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+        }
+
+        /* 좌측/우측 진출 방향성 테두리 포인트 */
+        .matchup-box.left-side { border-left: 4px solid var(--border-left); }
+        .matchup-box.right-side { border-right: 4px solid var(--border-right); }
+        
+        /* 대한민국 전용 특수 매치 이펙트 */
+        .matchup-box.korea-highlight {
+            border: 2px solid var(--korea-color) !important;
+            background: linear-gradient(135deg, #1f1420 0%, #151f32 100%);
+            box-shadow: 0 0 15px rgba(255, 0, 85, 0.25);
+        }
+
+        /* 대망의 결승전 단독 이펙트 */
+        .matchup-box.final-stage {
+            border: 2px solid #eab308 !important;
+            background: linear-gradient(135deg, #2a2010 0%, #151f32 100%);
+            box-shadow: 0 0 25px rgba(234, 179, 8, 0.35);
+        }
+
+        .match-meta {
+            font-size: 0.7rem;
+            color: #64748b;
+            font-weight: bold;
+            margin-bottom: 6px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #1e2d4a;
+            padding-bottom: 4px;
+        }
+
+        /* 팀 가로줄 (클릭 인터랙션 포함) */
+        .team-row-btn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 6px 8px;
+            border-radius: 6px;
+            margin-bottom: 4px;
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, 0.02);
+            transition: background 0.2s;
+        }
+        .team-row-btn:hover {
+            background-color: rgba(255, 255, 255, 0.08);
+        }
+
+        .team-name-area {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85rem;
+        }
+
+        .team-data-area {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pct-badge {
+            font-size: 0.7rem;
+            font-weight: bold;
+            padding: 2px 5px;
+            border-radius: 4px;
+            background-color: #1e293b;
+            color: #94a3b8;
+        }
+
+        /* 승리자 / 패배자 상태 전용 스크립트 클래스 */
+        .team-row-btn.winner {
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .team-row-btn.winner .pct-badge {
+            background-color: rgba(16, 185, 129, 0.15);
+            color: var(--text-winner);
+        }
+        .team-row-btn.winner .status-ico {
+            color: var(--text-winner);
+        }
+
+        .team-row-btn.loser {
+            color: var(--text-muted);
+        }
+        .team-row-btn.loser .t-name {
+            text-decoration: line-through;
+        }
+        .team-row-btn.loser .status-ico {
+            color: #ef4444;
+            opacity: 0.5;
+        }
+
+        .text-neon-korea {
+            color: #ff3b7e !important;
+            font-weight: bold;
+        }
+
+        .flag-icon-wrap {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0 0 auto;
+            width: 22px;
+            height: 16px;
+            overflow: hidden;
+            border-radius: 2px;
+            background: #0f172a;
+            box-shadow: 0 0 0 1px rgba(148, 163, 184, 0.28);
+            vertical-align: -2px;
+        }
+
+        .flag-icon-img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .flag-icon-fallback {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            font-size: 0.82rem;
+            line-height: 1;
+        }
+
+        .flag-icon-placeholder {
+            display: inline-block;
+            width: 22px;
+            height: 16px;
+        }
+
+        /* 모달 스타일 */
+        .modal-content {
+            background-color: #111827;
+            color: #f8fafc;
+            border: 1px solid #1e293b;
+            max-height: calc(100vh - 48px);
+        }
+        .modal-header { border-bottom: 1px solid #1e293b; }
+        .modal-body {
+            max-height: calc(100vh - 190px);
+            overflow-y: auto;
+        }
+        .modal-footer { border-top: 1px solid #1e293b; }
+
+
+        /* ================================================================= */
+        /* 🔥 [핵심] 모바일 반응형 커스텀 미디어 쿼리 (768px 미만 전용) 🔥 */
+        /* ================================================================= */
+        @media (max-width: 767.98px) {
+            .bracket-scroll-container {
+                padding: 20px 10px;
+                overflow-x: hidden; /* 가로 스크롤 완전 제거 */
+            }
+
+            /* 가로 배열 트리를 세로 타임라인/리스트 구조로 완전 변경 */
+            .tournament-bracket {
+                flex-direction: column;
+                gap: 30px;
+                width: 100%;
+                min-width: 100% !important; 
+            }
+
+            .bracket-column {
+                width: 100%; /* 부모 너비 꽉 채우기 */
+                display: block; /* 순차적으로 아래로 떨어지게 처리 */
+            }
+
+            .round-header {
+                font-size: 0.95rem;
+                padding: 10px;
+                margin-bottom: 12px;
+                background: linear-gradient(90deg, #1e293b 0%, #0f172a 100%);
+                border-left: 4px solid #38bdf8;
+                text-align: left;
+                padding-left: 15px;
+            }
+
+            /* 모바일 대진 묶음 그리드화 (가독성 향상) */
+            .matchup-box {
+                margin: 10px 0 15px 0;
+                padding: 14px;
+            }
+
+            .modal-content {
+                max-height: calc(100vh - 24px);
+            }
+
+            .modal-body {
+                max-height: calc(100vh - 170px);
+            }
+
+            /* 결승전 헤더 모바일 포인트 */
+            .bracket-column:nth-child(5) .round-header {
+                border-left: 4px solid #eab308;
+            }
+        }
+
+        /* PC 화면일 때만 강제로 가로 너비를 보장하여 트리 형태 유지 */
+        @media (min-width: 768px) {
+            .bracket-scroll-container {
+                overflow-x: auto;
+            }
+            .tournament-bracket {
+                min-width: 1720px; /* PC에선 구겨짐 방지 최소폭 지정 */
+            }
+        }
+        @media (min-width: 768px) {
+            .bracket-scroll-container {
+                padding-inline: 24px;
+            }
+
+            .tournament-bracket {
+                min-width: max-content;
+            }
+        }
+
+        .bracket-tools-column {
+            width: 240px;
+        }
+
+        .group-stage-scroll,
+        .team-info-scroll {
+            overflow-x: hidden;
+        }
+
+        .tournament-view {
+            position: relative;
+            isolation: isolate;
+            align-items: flex-start;
+            gap: 40px;
+        }
+
+        .tournament-view .bracket-column {
+            position: relative;
+            z-index: 1;
+        }
+
+        .tournament-connector-layer {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            overflow: visible;
+            pointer-events: none;
+        }
+
+        .tournament-connector-path {
+            fill: none;
+            stroke: rgba(56, 189, 248, 0.78);
+            stroke-width: 2;
+            stroke-linecap: square;
+            stroke-linejoin: round;
+            filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.18));
+        }
+
+        .tournament-connector-path.final-path {
+            stroke: rgba(250, 204, 21, 0.85);
+            stroke-width: 2.5;
+            filter: drop-shadow(0 0 8px rgba(250, 204, 21, 0.24));
+        }
+
+        .tournament-view .bracket-tools-column {
+            width: 250px;
+        }
+
+        .tournament-round-column {
+            position: relative;
+            width: 300px;
+            justify-content: flex-start;
+        }
+
+        .tournament-match-stack {
+            position: relative;
+            width: 100%;
+        }
+
+        .tournament-round-column:not(.tournament-round-round32)::before {
+            display: none;
+        }
+
+        .tournament-round-final::before {
+            background: linear-gradient(180deg, rgba(250, 204, 21, 0), rgba(250, 204, 21, 0.55), rgba(250, 204, 21, 0));
+        }
+
+        .tournament-round-round16 {
+            padding-top: 0;
+        }
+
+        .tournament-round-quarterfinal {
+            padding-top: 0;
+        }
+
+        .tournament-round-semifinal {
+            padding-top: 0;
+        }
+
+        .tournament-round-final {
+            padding-top: 0;
+        }
+
+        .tournament-round-column .round-header {
+            position: sticky;
+            top: 8px;
+            z-index: 1;
+        }
+
+        .dynamic-tools {
+            position: sticky;
+            left: 0;
+            z-index: 2;
+        }
+
+        .dynamic-help {
+            color: #cbd5e1;
+            font-size: 0.78rem;
+            line-height: 1.55;
+            margin: 0 0 12px;
+        }
+
+        .dynamic-match-body {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .dynamic-select-row {
+            display: grid;
+            gap: 5px;
+        }
+
+        .dynamic-select-label {
+            color: #94a3b8;
+            font-size: 0.72rem;
+            font-weight: 800;
+        }
+
+        .dynamic-select {
+            width: 100%;
+            min-height: 34px;
+            border: 1px solid #334155;
+            border-radius: 6px;
+            background: #0f172a;
+            color: #f8fafc;
+            font-size: 0.82rem;
+            padding: 6px 8px;
+        }
+
+        .dynamic-select:disabled {
+            cursor: not-allowed;
+            color: #64748b;
+            background: #111827;
+        }
+
+        .dynamic-team-summary {
+            min-height: 24px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: #cbd5e1;
+            font-size: 0.72rem;
+        }
+
+        .dynamic-comparison {
+            min-height: 34px;
+            color: #94a3b8;
+            font-size: 0.72rem;
+            line-height: 1.4;
+        }
+
+        .dynamic-auto-score {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            min-height: 30px;
+            margin-bottom: 7px;
+            padding: 6px 8px;
+            border: 1px solid rgba(250, 204, 21, 0.24);
+            border-radius: 6px;
+            background: rgba(250, 204, 21, 0.08);
+        }
+
+        .dynamic-auto-score span {
+            color: #facc15;
+            font-size: 0.68rem;
+            font-weight: 900;
+        }
+
+        .dynamic-auto-score strong {
+            color: #ffffff;
+            font-size: 0.86rem;
+            font-weight: 900;
+        }
+
+        .dynamic-analysis-btn,
+        .dynamic-reset-btn {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 7px;
+            border: 1px solid #334155;
+            border-radius: 6px;
+            background: #1e293b;
+            color: #e2e8f0;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 7px 8px;
+        }
+
+        .dynamic-analysis-btn:hover,
+        .dynamic-reset-btn:hover {
+            background: #26364f;
+        }
+
+        .winner-select {
+            border-color: rgba(16, 185, 129, 0.55);
+        }
+
+        .tournament-auto-card {
+            position: relative;
+            overflow: visible;
+            padding: 13px;
+        }
+
+        .tournament-match-stack .tournament-auto-card {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 306px;
+            margin: 0;
+        }
+
+        .tournament-auto-card::before,
+        .tournament-auto-card::after {
+            display: none;
+        }
+
+        .tournament-auto-body {
+            gap: 12px;
+        }
+
+        .tournament-team-list {
+            display: grid;
+            gap: 7px;
+        }
+
+        .tournament-team-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            min-height: 38px;
+            padding: 8px 9px;
+            border: 1px solid #26364f;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.025);
+        }
+
+        .tournament-team-row.winner {
+            border-color: rgba(16, 185, 129, 0.55);
+            background: rgba(16, 185, 129, 0.1);
+        }
+
+        .tournament-team-main {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            min-width: 0;
+        }
+
+        .tournament-team-main strong {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: #f8fafc;
+            font-size: 0.84rem;
+        }
+
+        .tournament-team-rating {
+            flex: 0 0 auto;
+            color: #facc15;
+            font-size: 0.74rem;
+            font-weight: 900;
+        }
+
+        .tournament-result-strip {
+            display: grid;
+            grid-template-columns: 62px 64px minmax(0, 1fr);
+            align-items: center;
+            gap: 9px;
+            min-height: 42px;
+            padding: 8px 10px;
+            border: 1px solid rgba(250, 204, 21, 0.3);
+            border-radius: 6px;
+            background: rgba(250, 204, 21, 0.09);
+        }
+
+        .tournament-result-strip span {
+            color: #facc15;
+            font-size: 0.68rem;
+            font-weight: 900;
+            white-space: nowrap;
+        }
+
+        .tournament-result-strip strong {
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: 900;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .tournament-result-strip em {
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: #cbd5e1;
+            font-size: 0.68rem;
+            font-style: normal;
+            font-weight: 800;
+            text-align: right;
+        }
+
+        .tournament-reason-block {
+            display: grid;
+            gap: 9px;
+            color: #94a3b8;
+            font-size: 0.72rem;
+            line-height: 1.45;
+        }
+
+        .tournament-reason-block p {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        .round-progress {
+            display: inline-block;
+            margin-left: 4px;
+            color: #38bdf8;
+            font-size: 0.68rem;
+        }
+
+        .group-list-column {
+            width: 260px;
+        }
+
+        .group-list {
+            display: grid;
+            gap: 10px;
+        }
+
+        .group-box {
+            margin: 0;
+            padding: 10px;
+        }
+
+        .group-team-list {
+            display: grid;
+            gap: 5px;
+        }
+
+        .group-team-row {
+            display: grid;
+            grid-template-columns: 34px minmax(0, 1fr) 32px;
+            align-items: center;
+            gap: 6px;
+            min-height: 26px;
+            padding: 4px 6px;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.025);
+            color: #e2e8f0;
+            font-size: 0.75rem;
+        }
+
+        .group-team-rank {
+            color: #38bdf8;
+            font-weight: 800;
+            font-size: 0.68rem;
+        }
+
+        .group-team-name {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .group-team-rating {
+            color: #facc15;
+            font-weight: 800;
+            text-align: right;
+            font-size: 0.7rem;
+        }
+
+        .group-standing-row {
+            width: 100%;
+            display: grid;
+            gap: 5px;
+            min-height: 58px;
+            padding: 8px;
+            border: 1px solid #1e293b;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.025);
+            color: inherit;
+            text-align: left;
+            cursor: pointer;
+            transition: border-color 0.18s ease, background 0.18s ease, transform 0.18s ease;
+        }
+
+        .group-standing-row:hover,
+        .group-standing-row:focus-visible {
+            border-color: #38bdf8;
+            background: rgba(56, 189, 248, 0.08);
+            transform: translateY(-1px);
+            outline: none;
+        }
+
+        .group-standing-main {
+            display: grid;
+            grid-template-columns: 34px 22px minmax(0, 1fr);
+            align-items: center;
+            gap: 6px;
+        }
+
+        .group-standing-main strong {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: #f8fafc;
+            font-size: 0.78rem;
+        }
+
+        .group-standing-stats {
+            display: flex;
+            justify-content: space-between;
+            gap: 6px;
+            color: #94a3b8;
+            font-size: 0.66rem;
+            font-weight: 800;
+        }
+
+        .dynamic-tabs {
+            display: flex;
+            gap: 6px;
+            width: fit-content;
+            margin: 0 0 18px;
+            padding: 4px;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            background: #111827;
+        }
+
+        .dynamic-tab-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            min-height: 36px;
+            border: 0;
+            border-radius: 6px;
+            padding: 7px 14px;
+            background: transparent;
+            color: #94a3b8;
+            font-size: 0.82rem;
+            font-weight: 800;
+        }
+
+        .dynamic-tab-btn:hover {
+            color: #f8fafc;
+            background: #1e293b;
+        }
+
+        .dynamic-tab-btn.active {
+            color: #ffffff;
+            background: #2563eb;
+        }
+
+        .dynamic-edit-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            min-height: 36px;
+            border: 1px solid #475569;
+            border-radius: 6px;
+            padding: 7px 14px;
+            background: #0f172a;
+            color: #facc15;
+            font-size: 0.82rem;
+            font-weight: 800;
+        }
+
+        .dynamic-edit-btn:hover {
+            background: #1e293b;
+        }
+
+        .dynamic-edit-btn.unlocked {
+            border-color: rgba(16, 185, 129, 0.65);
+            color: #34d399;
+        }
+
+        .dynamic-reset-btn:disabled {
+            cursor: not-allowed;
+            opacity: 0.45;
+        }
+
+        .group-edit-column {
+            width: 230px;
+        }
+
+        .group-edit-box {
+            margin: 0;
+        }
+
+        .team-info-column {
+            width: 230px;
+        }
+
+        .group-stage-view,
+        .team-info-view {
+            width: 100%;
+            min-width: 0 !important;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            align-items: start;
+            gap: 16px;
+        }
+
+        .group-stage-view .bracket-column,
+        .team-info-view .bracket-column {
+            width: auto;
+            min-width: 0;
+        }
+
+        .group-stage-view .bracket-tools-column,
+        .team-info-view .bracket-tools-column {
+            grid-column: 1 / -1;
+            width: 100%;
+        }
+
+        .group-stage-view .dynamic-tools,
+        .team-info-view .dynamic-tools {
+            position: static;
+        }
+
+        .team-info-box {
+            display: grid;
+            gap: 8px;
+            margin: 0;
+        }
+
+        .team-info-btn {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            min-height: 38px;
+            border: 1px solid #334155;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.025);
+            color: #e2e8f0;
+            padding: 7px 8px;
+            text-align: left;
+        }
+
+        .team-info-btn:hover {
+            background: #1e293b;
+            border-color: #38bdf8;
+        }
+
+        .team-info-main {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            min-width: 0;
+        }
+
+        .team-info-name {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 0.78rem;
+            font-weight: 800;
+        }
+
+        .team-info-rating {
+            flex: 0 0 auto;
+            color: #facc15;
+            font-size: 0.74rem;
+            font-weight: 900;
+        }
+
+        .team-detail-panel {
+            display: grid;
+            gap: 12px;
+        }
+
+        .schedule-column {
+            width: 310px;
+            justify-content: flex-start;
+        }
+
+        .schedule-view {
+            width: min(100%, 980px);
+            min-width: min(100%, 980px) !important;
+            flex-direction: column;
+            gap: 18px;
+            margin-inline: auto;
+        }
+
+        .schedule-view .bracket-tools-column,
+        .schedule-view .schedule-column {
+            width: 100%;
+            display: block;
+        }
+
+        .schedule-view .dynamic-tools {
+            position: static;
+        }
+
+        .schedule-view .round-header {
+            margin: 0 0 10px;
+        }
+
+        .schedule-date-toggle {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            cursor: pointer;
+        }
+
+        .schedule-date-toggle:hover {
+            background: #26364f;
+            color: #f8fafc;
+        }
+
+        .schedule-date-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .schedule-date-meta i {
+            color: #38bdf8;
+            transition: transform 0.18s ease;
+        }
+
+        .schedule-date-toggle.collapsed .schedule-date-meta i {
+            transform: rotate(-90deg);
+        }
+
+        .schedule-date-match-list {
+            display: grid;
+            gap: 12px;
+        }
+
+        .schedule-fold-actions {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .schedule-card {
+            margin: 0;
+        }
+
+        .schedule-card-body {
+            display: grid;
+            gap: 10px;
+        }
+
+        .schedule-time-row {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 10px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #1e2d4a;
+        }
+
+        .schedule-time-row strong {
+            color: #facc15;
+            font-size: 1rem;
+            font-weight: 900;
+        }
+
+        .schedule-time-row span {
+            color: #94a3b8;
+            font-size: 0.72rem;
+            font-weight: 800;
+            white-space: nowrap;
+        }
+
+        .schedule-teams {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 96px minmax(0, 1fr);
+            align-items: center;
+            gap: 8px;
+        }
+
+        .schedule-teams div {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            min-width: 0;
+            color: #f8fafc;
+            font-size: 0.8rem;
+            font-weight: 800;
+        }
+
+        .schedule-teams div:last-child {
+            justify-content: flex-end;
+            text-align: right;
+        }
+
+        .schedule-teams strong {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .schedule-teams span {
+            color: #64748b;
+            font-size: 0.68rem;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .schedule-venue {
+            display: flex;
+            align-items: flex-start;
+            gap: 7px;
+            color: #cbd5e1;
+            font-size: 0.72rem;
+            line-height: 1.4;
+        }
+
+        .schedule-venue i {
+            color: #38bdf8;
+            margin-top: 2px;
+        }
+
+        .schedule-prediction {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 96px minmax(0, 1fr);
+            align-items: center;
+            gap: 8px;
+            min-height: 34px;
+            padding: 7px 9px;
+            border: 1px solid rgba(56, 189, 248, 0.28);
+            border-radius: 6px;
+            background: rgba(56, 189, 248, 0.08);
+        }
+
+        .schedule-prediction span {
+            color: #38bdf8;
+            font-size: 0.68rem;
+            font-weight: 900;
+            white-space: nowrap;
+        }
+
+        .schedule-prediction strong {
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .schedule-prediction em {
+            color: #cbd5e1;
+            font-size: 0.68rem;
+            font-style: normal;
+            font-weight: 800;
+            text-align: right;
+        }
+
+        .schedule-result-editor {
+            display: grid;
+            grid-template-columns: auto 48px 12px 48px 30px;
+            align-items: center;
+            gap: 7px;
+            min-height: 34px;
+        }
+
+        .schedule-result-editor span,
+        .schedule-result-editor.locked strong {
+            color: #94a3b8;
+            font-size: 0.68rem;
+            font-weight: 900;
+            white-space: nowrap;
+        }
+
+        .schedule-result-editor input {
+            width: 100%;
+            min-height: 30px;
+            border: 1px solid #334155;
+            border-radius: 6px;
+            background: #0f172a;
+            color: #f8fafc;
+            font-size: 0.82rem;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .schedule-result-editor input:disabled,
+        .schedule-result-editor button:disabled {
+            cursor: not-allowed;
+            opacity: 0.48;
+        }
+
+        .schedule-result-editor > strong {
+            color: #64748b;
+            text-align: center;
+        }
+
+        .schedule-result-editor button {
+            min-height: 30px;
+            border: 1px solid #334155;
+            border-radius: 6px;
+            background: #1e293b;
+            color: #e2e8f0;
+        }
+
+        .schedule-result-editor.locked {
+            grid-template-columns: minmax(0, 1fr) 96px minmax(0, 1fr);
+            padding: 7px 9px;
+            border: 1px solid #1e293b;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.025);
+        }
+
+        .schedule-result-editor.locked strong {
+            grid-column: 2;
+            text-align: center;
+        }
+
+        .schedule-analysis-btn {
+            min-height: 34px;
+        }
+
+        .schedule-result-editor.actual {
+            border-color: rgba(16, 185, 129, 0.4);
+            background: rgba(16, 185, 129, 0.08);
+        }
+
+        .fifa-sync-btn {
+            margin-top: 10px;
+        }
+
+        .match-analysis-panel {
+            display: grid;
+            gap: 12px;
+        }
+
+        .match-analysis-summary {
+            margin: 0;
+            color: #e2e8f0;
+            font-size: 0.92rem;
+            line-height: 1.55;
+        }
+
+        .match-analysis-grid {
+            display: grid;
+            gap: 10px;
+        }
+
+        .match-analysis-section {
+            display: grid;
+            gap: 5px;
+            padding: 10px;
+            border: 1px solid #1e293b;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.025);
+        }
+
+        .match-analysis-section strong {
+            color: #38bdf8;
+            font-size: 0.82rem;
+        }
+
+        .match-analysis-section p {
+            margin: 0;
+            color: #cbd5e1;
+            font-size: 0.82rem;
+            line-height: 1.5;
+        }
+
+        .match-analysis-rule {
+            display: grid;
+            gap: 4px;
+            padding: 9px 10px;
+            border: 1px solid rgba(250, 204, 21, 0.35);
+            border-radius: 6px;
+            background: rgba(250, 204, 21, 0.08);
+        }
+
+        .match-analysis-rule span {
+            color: #facc15;
+            font-size: 0.72rem;
+            font-weight: 900;
+        }
+
+        .match-analysis-rule strong {
+            color: #f8fafc;
+            font-size: 0.82rem;
+        }
+
+        .schedule-summary {
+            display: grid;
+            gap: 7px;
+        }
+
+        .schedule-summary div {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 7px 8px;
+            border: 1px solid #1e293b;
+            border-radius: 6px;
+            background: #0f172a;
+        }
+
+        .schedule-summary span {
+            color: #94a3b8;
+            font-size: 0.72rem;
+        }
+
+        .schedule-summary strong {
+            color: #e2e8f0;
+            font-size: 0.74rem;
+            text-align: right;
+        }
+
+        .team-detail-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 8px 10px;
+            border: 1px solid #1e293b;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.025);
+        }
+
+        .team-detail-row span,
+        .rating-cell span,
+        .squad-player-btn small {
+            color: #94a3b8;
+            font-size: 0.76rem;
+        }
+
+        .team-detail-row strong {
+            color: #f8fafc;
+            font-size: 0.84rem;
+            text-align: right;
+        }
+
+        .team-detail-summary {
+            color: #cbd5e1;
+            line-height: 1.55;
+            margin: 0;
+        }
+
+        .team-schedule-list {
+            display: grid;
+            gap: 10px;
+        }
+
+        .team-schedule-item {
+            display: grid;
+            gap: 8px;
+            padding: 10px;
+            border: 1px solid #1e293b;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.025);
+        }
+
+        .team-schedule-top,
+        .team-schedule-match {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .team-schedule-top strong {
+            color: #f8fafc;
+            font-size: 0.86rem;
+        }
+
+        .team-schedule-top span,
+        .team-schedule-meta span {
+            color: #94a3b8;
+            font-size: 0.72rem;
+            font-weight: 800;
+        }
+
+        .team-schedule-match span {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: #e2e8f0;
+            font-size: 0.82rem;
+            font-weight: 900;
+        }
+
+        .team-schedule-match strong {
+            flex: 0 0 auto;
+            color: #facc15;
+            font-size: 1rem;
+            font-weight: 900;
+        }
+
+        .team-schedule-meta {
+            display: grid;
+            gap: 4px;
+        }
+
+        .team-schedule-meta i {
+            color: #38bdf8;
+            width: 14px;
+        }
+
+        .team-schedule-source {
+            width: fit-content;
+            padding: 3px 7px;
+            border-radius: 999px;
+            background: rgba(56, 189, 248, 0.12);
+            color: #38bdf8;
+            font-size: 0.66rem;
+            font-weight: 900;
+        }
+
+        .team-schedule-source.actual {
+            background: rgba(16, 185, 129, 0.12);
+            color: #34d399;
+        }
+
+        .rating-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 8px;
+        }
+
+        .rating-cell {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 8px 10px;
+            border-radius: 6px;
+            background: #0f172a;
+            border: 1px solid #1e293b;
+        }
+
+        .rating-cell strong {
+            color: #facc15;
+            font-size: 0.92rem;
+        }
+
+        .modal-action-btn,
+        .squad-player-btn {
+            width: 100%;
+            border: 1px solid #334155;
+            border-radius: 6px;
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 9px 10px;
+        }
+
+        .modal-action-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-weight: 800;
+        }
+
+        .modal-action-btn:hover,
+        .squad-player-btn:hover {
+            background: #26364f;
+            border-color: #38bdf8;
+        }
+
+        .squad-list {
+            display: grid;
+            gap: 12px;
+        }
+
+        .squad-position-section {
+            display: grid;
+            gap: 8px;
+        }
+
+        .squad-position-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 6px 2px 2px;
+            border-bottom: 1px solid #334155;
+        }
+
+        .squad-position-header strong {
+            color: #f8fafc;
+            font-size: 0.9rem;
+        }
+
+        .squad-position-header span {
+            color: #94a3b8;
+            font-size: 0.76rem;
+            font-weight: 800;
+        }
+
+        .squad-position-grid {
+            display: grid;
+            gap: 8px;
+        }
+
+        .squad-player-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: left;
+        }
+
+        .squad-player-btn span {
+            display: grid;
+            gap: 2px;
+        }
+
+        .squad-player-btn strong {
+            color: #f8fafc;
+            font-size: 0.86rem;
+        }
+
+        .player-name-stack {
+            display: grid;
+            gap: 2px;
+        }
+
+        .player-name-stack span {
+            color: #f8fafc;
+            font-size: 0.86rem;
+            font-weight: 900;
+        }
+
+        .player-name-stack small {
+            color: #94a3b8;
+            font-size: 0.68rem;
+            line-height: 1.2;
+        }
+
+        .squad-player-btn em {
+            color: #facc15;
+            font-style: normal;
+            font-weight: 900;
+        }
+
+        @media (max-width: 767.98px) {
+            .dynamic-tabs {
+                width: 100%;
+                flex-wrap: wrap;
+            }
+
+            .dynamic-tab-btn {
+                flex: 1 1 calc(50% - 6px);
+                justify-content: center;
+            }
+
+            .dynamic-edit-btn {
+                flex: 1 1 100%;
+                justify-content: center;
+            }
+
+            .schedule-column {
+                width: 100%;
+            }
+
+            .tournament-view {
+                gap: 24px;
+            }
+
+            .tournament-round-column,
+            .tournament-round-round16,
+            .tournament-round-quarterfinal,
+            .tournament-round-semifinal,
+            .tournament-round-final {
+                width: 100%;
+                padding-top: 0;
+                gap: 0;
+            }
+
+            .tournament-round-column .round-header {
+                position: static;
+            }
+
+            .tournament-match-stack {
+                height: auto !important;
+            }
+
+            .tournament-match-stack .tournament-auto-card {
+                position: relative;
+                top: auto !important;
+                margin: 10px 0 15px;
+                height: auto;
+            }
+
+            .tournament-round-column::before {
+                display: none;
+            }
+
+            .tournament-connector-layer {
+                display: none;
+            }
+
+            .tournament-auto-card::before,
+            .tournament-auto-card::after {
+                display: none;
+            }
+
+            .tournament-result-strip {
+                grid-template-columns: 58px 62px minmax(0, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero-section">
+    <div class="container">
+        <h1 class="fw-black text-white fs-4 mb-1">🏆 2026 FIFA 월드컵 예측 토너먼트</h1>
+        <p class="text-info small mb-0"><i class="fas fa-hand-pointer me-1"></i> 각 팀을 터치하면 상세 데이터 분석 사유를 볼 수 있습니다.</p>
+    </div>
+</div>
+
+<!-- 🏆 메인 대진표 컨테이너 (모바일에선 세로 스크롤 / PC에선 가로 스크롤) -->
+<div class="bracket-scroll-container">
+    <div class="tournament-bracket">
+        
+        <!-- ==================== [0열] 소조 경기 결과 ==================== -->
+        <div class="bracket-column">
+            <div class="round-header"><i class="fas fa-table me-2"></i>소조 경기 결과</div>
+
+            <!-- GROUP A -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>GROUP A</span></div>
+                <div class="team-row-btn winner" data-team="멕시코" data-odds="100%" data-reason="A조 1위 멕시코는 안정적인 경기 운영으로 16강 진출을 확정했습니다.">
+                    <div class="team-name-area"><span>🇲🇽</span><span class="t-name">멕시코</span></div>
+                    <div class="team-data-area"><span class="pct-badge">1위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="대한민국" data-odds="100%" data-reason="A조 2위 대한민국은 조별리그에서 꾸준한 전술 완성도를 보이며 16강에 올랐습니다.">
+                    <div class="team-name-area"><span>🇰🇷</span><span class="t-name">대한민국</span></div>
+                    <div class="team-data-area"><span class="pct-badge">2위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="체코" data-odds="100%" data-reason="A조 3위 체코는 와일드카드 상위 8개 팀에 포함되어 토너먼트 진출에 성공했습니다.">
+                    <div class="team-name-area"><span>🇨🇿</span><span class="t-name">체코</span></div>
+                    <div class="team-data-area"><span class="pct-badge">와일드카드</span></div>
+                </div>
+            </div>
+
+            <!-- GROUP B -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>GROUP B</span></div>
+                <div class="team-row-btn winner" data-team="스위스" data-odds="100%" data-reason="B조 1위 스위스는 조별리그를 선두로 통과했습니다.">
+                    <div class="team-name-area"><span>🇨🇭</span><span class="t-name">스위스</span></div>
+                    <div class="team-data-area"><span class="pct-badge">1위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="캐나다" data-odds="100%" data-reason="B조 2위 캐나다는 안정적인 경기력으로 16강 진출을 확정했습니다.">
+                    <div class="team-name-area"><span>🇨🇦</span><span class="t-name">캐나다</span></div>
+                    <div class="team-data-area"><span class="pct-badge">2위</span></div>
+                </div>
+            </div>
+
+            <!-- GROUP C -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>GROUP C</span></div>
+                <div class="team-row-btn winner" data-team="브라질" data-odds="100%" data-reason="C조 1위 브라질은 압도적인 기량으로 조별리그를 마무리했습니다.">
+                    <div class="team-name-area"><span>🇧🇷</span><span class="t-name">브라질</span></div>
+                    <div class="team-data-area"><span class="pct-badge">1위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="모로코" data-odds="100%" data-reason="C조 2위 모로코는 강한 수비 조직력으로 16강에 진출했습니다.">
+                    <div class="team-name-area"><span>🇲🇦</span><span class="t-name">모로코</span></div>
+                    <div class="team-data-area"><span class="pct-badge">2위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="스코틀랜드" data-odds="100%" data-reason="C조 3위 스코틀랜드는 와일드카드 상위 8개 팀으로 토너먼트 진출을 확정했습니다.">
+                    <div class="team-name-area"><span>🏴</span><span class="t-name">스코틀랜드</span></div>
+                    <div class="team-data-area"><span class="pct-badge">와일드카드</span></div>
+                </div>
+            </div>
+
+            <!-- GROUP D -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>GROUP D</span></div>
+                <div class="team-row-btn winner" data-team="미국" data-odds="100%" data-reason="D조 1위 미국은 적극적인 전방 압박으로 조별리그를 통과했습니다.">
+                    <div class="team-name-area"><span>🇺🇸</span><span class="t-name">미국</span></div>
+                    <div class="team-data-area"><span class="pct-badge">1위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="튀르키예" data-odds="100%" data-reason="D조 2위 튀르키예는 조직적인 역습으로 16강 진출을 확정했습니다.">
+                    <div class="team-name-area"><span>🇹🇷</span><span class="t-name">튀르키예</span></div>
+                    <div class="team-data-area"><span class="pct-badge">2위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="호주" data-odds="100%" data-reason="D조 3위 호주는 와일드카드 상위 8개 팀으로 토너먼트에 진입했습니다.">
+                    <div class="team-name-area"><span>🇦🇺</span><span class="t-name">호주</span></div>
+                    <div class="team-data-area"><span class="pct-badge">와일드카드</span></div>
+                </div>
+            </div>
+
+            <!-- GROUP E -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>GROUP E</span></div>
+                <div class="team-row-btn winner" data-team="독일" data-odds="100%" data-reason="E조 1위 독일은 조별리그를 우승하며 안정적으로 16강에 진출했습니다.">
+                    <div class="team-name-area"><span>🇩🇪</span><span class="t-name">독일</span></div>
+                    <div class="team-data-area"><span class="pct-badge">1위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="에콰도르" data-odds="100%" data-reason="E조 2위 에콰도르는 남미 특유의 저력으로 16강 진출을 확정했습니다.">
+                    <div class="team-name-area"><span>🇪🇨</span><span class="t-name">에콰도르</span></div>
+                    <div class="team-data-area"><span class="pct-badge">2위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="코트디부아르" data-odds="100%" data-reason="E조 3위 코트디부아르는 와일드카드 상위 8개 팀에 포함되어 토너먼트에 진출했습니다.">
+                    <div class="team-name-area"><span>🇨🇮</span><span class="t-name">코트디부아르</span></div>
+                    <div class="team-data-area"><span class="pct-badge">와일드카드</span></div>
+                </div>
+            </div>
+
+            <!-- GROUP F -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>GROUP F</span></div>
+                <div class="team-row-btn winner" data-team="네덜란드" data-odds="100%" data-reason="F조 1위 네덜란드는 안정적인 공격력으로 조별리그 선두를 차지했습니다.">
+                    <div class="team-name-area"><span>🇳🇱</span><span class="t-name">네덜란드</span></div>
+                    <div class="team-data-area"><span class="pct-badge">1위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="일본" data-odds="100%" data-reason="F조 2위 일본은 정교한 조직력으로 16강 진출을 확정했습니다.">
+                    <div class="team-name-area"><span>🇯🇵</span><span class="t-name">일본</span></div>
+                    <div class="team-data-area"><span class="pct-badge">2위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="스웨덴" data-odds="100%" data-reason="F조 3위 스웨덴은 와일드카드 상위 성적으로 토너먼트 진출을 이뤘습니다.">
+                    <div class="team-name-area"><span>🇸🇪</span><span class="t-name">스웨덴</span></div>
+                    <div class="team-data-area"><span class="pct-badge">와일드카드</span></div>
+                </div>
+            </div>
+
+            <!-- GROUP G -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>GROUP G</span></div>
+                <div class="team-row-btn winner" data-team="벨기에" data-odds="100%" data-reason="G조 1위 벨기에는 강력한 전력을 바탕으로 16강에 올랐습니다.">
+                    <div class="team-name-area"><span>🇧🇪</span><span class="t-name">벨기에</span></div>
+                    <div class="team-data-area"><span class="pct-badge">1위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="이란" data-odds="100%" data-reason="G조 2위 이란은 철저한 수비 운영으로 16강 진출을 확정했습니다.">
+                    <div class="team-name-area"><span>🇮🇷</span><span class="t-name">이란</span></div>
+                    <div class="team-data-area"><span class="pct-badge">2위</span></div>
+                </div>
+            </div>
+
+            <!-- GROUP H -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>GROUP H</span></div>
+                <div class="team-row-btn winner" data-team="스페인" data-odds="100%" data-reason="H조 1위 스페인은 화려한 공격력으로 16강에 올랐습니다.">
+                    <div class="team-name-area"><span>🇪🇸</span><span class="t-name">스페인</span></div>
+                    <div class="team-data-area"><span class="pct-badge">1위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="우루과이" data-odds="100%" data-reason="H조 2위 우루과이는 노련한 경기 운영으로 16강 진출을 확정했습니다.">
+                    <div class="team-name-area"><span>🇺🇾</span><span class="t-name">우루과이</span></div>
+                    <div class="team-data-area"><span class="pct-badge">2위</span></div>
+                </div>
+            </div>
+
+            <!-- GROUP I -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>GROUP I</span></div>
+                <div class="team-row-btn winner" data-team="프랑스" data-odds="100%" data-reason="I조 1위 프랑스는 압도적인 전력을 바탕으로 조별리그를 통과했습니다.">
+                    <div class="team-name-area"><span>🇫🇷</span><span class="t-name">프랑스</span></div>
+                    <div class="team-data-area"><span class="pct-badge">1위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="노르웨이" data-odds="100%" data-reason="I조 2위 노르웨이는 조직적인 수비와 빠른 역습으로 16강에 진출했습니다.">
+                    <div class="team-name-area"><span>🇳🇴</span><span class="t-name">노르웨이</span></div>
+                    <div class="team-data-area"><span class="pct-badge">2위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="세네갈" data-odds="100%" data-reason="I조 3위 세네갈은 와일드카드 상위 8개 팀으로 토너먼트 진출을 확정했습니다.">
+                    <div class="team-name-area"><span>🇸🇳</span><span class="t-name">세네갈</span></div>
+                    <div class="team-data-area"><span class="pct-badge">와일드카드</span></div>
+                </div>
+            </div>
+
+            <!-- GROUP J -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>GROUP J</span></div>
+                <div class="team-row-btn winner" data-team="아르헨티나" data-odds="100%" data-reason="J조 1위 아르헨티나는 안정적인 공격력으로 조별리그 1위를 기록했습니다.">
+                    <div class="team-name-area"><span>🇦🇷</span><span class="t-name">아르헨티나</span></div>
+                    <div class="team-data-area"><span class="pct-badge">1위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="오스트리아" data-odds="100%" data-reason="J조 2위 오스트리아는 짜임새 있는 경기 운영으로 16강 진출을 확정했습니다.">
+                    <div class="team-name-area"><span>🇦🇹</span><span class="t-name">오스트리아</span></div>
+                    <div class="team-data-area"><span class="pct-badge">2위</span></div>
+                </div>
+            </div>
+
+            <!-- GROUP K -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>GROUP K</span></div>
+                <div class="team-row-btn winner" data-team="포르투갈" data-odds="100%" data-reason="K조 1위 포르투갈은 안정적인 공격진으로 16강에 올랐습니다.">
+                    <div class="team-name-area"><span>🇵🇹</span><span class="t-name">포르투갈</span></div>
+                    <div class="team-data-area"><span class="pct-badge">1위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="콜롬비아" data-odds="100%" data-reason="K조 2위 콜롬비아는 강력한 공격력으로 16강 진출을 확정했습니다.">
+                    <div class="team-name-area"><span>🇨🇴</span><span class="t-name">콜롬비아</span></div>
+                    <div class="team-data-area"><span class="pct-badge">2위</span></div>
+                </div>
+            </div>
+
+            <!-- GROUP L -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>GROUP L</span></div>
+                <div class="team-row-btn winner" data-team="잉글랜드" data-odds="100%" data-reason="L조 1위 잉글랜드는 탁월한 스쿼드 깊이로 조별리그 우승을 차지했습니다.">
+                    <div class="team-name-area"><span>🏴</span><span class="t-name">잉글랜드</span></div>
+                    <div class="team-data-area"><span class="pct-badge">1위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="크로아티아" data-odds="100%" data-reason="L조 2위 크로아티아는 조직적인 경기력으로 16강에 진출했습니다.">
+                    <div class="team-name-area"><span>🇭🇷</span><span class="t-name">크로아티아</span></div>
+                    <div class="team-data-area"><span class="pct-badge">2위</span></div>
+                </div>
+                <div class="team-row-btn winner" data-team="가나" data-odds="100%" data-reason="L조 3위 가나는 와일드카드 상위 8개 팀으로 토너먼트 진출에 성공했습니다.">
+                    <div class="team-name-area"><span>🇬🇭</span><span class="t-name">가나</span></div>
+                    <div class="team-data-area"><span class="pct-badge">와일드카드</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== [1열] 32강전 (좌측 블록) ==================== -->
+        <div class="bracket-column">
+            <div class="round-header"><i class="fas fa-sitemap me-2"></i>32강전 (A조~D조 대진)</div>
+            
+            <!-- M01 -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>MATCH 01</span></div>
+                <div class="team-row-btn winner" onclick="showReason('멕시코', '58%', '개최국의 압도적인 홈 관중 버프와 탄탄한 측면 수비 조직력을 바탕으로 아프리카의 강호 코트디부아르의 역습 속도를 제어해 승리할 것입니다.')">
+                    <div class="team-name-area"><span>🇲🇽</span><span class="t-name">멕시코</span></div>
+                    <div class="team-data-area"><span class="pct-badge">58%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn loser" onclick="showReason('코트디부아르', '42%', '주전 미드필더진의 경고 누적 이슈와 북중미 기후 적응 문제로 전반 중반 이후 공수 간격이 벌어지며 아쉽게 패배할 확률이 큽니다.')">
+                    <div class="team-name-area"><span>🇨🇮</span><span class="t-name">코트디부아르</span></div>
+                    <div class="team-data-area"><span class="pct-badge">42%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+            </div>
+
+            <!-- M02 -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>MATCH 02</span></div>
+                <div class="team-row-btn winner" onclick="showReason('일본', '53%', '조별리그에서 보여준 완벽한 빌드업 시스템과 정교한 유기적 패스 게임이 강점입니다. 후반 조커 카드를 활용한 교체 전술이 성공을 거둘 것입니다.')">
+                    <div class="team-name-area"><span>🇯🇵</span><span class="t-name">일본</span></div>
+                    <div class="team-data-area"><span class="pct-badge">53%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn loser" onclick="showReason('튀르키예', '47%', '선제골 장악력은 뛰어나지만, 토너먼트의 높은 압박감 속에서 경기 막판 집중력 저하와 수비 배후 공간 허용으로 역전패할 우려가 있습니다.')">
+                    <div class="team-name-area"><span>🇹🇷</span><span class="t-name">튀르키예</span></div>
+                    <div class="team-data-area"><span class="pct-badge">47%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+            </div>
+
+            <!-- M03 -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>MATCH 03</span></div>
+                <div class="team-row-btn winner" onclick="showReason('포르투갈', '61%', '호날두의 라스트댄스 전술적 지원과 브루노 페르난데스, 베르나르두 실바 등 호화 2선 미드필더진의 파괴력 차이가 경기를 지배할 원동력입니다.')">
+                    <div class="team-name-area"><span>🇵🇹</span><span class="t-name">포르투갈</span></div>
+                    <div class="team-data-area"><span class="pct-badge">61%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn loser" onclick="showReason('스웨덴', '39%', '와일드카드를 거쳐 올라오며 주전 체력 방전이 심각한 상태이며, 포르투갈의 유기적인 스위칭 공격 속도를 피지컬로 제어하기엔 역부족입니다.')">
+                    <div class="team-name-area"><span>🇸🇪</span><span class="t-name">스웨덴</span></div>
+                    <div class="team-data-area"><span class="pct-badge">39%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+            </div>
+
+            <!-- M04 -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>MATCH 04</span></div>
+                <div class="team-row-btn winner" onclick="showReason('잉글랜드', '66%', '해리 케인, 벨링엄, 주드 포든으로 이어지는 스쿼드 가치는 이번 대회 탑 클래스입니다. 세트피스 강점과 탄탄한 더블 볼란치 수비로 무난히 승리를 챙깁니다.')">
+                    <div class="team-name-area"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿</span><span class="t-name">잉글랜드</span></div>
+                    <div class="team-data-area"><span class="pct-badge">66%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn loser" onclick="showReason('에콰도르', '34%', '남미 지역 예선의 기세를 가져오려 하겠으나 중립 지역인 북중미 대형 경기장에서 잉글랜드의 피지컬 압박 축구에 전방 고립 현상이 지속될 것입니다.')">
+                    <div class="team-name-area"><span>🇪🇨</span><span class="t-name">에콰도르</span></div>
+                    <div class="team-data-area"><span class="pct-badge">34%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== [2열] 16강전 (좌측 블록) ==================== -->
+        <div class="bracket-column">
+            <div class="round-header"><i class="fas fa-layer-group me-2"></i>16강전 (좌측 토너먼트)</div>
+            
+            <!-- R16 - A -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>ROUND OF 16 - A</span></div>
+                <div class="team-row-btn loser" onclick="showReason('멕시코', '46%', '토너먼트의 중압감 속에서 고질적인 최전방 스트라이커의 골 결정력 문제가 재발하고, 일본의 촘춤한 컴팩트 수비벽을 깨지 못할 가능성이 높습니다.')">
+                    <div class="team-name-area"><span>🇲🇽</span><span class="t-name">멕시코</span></div>
+                    <div class="team-data-area"><span class="pct-badge">46%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn winner" onclick="showReason('일본', '54%', '경기 지배력과 점유율 면에서 멕시코에 밀리지 않는 미드필더 전력을 가졌습니다. 영리한 템포 조절 끝에 후반 카운터 어택 성공 확률이 높습니다.')">
+                    <div class="team-name-area"><span>🇯🇵</span><span class="t-name">일본</span></div>
+                    <div class="team-data-area"><span class="pct-badge">54%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+            </div>
+
+            <!-- R16 - B -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>ROUND OF 16 - B</span></div>
+                <div class="team-row-btn loser" onclick="showReason('포르투갈', '45%', '호날두 중심의 비교적 전술이 고착화되어 잉글랜드 백포 수비진에게 동선이 쉽게 읽힐 수 있으며, 측면 스피드 경합에서 밀릴 것입니다.')">
+                    <div class="team-name-area"><span>🇵🇹</span><span class="t-name">포르투갈</span></div>
+                    <div class="team-data-area"><span class="pct-badge">45%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn winner" onclick="showReason('잉글랜드', '55%', '주드 벨링엄의 천재적인 공간 침투와 함께 스쿼드 젊은 활동량이 포르투갈의 노련하지만 순발력이 떨어진 센터백 라인을 무너뜨릴 것입니다.')">
+                    <div class="team-name-area"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿</span><span class="t-name">잉글랜드</span></div>
+                    <div class="team-data-area"><span class="pct-badge">55%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== [3열] 8강전 (좌측 블록) ==================== -->
+        <div class="bracket-column">
+            <div class="round-header"><i class="fas fa-chess-queen me-2"></i>8강전 (좌측 쿼터)</div>
+            
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>QUARTER-FINAL 1</span></div>
+                <div class="team-row-btn loser" onclick="showReason('일본', '38%', '역대급 이변을 이끌며 8강까지 진출했으나, 영국의 강력한 중원 체급 압박과 높이를 활용한 세트피스 고공 공격에 전술적 한계를 보일 것입니다.')">
+                    <div class="team-name-area"><span>🇯🇵</span><span class="t-name">일본</span></div>
+                    <div class="team-data-area"><span class="pct-badge">38%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn winner" onclick="showReason('잉글랜드', '62%', '체급과 피지컬 스쿼드의 깊이를 무기로 삼아 일본의 짧은 패스 노선을 차단하고, 해리 케인의 확실한 한 방 마무리로 4강 진출 티켓을 따냅니다.')">
+                    <div class="team-name-area"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿</span><span class="t-name">잉글랜드</span></div>
+                    <div class="team-data-area"><span class="pct-badge">62%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== [4열] 준결승전 (4강 통합 코어) ==================== -->
+        <div class="bracket-column">
+            <div class="round-header" style="background:#eab308; color:#0b0f19;"><i class="fas fa-bolt me-2"></i>준결승전 (4강 매치업)</div>
+            
+            <!-- SF1 -->
+            <div class="matchup-box left-side">
+                <div class="match-meta"><span>SEMI-FINAL 1</span></div>
+                <div class="team-row-btn winner" onclick="showReason('잉글랜드', '52%', '삼바 축구 브라질을 상대로 실리 위주의 톱니바퀴 조직력을 가동할 것입니다. 견고한 수비 후 역습이라는 완벽한 토너먼트 공식이 빛을 발합니다.')">
+                    <div class="team-name-area"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿</span><span class="t-name">잉글랜드</span></div>
+                    <div class="team-data-area"><span class="pct-badge">52%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn loser" onclick="showReason('브라질', '48%', '비니시우스 등 전방 자원의 화려한 1대1 돌파는 위협적이나, 경기 후반 수비 밸런스 균열과 전환 지연으로 잉글랜드에 역습 카운터를 허용할 확률이 있습니다.')">
+                    <div class="team-name-area"><span>🇧🇷</span><span class="t-name">브라질</span></div>
+                    <div class="team-data-area"><span class="pct-badge">48%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+            </div>
+
+            <!-- SF2 -->
+            <div class="matchup-box right-side">
+                <div class="match-meta"><span>SEMI-FINAL 2</span></div>
+                <div class="team-row-btn winner" onclick="showReason('프랑스', '55%', '아르헨티나의 노련한 중원을 지우는 추아메니, 카마빙가 등 젊고 에너지 넘치는 미드필더 전력 우위와 음바페의 파괴력으로 승기를 확보합니다.')">
+                    <div class="team-name-area"><span>🇫🇷</span><span class="t-name">프랑스</span></div>
+                    <div class="team-data-area"><span class="pct-badge">55%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn loser" onclick="showReason('아르헨티나', '45%', '메시 중심의 전술적 투지는 대단하나 연장 혈투를 거듭하며 누적된 수비진의 체력 방전으로 프랑스의 빠른 윙포워드 속도를 제어하기 힘들어 보입니다.')">
+                    <div class="team-name-area"><span>🇦🇷</span><span class="t-name">아르헨티나</span></div>
+                    <div class="team-data-area"><span class="pct-badge">45%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== ⭐ [5열] 대망의 결승전 ⭐ ==================== -->
+        <div class="bracket-column">
+            <div class="round-header" style="background:#ca8a04; color:#fff;"><i class="fas fa-trophy me-2"></i>대망의 결승전 (FINAL)</div>
+            
+            <div class="matchup-box final-stage">
+                <div class="match-meta"><span class="text-warning">CHAMPIONSHIP MATCH</span><span>🏆</span></div>
+                
+                <div class="team-row-btn loser" onclick="showReason('잉글랜드', '44%', '안정적인 경기 운영으로 첫 원정 우승을 조준하겠으나, 프랑스의 초호화 더블 스쿼드 깊이와 결정적인 순간 메이저 우승 경험 징크스를 넘지 못하고 준우승에 그칠 확률이 존재합니다.')">
+                    <div class="team-name-area"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿</span><span class="t-name">잉글랜드</span></div>
+                    <div class="team-data-area"><span class="pct-badge">44%</span><span class="status-ico"><i class="fas fa-minus-circle"></i></span></div>
+                </div>
+                
+                <div class="my-2 text-center py-1 bg-dark rounded border border-warning" style="font-size:0.75rem;">
+                    <span class="text-warning fw-bold">🏆 FRANCE WIN (2-1)</span>
+                </div>
+
+                <div class="team-row-btn winner" onclick="showReason('프랑스', '56%', '에이스 킬리안 음바페의 절정의 골 결정력과 전 포지션에 걸친 세계 최강의 뎁스를 보유하고 있습니다. 승부처 대처 능력이 완벽하여 통산 3번째 우승 타이틀을 거머쥘 원탑 후보입니다.')">
+                    <div class="team-name-area"><span class="text-warning"><i class="fas fa-star"></i></span><strong>🇫🇷 프랑스</strong></div>
+                    <div class="team-data-area"><span class="pct-badge bg-warning text-dark">56%</span><span class="status-ico"><i class="fas fa-crown"></i></span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== [6열] 8강전 (우측 블록) ==================== -->
+        <div class="bracket-column">
+            <div class="round-header"><i class="fas fa-chess-queen me-2"></i>8강전 (우측 쿼터)</div>
+            
+            <div class="matchup-box right-side">
+                <div class="match-meta"><span>QUARTER-FINAL 2</span></div>
+                <div class="team-row-btn winner" onclick="showReason('프랑스', '58%', '독일 전차군단을 상대로 강력한 카운터 전술을 성공시킬 것입니다. 음바페와 그리즈만의 유기적인 패스 연계 및 전방 압박이 승부의 균형을 깰 것입니다.')">
+                    <div class="team-name-area"><span>🇫🇷</span><span class="t-name">프랑스</span></div>
+                    <div class="team-data-area"><span class="pct-badge">58%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn loser" onclick="showReason('독일', '42%', '비르츠와 무시알라 중심의 높은 볼 점유율 축구를 시도하겠으나 수비 전환 시 배후 공간이 프랑스의 총수와 같은 스피드 공격진에 지속적으로 노출되며 치명상을 입게 됩니다.')">
+                    <div class="team-name-area"><span>🇩🇪</span><span class="t-name">독일</span></div>
+                    <div class="team-data-area"><span class="pct-badge">42%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== [7열] 16강전 (우측 블록) ==================== -->
+        <div class="bracket-column">
+            <div class="round-header"><i class="fas fa-layer-group me-2"></i>16강전 (우측 토너먼트)</div>
+            
+            <!-- R16 - C (한국 경기 하이라이트) -->
+            <div class="matchup-box right-side korea-highlight">
+                <div class="match-meta"><span class="text-neon-korea">MATCH OF KOREA</span></div>
+                <div class="team-row-btn loser" onclick="showReason('대한민국', '35%', '연장 승부를 치르고 올라온 극심한 체력 부담 속에서도 투지를 선보이겠으나 프랑스의 피지컬 압박과 세계 최고 윙어들의 폭발적인 질주를 완벽히 막기엔 전술적 한계가 따릅니다.')">
+                    <div class="team-name-area"><span>🇰🇷</span><span class="t-name text-neon-korea">대한민국</span></div>
+                    <div class="team-data-area"><span class="pct-badge">35%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn winner" onclick="showReason('프랑스', '65%', '스쿼드 밸런스가 결점이 없는 최강 수준입니다. 한국의 허리 라인을 강하게 압박하여 실책을 유도한 뒤 이른 시간 선제골로 경기를 장악해 나갈 확률이 큽니다.')">
+                    <div class="team-name-area"><span>🇫🇷</span><span class="t-name">프랑스</span></div>
+                    <div class="team-data-area"><span class="pct-badge">65%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+            </div>
+
+            <!-- R16 - D -->
+            <div class="matchup-box right-side">
+                <div class="match-meta"><span>ROUND OF 16 - D</span></div>
+                <div class="team-row-btn winner" onclick="showReason('독일', '52%', '라이벌 네덜란드를 맞이해 팽팽한 혈투가 예측되나 토니 크로스의 뒤를 이은 신성 미드필더 전술 장악 능력과 공간 창출 면에서 아주 미세한 우위를 가져갑니다.')">
+                    <div class="team-name-area"><span>🇩🇪</span><span class="t-name">독일</span></div>
+                    <div class="team-data-area"><span class="pct-badge">52%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn loser" onclick="showReason('네덜란드', '48%', '버질 반다이크가 이끄는 백라인 수비벽은 철벽에 가까우나 토너먼트 결정적 순간에 골을 결정지어줄 월드클래스 원톱 스트라이커 부재가 아쉬움으로 남을 것입니다.')">
+                    <div class="team-name-area"><span>🇳🇱</span><span class="t-name">네덜란드</span></div>
+                    <div class="team-data-area"><span class="pct-badge">48%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== [8열] 32강전 (우측 블록) ==================== -->
+        <div class="bracket-column">
+            <div class="round-header"><i class="fas fa-sitemap me-2"></i>32강전 (E조~H조 대진)</div>
+            
+            <!-- M09 (대한민국) -->
+            <div class="matchup-box right-side korea-highlight">
+                <div class="match-meta"><span class="text-neon-korea">MATCH 09</span></div>
+                <div class="team-row-btn loser" onclick="showReason('스위스', '46%', '조별리그 전술 완성도는 높았으나 노쇠화된 주전 수비라인의 스피드가 저하되어 대한민국의 젊고 날카로운 역습 한방에 무너질 가능성이 높습니다.')">
+                    <div class="team-name-area"><span>🇨🇭</span><span class="t-name">스위스</span></div>
+                    <div class="team-data-area"><span class="pct-badge">46%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn winner" onclick="showReason('대한민국', '54%', '손흥민의 클래스 있는 결정력과 이강인의 송곳 같은 킬패스, 그리고 중원의 조율이 최정상 궤도에 올랐습니다. 후반 집중력 싸움에서 스위스를 누르고 승리합니다.')">
+                    <div class="team-name-area"><span>🇰🇷</span><span class="t-name text-neon-korea">대한민국</span></div>
+                    <div class="team-data-area"><span class="pct-badge bg-danger text-white">54%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+            </div>
+
+            <!-- M10 -->
+            <div class="matchup-box right-side">
+                <div class="match-meta"><span>MATCH 10</span></div>
+                <div class="team-row-btn winner" onclick="showReason('프랑스', '63%', '음바페를 축으로 삼은 월드클래스 창끝 공격진은 크로아티아의 노련하지만 기동력이 저하된 수비진을 시종일관 흔들며 멀티 득점을 뽑아낼 것입니다.')">
+                    <div class="team-name-area"><span>🇫🇷</span><span class="t-name">프랑스</span></div>
+                    <div class="team-data-area"><span class="pct-badge">63%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn loser" onclick="showReason('크로아티아', '37%', '루카 모드리치 황금 세대의 헌신은 아름다우나 프랑스의 강력한 피지컬 템포 축구를 90분 내내 방어하기엔 체력적 부하가 뚜렷합니다.')">
+                    <div class="team-name-area"><span>🇭🇷</span><span class="t-name">크로아티아</span></div>
+                    <div class="team-data-area"><span class="pct-badge">37%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+            </div>
+
+            <!-- M11 -->
+            <div class="matchup-box right-side">
+                <div class="match-meta"><span>MATCH 11</span></div>
+                <div class="team-row-btn winner" onclick="showReason('독일', '67%', '자말 무시알라와 플로리안 비르츠라는 유럽 최고의 크랙들이 전술 핵심입니다. 짧고 정교한 원터치 패스로 상대 밀집 수비를 쉽게 분쇄합니다.')">
+                    <div class="team-name-area"><span>🇩🇪</span><span class="t-name">독일</span></div>
+                    <div class="team-data-area"><span class="pct-badge">67%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn loser" onclick="showReason('스코틀랜드', '33%', '강력한 타겟맨 롱볼 전술과 육탄 방어로 이변을 준비하겠지만 전력 차이가 확연하며, 독일의 압도적 2선 침투에 쉽게 실점을 허용할 위험이 큽니다.')">
+                    <div class="team-name-area"><span>🏴󠁧󠁢󠁳󠁣󠁴󠁿</span><span class="t-name">스코틀랜드</span></div>
+                    <div class="team-data-area"><span class="pct-badge">33%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+            </div>
+
+            <!-- M12 -->
+            <div class="matchup-box right-side">
+                <div class="match-meta"><span>MATCH 12</span></div>
+                <div class="team-row-btn winner" onclick="showReason('네덜란드', '59%', '반다이크 중심의 오렌지 수비 군단은 세계 최고 수준입니다. 남미 특유의 돌파 축구를 유기적인 지역 방어와 세트피스 우위로 물리칠 것입니다.')">
+                    <div class="team-name-area"><span>🇳🇱</span><span class="t-name">네덜란드</span></div>
+                    <div class="team-data-area"><span class="pct-badge">59%</span><span class="status-ico"><i class="fas fa-check-circle"></i></span></div>
+                </div>
+                <div class="team-row-btn loser" onclick="showReason('콜롬비아', '41%', '공격 리듬은 유려하나 공수 수비 전환 속도가 다소 정체되어 네덜란드의 빠른 좌우 오버래핑 공격에 수비 측면 공간 붕괴 위험성이 예측됩니다.')">
+                    <div class="team-name-area"><span>🇨🇴</span><span class="t-name">콜롬비아</span></div>
+                    <div class="team-data-area"><span class="pct-badge">41%</span><span class="status-ico"><i class="fas fa-times-circle"></i></span></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- 📊 데이터 분석 모달 레이어 -->
+<div class="modal fade" id="analysisModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title fw-bold" id="titleTeam">팀 예측 지표 분석</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-shadow="none" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="badge bg-primary px-3 py-2">데이터 기반 승리 확률</span>
+                    <span id="labelOdds" class="fs-3 fw-bold text-warning">0%</span>
+                </div>
+                <hr style="border-color: #1e293b;">
+                <p id="labelReason" class="lh-base" style="font-size: 0.95rem; text-align: justify; color: #cbd5e1;"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">닫기</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap 5 Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/bracket-data.js"></script>
+<script src="js/dynamic-bracket.js"></script>
+</body>
+</html>

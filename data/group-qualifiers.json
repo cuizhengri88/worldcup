@@ -1,0 +1,366 @@
+{
+  "groups": [
+    {
+      "id": "A",
+      "label": "A조",
+      "qualifiers": [
+        {
+          "teamId": "MEX",
+          "rank": "A1",
+          "finish": 1
+        },
+        {
+          "teamId": "RSA",
+          "rank": "A2",
+          "finish": 2
+        },
+        {
+          "teamId": "KOR",
+          "rank": "A3",
+          "finish": 3
+        },
+        {
+          "teamId": "CZE",
+          "rank": "A4",
+          "finish": 4
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "label": "B조",
+      "qualifiers": [
+        {
+          "teamId": "CAN",
+          "rank": "B1",
+          "finish": 1
+        },
+        {
+          "teamId": "BIH",
+          "rank": "B2",
+          "finish": 2
+        },
+        {
+          "teamId": "QAT",
+          "rank": "B3",
+          "finish": 3
+        },
+        {
+          "teamId": "SUI",
+          "rank": "B4",
+          "finish": 4
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "C조",
+      "qualifiers": [
+        {
+          "teamId": "BRA",
+          "rank": "C1",
+          "finish": 1
+        },
+        {
+          "teamId": "MAR",
+          "rank": "C2",
+          "finish": 2
+        },
+        {
+          "teamId": "HAI",
+          "rank": "C3",
+          "finish": 3
+        },
+        {
+          "teamId": "SCO",
+          "rank": "C4",
+          "finish": 4
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "label": "D조",
+      "qualifiers": [
+        {
+          "teamId": "USA",
+          "rank": "D1",
+          "finish": 1
+        },
+        {
+          "teamId": "PAR",
+          "rank": "D2",
+          "finish": 2
+        },
+        {
+          "teamId": "AUS",
+          "rank": "D3",
+          "finish": 3
+        },
+        {
+          "teamId": "TUR",
+          "rank": "D4",
+          "finish": 4
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "label": "E조",
+      "qualifiers": [
+        {
+          "teamId": "GER",
+          "rank": "E1",
+          "finish": 1
+        },
+        {
+          "teamId": "CUW",
+          "rank": "E2",
+          "finish": 2
+        },
+        {
+          "teamId": "CIV",
+          "rank": "E3",
+          "finish": 3
+        },
+        {
+          "teamId": "ECU",
+          "rank": "E4",
+          "finish": 4
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "label": "F조",
+      "qualifiers": [
+        {
+          "teamId": "NED",
+          "rank": "F1",
+          "finish": 1
+        },
+        {
+          "teamId": "JPN",
+          "rank": "F2",
+          "finish": 2
+        },
+        {
+          "teamId": "SWE",
+          "rank": "F3",
+          "finish": 3
+        },
+        {
+          "teamId": "TUN",
+          "rank": "F4",
+          "finish": 4
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "label": "G조",
+      "qualifiers": [
+        {
+          "teamId": "BEL",
+          "rank": "G1",
+          "finish": 1
+        },
+        {
+          "teamId": "EGY",
+          "rank": "G2",
+          "finish": 2
+        },
+        {
+          "teamId": "IRN",
+          "rank": "G3",
+          "finish": 3
+        },
+        {
+          "teamId": "NZL",
+          "rank": "G4",
+          "finish": 4
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "label": "H조",
+      "qualifiers": [
+        {
+          "teamId": "ESP",
+          "rank": "H1",
+          "finish": 1
+        },
+        {
+          "teamId": "CPV",
+          "rank": "H2",
+          "finish": 2
+        },
+        {
+          "teamId": "KSA",
+          "rank": "H3",
+          "finish": 3
+        },
+        {
+          "teamId": "URU",
+          "rank": "H4",
+          "finish": 4
+        }
+      ]
+    },
+    {
+      "id": "I",
+      "label": "I조",
+      "qualifiers": [
+        {
+          "teamId": "FRA",
+          "rank": "I1",
+          "finish": 1
+        },
+        {
+          "teamId": "SEN",
+          "rank": "I2",
+          "finish": 2
+        },
+        {
+          "teamId": "IRQ",
+          "rank": "I3",
+          "finish": 3
+        },
+        {
+          "teamId": "NOR",
+          "rank": "I4",
+          "finish": 4
+        }
+      ]
+    },
+    {
+      "id": "J",
+      "label": "J조",
+      "qualifiers": [
+        {
+          "teamId": "ARG",
+          "rank": "J1",
+          "finish": 1
+        },
+        {
+          "teamId": "ALG",
+          "rank": "J2",
+          "finish": 2
+        },
+        {
+          "teamId": "AUT",
+          "rank": "J3",
+          "finish": 3
+        },
+        {
+          "teamId": "JOR",
+          "rank": "J4",
+          "finish": 4
+        }
+      ]
+    },
+    {
+      "id": "K",
+      "label": "K조",
+      "qualifiers": [
+        {
+          "teamId": "POR",
+          "rank": "K1",
+          "finish": 1
+        },
+        {
+          "teamId": "COD",
+          "rank": "K2",
+          "finish": 2
+        },
+        {
+          "teamId": "UZB",
+          "rank": "K3",
+          "finish": 3
+        },
+        {
+          "teamId": "COL",
+          "rank": "K4",
+          "finish": 4
+        }
+      ]
+    },
+    {
+      "id": "L",
+      "label": "L조",
+      "qualifiers": [
+        {
+          "teamId": "ENG",
+          "rank": "L1",
+          "finish": 1
+        },
+        {
+          "teamId": "CRO",
+          "rank": "L2",
+          "finish": 2
+        },
+        {
+          "teamId": "GHA",
+          "rank": "L3",
+          "finish": 3
+        },
+        {
+          "teamId": "PAN",
+          "rank": "L4",
+          "finish": 4
+        }
+      ]
+    }
+  ],
+  "allQualifiedTeamIds": [
+    "MEX",
+    "RSA",
+    "KOR",
+    "CZE",
+    "CAN",
+    "BIH",
+    "QAT",
+    "SUI",
+    "BRA",
+    "MAR",
+    "HAI",
+    "SCO",
+    "USA",
+    "PAR",
+    "AUS",
+    "TUR",
+    "GER",
+    "CUW",
+    "CIV",
+    "ECU",
+    "NED",
+    "JPN",
+    "SWE",
+    "TUN",
+    "BEL",
+    "EGY",
+    "IRN",
+    "NZL",
+    "ESP",
+    "CPV",
+    "KSA",
+    "URU",
+    "FRA",
+    "SEN",
+    "IRQ",
+    "NOR",
+    "ARG",
+    "ALG",
+    "AUT",
+    "JOR",
+    "POR",
+    "COD",
+    "UZB",
+    "COL",
+    "ENG",
+    "CRO",
+    "GHA",
+    "PAN"
+  ]
+}

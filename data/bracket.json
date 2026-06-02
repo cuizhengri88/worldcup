@@ -1,0 +1,369 @@
+{
+  "rounds": [
+    {
+      "id": "round32",
+      "label": "32강전",
+      "source": "groupQualifiers",
+      "matches": [
+        {
+          "id": "M73",
+          "slot": 1,
+          "teamASource": {
+            "group": "A",
+            "rank": 2
+          },
+          "teamBSource": {
+            "group": "B",
+            "rank": 2
+          }
+        },
+        {
+          "id": "M74",
+          "slot": 2,
+          "teamASource": {
+            "group": "E",
+            "rank": 1
+          },
+          "teamBSource": {
+            "groups": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "F"
+            ],
+            "rank": 3
+          }
+        },
+        {
+          "id": "M75",
+          "slot": 3,
+          "teamASource": {
+            "group": "F",
+            "rank": 1
+          },
+          "teamBSource": {
+            "group": "C",
+            "rank": 2
+          }
+        },
+        {
+          "id": "M76",
+          "slot": 4,
+          "teamASource": {
+            "group": "C",
+            "rank": 1
+          },
+          "teamBSource": {
+            "group": "F",
+            "rank": 2
+          }
+        },
+        {
+          "id": "M77",
+          "slot": 5,
+          "teamASource": {
+            "group": "I",
+            "rank": 1
+          },
+          "teamBSource": {
+            "groups": [
+              "C",
+              "D",
+              "F",
+              "G",
+              "H"
+            ],
+            "rank": 3
+          }
+        },
+        {
+          "id": "M78",
+          "slot": 6,
+          "teamASource": {
+            "group": "E",
+            "rank": 2
+          },
+          "teamBSource": {
+            "group": "I",
+            "rank": 2
+          }
+        },
+        {
+          "id": "M79",
+          "slot": 7,
+          "teamASource": {
+            "group": "A",
+            "rank": 1
+          },
+          "teamBSource": {
+            "groups": [
+              "C",
+              "E",
+              "F",
+              "H",
+              "I"
+            ],
+            "rank": 3
+          }
+        },
+        {
+          "id": "M80",
+          "slot": 8,
+          "teamASource": {
+            "group": "L",
+            "rank": 1
+          },
+          "teamBSource": {
+            "groups": [
+              "E",
+              "H",
+              "I",
+              "J",
+              "K"
+            ],
+            "rank": 3
+          }
+        },
+        {
+          "id": "M81",
+          "slot": 9,
+          "teamASource": {
+            "group": "D",
+            "rank": 1
+          },
+          "teamBSource": {
+            "groups": [
+              "B",
+              "E",
+              "F",
+              "I",
+              "J"
+            ],
+            "rank": 3
+          }
+        },
+        {
+          "id": "M82",
+          "slot": 10,
+          "teamASource": {
+            "group": "G",
+            "rank": 1
+          },
+          "teamBSource": {
+            "groups": [
+              "A",
+              "E",
+              "H",
+              "I",
+              "J"
+            ],
+            "rank": 3
+          }
+        },
+        {
+          "id": "M83",
+          "slot": 11,
+          "teamASource": {
+            "group": "K",
+            "rank": 2
+          },
+          "teamBSource": {
+            "group": "L",
+            "rank": 2
+          }
+        },
+        {
+          "id": "M84",
+          "slot": 12,
+          "teamASource": {
+            "group": "H",
+            "rank": 1
+          },
+          "teamBSource": {
+            "group": "J",
+            "rank": 2
+          }
+        },
+        {
+          "id": "M85",
+          "slot": 13,
+          "teamASource": {
+            "group": "B",
+            "rank": 1
+          },
+          "teamBSource": {
+            "groups": [
+              "E",
+              "F",
+              "G",
+              "I",
+              "J"
+            ],
+            "rank": 3
+          }
+        },
+        {
+          "id": "M86",
+          "slot": 14,
+          "teamASource": {
+            "group": "J",
+            "rank": 1
+          },
+          "teamBSource": {
+            "group": "H",
+            "rank": 2
+          }
+        },
+        {
+          "id": "M87",
+          "slot": 15,
+          "teamASource": {
+            "group": "K",
+            "rank": 1
+          },
+          "teamBSource": {
+            "groups": [
+              "D",
+              "E",
+              "I",
+              "J",
+              "L"
+            ],
+            "rank": 3
+          }
+        },
+        {
+          "id": "M88",
+          "slot": 16,
+          "teamASource": {
+            "group": "D",
+            "rank": 2
+          },
+          "teamBSource": {
+            "group": "G",
+            "rank": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "round16",
+      "label": "16강전",
+      "source": "round32",
+      "matches": [
+        {
+          "id": "R16-01",
+          "slot": 1,
+          "teamASourceMatch": "M74",
+          "teamBSourceMatch": "M77"
+        },
+        {
+          "id": "R16-02",
+          "slot": 2,
+          "teamASourceMatch": "M73",
+          "teamBSourceMatch": "M75"
+        },
+        {
+          "id": "R16-03",
+          "slot": 3,
+          "teamASourceMatch": "M76",
+          "teamBSourceMatch": "M78"
+        },
+        {
+          "id": "R16-04",
+          "slot": 4,
+          "teamASourceMatch": "M79",
+          "teamBSourceMatch": "M80"
+        },
+        {
+          "id": "R16-05",
+          "slot": 5,
+          "teamASourceMatch": "M83",
+          "teamBSourceMatch": "M84"
+        },
+        {
+          "id": "R16-06",
+          "slot": 6,
+          "teamASourceMatch": "M81",
+          "teamBSourceMatch": "M82"
+        },
+        {
+          "id": "R16-07",
+          "slot": 7,
+          "teamASourceMatch": "M86",
+          "teamBSourceMatch": "M88"
+        },
+        {
+          "id": "R16-08",
+          "slot": 8,
+          "teamASourceMatch": "M85",
+          "teamBSourceMatch": "M87"
+        }
+      ]
+    },
+    {
+      "id": "quarterfinal",
+      "label": "8강전",
+      "source": "round16",
+      "matches": [
+        {
+          "id": "QF-01",
+          "slot": 1,
+          "teamASourceMatch": "R16-01",
+          "teamBSourceMatch": "R16-02"
+        },
+        {
+          "id": "QF-02",
+          "slot": 2,
+          "teamASourceMatch": "R16-05",
+          "teamBSourceMatch": "R16-06"
+        },
+        {
+          "id": "QF-03",
+          "slot": 3,
+          "teamASourceMatch": "R16-03",
+          "teamBSourceMatch": "R16-04"
+        },
+        {
+          "id": "QF-04",
+          "slot": 4,
+          "teamASourceMatch": "R16-07",
+          "teamBSourceMatch": "R16-08"
+        }
+      ]
+    },
+    {
+      "id": "semifinal",
+      "label": "4강전",
+      "source": "quarterfinal",
+      "matches": [
+        {
+          "id": "SF-01",
+          "slot": 1,
+          "teamASourceMatch": "QF-01",
+          "teamBSourceMatch": "QF-02"
+        },
+        {
+          "id": "SF-02",
+          "slot": 2,
+          "teamASourceMatch": "QF-03",
+          "teamBSourceMatch": "QF-04"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "label": "결승전",
+      "source": "semifinal",
+      "matches": [
+        {
+          "id": "FINAL",
+          "slot": 1,
+          "teamASourceMatch": "SF-01",
+          "teamBSourceMatch": "SF-02"
+        }
+      ]
+    }
+  ]
+}

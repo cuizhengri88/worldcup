@@ -1,0 +1,972 @@
+{
+  "generatedAt": "2026-06-02T06:04:52.497Z",
+  "modelVersion": "internet-metrics-v1",
+  "sources": {
+    "fifaRanking": "https://inside.fifa.com/fifa-world-ranking/men",
+    "fifaRankingDataPage": "https://football-technology.fifa.com/fifa-world-ranking/{TEAM_CODE}",
+    "recentResults": "https://github.com/martj42/international_results/blob/master/results.csv",
+    "notes": "FIFA ranking rows are read from official FIFA team ranking pages. Recent form uses the last 10 full international results available up to 2026-06-02."
+  },
+  "teams": {
+    "MEX": {
+      "fifaName": "Mexico",
+      "fifaRank": 15,
+      "fifaPoints": 1681.03,
+      "fifaPreviousRank": 16,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 62,
+        "matches": 10,
+        "wins": 5,
+        "draws": 4,
+        "losses": 1,
+        "goalsFor": 12,
+        "goalsAgainst": 4
+      },
+      "playerQuality": 81,
+      "internetPower": 79,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "KOR": {
+      "fifaName": "Korea Republic",
+      "fifaRank": 25,
+      "fifaPoints": 1588.66,
+      "fifaPreviousRank": 22,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 63,
+        "matches": 10,
+        "wins": 6,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 18,
+        "goalsAgainst": 12
+      },
+      "playerQuality": 81,
+      "internetPower": 76,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "CZE": {
+      "fifaName": "Czechia",
+      "fifaRank": 41,
+      "fifaPoints": 1501.38,
+      "fifaPreviousRank": 43,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 57,
+        "matches": 10,
+        "wins": 4,
+        "draws": 4,
+        "losses": 2,
+        "goalsFor": 18,
+        "goalsAgainst": 13
+      },
+      "playerQuality": 76,
+      "internetPower": 69,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "SUI": {
+      "fifaName": "Switzerland",
+      "fifaRank": 19,
+      "fifaPoints": 1649.4,
+      "fifaPreviousRank": 18,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 79,
+        "matches": 10,
+        "wins": 6,
+        "draws": 3,
+        "losses": 1,
+        "goalsFor": 25,
+        "goalsAgainst": 7
+      },
+      "playerQuality": 81,
+      "internetPower": 82,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "CAN": {
+      "fifaName": "Canada",
+      "fifaRank": 30,
+      "fifaPoints": 1556.48,
+      "fifaPreviousRank": 29,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 57,
+        "matches": 10,
+        "wins": 4,
+        "draws": 5,
+        "losses": 1,
+        "goalsFor": 11,
+        "goalsAgainst": 4
+      },
+      "playerQuality": 77,
+      "internetPower": 72,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "BRA": {
+      "fifaName": "Brazil",
+      "fifaRank": 6,
+      "fifaPoints": 1761.16,
+      "fifaPreviousRank": 5,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 72,
+        "matches": 10,
+        "wins": 6,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 24,
+        "goalsAgainst": 10
+      },
+      "playerQuality": 90,
+      "internetPower": 86,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "MAR": {
+      "fifaName": "Morocco",
+      "fifaRank": 8,
+      "fifaPoints": 1755.87,
+      "fifaPreviousRank": 8,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 81,
+        "matches": 10,
+        "wins": 7,
+        "draws": 3,
+        "losses": 0,
+        "goalsFor": 20,
+        "goalsAgainst": 3
+      },
+      "playerQuality": 81,
+      "internetPower": 86,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "SCO": {
+      "fifaName": "Scotland",
+      "fifaRank": 43,
+      "fifaPoints": 1498.35,
+      "fifaPreviousRank": 38,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 68,
+        "matches": 10,
+        "wins": 6,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 21,
+        "goalsAgainst": 10
+      },
+      "playerQuality": 75,
+      "internetPower": 72,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "USA": {
+      "fifaName": "USA",
+      "fifaRank": 16,
+      "fifaPoints": 1673.13,
+      "fifaPreviousRank": 15,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 54,
+        "matches": 10,
+        "wins": 5,
+        "draws": 1,
+        "losses": 4,
+        "goalsFor": 18,
+        "goalsAgainst": 17
+      },
+      "playerQuality": 83,
+      "internetPower": 77,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "TUR": {
+      "fifaName": "T?rkiye",
+      "fifaRank": 22,
+      "fifaPoints": 1599.04,
+      "fifaPreviousRank": 25,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 71,
+        "matches": 10,
+        "wins": 7,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 21,
+        "goalsAgainst": 14
+      },
+      "playerQuality": 79,
+      "internetPower": 78,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "AUS": {
+      "fifaName": "Australia",
+      "fifaRank": 27,
+      "fifaPoints": 1580.67,
+      "fifaPreviousRank": 27,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 58,
+        "matches": 10,
+        "wins": 6,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 14,
+        "goalsAgainst": 10
+      },
+      "playerQuality": 74,
+      "internetPower": 72,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "GER": {
+      "fifaName": "Germany",
+      "fifaRank": 10,
+      "fifaPoints": 1730.37,
+      "fifaPreviousRank": 10,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 84,
+        "matches": 10,
+        "wins": 8,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 26,
+        "goalsAgainst": 9
+      },
+      "playerQuality": 88,
+      "internetPower": 88,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "ECU": {
+      "fifaName": "Ecuador",
+      "fifaRank": 23,
+      "fifaPoints": 1594.78,
+      "fifaPreviousRank": 23,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 52,
+        "matches": 10,
+        "wins": 3,
+        "draws": 7,
+        "losses": 0,
+        "goalsFor": 9,
+        "goalsAgainst": 5
+      },
+      "playerQuality": 79,
+      "internetPower": 73,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "CIV": {
+      "fifaName": "C?te d'Ivoire",
+      "fifaRank": 34,
+      "fifaPoints": 1532.98,
+      "fifaPreviousRank": 37,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 75,
+        "matches": 10,
+        "wins": 7,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 20,
+        "goalsAgainst": 7
+      },
+      "playerQuality": 78,
+      "internetPower": 76,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "NED": {
+      "fifaName": "Netherlands",
+      "fifaRank": 7,
+      "fifaPoints": 1757.87,
+      "fifaPreviousRank": 7,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 88,
+        "matches": 10,
+        "wins": 7,
+        "draws": 3,
+        "losses": 0,
+        "goalsFor": 30,
+        "goalsAgainst": 6
+      },
+      "playerQuality": 86,
+      "internetPower": 89,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "JPN": {
+      "fifaName": "Japan",
+      "fifaRank": 18,
+      "fifaPoints": 1660.43,
+      "fifaPreviousRank": 19,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 76,
+        "matches": 10,
+        "wins": 7,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 19,
+        "goalsAgainst": 6
+      },
+      "playerQuality": 83,
+      "internetPower": 82,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "SWE": {
+      "fifaName": "Sweden",
+      "fifaRank": 38,
+      "fifaPoints": 1514.77,
+      "fifaPreviousRank": 42,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 47,
+        "matches": 10,
+        "wins": 4,
+        "draws": 2,
+        "losses": 4,
+        "goalsFor": 16,
+        "goalsAgainst": 18
+      },
+      "playerQuality": 76,
+      "internetPower": 67,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "BEL": {
+      "fifaName": "Belgium",
+      "fifaRank": 9,
+      "fifaPoints": 1734.71,
+      "fifaPreviousRank": 9,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 85,
+        "matches": 10,
+        "wins": 6,
+        "draws": 4,
+        "losses": 0,
+        "goalsFor": 35,
+        "goalsAgainst": 10
+      },
+      "playerQuality": 84,
+      "internetPower": 87,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "IRN": {
+      "fifaName": "IR Iran",
+      "fifaRank": 21,
+      "fifaPoints": 1615.3,
+      "fifaPreviousRank": 20,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 57,
+        "matches": 10,
+        "wins": 4,
+        "draws": 3,
+        "losses": 3,
+        "goalsFor": 17,
+        "goalsAgainst": 8
+      },
+      "playerQuality": 76,
+      "internetPower": 74,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "ESP": {
+      "fifaName": "Spain",
+      "fifaRank": 2,
+      "fifaPoints": 1876.4,
+      "fifaPreviousRank": 1,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 88,
+        "matches": 10,
+        "wins": 7,
+        "draws": 3,
+        "losses": 0,
+        "goalsFor": 31,
+        "goalsAgainst": 8
+      },
+      "playerQuality": 88,
+      "internetPower": 93,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "URU": {
+      "fifaName": "Uruguay",
+      "fifaRank": 17,
+      "fifaPoints": 1673.07,
+      "fifaPreviousRank": 17,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 50,
+        "matches": 10,
+        "wins": 4,
+        "draws": 4,
+        "losses": 2,
+        "goalsFor": 10,
+        "goalsAgainst": 9
+      },
+      "playerQuality": 83,
+      "internetPower": 76,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "NOR": {
+      "fifaName": "Norway",
+      "fifaRank": 31,
+      "fifaPoints": 1550.94,
+      "fifaPreviousRank": 32,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 86,
+        "matches": 10,
+        "wins": 7,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 31,
+        "goalsAgainst": 6
+      },
+      "playerQuality": 81,
+      "internetPower": 80,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "SEN": {
+      "fifaName": "Senegal",
+      "fifaRank": 14,
+      "fifaPoints": 1688.99,
+      "fifaPreviousRank": 12,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 72,
+        "matches": 10,
+        "wins": 7,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 19,
+        "goalsAgainst": 9
+      },
+      "playerQuality": 80,
+      "internetPower": 81,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "ARG": {
+      "fifaName": "Argentina",
+      "fifaRank": 3,
+      "fifaPoints": 1874.81,
+      "fifaPreviousRank": 2,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 88,
+        "matches": 10,
+        "wins": 8,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 25,
+        "goalsAgainst": 4
+      },
+      "playerQuality": 90,
+      "internetPower": 93,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "AUT": {
+      "fifaName": "Austria",
+      "fifaRank": 24,
+      "fifaPoints": 1593.45,
+      "fifaPreviousRank": 24,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 89,
+        "matches": 10,
+        "wins": 8,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 28,
+        "goalsAgainst": 5
+      },
+      "playerQuality": 80,
+      "internetPower": 83,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "POR": {
+      "fifaName": "Portugal",
+      "fifaRank": 5,
+      "fifaPoints": 1763.83,
+      "fifaPreviousRank": 6,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 78,
+        "matches": 10,
+        "wins": 6,
+        "draws": 3,
+        "losses": 1,
+        "goalsFor": 26,
+        "goalsAgainst": 10
+      },
+      "playerQuality": 89,
+      "internetPower": 88,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "COL": {
+      "fifaName": "Colombia",
+      "fifaRank": 13,
+      "fifaPoints": 1693.09,
+      "fifaPreviousRank": 14,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 66,
+        "matches": 10,
+        "wins": 5,
+        "draws": 3,
+        "losses": 2,
+        "goalsFor": 21,
+        "goalsAgainst": 10
+      },
+      "playerQuality": 81,
+      "internetPower": 80,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "ENG": {
+      "fifaName": "England",
+      "fifaRank": 4,
+      "fifaPoints": 1825.97,
+      "fifaPreviousRank": 4,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 79,
+        "matches": 10,
+        "wins": 7,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 22,
+        "goalsAgainst": 5
+      },
+      "playerQuality": 90,
+      "internetPower": 90,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "CRO": {
+      "fifaName": "Croatia",
+      "fifaRank": 11,
+      "fifaPoints": 1717.07,
+      "fifaPreviousRank": 11,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 90,
+        "matches": 10,
+        "wins": 8,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 29,
+        "goalsAgainst": 8
+      },
+      "playerQuality": 80,
+      "internetPower": 87,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "GHA": {
+      "fifaName": "Ghana",
+      "fifaRank": 74,
+      "fifaPoints": 1346.31,
+      "fifaPreviousRank": 72,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 46,
+        "matches": 10,
+        "wins": 4,
+        "draws": 1,
+        "losses": 5,
+        "goalsFor": 14,
+        "goalsAgainst": 13
+      },
+      "playerQuality": 75,
+      "internetPower": 59,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "FRA": {
+      "fifaName": "France",
+      "fifaRank": 1,
+      "fifaPoints": 1877.32,
+      "fifaPreviousRank": 3,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 86,
+        "matches": 10,
+        "wins": 8,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 27,
+        "goalsAgainst": 11
+      },
+      "playerQuality": 92,
+      "internetPower": 94,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "RSA": {
+      "fifaName": "South Africa",
+      "fifaRank": 60,
+      "fifaPoints": 1429.73,
+      "fifaPreviousRank": 60,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 52,
+        "matches": 10,
+        "wins": 4,
+        "draws": 3,
+        "losses": 3,
+        "goalsFor": 14,
+        "goalsAgainst": 10
+      },
+      "playerQuality": 73,
+      "internetPower": 64,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "BIH": {
+      "fifaName": "Bosnia and Herzegovina",
+      "fifaRank": 65,
+      "fifaPoints": 1385.84,
+      "fifaPreviousRank": 71,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 57,
+        "matches": 10,
+        "wins": 3,
+        "draws": 5,
+        "losses": 2,
+        "goalsFor": 20,
+        "goalsAgainst": 11
+      },
+      "playerQuality": 75,
+      "internetPower": 64,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "QAT": {
+      "fifaName": "Qatar",
+      "fifaRank": 55,
+      "fifaPoints": 1454.96,
+      "fifaPreviousRank": 56,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 26,
+        "matches": 10,
+        "wins": 1,
+        "draws": 4,
+        "losses": 5,
+        "goalsFor": 9,
+        "goalsAgainst": 17
+      },
+      "playerQuality": 72,
+      "internetPower": 58,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "HAI": {
+      "fifaName": "Haiti",
+      "fifaRank": 83,
+      "fifaPoints": 1291.71,
+      "fifaPreviousRank": 83,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 45,
+        "matches": 10,
+        "wins": 3,
+        "draws": 4,
+        "losses": 3,
+        "goalsFor": 12,
+        "goalsAgainst": 11
+      },
+      "playerQuality": 70,
+      "internetPower": 56,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "PAR": {
+      "fifaName": "Paraguay",
+      "fifaRank": 40,
+      "fifaPoints": 1503.5,
+      "fifaPreviousRank": 40,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 46,
+        "matches": 10,
+        "wins": 4,
+        "draws": 2,
+        "losses": 4,
+        "goalsFor": 10,
+        "goalsAgainst": 10
+      },
+      "playerQuality": 78,
+      "internetPower": 67,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "CUW": {
+      "fifaName": "Cura?ao",
+      "fifaRank": 82,
+      "fifaPoints": 1294.65,
+      "fifaPreviousRank": 81,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 50,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0
+      },
+      "playerQuality": 69,
+      "internetPower": 57,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "TUN": {
+      "fifaName": "Tunisia",
+      "fifaRank": 44,
+      "fifaPoints": 1483.05,
+      "fifaPreviousRank": 47,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 50,
+        "matches": 10,
+        "wins": 3,
+        "draws": 5,
+        "losses": 2,
+        "goalsFor": 14,
+        "goalsAgainst": 10
+      },
+      "playerQuality": 75,
+      "internetPower": 67,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "EGY": {
+      "fifaName": "Egypt",
+      "fifaRank": 29,
+      "fifaPoints": 1563.24,
+      "fifaPreviousRank": 31,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 67,
+        "matches": 10,
+        "wins": 6,
+        "draws": 3,
+        "losses": 1,
+        "goalsFor": 14,
+        "goalsAgainst": 5
+      },
+      "playerQuality": 80,
+      "internetPower": 76,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "NZL": {
+      "fifaName": "New Zealand",
+      "fifaRank": 85,
+      "fifaPoints": 1281.57,
+      "fifaPreviousRank": 85,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 27,
+        "matches": 10,
+        "wins": 2,
+        "draws": 1,
+        "losses": 7,
+        "goalsFor": 9,
+        "goalsAgainst": 15
+      },
+      "playerQuality": 71,
+      "internetPower": 51,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "CPV": {
+      "fifaName": "Cabo Verde",
+      "fifaRank": 69,
+      "fifaPoints": 1366.13,
+      "fifaPreviousRank": 67,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 60,
+        "matches": 10,
+        "wins": 4,
+        "draws": 5,
+        "losses": 1,
+        "goalsFor": 17,
+        "goalsAgainst": 10
+      },
+      "playerQuality": 74,
+      "internetPower": 64,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "KSA": {
+      "fifaName": "Saudi Arabia",
+      "fifaRank": 61,
+      "fifaPoints": 1421.43,
+      "fifaPreviousRank": 61,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 38,
+        "matches": 10,
+        "wins": 4,
+        "draws": 0,
+        "losses": 6,
+        "goalsFor": 10,
+        "goalsAgainst": 15
+      },
+      "playerQuality": 75,
+      "internetPower": 60,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "IRQ": {
+      "fifaName": "Iraq",
+      "fifaRank": 57,
+      "fifaPoints": 1447.14,
+      "fifaPreviousRank": 58,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 60,
+        "matches": 10,
+        "wins": 6,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 11,
+        "goalsAgainst": 7
+      },
+      "playerQuality": 74,
+      "internetPower": 67,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "ALG": {
+      "fifaName": "Algeria",
+      "fifaRank": 28,
+      "fifaPoints": 1564.26,
+      "fifaPreviousRank": 28,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 82,
+        "matches": 10,
+        "wins": 7,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 23,
+        "goalsAgainst": 5
+      },
+      "playerQuality": 79,
+      "internetPower": 79,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "JOR": {
+      "fifaName": "Jordan",
+      "fifaRank": 63,
+      "fifaPoints": 1391.45,
+      "fifaPreviousRank": 64,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 58,
+        "matches": 10,
+        "wins": 5,
+        "draws": 2,
+        "losses": 3,
+        "goalsFor": 19,
+        "goalsAgainst": 16
+      },
+      "playerQuality": 72,
+      "internetPower": 64,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "COD": {
+      "fifaName": "Congo DR",
+      "fifaRank": 46,
+      "fifaPoints": 1478.35,
+      "fifaPreviousRank": 48,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 70,
+        "matches": 10,
+        "wins": 7,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 12,
+        "goalsAgainst": 3
+      },
+      "playerQuality": 77,
+      "internetPower": 72,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "UZB": {
+      "fifaName": "Uzbekistan",
+      "fifaRank": 50,
+      "fifaPoints": 1465.34,
+      "fifaPreviousRank": 52,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 59,
+        "matches": 10,
+        "wins": 4,
+        "draws": 5,
+        "losses": 1,
+        "goalsFor": 15,
+        "goalsAgainst": 7
+      },
+      "playerQuality": 74,
+      "internetPower": 68,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    },
+    "PAN": {
+      "fifaName": "Panama",
+      "fifaRank": 33,
+      "fifaPoints": 1540.64,
+      "fifaPreviousRank": 33,
+      "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
+      "recentForm": {
+        "score": 53,
+        "matches": 10,
+        "wins": 4,
+        "draws": 4,
+        "losses": 2,
+        "goalsFor": 15,
+        "goalsAgainst": 14
+      },
+      "playerQuality": 73,
+      "internetPower": 69,
+      "sourceConfidence": "high",
+      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+    }
+  }
+}
