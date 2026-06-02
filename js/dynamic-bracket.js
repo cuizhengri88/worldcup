@@ -120,14 +120,14 @@ function renderTabs() {
     tabs.appendChild(button);
   });
 
-  const editButton = document.createElement('button');
-  editButton.type = 'button';
-  editButton.className = `dynamic-edit-btn ${state.isEditing ? 'unlocked' : ''}`;
-  editButton.innerHTML = state.isEditing
-    ? '<i class="fas fa-lock-open"></i><span>편집 중</span>'
-    : '<i class="fas fa-lock"></i><span>편집</span>';
-  editButton.addEventListener('click', handleEditButtonClick);
-  tabs.appendChild(editButton);
+  // const editButton = document.createElement('button');
+  // editButton.type = 'button';
+  // editButton.className = `dynamic-edit-btn ${state.isEditing ? 'unlocked' : ''}`;
+  // editButton.innerHTML = state.isEditing
+  //   ? '<i class="fas fa-lock-open"></i><span>편집 중</span>'
+  //   : '<i class="fas fa-lock"></i><span>편집</span>';
+  // editButton.addEventListener('click', handleEditButtonClick);
+  // tabs.appendChild(editButton);
 }
 
 function handleEditButtonClick() {
