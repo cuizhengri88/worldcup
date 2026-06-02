@@ -548,6 +548,7 @@ function createSquadPositionSectionsMarkup(squad) {
         <div class="squad-position-grid">
           ${players.map(({ player, index }) => `
             <button type="button" class="squad-player-btn" data-player-index="${index}">
+              ${createPlayerPhotoMarkup(player)}
               <span>
                 ${createLocalizedPlayerNameMarkup(player)}
                 <small>${player.number ? `${player.number}번 · ` : ''}${player.club || '-'}</small>
@@ -568,6 +569,30 @@ function getPositionGroupLabel(position) {
     MF: '미드필더',
     FW: '공격수'
   }[position] || getPositionLabel(position);
+}
+
+function createPlayerPhotoMarkup(player) {
+  const initials = getPlayerInitials(player);
+  if (!player.photoUrl) {
+    return `<span class="player-photo-fallback">${initials}</span>`;
+  }
+
+  return `
+    <span class="player-photo-wrap">
+      <img src="${player.photoUrl}" alt="" loading="lazy" onerror="this.style.display='none';this.parentElement.querySelector('.player-photo-fallback').style.display='inline-flex';">
+      <span class="player-photo-fallback">${initials}</span>
+    </span>
+  `;
+}
+
+function getPlayerInitials(player) {
+  return (player.name || '')
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0])
+    .join('')
+    .toUpperCase() || '?';
 }
 
 function showPlayerInfo(teamId, playerIndex) {

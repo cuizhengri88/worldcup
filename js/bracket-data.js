@@ -35,7 +35,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 86,
           "attack": 45,
           "defense": 90,
-          "form": 85
+          "form": 85,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ra%C3%BAl_Rangel.png/120px-Ra%C3%BAl_Rangel.png"
         },
         {
           "number": 2,
@@ -50,7 +51,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 86,
           "nameKo": "호르헤 산체스",
-          "nameZh": "豪尔赫·桑切斯"
+          "nameZh": "豪尔赫·桑切斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Jorge_S%C3%A1nchez.png/120px-Jorge_S%C3%A1nchez.png"
         },
         {
           "number": 3,
@@ -65,7 +67,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 86,
           "nameKo": "세사르 몬테스",
-          "nameZh": "塞薩爾·蒙德斯"
+          "nameZh": "塞薩爾·蒙德斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/C%C3%A9sar_Montes.png/120px-C%C3%A9sar_Montes.png"
         },
         {
           "number": 4,
@@ -80,7 +83,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 86,
           "nameKo": "에드손 알바레스",
-          "nameZh": "埃德松·阿尔瓦雷斯"
+          "nameZh": "埃德松·阿尔瓦雷斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Edson_%C3%81lvarez.png/120px-Edson_%C3%81lvarez.png"
         },
         {
           "number": 5,
@@ -95,7 +99,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 85,
           "nameKo": "호안 바스케스",
-          "nameZh": "约翰·瓦斯奎兹"
+          "nameZh": "约翰·瓦斯奎兹",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Johan_V%C3%A1squez.png/120px-Johan_V%C3%A1squez.png"
         },
         {
           "number": 6,
@@ -108,7 +113,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 86,
           "attack": 78,
           "defense": 86,
-          "form": 85
+          "form": 85,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Erik_Lira_2.png/120px-Erik_Lira_2.png"
         },
         {
           "number": 7,
@@ -123,7 +129,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 86,
           "nameKo": "루이스 로모",
-          "nameZh": "路易斯·羅莫"
+          "nameZh": "路易斯·羅莫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Luis_Romo.png/120px-Luis_Romo.png"
         },
         {
           "number": 8,
@@ -136,7 +143,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 85,
           "attack": 78,
           "defense": 85,
-          "form": 85
+          "form": 85,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/%C3%81lvaro_Fidalgo.png/120px-%C3%81lvaro_Fidalgo.png"
         },
         {
           "number": 9,
@@ -151,7 +159,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 86,
           "nameKo": "라울 히메네스",
-          "nameZh": "劳尔·吉梅内斯"
+          "nameZh": "劳尔·吉梅内斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg/120px-Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg"
         },
         {
           "number": 10,
@@ -166,7 +175,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 86,
           "nameKo": "알렉시스 베가",
-          "nameZh": "亞歷克西斯·維加"
+          "nameZh": "亞歷克西斯·維加",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/A_Vega_Argentina_vs_mexico_mexico_lineup_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -181,7 +191,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 85,
           "nameKo": "산티아고 히메네스",
-          "nameZh": "圣地亚哥·希门尼斯"
+          "nameZh": "圣地亚哥·希门尼斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Santiago_Gim%C3%A9nez.png/120px-Santiago_Gim%C3%A9nez.png"
         },
         {
           "number": 12,
@@ -195,7 +206,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 45,
           "defense": 88,
           "form": 84,
-          "nameZh": "卡洛斯·阿塞維多"
+          "nameZh": "卡洛斯·阿塞維多",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Carlos_Acevedo.png/120px-Carlos_Acevedo.png"
         },
         {
           "number": 13,
@@ -210,7 +222,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 85,
           "nameKo": "기예르모 오초아",
-          "nameZh": "吉列尔莫·奥乔亚"
+          "nameZh": "吉列尔莫·奥乔亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Mex-Kor_%281%29_%28cropped%29.jpg/120px-Mex-Kor_%281%29_%28cropped%29.jpg"
         },
         {
           "number": 14,
@@ -223,7 +236,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 84,
           "attack": 85,
           "defense": 68,
-          "form": 84
+          "form": 84,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Armando_Gonz%C3%A1lez.png/120px-Armando_Gonz%C3%A1lez.png"
         },
         {
           "number": 15,
@@ -237,7 +251,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 68,
           "defense": 88,
           "form": 84,
-          "nameZh": "以瑟雷·雷耶斯"
+          "nameZh": "以瑟雷·雷耶斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Israel_Reyes.png/120px-Israel_Reyes.png"
         },
         {
           "number": 16,
@@ -252,7 +267,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 84,
           "nameKo": "훌리안 퀴뇨네스",
-          "nameZh": "胡利安·基尼奥内斯"
+          "nameZh": "胡利安·基尼奥内斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Juli%C3%A1n_Qui%C3%B1ones.png/120px-Juli%C3%A1n_Qui%C3%B1ones.png"
         },
         {
           "number": 17,
@@ -267,7 +283,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 85,
           "nameKo": "오르벨린 피네다",
-          "nameZh": "奧博林·皮內達"
+          "nameZh": "奧博林·皮內達",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Orbel%C3%ADn_Pineda.png/120px-Orbel%C3%ADn_Pineda.png"
         },
         {
           "number": 18,
@@ -295,7 +312,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 78,
           "defense": 82,
           "form": 82,
-          "nameKo": "질베르토 모라"
+          "nameKo": "질베르토 모라",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Gilberto_Mora.png/120px-Gilberto_Mora.png"
         },
         {
           "number": 20,
@@ -309,7 +327,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 68,
           "defense": 85,
           "form": 82,
-          "nameKo": "마테오 차베스"
+          "nameKo": "마테오 차베스",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Mateo_Ch%C3%A1vez.png/120px-Mateo_Ch%C3%A1vez.png"
         },
         {
           "number": 21,
@@ -323,7 +342,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 84,
           "defense": 69,
           "form": 82,
-          "nameKo": "세사르 우에르타"
+          "nameKo": "세사르 우에르타",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/C%C3%A9sar_Huerta.png/120px-C%C3%A9sar_Huerta.png"
         },
         {
           "number": 22,
@@ -336,7 +356,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 81,
           "attack": 84,
           "defense": 68,
-          "form": 82
+          "form": 82,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Inter_Miami_CF_3-1_UNAM_%286_August_2025%29_30_%28cropped%29.jpg/120px-Inter_Miami_CF_3-1_UNAM_%286_August_2025%29_30_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -351,7 +372,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 83,
           "nameKo": "헤수스 가야르도",
-          "nameZh": "杰西·盖拉多"
+          "nameZh": "杰西·盖拉多",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jes%C3%BAs_Gallardo.png/120px-Jes%C3%BAs_Gallardo.png"
         },
         {
           "number": 24,
@@ -366,7 +388,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 82,
           "nameKo": "루이스 차베스",
-          "nameZh": "路易斯·查韦斯"
+          "nameZh": "路易斯·查韦斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Luis_Ch%C3%A1vez_WC_2022_-_01.jpg/120px-Luis_Ch%C3%A1vez_WC_2022_-_01.jpg"
         },
         {
           "number": 25,
@@ -381,7 +404,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 71,
           "form": 83,
           "nameKo": "로베르토 알바라도",
-          "nameZh": "羅伯托·阿爾瓦拉多"
+          "nameZh": "羅伯托·阿爾瓦拉多",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Roberto_Alvarado.png/120px-Roberto_Alvarado.png"
         },
         {
           "number": 26,
@@ -394,7 +418,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 81,
           "attack": 78,
           "defense": 82,
-          "form": 82
+          "form": 82,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Brian_Guti%C3%A9rrez_Philadelphia_Chicago_10.26.25-126_%28cropped%29.jpg/120px-Brian_Guti%C3%A9rrez_Philadelphia_Chicago_10.26.25-126_%28cropped%29.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -437,7 +462,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 86,
           "nameKo": "김승규",
-          "nameZh": "金承奎"
+          "nameZh": "金承奎",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Rus-SK2017_%2822%29.jpg/120px-Rus-SK2017_%2822%29.jpg"
         },
         {
           "number": 2,
@@ -452,7 +478,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 85,
           "nameKo": "이한범",
-          "nameZh": "李汉范"
+          "nameZh": "李汉范",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/230422_FC_%EC%84%9C%EC%9A%B8_vs_%EC%88%98%EC%9B%90_%EC%82%BC%EC%84%B1_%EB%B8%94%EB%A3%A8%EC%9C%99%EC%A6%88_%28%EC%9D%B4%ED%95%9C%EB%B2%94%29.jpg/120px-230422_FC_%EC%84%9C%EC%9A%B8_vs_%EC%88%98%EC%9B%90_%EC%82%BC%EC%84%B1_%EB%B8%94%EB%A3%A8%EC%9C%99%EC%A6%88_%28%EC%9D%B4%ED%95%9C%EB%B2%94%29.jpg"
         },
         {
           "number": 3,
@@ -466,7 +493,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 82,
           "defense": 81,
           "form": 85,
-          "nameKo": "이기혁"
+          "nameKo": "이기혁",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/250617_FC_%EC%84%9C%EC%9A%B8_vs_%EA%B0%95%EC%9B%90_%28%EC%9D%B4%EA%B8%B0%ED%98%81%29_1.jpg/120px-250617_FC_%EC%84%9C%EC%9A%B8_vs_%EA%B0%95%EC%9B%90_%28%EC%9D%B4%EA%B8%B0%ED%98%81%29_1.jpg"
         },
         {
           "number": 4,
@@ -481,7 +509,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 86,
           "nameKo": "김민재",
-          "nameZh": "金玟哉"
+          "nameZh": "金玟哉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_26.jpg/120px-FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_26.jpg"
         },
         {
           "number": 5,
@@ -511,7 +540,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 86,
           "nameKo": "황인범",
-          "nameZh": "黄仁范"
+          "nameZh": "黄仁范",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/240611_%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_vs_%EC%A4%91%EA%B5%AD_%28%ED%99%A9%EC%9D%B8%EB%B2%94%29.jpg/120px-240611_%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_vs_%EC%A4%91%EA%B5%AD_%28%ED%99%A9%EC%9D%B8%EB%B2%94%29.jpg"
         },
         {
           "number": 7,
@@ -526,7 +556,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 86,
           "nameKo": "손흥민",
-          "nameZh": "孙兴慜"
+          "nameZh": "孙兴慜",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/BFA_2023_-2_Heung-Min_Son_%28cropped%29.jpg/120px-BFA_2023_-2_Heung-Min_Son_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -541,7 +572,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 85,
           "nameKo": "백승호",
-          "nameZh": "白昇浩"
+          "nameZh": "白昇浩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/190608_%EC%98%A4%ED%94%88_%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8B%9D_%EB%8D%B0%EC%9D%B4_%EB%B0%B1%EC%8A%B9%ED%98%B8_1.jpg/120px-190608_%EC%98%A4%ED%94%88_%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8B%9D_%EB%8D%B0%EC%9D%B4_%EB%B0%B1%EC%8A%B9%ED%98%B8_1.jpg"
         },
         {
           "number": 9,
@@ -556,7 +588,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 66,
           "form": 85,
           "nameKo": "조규성",
-          "nameZh": "曹圭成"
+          "nameZh": "曹圭成",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/191130_%EB%B6%80%EC%82%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC_VS_FC%EC%95%88%EC%96%91_%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84%2C_%EC%A1%B0%EA%B7%9C%EC%84%B1_2.jpg/120px-191130_%EB%B6%80%EC%82%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC_VS_FC%EC%95%88%EC%96%91_%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84%2C_%EC%A1%B0%EA%B7%9C%EC%84%B1_2.jpg"
         },
         {
           "number": 10,
@@ -571,7 +604,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 86,
           "nameKo": "이재성",
-          "nameZh": "李在城"
+          "nameZh": "李在城",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Asian_Nations_Cup_-_Jordan_and_South_Korea_%2874%29_%28cropped%29_2.jpg/120px-Asian_Nations_Cup_-_Jordan_and_South_Korea_%2874%29_%28cropped%29_2.jpg"
         },
         {
           "number": 11,
@@ -586,7 +620,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 86,
           "nameKo": "황희찬",
-          "nameZh": "黄喜灿"
+          "nameZh": "黄喜灿",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/240622_%ED%99%A9%ED%9D%AC%EC%B0%AC_%ED%92%8B%EB%B3%BC_%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C.jpg/120px-240622_%ED%99%A9%ED%9D%AC%EC%B0%AC_%ED%92%8B%EB%B3%BC_%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C.jpg"
         },
         {
           "number": 12,
@@ -601,7 +636,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 84,
           "nameKo": "송범근",
-          "nameZh": "宋範根"
+          "nameZh": "宋範根",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/240611_%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_vs_%EC%A4%91%EA%B5%AD_%28%EC%86%A1%EB%B2%94%EA%B7%BC%29.jpg/120px-240611_%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_vs_%EC%A4%91%EA%B5%AD_%28%EC%86%A1%EB%B2%94%EA%B7%BC%29.jpg"
         },
         {
           "number": 13,
@@ -616,7 +652,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 84,
           "nameKo": "이태석",
-          "nameZh": "李泰锡"
+          "nameZh": "李泰锡",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/%EB%B0%80%EC%9B%8C%ED%82%A4_%EC%9D%B4%EB%8B%AC%EC%9D%98_%EC%84%A0%EC%88%98_5%EC%9B%94_-_%EC%9D%B4%ED%83%9C%EC%84%9D_%EC%9D%B8%ED%84%B0%EB%B7%B0_%26_%EC%A0%9C%ED%92%88_%EC%96%B8%EB%B0%95%EC%8B%B1%EA%B9%8C%EC%A7%80%21_0s.jpg/120px-%EB%B0%80%EC%9B%8C%ED%82%A4_%EC%9D%B4%EB%8B%AC%EC%9D%98_%EC%84%A0%EC%88%98_5%EC%9B%94_-_%EC%9D%B4%ED%83%9C%EC%84%9D_%EC%9D%B8%ED%84%B0%EB%B7%B0_%26_%EC%A0%9C%ED%92%88_%EC%96%B8%EB%B0%95%EC%8B%B1%EA%B9%8C%EC%A7%80%21_0s.jpg"
         },
         {
           "number": 14,
@@ -645,7 +682,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 84,
           "nameKo": "김문환",
-          "nameZh": "金文煥"
+          "nameZh": "金文煥",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/191202_K%EB%A6%AC%EA%B7%B8_%EC%8B%9C%EC%83%81%EC%8B%9D%2C_%EA%B9%80%EB%AC%B8%ED%99%98_3.jpg/120px-191202_K%EB%A6%AC%EA%B7%B8_%EC%8B%9C%EC%83%81%EC%8B%9D%2C_%EA%B9%80%EB%AC%B8%ED%99%98_3.jpg"
         },
         {
           "number": 16,
@@ -660,7 +698,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 84,
           "nameKo": "박진섭",
-          "nameZh": "朴鎭燮"
+          "nameZh": "朴鎭燮",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/250702_FC_%EC%84%9C%EC%9A%B8_vs_%EC%A0%84%EB%B6%81_%28%EB%B0%95%EC%A7%84%EC%84%AD%29.jpg/120px-250702_FC_%EC%84%9C%EC%9A%B8_vs_%EC%A0%84%EB%B6%81_%28%EB%B0%95%EC%A7%84%EC%84%AD%29.jpg"
         },
         {
           "number": 17,
@@ -674,7 +713,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 82,
           "defense": 81,
           "form": 84,
-          "nameKo": "배준호"
+          "nameKo": "배준호",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Bae_Jun-ho_20092025_%282%29.jpg/120px-Bae_Jun-ho_20092025_%282%29.jpg"
         },
         {
           "number": 18,
@@ -689,7 +729,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 84,
           "nameKo": "오현규",
-          "nameZh": "吳賢揆"
+          "nameZh": "吳賢揆",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Oh_Hyeon-gyu_BJK.jpeg/120px-Oh_Hyeon-gyu_BJK.jpeg"
         },
         {
           "number": 19,
@@ -704,7 +745,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 82,
           "nameKo": "이강인",
-          "nameZh": "李刚仁"
+          "nameZh": "李刚仁",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lee_Kang-in_-_2022_%2852551771501%29_%28cropped%29.jpg/120px-Lee_Kang-in_-_2022_%2852551771501%29_%28cropped%29.jpg"
         },
         {
           "number": 20,
@@ -719,7 +761,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 78,
           "form": 82,
           "nameKo": "양현준",
-          "nameZh": "楊賢俊"
+          "nameZh": "楊賢俊",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Celtic-20240722-062_%28cropped%29.jpg/120px-Celtic-20240722-062_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -734,7 +777,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 82,
           "nameKo": "조현우",
-          "nameZh": "趙賢祐"
+          "nameZh": "趙賢祐",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jo_Hyeon-woo.jpg/120px-Jo_Hyeon-woo.jpg"
         },
         {
           "number": 22,
@@ -749,7 +793,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 82,
           "nameKo": "설영우",
-          "nameZh": "薛永佑"
+          "nameZh": "薛永佑",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/%28%EC%B6%94%EA%BE%B8%EB%AF%B8%29_%27%EC%9A%B8%EC%82%B0_%ED%95%A9%EB%A5%98%27_%EC%84%A4%EC%98%81%EC%9A%B0.jpg/120px-%28%EC%B6%94%EA%BE%B8%EB%AF%B8%29_%27%EC%9A%B8%EC%82%B0_%ED%95%A9%EB%A5%98%27_%EC%84%A4%EC%98%81%EC%9A%B0.jpg"
         },
         {
           "number": 23,
@@ -777,7 +822,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 82,
           "defense": 79,
           "form": 82,
-          "nameKo": "김진규"
+          "nameKo": "김진규",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/191208_%EB%B6%80%EC%82%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC_%EC%8A%B9%EA%B0%95PO%2C_%EA%B9%80%EC%A7%84%EA%B7%9C_3.jpg/120px-191208_%EB%B6%80%EC%82%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC_%EC%8A%B9%EA%B0%95PO%2C_%EA%B9%80%EC%A7%84%EA%B7%9C_3.jpg"
         },
         {
           "number": 25,
@@ -791,7 +837,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 82,
           "defense": 78,
           "form": 82,
-          "nameKo": "엄지성"
+          "nameKo": "엄지성",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/230917_FC_%EC%84%9C%EC%9A%B8_vs_%EA%B4%91%EC%A3%BC_FC_%28%EC%97%84%EC%A7%80%EC%84%B1%29.jpg/120px-230917_FC_%EC%84%9C%EC%9A%B8_vs_%EA%B4%91%EC%A3%BC_FC_%28%EC%97%84%EC%A7%80%EC%84%B1%29.jpg"
         },
         {
           "number": 26,
@@ -806,7 +853,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 82,
           "nameKo": "이동경",
-          "nameZh": "李東炅"
+          "nameZh": "李東炅",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/250303_FC_%EC%84%9C%EC%9A%B8_vs_%EA%B9%80%EC%B2%9C_%28%EC%9D%B4%EB%8F%99%EA%B2%BD%29.jpg/120px-250303_FC_%EC%84%9C%EC%9A%B8_vs_%EA%B9%80%EC%B2%9C_%28%EC%9D%B4%EB%8F%99%EA%B2%BD%29.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -849,7 +897,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 78,
           "nameKo": "마테이 코바르시",
-          "nameZh": "马杰·科瓦日"
+          "nameZh": "马杰·科瓦日",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Matj_kova-1772635856_%28cropped%29.JPG/120px-Matj_kova-1772635856_%28cropped%29.JPG"
         },
         {
           "number": 2,
@@ -864,7 +913,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 78,
           "nameKo": "다비트 지마",
-          "nameZh": "大衛·齊馬"
+          "nameZh": "大衛·齊馬",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/David_Zima_CZE-KUW_2021-11-11_%28cropped%29.jpg/120px-David_Zima_CZE-KUW_2021-11-11_%28cropped%29.jpg"
         },
         {
           "number": 3,
@@ -879,7 +929,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 78,
           "nameKo": "토마시 홀레시",
-          "nameZh": "托马什·霍莱什"
+          "nameZh": "托马什·霍莱什",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tom%C3%A1%C5%A1_Hole%C5%A1_Jablonec-Ostrava.jpg/120px-Tom%C3%A1%C5%A1_Hole%C5%A1_Jablonec-Ostrava.jpg"
         },
         {
           "number": 4,
@@ -908,7 +959,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 79,
           "nameKo": "블라디미르 초우팔",
-          "nameZh": "華迪美·高法爾"
+          "nameZh": "華迪美·高法爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Vladim%C3%ADr_Coufal_with_West_Ham_United.jpeg/120px-Vladim%C3%ADr_Coufal_with_West_Ham_United.jpeg"
         },
         {
           "number": 6,
@@ -936,7 +988,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 78,
           "nameKo": "라디슬라프 크레이치",
-          "nameZh": "拉迪斯拉夫·基積斯"
+          "nameZh": "拉迪斯拉夫·基積斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Ladislav_Krej%C4%8D%C3%AD_01112025_%281%29.jpg/120px-Ladislav_Krej%C4%8D%C3%AD_01112025_%281%29.jpg"
         },
         {
           "number": 8,
@@ -951,7 +1004,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 79,
           "nameKo": "블라디미르 다리다",
-          "nameZh": "弗拉迪米爾·達里達"
+          "nameZh": "弗拉迪米爾·達里達",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Vladim%C3%ADr_Darida_20180601_AUSCZE_3910_%28cropped%29.jpg/120px-Vladim%C3%ADr_Darida_20180601_AUSCZE_3910_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -966,7 +1020,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 67,
           "form": 78,
           "nameKo": "아담 흘로제크",
-          "nameZh": "亚当·赫洛热克"
+          "nameZh": "亚当·赫洛热克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Adam_Hlo%C5%BEek%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%282%29_%28cropped%29.jpg/120px-Adam_Hlo%C5%BEek%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%282%29_%28cropped%29.jpg"
         },
         {
           "number": 10,
@@ -981,7 +1036,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 67,
           "form": 79,
           "nameKo": "파트리크 시크",
-          "nameZh": "帕特里克·希克"
+          "nameZh": "帕特里克·希克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3672_by_Stepro.jpg/120px-2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3672_by_Stepro.jpg"
         },
         {
           "number": 11,
@@ -996,7 +1052,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 66,
           "form": 78,
           "nameKo": "얀 쿠흐타",
-          "nameZh": "揚·庫希塔"
+          "nameZh": "揚·庫希塔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Jan_Kuchta_2022.jpg/120px-Jan_Kuchta_2022.jpg"
         },
         {
           "number": 12,
@@ -1050,7 +1107,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 81,
           "defense": 66,
           "form": 77,
-          "nameZh": "帕维尔·舒尔茨"
+          "nameZh": "帕维尔·舒尔茨",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Pavel_%C5%A0ulc_%28cropped%29.jpg/120px-Pavel_%C5%A0ulc_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -1065,7 +1123,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 77,
           "nameKo": "인드르지흐 스타네크",
-          "nameZh": "英德日赫·斯塔尼克"
+          "nameZh": "英德日赫·斯塔尼克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Jind%C5%99ich_Stan%C4%9Bk_brank%C3%A1%C5%99_FK_Viktorie_Plze%C5%88_%28r._2023%29_%28cropped%29.jpg/120px-Jind%C5%99ich_Stan%C4%9Bk_brank%C3%A1%C5%99_FK_Viktorie_Plze%C5%88_%28r._2023%29_%28cropped%29.jpg"
         },
         {
           "number": 17,
@@ -1094,7 +1153,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 77,
           "nameKo": "미할 사딜레크",
-          "nameZh": "麥可·薩德萊克"
+          "nameZh": "麥可·薩德萊克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Michal_Sad%C3%ADlek%2C_U21_CZE-GRE_2019-10-10_%282%29.jpg/120px-Michal_Sad%C3%ADlek%2C_U21_CZE-GRE_2019-10-10_%282%29.jpg"
         },
         {
           "number": 19,
@@ -1108,7 +1168,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 79,
           "defense": 66,
           "form": 75,
-          "nameZh": "托马什·霍里"
+          "nameZh": "托马什·霍里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Tom%C3%A1%C5%A1_Chor%C3%BD_%28cropped%29.jpg/120px-Tom%C3%A1%C5%A1_Chor%C3%BD_%28cropped%29.jpg"
         },
         {
           "number": 20,
@@ -1121,7 +1182,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 77,
           "attack": 63,
           "defense": 83,
-          "form": 75
+          "form": 75,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Jaroslav_Zelen%C3%BD%2C_FCB-SLAVIA_30092018.jpg/120px-Jaroslav_Zelen%C3%BD%2C_FCB-SLAVIA_30092018.jpg"
         },
         {
           "number": 21,
@@ -1135,7 +1197,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 63,
           "defense": 83,
           "form": 75,
-          "nameZh": "大衛·杜德拉"
+          "nameZh": "大衛·杜德拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/David_Doud%C4%9Bra%2C_U21_CZE-GRE_2019-10-10.jpg/120px-David_Doud%C4%9Bra%2C_U21_CZE-GRE_2019-10-10.jpg"
         },
         {
           "number": 22,
@@ -1150,7 +1213,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 76,
           "nameKo": "토마시 소우체크",
-          "nameZh": "托马什·绍切克"
+          "nameZh": "托马什·绍切克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Tom%C3%A1%C5%A1_Sou%C4%8Dek_WHU.jpeg/120px-Tom%C3%A1%C5%A1_Sou%C4%8Dek_WHU.jpeg"
         },
         {
           "number": 23,
@@ -1246,7 +1310,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 82,
           "nameKo": "그레고어 코벨",
-          "nameZh": "格雷戈·科贝尔"
+          "nameZh": "格雷戈·科贝尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93090.jpg/120px-2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93090.jpg"
         },
         {
           "number": 2,
@@ -1260,7 +1325,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 66,
           "defense": 89,
           "form": 82,
-          "nameZh": "米罗·穆海姆"
+          "nameZh": "米罗·穆海姆",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/2025-05-16_Hamburger_SV_Miro_Muheim.jpg/120px-2025-05-16_Hamburger_SV_Miro_Muheim.jpg"
         },
         {
           "number": 3,
@@ -1275,7 +1341,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 83,
           "nameKo": "실반 비드머",
-          "nameZh": "西尔万·威德默"
+          "nameZh": "西尔万·威德默",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AUT_vs._SUI_2015-11-17_%28173%29_Silvan_Widmer.jpg/120px-AUT_vs._SUI_2015-11-17_%28173%29_Silvan_Widmer.jpg"
         },
         {
           "number": 4,
@@ -1290,7 +1357,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 83,
           "nameKo": "니코 엘베디",
-          "nameZh": "尼科·埃爾韋迪"
+          "nameZh": "尼科·埃爾韋迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Wales-Switzerland_match_at_Euro_2020_in_Baku_%28cropped%29.jpg/120px-Wales-Switzerland_match_at_Euro_2020_in_Baku_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -1305,7 +1373,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 83,
           "nameKo": "마누엘 아칸지",
-          "nameZh": "曼努尔·阿坎杰"
+          "nameZh": "曼努尔·阿坎杰",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2792_%28Manuel_Akanji%29.jpg/120px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2792_%28Manuel_Akanji%29.jpg"
         },
         {
           "number": 6,
@@ -1320,7 +1389,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 83,
           "nameKo": "데니스 자카리아",
-          "nameZh": "丹尼斯·沙克利亞"
+          "nameZh": "丹尼斯·沙克利亞",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Zakaria_asse_asm_2425_%28cropped%29.png/120px-Zakaria_asse_asm_2425_%28cropped%29.png"
         },
         {
           "number": 7,
@@ -1335,7 +1405,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 83,
           "nameKo": "브릴 엠볼로",
-          "nameZh": "恩姆博洛"
+          "nameZh": "恩姆博洛",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2022128160447_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_1422_-_B70I7533_%28cropped%29.jpg/120px-2022128160447_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_1422_-_B70I7533_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -1350,7 +1421,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 83,
           "nameKo": "레모 프로일러",
-          "nameZh": "雷莫·弗罗伊勒"
+          "nameZh": "雷莫·弗罗伊勒",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RemoFreuler.jpg/120px-RemoFreuler.jpg"
         },
         {
           "number": 9,
@@ -1378,7 +1450,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 83,
           "nameKo": "그라니트 샤카",
-          "nameZh": "格蘭尼特·扎卡"
+          "nameZh": "格蘭尼特·扎卡",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Granit_Xhaka_%28cropped%29.jpg/120px-Granit_Xhaka_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -1393,7 +1466,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 82,
           "nameKo": "단 은도예",
-          "nameZh": "丹·恩多耶"
+          "nameZh": "丹·恩多耶",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Lens_-_Nice_%2823-01-2021%29_52.jpg/120px-Lens_-_Nice_%2823-01-2021%29_52.jpg"
         },
         {
           "number": 12,
@@ -1408,7 +1482,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 81,
           "nameKo": "이본 음보고",
-          "nameZh": "伊翁·姆沃戈"
+          "nameZh": "伊翁·姆沃戈",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Yvon_Mvogo.jpg/120px-Yvon_Mvogo.jpg"
         },
         {
           "number": 13,
@@ -1423,7 +1498,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 82,
           "nameKo": "리카르도 이반 로드리게스 아라야",
-          "nameZh": "里卡多·罗德里格斯"
+          "nameZh": "里卡多·罗德里格斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ricardo_Rodr%C3%ADguez_2018.jpg/120px-Ricardo_Rodr%C3%ADguez_2018.jpg"
         },
         {
           "number": 14,
@@ -1438,7 +1514,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 81,
           "nameKo": "아르돈 야샤리",
-          "nameZh": "阿东·贾沙里"
+          "nameZh": "阿东·贾沙里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ali_Maamar_RSCA_2025.jpg/120px-Ali_Maamar_RSCA_2025.jpg"
         },
         {
           "number": 15,
@@ -1453,7 +1530,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 82,
           "nameKo": "지브릴 소우",
-          "nameZh": "吉布里尔·索乌"
+          "nameZh": "吉布里尔·索乌",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DjibrilSow_%28cropped%29.jpg/120px-DjibrilSow_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -1468,7 +1546,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 81,
           "nameKo": "크리스티안 파스나흐트",
-          "nameZh": "克里斯蒂安·法斯納赫特"
+          "nameZh": "克里斯蒂安·法斯納赫特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Christian_Fassnacht_%28cropped%29.jpg/120px-Christian_Fassnacht_%28cropped%29.jpg"
         },
         {
           "number": 17,
@@ -1498,7 +1577,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 81,
           "nameKo": "에라이 죄메르트",
-          "nameZh": "埃雷·库马特"
+          "nameZh": "埃雷·库马特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Eray_C%C3%B6mert_2019_%28cropped%29.jpg/120px-Eray_C%C3%B6mert_2019_%28cropped%29.jpg"
         },
         {
           "number": 19,
@@ -1513,7 +1593,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 79,
           "nameKo": "노아 오카포르",
-          "nameZh": "諾亞·奧卡福"
+          "nameZh": "諾亞·奧卡福",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/FC_RB_Salzburg_gegen_FK_Austria_Wien_%282022-04-24%29_68.jpg/120px-FC_RB_Salzburg_gegen_FK_Austria_Wien_%282022-04-24%29_68.jpg"
         },
         {
           "number": 20,
@@ -1656,7 +1737,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 81,
           "nameKo": "데인 세인트클레어",
-          "nameZh": "戴因·聖克萊爾"
+          "nameZh": "戴因·聖克萊爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dayne_St._Clair_-_MNUFC_-_May_2025.jpg/120px-Dayne_St._Clair_-_MNUFC_-_May_2025.jpg"
         },
         {
           "number": 2,
@@ -1671,7 +1753,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 82,
           "nameKo": "앨리스테어 존스턴",
-          "nameZh": "阿利斯特爾·莊斯頓"
+          "nameZh": "阿利斯特爾·莊斯頓",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/A_Johnston_Canada_national_football_team_WC2022_%28cropped%29.jpg"
         },
         {
           "number": 3,
@@ -1685,7 +1768,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 69,
           "defense": 81,
           "form": 81,
-          "nameZh": "阿爾菲·瓊斯"
+          "nameZh": "阿爾菲·瓊斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Alfie_Jones_16082025_%281%29.jpg/120px-Alfie_Jones_16082025_%281%29.jpg"
         },
         {
           "number": 4,
@@ -1714,7 +1798,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 81,
           "nameKo": "조엘 워터먼",
-          "nameZh": "喬爾·沃特曼"
+          "nameZh": "喬爾·沃特曼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Joel_Waterman_Philadelphia_Chicago_10.26.25-025_%28cropped%29.jpg/120px-Joel_Waterman_Philadelphia_Chicago_10.26.25-025_%28cropped%29.jpg"
         },
         {
           "number": 6,
@@ -1744,7 +1829,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 82,
           "nameKo": "스테픈 유스타키오",
-          "nameZh": "斯蒂芬·欧斯塔基奥"
+          "nameZh": "斯蒂芬·欧斯塔基奥",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/S_Eustaqui_Canada_national_football_team_WC2022_%28cropped%29.jpg/120px-S_Eustaqui_Canada_national_football_team_WC2022_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -1759,7 +1845,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 81,
           "nameKo": "이스마엘 코네",
-          "nameZh": "伊斯馬埃爾·柯內"
+          "nameZh": "伊斯馬埃爾·柯內",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Kone_asse_om_2425.png/120px-Kone_asse_om_2425.png"
         },
         {
           "number": 9,
@@ -1774,7 +1861,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 82,
           "nameKo": "카일 래린",
-          "nameZh": "凱爾·拉林"
+          "nameZh": "凱爾·拉林",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Cyle_Larin_%282021-22_S%C3%BCper_Lig%29_-_Resim1_%28cropped%29.png/120px-Cyle_Larin_%282021-22_S%C3%BCper_Lig%29_-_Resim1_%28cropped%29.png"
         },
         {
           "number": 10,
@@ -1789,7 +1877,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 82,
           "nameKo": "조너선 데이비드",
-          "nameZh": "喬納坦·大衛"
+          "nameZh": "喬納坦·大衛",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Jonathan_David_asse_losc_2425_%28cropped%29.jpg/120px-Jonathan_David_asse_losc_2425_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -1804,7 +1893,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 81,
           "nameKo": "리엄 밀라",
-          "nameZh": "利厄姆·米拉爾"
+          "nameZh": "利厄姆·米拉爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Liam_Millar.jpeg/120px-Liam_Millar.jpeg"
         },
         {
           "number": 12,
@@ -1818,7 +1908,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 86,
           "defense": 62,
           "form": 80,
-          "nameZh": "塔尼·奥卢瓦塞伊"
+          "nameZh": "塔尼·奥卢瓦塞伊",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Tani_O_%28cropped%29.jpg/120px-Tani_O_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -1833,7 +1924,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 80,
           "nameKo": "데릭 코닐리어스",
-          "nameZh": "德雷克·科爾尼里厄斯"
+          "nameZh": "德雷克·科爾尼里厄斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Cornelius_asse_om_2425.png/120px-Cornelius_asse_om_2425.png"
         },
         {
           "number": 14,
@@ -1847,7 +1939,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 80,
           "defense": 78,
           "form": 80,
-          "nameZh": "雅各·沙菲爾伯格"
+          "nameZh": "雅各·沙菲爾伯格",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Jacob_Shaffleburg_cropped.png/120px-Jacob_Shaffleburg_cropped.png"
         },
         {
           "number": 15,
@@ -1861,7 +1954,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 69,
           "defense": 81,
           "form": 80,
-          "nameZh": "莫伊茲·邦比托"
+          "nameZh": "莫伊茲·邦比托",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bombito_asse_ogcn_2425.png/120px-Bombito_asse_ogcn_2425.png"
         },
         {
           "number": 16,
@@ -1876,7 +1970,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 80,
           "nameKo": "막심 크레포",
-          "nameZh": "馬克西米利安·克雷普"
+          "nameZh": "馬克西米利安·克雷普",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Maxime_Cr%C3%A9peau_and_James_Pantemis_Portland_Timbers_2024_%28cropped%29.jpg/120px-Maxime_Cr%C3%A9peau_and_James_Pantemis_Portland_Timbers_2024_%28cropped%29.jpg"
         },
         {
           "number": 17,
@@ -1891,7 +1986,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 81,
           "nameKo": "테이존 뷰캐넌",
-          "nameZh": "泰江·布坎南"
+          "nameZh": "泰江·布坎南",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Tajon_Buchanan_WC2022.jpg/120px-Tajon_Buchanan_WC2022.jpg"
         },
         {
           "number": 18,
@@ -1904,7 +2000,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 79,
           "attack": 45,
           "defense": 81,
-          "form": 80
+          "form": 80,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Owen_Goodman_15022025_%281%29_%28cropped%29.jpg/120px-Owen_Goodman_15022025_%281%29_%28cropped%29.jpg"
         },
         {
           "number": 19,
@@ -1919,7 +2016,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 79,
           "nameKo": "알폰소 데이비스",
-          "nameZh": "阿方索·戴维斯"
+          "nameZh": "阿方索·戴维斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Alphonso_Davies_in_2022.jpg/120px-Alphonso_Davies_in_2022.jpg"
         },
         {
           "number": 20,
@@ -1948,7 +2046,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 79,
           "nameKo": "조나단 오소리오",
-          "nameZh": "喬納坦·歐索里歐"
+          "nameZh": "喬納坦·歐索里歐",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Jonathan_Osorio_2017.jpg/120px-Jonathan_Osorio_2017.jpg"
         },
         {
           "number": 22,
@@ -1963,7 +2062,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 79,
           "nameKo": "리치 라레이아",
-          "nameZh": "里奇·拉里亞"
+          "nameZh": "里奇·拉里亞",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/CINvOCB_2017-05-13_-_Richie_Laryea_%2834525525311%29_%28cropped%29.jpg/120px-CINvOCB_2017-05-13_-_Richie_Laryea_%2834525525311%29_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -1991,7 +2091,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 85,
           "defense": 61,
           "form": 78,
-          "nameZh": "普羅米斯·大衛"
+          "nameZh": "普羅米斯·大衛",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Promise_David_Union_Saint-Gilloise_2025.jpg/120px-Promise_David_Union_Saint-Gilloise_2025.jpg"
         },
         {
           "number": 25,
@@ -2004,7 +2105,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 78,
           "attack": 79,
           "defense": 76,
-          "form": 78
+          "form": 78,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Nathan-Dylan_Saliba_RSC_Anderlecht_2025.jpg/120px-Nathan-Dylan_Saliba_RSC_Anderlecht_2025.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -2047,7 +2149,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 96,
           "form": 90,
           "nameKo": "알리송 베케르",
-          "nameZh": "阿利松·拉姆西斯·贝克尔"
+          "nameZh": "阿利松·拉姆西斯·贝克尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_850_1625.jpg/120px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_850_1625.jpg"
         },
         {
           "number": 2,
@@ -2076,7 +2179,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 89,
           "nameKo": "가브리에우 두스 산투스 마갈량이스",
-          "nameZh": "加布里埃尔·马加良斯"
+          "nameZh": "加布里埃尔·马加良斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/1_Gabriel_Magalh%C3%A3es_2026.jpg/120px-1_Gabriel_Magalh%C3%A3es_2026.jpg"
         },
         {
           "number": 4,
@@ -2091,7 +2195,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 96,
           "form": 90,
           "nameKo": "마르쿠스 아오아스 코헤아",
-          "nameZh": "马尔基尼奥斯"
+          "nameZh": "马尔基尼奥斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/FC_Salzburg_gegen_Paris_Saint-Germain_UEFA_Champions_League_49_%28cropped%29.jpg/120px-FC_Salzburg_gegen_Paris_Saint-Germain_UEFA_Champions_League_49_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -2106,7 +2211,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 90,
           "nameKo": "카제미루",
-          "nameZh": "卡斯米路"
+          "nameZh": "卡斯米路",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Casemiro_Brazil_Austria_June_2018.jpg/120px-Casemiro_Brazil_Austria_June_2018.jpg"
         },
         {
           "number": 6,
@@ -2121,7 +2227,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 94,
           "form": 89,
           "nameKo": "알레스 산드루",
-          "nameZh": "阿歷士·辛度"
+          "nameZh": "阿歷士·辛度",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FC_Zenit_Saint_Petersburg_vs._Juventus%2C_20_October_2021_28_-_Alex_Sandro_%28cropped2%29.jpg/120px-FC_Zenit_Saint_Petersburg_vs._Juventus%2C_20_October_2021_28_-_Alex_Sandro_%28cropped2%29.jpg"
         },
         {
           "number": 7,
@@ -2136,7 +2243,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 74,
           "form": 89,
           "nameKo": "비니시우스 주니어",
-          "nameZh": "维尼修斯·儒尼奥尔"
+          "nameZh": "维尼修斯·儒尼奥尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/2023_05_06_Final_de_la_Copa_del_Rey_-_52879242230_%28cropped%29.jpg/120px-2023_05_06_Final_de_la_Copa_del_Rey_-_52879242230_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -2151,7 +2259,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 89,
           "nameKo": "브루누 기마랑이스",
-          "nameZh": "布鲁诺·吉马良斯"
+          "nameZh": "布鲁诺·吉马良斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bruno_Guimar%C3%A3es.png/120px-Bruno_Guimar%C3%A3es.png"
         },
         {
           "number": 9,
@@ -2166,7 +2275,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 89,
           "nameKo": "마테우스 쿠냐",
-          "nameZh": "马特乌斯·库尼亚"
+          "nameZh": "马特乌斯·库尼亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Matheus_Cunha_em_2021.jpg/120px-Matheus_Cunha_em_2021.jpg"
         },
         {
           "number": 10,
@@ -2181,7 +2291,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 77,
           "form": 90,
           "nameKo": "네이마르",
-          "nameZh": "内马尔·达席尔瓦"
+          "nameZh": "内马尔·达席尔瓦",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Neymar_Jr._with_Al_Hilal%2C_3_October_2023_-_03_%28cropped%29.jpg/120px-Neymar_Jr._with_Al_Hilal%2C_3_October_2023_-_03_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -2196,7 +2307,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 74,
           "form": 89,
           "nameKo": "하파에우 지아스 벨롤리",
-          "nameZh": "拉菲尼亚"
+          "nameZh": "拉菲尼亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RaphinhaBenfica_%28cropped%29.png/120px-RaphinhaBenfica_%28cropped%29.png"
         },
         {
           "number": 12,
@@ -2211,7 +2323,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 88,
           "nameKo": "웨베르통",
-          "nameZh": "韋華頓·佩雷拉·達施華"
+          "nameZh": "韋華頓·佩雷拉·達施華",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Weverton-palmeiras-sport-ago-25_%28cropped%29.jpg/120px-Weverton-palmeiras-sport-ago-25_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -2226,7 +2339,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 94,
           "form": 89,
           "nameKo": "다닐루 루이스 다 시우바",
-          "nameZh": "達尼洛·路易斯·達·席爾瓦"
+          "nameZh": "達尼洛·路易斯·達·席爾瓦",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Danilo_Luiz_850_1591_%28cropped%29.jpg/120px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Danilo_Luiz_850_1591_%28cropped%29.jpg"
         },
         {
           "number": 14,
@@ -2270,7 +2384,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 88,
           "nameKo": "도글라스 산투스",
-          "nameZh": "道格拉斯·桑托斯"
+          "nameZh": "道格拉斯·桑托斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Douglas_dos_Santos_2024.jpg/120px-Douglas_dos_Santos_2024.jpg"
         },
         {
           "number": 17,
@@ -2285,7 +2400,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 88,
           "nameKo": "파비뉴",
-          "nameZh": "法比奥·恩里克·塔瓦雷斯"
+          "nameZh": "法比奥·恩里克·塔瓦雷斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Fabinho_%2843934382122%29_%28cropped%29.jpg/120px-Fabinho_%2843934382122%29_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -2300,7 +2416,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 88,
           "nameKo": "다닐루",
-          "nameZh": "丹尼路·杜斯山度士·奧利華拉"
+          "nameZh": "丹尼路·杜斯山度士·奧利華拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Danilo-Palmeiras-Athletico-jul-2022-4.jpg/120px-Danilo-Palmeiras-Athletico-jul-2022-4.jpg"
         },
         {
           "number": 19,
@@ -2315,7 +2432,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 86,
           "nameKo": "엔드리키 펠리피",
-          "nameZh": "恩德里克"
+          "nameZh": "恩德里克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Endrick-Palmeiras-Liverpool-abr24.jpg/120px-Endrick-Palmeiras-Liverpool-abr24.jpg"
         },
         {
           "number": 20,
@@ -2330,7 +2448,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 87,
           "nameKo": "루카스 파케타",
-          "nameZh": "卢卡斯·帕奎塔"
+          "nameZh": "卢卡斯·帕奎塔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Lucas_Paquet%C3%A1_of_West_Ham.jpeg/120px-Lucas_Paquet%C3%A1_of_West_Ham.jpeg"
         },
         {
           "number": 21,
@@ -2345,7 +2464,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 86,
           "nameKo": "루이스 엔히키",
-          "nameZh": "路易斯·恩里克"
+          "nameZh": "路易斯·恩里克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Luiz_Henrique_in_Zenit_2025.jpg/120px-Luiz_Henrique_in_Zenit_2025.jpg"
         },
         {
           "number": 22,
@@ -2360,7 +2480,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 86,
           "nameKo": "가브리엘 마르티넬리",
-          "nameZh": "加布里埃爾·馬丁內利"
+          "nameZh": "加布里埃爾·馬丁內利",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/1_Gabriel_Martinelli_arsenal_2025_%28cropped%29.jpg/120px-1_Gabriel_Martinelli_arsenal_2025_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -2375,7 +2496,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 86,
           "nameKo": "이데르송 모라이스",
-          "nameZh": "埃德森·莫赖斯"
+          "nameZh": "埃德森·莫赖斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ederson_%28cropped%29.png/120px-Ederson_%28cropped%29.png"
         },
         {
           "number": 24,
@@ -2390,7 +2512,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 86,
           "nameKo": "호제르 이바녜스",
-          "nameZh": "罗热·伊巴涅斯"
+          "nameZh": "罗热·伊巴涅斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Roger_Iba%C3%B1ez_2026.jpg/120px-Roger_Iba%C3%B1ez_2026.jpg"
         },
         {
           "number": 25,
@@ -2405,7 +2528,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 86,
           "nameKo": "이고르 치아구",
-          "nameZh": "伊戈爾·蒂亞戈"
+          "nameZh": "伊戈爾·蒂亞戈",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Brentford_Players_27122025_%284%29_%28cropped%29.jpg/120px-Brentford_Players_27122025_%284%29_%28cropped%29.jpg"
         },
         {
           "number": 26,
@@ -2419,7 +2543,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 96,
           "defense": 72,
           "form": 86,
-          "nameKo": "하양"
+          "nameKo": "하양",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Rayan_2026.png/120px-Rayan_2026.png"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -2462,7 +2587,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 96,
           "form": 87,
           "nameKo": "야신 부누",
-          "nameZh": "亚辛·布努"
+          "nameZh": "亚辛·布努",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Yassine_Bono_%28cropped%29.jpg/120px-Yassine_Bono_%28cropped%29.jpg"
         },
         {
           "number": 2,
@@ -2477,7 +2603,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 95,
           "form": 87,
           "nameKo": "아슈라프 하키미",
-          "nameZh": "阿什拉夫·哈基米"
+          "nameZh": "阿什拉夫·哈基米",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Achraf_Hakimi_%28cropped2%29.jpg/120px-Achraf_Hakimi_%28cropped2%29.jpg"
         },
         {
           "number": 3,
@@ -2492,7 +2619,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 86,
           "nameKo": "누사이르 마즈라위",
-          "nameZh": "纳赛尔·马兹拉维"
+          "nameZh": "纳赛尔·马兹拉维",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mazraoui.jpg/120px-Mazraoui.jpg"
         },
         {
           "number": 4,
@@ -2507,7 +2635,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 87,
           "nameKo": "소피안 암라바트",
-          "nameZh": "索夫扬·阿姆拉巴特"
+          "nameZh": "索夫扬·阿姆拉巴特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Sofyan_Amrabat_vs_Niger_%28cropped%29.jpg/120px-Sofyan_Amrabat_vs_Niger_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -2522,7 +2651,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 94,
           "form": 87,
           "nameKo": "나예프 아게르드",
-          "nameZh": "纳耶夫·阿奎德"
+          "nameZh": "纳耶夫·阿奎德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nayef_Aguerd_vs_Niger%2C_5_Sept_2025.jpg/120px-Nayef_Aguerd_vs_Niger%2C_5_Sept_2025.jpg"
         },
         {
           "number": 6,
@@ -2537,7 +2667,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 86,
           "nameKo": "아유브 부아디",
-          "nameZh": "艾約布·布阿迪"
+          "nameZh": "艾約布·布阿迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bouaddi_asselosc_2425_%28cropped%29.jpg/120px-Bouaddi_asselosc_2425_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -2551,7 +2682,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 77,
           "defense": 88,
           "form": 86,
-          "nameZh": "切姆斯丁·塔勒比"
+          "nameZh": "切姆斯丁·塔勒比",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chemsdine_Talbi_against_Paraguay_%28cropped%29.jpg/120px-Chemsdine_Talbi_against_Paraguay_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -2566,7 +2698,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 86,
           "nameKo": "아제딘 우나히",
-          "nameZh": "阿兹丁·欧纳希"
+          "nameZh": "阿兹丁·欧纳希",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ounahi_vs_Paraguay_%28cropped%29.jpg/120px-Ounahi_vs_Paraguay_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -2581,7 +2714,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 86,
           "nameKo": "수피안 라히미",
-          "nameZh": "苏菲安·拉希米"
+          "nameZh": "苏菲安·拉希米",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Soufiane_Rahimi_against_Paraguay_%28cropped%29.jpg/120px-Soufiane_Rahimi_against_Paraguay_%28cropped%29.jpg"
         },
         {
           "number": 10,
@@ -2596,7 +2730,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 86,
           "nameKo": "브라힘 디아스",
-          "nameZh": "卜拉欣·迪亞斯"
+          "nameZh": "卜拉欣·迪亞斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Brahim_Diaz_2_vs_Niger_%28cropped%29_%28cropped%29.jpg/120px-Brahim_Diaz_2_vs_Niger_%28cropped%29_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -2611,7 +2746,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 86,
           "nameKo": "이스마엘 사이바리",
-          "nameZh": "薩巴里"
+          "nameZh": "薩巴里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Ismael_Saibari_vs_Niger_%28cropped%29.jpg/120px-Ismael_Saibari_vs_Niger_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -2626,7 +2762,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 86,
           "nameKo": "무니르 모하메디",
-          "nameZh": "穆尼爾·莫哈麥迪"
+          "nameZh": "穆尼爾·莫哈麥迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Munir_Mohand_Mohamedi_%28cropped2%29.jpg/120px-Munir_Mohand_Mohamedi_%28cropped2%29.jpg"
         },
         {
           "number": 13,
@@ -2640,7 +2777,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 67,
           "defense": 90,
           "form": 85,
-          "nameZh": "扎卡里亚·埃尔·瓦赫迪"
+          "nameZh": "扎卡里亚·埃尔·瓦赫迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Zakaria_El_Ouahdi_at_the_Olympic_Games_2024_%28cropped%29.jpg/120px-Zakaria_El_Ouahdi_at_the_Olympic_Games_2024_%28cropped%29.jpg"
         },
         {
           "number": 14,
@@ -2655,7 +2793,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 85,
           "nameKo": "이사 디오프",
-          "nameZh": "伊萨·迪奥普"
+          "nameZh": "伊萨·迪奥普",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Issa_Diop_-_Morocco_v_Paraguay.jpg/120px-Issa_Diop_-_Morocco_v_Paraguay.jpg"
         },
         {
           "number": 15,
@@ -2668,7 +2807,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 83,
           "attack": 77,
           "defense": 87,
-          "form": 85
+          "form": 85,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Samir_El_Mourabet_vs_Paraguay_%28cropped%29.jpg/120px-Samir_El_Mourabet_vs_Paraguay_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -2681,7 +2821,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 83,
           "attack": 77,
           "defense": 87,
-          "form": 85
+          "form": 85,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Gessime_Yassine_against_Paraguay_2_%28cropped%29.jpg/120px-Gessime_Yassine_against_Paraguay_2_%28cropped%29.jpg"
         },
         {
           "number": 17,
@@ -2696,7 +2837,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 85,
           "nameKo": "압데 에잘줄리",
-          "nameZh": "阿卜杜薩馬德·埃扎爾祖利"
+          "nameZh": "阿卜杜薩馬德·埃扎爾祖利",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/AbdeEz.jpg/120px-AbdeEz.jpg"
         },
         {
           "number": 18,
@@ -2711,7 +2853,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 85,
           "nameKo": "샤디 리아드",
-          "nameZh": "查迪里· 亞德"
+          "nameZh": "查迪里· 亞德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Chadi_Riad_against_Paraguay_%28cropped%29.jpg/120px-Chadi_Riad_against_Paraguay_%28cropped%29.jpg"
         },
         {
           "number": 19,
@@ -2724,7 +2867,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 83,
           "attack": 67,
           "defense": 89,
-          "form": 83
+          "form": 83,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Youssef_Belammari_vs_Niger_%28cropped%29.jpg/120px-Youssef_Belammari_vs_Niger_%28cropped%29.jpg"
         },
         {
           "number": 20,
@@ -2739,7 +2883,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 84,
           "nameKo": "아유브 엘 카비",
-          "nameZh": "阿尤布·卡埃比"
+          "nameZh": "阿尤布·卡埃比",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Ayoub_El_Kaabi_vs_Niger_%28cropped%29.jpg/120px-Ayoub_El_Kaabi_vs_Niger_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -2767,7 +2912,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 83,
           "nameKo": "아흐메드 레다 타그나우티",
-          "nameZh": "艾邁德·雷達·達拿奧迪"
+          "nameZh": "艾邁德·雷達·達拿奧迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/%D8%A3%D8%AD%D9%85%D8%AF_%D8%B1%D8%B6%D8%A7_%D8%A7%D9%84%D8%AA%D9%83%D9%86%D8%A7%D9%88%D8%AA%D9%8A.jpg/120px-%D8%A3%D8%AD%D9%85%D8%AF_%D8%B1%D8%B6%D8%A7_%D8%A7%D9%84%D8%AA%D9%83%D9%86%D8%A7%D9%88%D8%AA%D9%8A.jpg"
         },
         {
           "number": 23,
@@ -2782,7 +2928,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 83,
           "nameKo": "빌랄 엘 카누스",
-          "nameZh": "比拉尔·汉努斯"
+          "nameZh": "比拉尔·汉努斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bilal_El_Khannouss_vs_Niger_%28cropped%29.jpg/120px-Bilal_El_Khannouss_vs_Niger_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -2797,7 +2944,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 83,
           "nameKo": "닐 엘 아이나위",
-          "nameZh": "尼尔·埃尔·艾诺伊"
+          "nameZh": "尼尔·埃尔·艾诺伊",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Neil_El_Aynaoui_%28cropped2%29.jpg/120px-Neil_El_Aynaoui_%28cropped2%29.jpg"
         },
         {
           "number": 25,
@@ -2810,7 +2958,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 67,
           "defense": 88,
-          "form": 83
+          "form": 83,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Redouane_Halhal_vs_Paraguay_%28cropped%29.jpg/120px-Redouane_Halhal_vs_Paraguay_%28cropped%29.jpg"
         },
         {
           "number": 26,
@@ -2825,7 +2974,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 83,
           "nameKo": "아나스 살라에딘",
-          "nameZh": "阿納斯·薩拉赫-艾丁"
+          "nameZh": "阿納斯·薩拉赫-艾丁",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Anass_Salah-Eddine_against_Paraguay_%28cropped%29.jpg/120px-Anass_Salah-Eddine_against_Paraguay_%28cropped%29.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -2868,7 +3018,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 77,
           "nameKo": "앵거스 건",
-          "nameZh": "安古斯·古安"
+          "nameZh": "安古斯·古安",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Angus.gunn.jpg/120px-Angus.gunn.jpg"
         },
         {
           "number": 2,
@@ -2883,7 +3034,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 77,
           "nameKo": "에런 히키",
-          "nameZh": "阿伦·希基"
+          "nameZh": "阿伦·希基",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Aaron_Hickey_29112025_%282%29.jpg/120px-Aaron_Hickey_29112025_%282%29.jpg"
         },
         {
           "number": 3,
@@ -2898,7 +3050,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 78,
           "nameKo": "앤드루 로버트슨",
-          "nameZh": "安德鲁·罗伯逊"
+          "nameZh": "安德鲁·罗伯逊",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/First_Minister_meets_with_Scottish_National_Football_Team_%28cropped_2%29.jpg/120px-First_Minister_meets_with_Scottish_National_Football_Team_%28cropped_2%29.jpg"
         },
         {
           "number": 4,
@@ -2913,7 +3066,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 78,
           "nameKo": "스콧 맥토미니",
-          "nameZh": "麥湯明尼"
+          "nameZh": "麥湯明尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Manchester_United_v_Liverpool%2C_22_August_2022_%2821%29_%28Scott_McTominay%29.jpg/120px-Manchester_United_v_Liverpool%2C_22_August_2022_%2821%29_%28Scott_McTominay%29.jpg"
         },
         {
           "number": 5,
@@ -2928,7 +3082,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 78,
           "nameKo": "그랜트 핸리",
-          "nameZh": "格蘭特·漢利"
+          "nameZh": "格蘭特·漢利",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Grant_Hanley_2018.jpg/120px-Grant_Hanley_2018.jpg"
         },
         {
           "number": 6,
@@ -2943,7 +3098,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 78,
           "nameKo": "키어런 티어니",
-          "nameZh": "基蘭·蒂爾尼"
+          "nameZh": "基蘭·蒂爾尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Kieran_Tierney_%28close-up_image%29.jpg/120px-Kieran_Tierney_%28close-up_image%29.jpg"
         },
         {
           "number": 7,
@@ -2958,7 +3114,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 78,
           "nameKo": "존 맥긴",
-          "nameZh": "約翰·麥克金"
+          "nameZh": "約翰·麥克金",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/First_Minister_meets_with_Scottish_National_Football_Team_%282%29_%28cropped%29.jpg/120px-First_Minister_meets_with_Scottish_National_Football_Team_%282%29_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -2985,7 +3142,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 81,
           "defense": 65,
           "form": 78,
-          "nameZh": "林登·戴克斯"
+          "nameZh": "林登·戴克斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/First_Minister_meets_with_Scottish_National_Football_Team_-_55168603663_%28cropped%29.jpg/120px-First_Minister_meets_with_Scottish_National_Football_Team_-_55168603663_%28cropped%29.jpg"
         },
         {
           "number": 10,
@@ -3000,7 +3158,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 77,
           "nameKo": "체 애덤스",
-          "nameZh": "查·阿當斯"
+          "nameZh": "查·阿當斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Che_Adams.jpg/120px-Che_Adams.jpg"
         },
         {
           "number": 11,
@@ -3015,7 +3174,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 78,
           "nameKo": "라이언 크리스티",
-          "nameZh": "萊安·克里斯蒂"
+          "nameZh": "萊安·克里斯蒂",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ryan_Christie_Bournemouth_%28cropped%29.png/120px-Ryan_Christie_Bournemouth_%28cropped%29.png"
         },
         {
           "number": 12,
@@ -3044,7 +3204,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 76,
           "nameKo": "잭 헨드리",
-          "nameZh": "傑克·亨德利"
+          "nameZh": "傑克·亨德利",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/FC_Salzburg_versus_Celtic_FC_%284._Oktober_2918_Gruppe_B%2C_Zweiter_Spieltag%29_20_%28cropped%29.jpg/120px-FC_Salzburg_versus_Celtic_FC_%284._Oktober_2918_Gruppe_B%2C_Zweiter_Spieltag%29_20_%28cropped%29.jpg"
         },
         {
           "number": 14,
@@ -3072,7 +3233,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 61,
           "defense": 83,
           "form": 76,
-          "nameZh": "約翰·蘇塔爾"
+          "nameZh": "約翰·蘇塔爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/John_Souttar_2023.jpg/120px-John_Souttar_2023.jpg"
         },
         {
           "number": 16,
@@ -3086,7 +3248,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 61,
           "defense": 82,
           "form": 76,
-          "nameZh": "多明尼·希恩"
+          "nameZh": "多明尼·希恩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0_U-21_-_%D0%A8%D0%BE%D1%82%D0%BB%D0%B0%D0%BD%D0%B4%D0%B8%D1%8F_U-21_4-0._6_%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2016_%D0%B3%D0%BE%D0%B4%D0%B0_%E2%80%94_708271_%28cropped%29.jpg/120px-%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0_U-21_-_%D0%A8%D0%BE%D1%82%D0%BB%D0%B0%D0%BD%D0%B4%D0%B8%D1%8F_U-21_4-0._6_%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2016_%D0%B3%D0%BE%D0%B4%D0%B0_%E2%80%94_708271_%28cropped%29.jpg"
         },
         {
           "number": 17,
@@ -3100,7 +3263,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 78,
           "defense": 64,
           "form": 76,
-          "nameZh": "本·多克"
+          "nameZh": "本·多克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ben_Doak_2025.jpg/120px-Ben_Doak_2025.jpg"
         },
         {
           "number": 18,
@@ -3114,7 +3278,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 78,
           "defense": 63,
           "form": 76,
-          "nameZh": "喬治·希斯特"
+          "nameZh": "喬治·希斯特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/George_Hirst_2.jpg/120px-George_Hirst_2.jpg"
         },
         {
           "number": 19,
@@ -3143,7 +3308,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 77,
           "defense": 64,
           "form": 74,
-          "nameZh": "勞倫斯·沙克蘭"
+          "nameZh": "勞倫斯·沙克蘭",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Lawrence_Shankland_2019.jpg/120px-Lawrence_Shankland_2019.jpg"
         },
         {
           "number": 21,
@@ -3158,7 +3324,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 75,
           "nameKo": "크레이그 고든",
-          "nameZh": "克莱格·戈登"
+          "nameZh": "克莱格·戈登",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/FC_Salzburg_versus_Celtic_FC_%284._Oktober_2918_Gruppe_B%2C_Zweiter_Spieltag%29_07_%28Craig_Gordon%29.jpg/120px-FC_Salzburg_versus_Celtic_FC_%284._Oktober_2918_Gruppe_B%2C_Zweiter_Spieltag%29_07_%28Craig_Gordon%29.jpg"
         },
         {
           "number": 22,
@@ -3172,7 +3339,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 61,
           "defense": 81,
           "form": 74,
-          "nameZh": "纳坦·帕特森"
+          "nameZh": "纳坦·帕特森",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/SPFL_Reserve_League_Winners_2018_19_-_Rangers_%2833913865528%29_%28KP%29.jpg/120px-SPFL_Reserve_League_Winners_2018_19_-_Rangers_%2833913865528%29_%28KP%29.jpg"
         },
         {
           "number": 23,
@@ -3186,7 +3354,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 71,
           "defense": 79,
           "form": 75,
-          "nameZh": "肯尼·麥克萊恩"
+          "nameZh": "肯尼·麥克萊恩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Kenny_McLean_2021-08-07_1.jpg/120px-Kenny_McLean_2021-08-07_1.jpg"
         },
         {
           "number": 24,
@@ -3201,7 +3370,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 74,
           "nameKo": "앤서니 랄스턴",
-          "nameZh": "托尼·拉斯通"
+          "nameZh": "托尼·拉斯通",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Celtic-20240722-034.jpg/120px-Celtic-20240722-034.jpg"
         },
         {
           "number": 25,
@@ -3214,7 +3384,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 75,
           "attack": 76,
           "defense": 63,
-          "form": 74
+          "form": 74,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/First_Minister_meets_with_Scottish_National_Football_Team_-_55168603663_%28cropped_findlay_curtis%29.jpg/120px-First_Minister_meets_with_Scottish_National_Football_Team_-_55168603663_%28cropped_findlay_curtis%29.jpg"
         },
         {
           "number": 26,
@@ -3271,7 +3442,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 87,
           "nameKo": "맷 터너",
-          "nameZh": "马特·特纳"
+          "nameZh": "马特·特纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Matt_Turner_Red_Bulls_Revolution-34_%28cropped%29.jpg/120px-Matt_Turner_Red_Bulls_Revolution-34_%28cropped%29.jpg"
         },
         {
           "number": 2,
@@ -3286,7 +3458,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 86,
           "nameKo": "서지뇨 데스트",
-          "nameZh": "塞爾吉諾·德斯特"
+          "nameZh": "塞爾吉諾·德斯特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Sergino_Dest.jpg/120px-Sergino_Dest.jpg"
         },
         {
           "number": 3,
@@ -3300,7 +3473,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 71,
           "defense": 87,
           "form": 86,
-          "nameZh": "克里斯·理查兹"
+          "nameZh": "克里斯·理查兹",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Chris_Richards_USMNT_v_Portugal_Mar_31_2026-45_%28cropped%29.jpg/120px-Chris_Richards_USMNT_v_Portugal_Mar_31_2026-45_%28cropped%29.jpg"
         },
         {
           "number": 4,
@@ -3315,7 +3489,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 87,
           "nameKo": "타일러 애덤스",
-          "nameZh": "泰勒·亚当斯"
+          "nameZh": "泰勒·亚当斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tyler_Adams_09052026_%284%29.jpg/120px-Tyler_Adams_09052026_%284%29.jpg"
         },
         {
           "number": 5,
@@ -3330,7 +3505,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 87,
           "nameKo": "앤토니 로빈슨",
-          "nameZh": "安東尼·羅賓森"
+          "nameZh": "安東尼·羅賓森",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Antonee_Robinson_USMNT_v_Portugal_Mar_31_2026-173_%28cropped%29.jpg/120px-Antonee_Robinson_USMNT_v_Portugal_Mar_31_2026-173_%28cropped%29.jpg"
         },
         {
           "number": 6,
@@ -3344,7 +3520,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 70,
           "defense": 86,
           "form": 86,
-          "nameZh": "奧斯頓·特楚斯提"
+          "nameZh": "奧斯頓·特楚斯提",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Auston_Trusty_USMNT_v_Belgium_Mar_28_2026-43_%28cropped%29.jpg/120px-Auston_Trusty_USMNT_v_Belgium_Mar_28_2026-43_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -3359,7 +3536,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 86,
           "nameKo": "지오바니 레이나",
-          "nameZh": "喬瓦尼·雷伊納"
+          "nameZh": "喬瓦尼·雷伊納",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Gio_Reyna_USMNT_v_Belgium_Mar_28_2026-60_%28cropped%29.jpg/120px-Gio_Reyna_USMNT_v_Belgium_Mar_28_2026-60_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -3374,7 +3552,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 87,
           "nameKo": "웨스턴 매케니",
-          "nameZh": "威斯頓·麥金尼"
+          "nameZh": "威斯頓·麥金尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Weston_McKennie_USMNT_v_Belgium_Mar_28_2026-68_%28cropped%29.jpg/120px-Weston_McKennie_USMNT_v_Belgium_Mar_28_2026-68_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -3388,7 +3567,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 91,
           "defense": 67,
           "form": 86,
-          "nameZh": "里卡爾多·佩皮"
+          "nameZh": "里卡爾多·佩皮",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Ricardo_Pepi_USMNT_v_Belgium_Mar_28_2026-47.jpg/120px-Ricardo_Pepi_USMNT_v_Belgium_Mar_28_2026-47.jpg"
         },
         {
           "number": 10,
@@ -3403,7 +3583,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 87,
           "nameKo": "크리스천 풀리시치",
-          "nameZh": "克里斯蒂安·普利西奇"
+          "nameZh": "克里斯蒂安·普利西奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_%28cropped%29.jpg/120px-Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -3418,7 +3599,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 68,
           "form": 87,
           "nameKo": "브렌든 에런슨",
-          "nameZh": "布蘭登·亞倫森"
+          "nameZh": "布蘭登·亞倫森",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Brenden_Aaronson_USMNT_v_Belgium_Mar_28_2026-58.jpg/120px-Brenden_Aaronson_USMNT_v_Belgium_Mar_28_2026-58.jpg"
         },
         {
           "number": 12,
@@ -3432,7 +3614,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 71,
           "defense": 87,
           "form": 85,
-          "nameZh": "迈尔斯·罗宾逊"
+          "nameZh": "迈尔斯·罗宾逊",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Miles_Robinson_USMNT_v_Belgium_Mar_28_2026-40_%28cropped%29.jpg/120px-Miles_Robinson_USMNT_v_Belgium_Mar_28_2026-40_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -3447,7 +3630,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 86,
           "nameKo": "팀 림",
-          "nameZh": "蒂姆·里姆"
+          "nameZh": "蒂姆·里姆",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Tim_Ream_NYCFC_v_Charlotte_20_Sep_2025-021_%28cropped%29.jpg/120px-Tim_Ream_NYCFC_v_Charlotte_20_Sep_2025-021_%28cropped%29.jpg"
         },
         {
           "number": 14,
@@ -3461,7 +3645,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 80,
           "defense": 82,
           "form": 85,
-          "nameKo": "서배스천 버홀터"
+          "nameKo": "서배스천 버홀터",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sebastian_Berhalter_USMNT_v_Belgium_Mar_28_2026-56.jpg/120px-Sebastian_Berhalter_USMNT_v_Belgium_Mar_28_2026-56.jpg"
         },
         {
           "number": 15,
@@ -3476,7 +3661,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 85,
           "nameKo": "크리스천 롤단",
-          "nameZh": "克里斯蒂安·羅丹"
+          "nameZh": "克里斯蒂安·羅丹",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Cristian_Roldan_USMNT_v_Belgium_Mar_28_2026-50_%28cropped%29.jpg/120px-Cristian_Roldan_USMNT_v_Belgium_Mar_28_2026-50_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -3489,7 +3675,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 85,
           "attack": 70,
           "defense": 86,
-          "form": 85
+          "form": 85,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Alex_Freeman_USMNT_v_Belgium_Mar_28_2026-59_%28cropped%29.jpg/120px-Alex_Freeman_USMNT_v_Belgium_Mar_28_2026-59_%28cropped%29.jpg"
         },
         {
           "number": 17,
@@ -3504,7 +3691,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 85,
           "nameKo": "말릭 틸만",
-          "nameZh": "马利克·蒂尔曼"
+          "nameZh": "马利克·蒂尔曼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Malik_Tillman_USMNT_v_Belgium_Mar_28_2026-70_%28cropped%29.jpg/120px-Malik_Tillman_USMNT_v_Belgium_Mar_28_2026-70_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -3517,7 +3705,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 86,
           "attack": 70,
           "defense": 86,
-          "form": 85
+          "form": 85,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Max_Arfsten_NYCFC_v_Columbus_10_May_2026-25.jpg/120px-Max_Arfsten_NYCFC_v_Columbus_10_May_2026-25.jpg"
         },
         {
           "number": 19,
@@ -3532,7 +3721,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 67,
           "form": 83,
           "nameKo": "하지 라이트",
-          "nameZh": "哈吉·赖特"
+          "nameZh": "哈吉·赖特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Haji_Wright_at_Antalyaspor_vs_Trabzonspor_20211211_%282%29_%28cropped%29_%28cropped%29.jpg/120px-Haji_Wright_at_Antalyaspor_vs_Trabzonspor_20211211_%282%29_%28cropped%29_%28cropped%29.jpg"
         },
         {
           "number": 20,
@@ -3547,7 +3737,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 67,
           "form": 83,
           "nameKo": "폴라린 발로건",
-          "nameZh": "福拉金·巴洛根"
+          "nameZh": "福拉金·巴洛根",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Folarin_Balogun_USMNT_v_Belgium_Mar_28_2026-69_%28cropped%29.jpg/120px-Folarin_Balogun_USMNT_v_Belgium_Mar_28_2026-69_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -3562,7 +3753,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 68,
           "form": 83,
           "nameKo": "티모시 웨아",
-          "nameZh": "蒂莫西·维阿"
+          "nameZh": "蒂莫西·维阿",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tim_Weah%2C_USMNT_v_Portugal_-_March_31_2026.jpg/120px-Tim_Weah%2C_USMNT_v_Portugal_-_March_31_2026.jpg"
         },
         {
           "number": 22,
@@ -3576,7 +3768,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 70,
           "defense": 84,
           "form": 83,
-          "nameZh": "馬克·麥肯齊"
+          "nameZh": "馬克·麥肯齊",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Mark_McKenzie_USMNT_v_Belgium_Mar_28_2026-53_%28cropped%29.jpg/120px-Mark_McKenzie_USMNT_v_Belgium_Mar_28_2026-53_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -3591,7 +3784,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 83,
           "nameKo": "조 스캘리",
-          "nameZh": "約瑟夫·斯卡利"
+          "nameZh": "約瑟夫·斯卡利",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Joe_Scally_USMNT_v_Belgium_Mar_28_2026-51_%28cropped%29.jpg/120px-Joe_Scally_USMNT_v_Belgium_Mar_28_2026-51_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -3604,7 +3798,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 84,
           "attack": 45,
           "defense": 85,
-          "form": 83
+          "form": 83,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Matt_Freese_NYCFC_v_Cincinnati_22_Apr_26-40_%28cropped%29.jpg/120px-Matt_Freese_NYCFC_v_Cincinnati_22_Apr_26-40_%28cropped%29.jpg"
         },
         {
           "number": 25,
@@ -3617,7 +3812,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 45,
           "defense": 84,
-          "form": 83
+          "form": 83,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Chris_Brady_Philadelphia_Chicago_10.26.25-026_%28cropped%29.jpg/120px-Chris_Brady_Philadelphia_Chicago_10.26.25-026_%28cropped%29.jpg"
         },
         {
           "number": 26,
@@ -3630,7 +3826,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 84,
           "attack": 85,
           "defense": 67,
-          "form": 83
+          "form": 83,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Alejandro_Zendejas.png/120px-Alejandro_Zendejas.png"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -3673,7 +3870,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 83,
           "nameKo": "메르트 귀노크",
-          "nameZh": "梅特·居诺克"
+          "nameZh": "梅特·居诺克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Mert_G%C3%BCnok_%28cropped%29.jpg/120px-Mert_G%C3%BCnok_%28cropped%29.jpg"
         },
         {
           "number": 2,
@@ -3688,7 +3886,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 84,
           "nameKo": "제키 첼리크",
-          "nameZh": "泽基·切利克"
+          "nameZh": "泽基·切利克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Zeki_%C3%A7elik_2020.jpg/120px-Zeki_%C3%A7elik_2020.jpg"
         },
         {
           "number": 3,
@@ -3703,7 +3902,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 84,
           "nameKo": "메리흐 데미랄",
-          "nameZh": "德米拉爾"
+          "nameZh": "德米拉爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Merih_Demiral_2026.jpg/120px-Merih_Demiral_2026.jpg"
         },
         {
           "number": 4,
@@ -3718,7 +3918,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 84,
           "nameKo": "찰라르 쇠윈쥐",
-          "nameZh": "恰拉尔·瑟因居"
+          "nameZh": "恰拉尔·瑟因居",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/AUT_vs._TUR_2016-03-29_%28381%29_%28cropped%29.jpg/120px-AUT_vs._TUR_2016-03-29_%28381%29_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -3733,7 +3934,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 83,
           "nameKo": "살리흐 외즈잔",
-          "nameZh": "萨利赫·厄兹詹"
+          "nameZh": "萨利赫·厄兹詹",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93032.jpg/120px-2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93032.jpg"
         },
         {
           "number": 6,
@@ -3748,7 +3950,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 83,
           "nameKo": "오르쿤 쾩취",
-          "nameZh": "奥尔昆·柯克曲"
+          "nameZh": "奥尔昆·柯克曲",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Orkun_K%C3%B6k%C3%A7%C3%BC_20260121_%282%29_-_cropped_version.jpg/120px-Orkun_K%C3%B6k%C3%A7%C3%BC_20260121_%282%29_-_cropped_version.jpg"
         },
         {
           "number": 7,
@@ -3763,7 +3966,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 84,
           "nameKo": "케렘 악튀르코을루",
-          "nameZh": "凯雷姆·阿克蒂尔克奥卢"
+          "nameZh": "凯雷姆·阿克蒂尔克奥卢",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Muhammed_Kerem_Akt%C3%BCrko%C4%9Flu.png/120px-Muhammed_Kerem_Akt%C3%BCrko%C4%9Flu.png"
         },
         {
           "number": 8,
@@ -3778,7 +3982,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 83,
           "nameKo": "아르다 귈레르",
-          "nameZh": "阿尔达·居莱尔"
+          "nameZh": "阿尔达·居莱尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Derbide_Fenerbah%C3%A7e_Yedek_Oyuncu_Arda_G%C3%BCler_%282021-22_S%C3%BCper_Lig_-_Cropped%29.jpg/120px-Derbide_Fenerbah%C3%A7e_Yedek_Oyuncu_Arda_G%C3%BCler_%282021-22_S%C3%BCper_Lig_-_Cropped%29.jpg"
         },
         {
           "number": 9,
@@ -3806,7 +4011,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 84,
           "nameKo": "하칸 칼하노글루",
-          "nameZh": "哈坎·恰尔汗奥卢"
+          "nameZh": "哈坎·恰尔汗奥卢",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/AUT_vs._TUR_2016-03-29_%28342%29.jpg/120px-AUT_vs._TUR_2016-03-29_%28342%29.jpg"
         },
         {
           "number": 11,
@@ -3821,7 +4027,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 83,
           "nameKo": "케난 일디즈",
-          "nameZh": "凯南·耶尔德兹"
+          "nameZh": "凯南·耶尔德兹",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Kenan_Yildiz_Juventus_%28cropped%29.jpg/120px-Kenan_Yildiz_Juventus_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -3836,7 +4043,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 82,
           "nameKo": "알타이 바이은드르",
-          "nameZh": "阿尔泰·巴因德尔"
+          "nameZh": "阿尔泰·巴因德尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Altay_Bayindir_%28cropped%29.jpg/120px-Altay_Bayindir_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -3850,7 +4058,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 69,
           "defense": 82,
           "form": 82,
-          "nameZh": "埃伦·埃尔马利"
+          "nameZh": "埃伦·埃尔马利",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Eren_Elmal%C4%B1_20251019.jpg/120px-Eren_Elmal%C4%B1_20251019.jpg"
         },
         {
           "number": 14,
@@ -3864,7 +4073,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 69,
           "defense": 82,
           "form": 82,
-          "nameZh": "阿卜杜勒克里姆·巴尔达克彻"
+          "nameZh": "阿卜杜勒克里姆·巴尔达克彻",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Abd%C3%BClkerim_Bardak%C3%A7%C4%B1_-_beIN-Sports-Reklam_%282021%29_%28cropped%29.png/120px-Abd%C3%BClkerim_Bardak%C3%A7%C4%B1_-_beIN-Sports-Reklam_%282021%29_%28cropped%29.png"
         },
         {
           "number": 15,
@@ -3879,7 +4089,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 82,
           "nameKo": "오잔 카바크",
-          "nameZh": "奥詹·卡巴克"
+          "nameZh": "奥詹·卡巴克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Ozan_kabak.jpg/120px-Ozan_kabak.jpg"
         },
         {
           "number": 16,
@@ -3894,7 +4105,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 82,
           "nameKo": "이스마엘 윅세키",
-          "nameZh": "伊斯梅尔·尤克塞克"
+          "nameZh": "伊斯梅尔·尤克塞克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/977561_sPICT_%28cropped%29.jpg/120px-977561_sPICT_%28cropped%29.jpg"
         },
         {
           "number": 17,
@@ -3909,7 +4121,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 82,
           "nameKo": "이르판 카흐베지",
-          "nameZh": "伊尔凡·卡赫维奇"
+          "nameZh": "伊尔凡·卡赫维奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rus-Turkey_%285%29.jpg/120px-Rus-Turkey_%285%29.jpg"
         },
         {
           "number": 18,
@@ -3924,7 +4137,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 82,
           "nameKo": "메르트 뮐뒤르",
-          "nameZh": "梅特·穆尔杜尔"
+          "nameZh": "梅特·穆尔杜尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Rapid-Spartak_%2815%29_%28cropped%29.jpg/120px-Rapid-Spartak_%2815%29_%28cropped%29.jpg"
         },
         {
           "number": 19,
@@ -3939,7 +4153,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 80,
           "nameKo": "유누스 아크귄",
-          "nameZh": "尤努斯·阿克金"
+          "nameZh": "尤努斯·阿克金",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Yunus_Akg%C3%BCn_20220225_7_%28cropped%29.jpg/120px-Yunus_Akg%C3%BCn_20220225_7_%28cropped%29.jpg"
         },
         {
           "number": 20,
@@ -3954,7 +4169,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 80,
           "nameKo": "페르디 카디올루",
-          "nameZh": "费尔迪·卡迪奥格鲁"
+          "nameZh": "费尔迪·卡迪奥格鲁",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ferdi_Kad%C4%B1o%C4%9Flu_2024.jpg/120px-Ferdi_Kad%C4%B1o%C4%9Flu_2024.jpg"
         },
         {
           "number": 21,
@@ -3969,7 +4185,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 80,
           "nameKo": "바르슈 알페르 이을마즈",
-          "nameZh": "巴勒什·阿尔佩尔·耶尔马兹"
+          "nameZh": "巴勒什·阿尔佩尔·耶尔马兹",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/120px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg"
         },
         {
           "number": 22,
@@ -3984,7 +4201,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 81,
           "nameKo": "카안 아이한",
-          "nameZh": "卡恩·艾漢"
+          "nameZh": "卡恩·艾漢",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Kaan-Ayhan-08-2019.jpg/120px-Kaan-Ayhan-08-2019.jpg"
         },
         {
           "number": 23,
@@ -3999,7 +4217,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 80,
           "nameKo": "우우르잔 차크르",
-          "nameZh": "乌乌尔詹·恰克尔"
+          "nameZh": "乌乌尔詹·恰克尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/U%C4%9Furcan_%C3%87ak%C4%B1r_-_beIN-Sports-Reklam_%282021%29_%28cropped%29.png/120px-U%C4%9Furcan_%C3%87ak%C4%B1r_-_beIN-Sports-Reklam_%282021%29_%28cropped%29.png"
         },
         {
           "number": 24,
@@ -4027,7 +4246,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 80,
           "nameKo": "사메트 아카이딘",
-          "nameZh": "萨姆特·阿凯丁"
+          "nameZh": "萨姆特·阿凯丁",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/SAMETAKAYD%C4%B0N_4.jpg/120px-SAMETAKAYD%C4%B0N_4.jpg"
         },
         {
           "number": 26,
@@ -4084,7 +4304,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 77,
           "nameKo": "매슈 라이언",
-          "nameZh": "马修·瑞安"
+          "nameZh": "马修·瑞安",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ryan_rcl_asse_2425.png/120px-Ryan_rcl_asse_2425.png"
         },
         {
           "number": 2,
@@ -4099,7 +4320,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 77,
           "nameKo": "밀로시 데게네크",
-          "nameZh": "米洛什·德格内克"
+          "nameZh": "米洛什·德格内克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Cameroon-Australia_%2820%29_%28cropped%29.jpg/120px-Cameroon-Australia_%2820%29_%28cropped%29.jpg"
         },
         {
           "number": 3,
@@ -4142,7 +4364,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 76,
           "nameKo": "조던 보스",
-          "nameZh": "乔丹·博斯"
+          "nameZh": "乔丹·博斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Jordan_Bos.JPG/120px-Jordan_Bos.JPG"
         },
         {
           "number": 6,
@@ -4157,7 +4380,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 76,
           "nameKo": "제이슨 게리아",
-          "nameZh": "贾森·杰里亚"
+          "nameZh": "贾森·杰里亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Geria_Victory_Training_May_2015_%28cropped%29.jpg/120px-Geria_Victory_Training_May_2015_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -4172,7 +4396,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 66,
           "form": 77,
           "nameKo": "매슈 레키",
-          "nameZh": "马修·莱基"
+          "nameZh": "马修·莱基",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Hertha_BSC_vs._West_Ham_United_20190731_%28054%29.jpg/120px-Hertha_BSC_vs._West_Ham_United_20190731_%28054%29.jpg"
         },
         {
           "number": 8,
@@ -4187,7 +4412,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 76,
           "nameKo": "코너 멧캐프",
-          "nameZh": "康纳·梅特卡夫"
+          "nameZh": "康纳·梅特卡夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/4822293_AE7I6590_-_Connor_Metcalfe.jpg/120px-4822293_AE7I6590_-_Connor_Metcalfe.jpg"
         },
         {
           "number": 9,
@@ -4200,7 +4426,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 77,
           "attack": 78,
           "defense": 63,
-          "form": 76
+          "form": 76,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Lens_-_Reims_%2812-05-2023%29_21.jpg/120px-Lens_-_Reims_%2812-05-2023%29_21.jpg"
         },
         {
           "number": 10,
@@ -4215,7 +4442,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 76,
           "nameKo": "아이딘 흐루스티치",
-          "nameZh": "艾迪尼·赫鲁斯蒂奇"
+          "nameZh": "艾迪尼·赫鲁斯蒂奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ajdin_Hrusti%C4%87_bij_Heracles_Almelo_%282025%29.JPG/120px-Ajdin_Hrusti%C4%87_bij_Heracles_Almelo_%282025%29.JPG"
         },
         {
           "number": 11,
@@ -4230,7 +4458,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 76,
           "nameKo": "아워 마빌",
-          "nameZh": "阿维·玛比"
+          "nameZh": "阿维·玛比",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Awer_Mabil.jpg/120px-Awer_Mabil.jpg"
         },
         {
           "number": 12,
@@ -4244,7 +4473,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 45,
           "defense": 83,
           "form": 75,
-          "nameZh": "保罗·伊佐"
+          "nameZh": "保罗·伊佐",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Paul_Izzo_training_for_Melbourne_Victory_December_2022_%28cropped%29.jpg/120px-Paul_Izzo_training_for_Melbourne_Victory_December_2022_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -4258,7 +4488,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 70,
           "defense": 80,
           "form": 75,
-          "nameZh": "埃登·奧尼爾"
+          "nameZh": "埃登·奧尼爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Aiden_O%27Neill_CF_Montreal_NYCFC_6.28.25-034_%28cropped%29.jpg/120px-Aiden_O%27Neill_CF_Montreal_NYCFC_6.28.25-034_%28cropped%29.jpg"
         },
         {
           "number": 14,
@@ -4273,7 +4504,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 75,
           "nameKo": "캐머런 데블린",
-          "nameZh": "卡梅隆·德夫林"
+          "nameZh": "卡梅隆·德夫林",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Cameron_Devlin_2021.png/120px-Cameron_Devlin_2021.png"
         },
         {
           "number": 15,
@@ -4286,7 +4518,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 77,
           "attack": 60,
           "defense": 82,
-          "form": 75
+          "form": 75,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Kai_Trewin_NYCFC_v_Colorado_Mar_14_2026-25_%28cropped%29.jpg/120px-Kai_Trewin_NYCFC_v_Colorado_Mar_14_2026-25_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -4301,7 +4534,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 76,
           "nameKo": "아지즈 베히치",
-          "nameZh": "阿齐兹·比伊奇"
+          "nameZh": "阿齐兹·比伊奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/20180601_FIFA_Friendly_Match_Czech_Republic_vs._Australia_Aziz_Behich_850_0277.jpg/120px-20180601_FIFA_Friendly_Match_Czech_Republic_vs._Australia_Aziz_Behich_850_0277.jpg"
         },
         {
           "number": 17,
@@ -4316,7 +4550,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 75,
           "nameKo": "네스토리 이란쿤다",
-          "nameZh": "内斯托里·伊兰昆达"
+          "nameZh": "内斯托里·伊兰昆达",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Nestory_Irankunda_and_Kwadwo_Baah_09082025_%281%29_%28cropped%29.jpg/120px-Nestory_Irankunda_and_Kwadwo_Baah_09082025_%281%29_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -4329,7 +4564,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 76,
           "attack": 45,
           "defense": 83,
-          "form": 75
+          "form": 75,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/PatrickBeachvWSW_%28cropped%29.jpg/120px-PatrickBeachvWSW_%28cropped%29.jpg"
         },
         {
           "number": 19,
@@ -4344,7 +4580,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 73,
           "nameKo": "해리 수타",
-          "nameZh": "哈利·蘇達亞"
+          "nameZh": "哈利·蘇達亞",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/4822293_AE7I6590_%28cropped%29.jpg/120px-4822293_AE7I6590_%28cropped%29.jpg"
         },
         {
           "number": 20,
@@ -4372,7 +4609,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 60,
           "defense": 81,
           "form": 73,
-          "nameZh": "卡梅隆·布格斯"
+          "nameZh": "卡梅隆·布格斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Cameron_Burgess_%28cropped%29.jpg/120px-Cameron_Burgess_%28cropped%29.jpg"
         },
         {
           "number": 22,
@@ -4387,7 +4625,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 74,
           "nameKo": "잭슨 어빈",
-          "nameZh": "杰克遜·歐文"
+          "nameZh": "杰克遜·歐文",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/4822293_AE7I6590_%28Jackson_Irvine%29.jpg/120px-4822293_AE7I6590_%28Jackson_Irvine%29.jpg"
         },
         {
           "number": 23,
@@ -4401,7 +4640,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 76,
           "defense": 63,
           "form": 73,
-          "nameZh": "尼尚·维鲁皮莱"
+          "nameZh": "尼尚·维鲁皮莱",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Nishan_Velupillay_training_for_Melbourne_Victory_January_2023_%28cropped%29.jpg/120px-Nishan_Velupillay_training_for_Melbourne_Victory_January_2023_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -4427,7 +4667,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 74,
           "attack": 60,
           "defense": 80,
-          "form": 73
+          "form": 73,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Lucas_Herrington_NYCFC_v_Colorado_Mar_14_2026-29_%28cropped%29.jpg/120px-Lucas_Herrington_NYCFC_v_Colorado_Mar_14_2026-29_%28cropped%29.jpg"
         },
         {
           "number": 26,
@@ -4440,7 +4681,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 75,
           "attack": 75,
           "defense": 63,
-          "form": 73
+          "form": 73,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Tete_Yengi_-_Kelty_Hearts_-_July_2024.jpg/120px-Tete_Yengi_-_Kelty_Hearts_-_July_2024.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -4483,7 +4725,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 96,
           "form": 89,
           "nameKo": "마누엘 노이어",
-          "nameZh": "曼努埃尔·诺伊尔"
+          "nameZh": "曼努埃尔·诺伊尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/20180602_FIFA_Friendly_Match_Austria_vs._Germany_Manuel_Neuer_850_0723.jpg/120px-20180602_FIFA_Friendly_Match_Austria_vs._Germany_Manuel_Neuer_850_0723.jpg"
         },
         {
           "number": 2,
@@ -4498,7 +4741,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 89,
           "nameKo": "안토니오 뤼디거",
-          "nameZh": "安东尼奥·吕迪格"
+          "nameZh": "安东尼奥·吕迪格",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2025_04_26_Final_de_la_Copa_del_Rey_-_54482387776_%28Elenco_do_Real_Madrid%29_%28Antonio_R%C3%BCdiger%29.jpg/120px-2025_04_26_Final_de_la_Copa_del_Rey_-_54482387776_%28Elenco_do_Real_Madrid%29_%28Antonio_R%C3%BCdiger%29.jpg"
         },
         {
           "number": 3,
@@ -4513,7 +4757,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 88,
           "nameKo": "발데마르 안톤",
-          "nameZh": "瓦尔德马·安东"
+          "nameZh": "瓦尔德马·安东",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Waldemar_Anton_%282025%29.jpg/120px-Waldemar_Anton_%282025%29.jpg"
         },
         {
           "number": 4,
@@ -4528,7 +4773,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 88,
           "nameKo": "조나탕 타",
-          "nameZh": "约纳坦·塔"
+          "nameZh": "约纳坦·塔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Jonathan_Tah_2019.jpg/120px-Jonathan_Tah_2019.jpg"
         },
         {
           "number": 5,
@@ -4543,7 +4789,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 88,
           "nameKo": "알렉산다르 파블로비치",
-          "nameZh": "亚历山大·帕夫洛维奇 (足球员)"
+          "nameZh": "亚历山大·帕夫洛维奇 (足球员)",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/FC_RB_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_%282026-01-06_Testspiel%29_34.jpg/120px-FC_RB_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_%282026-01-06_Testspiel%29_34.jpg"
         },
         {
           "number": 6,
@@ -4558,7 +4805,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 94,
           "form": 89,
           "nameKo": "요주아 키미히",
-          "nameZh": "約書亞·基米希"
+          "nameZh": "約書亞·基米希",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/2019-06-11_Fu%C3%9Fball%2C_M%C3%A4nner%2C_L%C3%A4nderspiel%2C_Deutschland-Estland_StP_2078_LR10_by_Stepro_%28cropped%29.jpg/120px-2019-06-11_Fu%C3%9Fball%2C_M%C3%A4nner%2C_L%C3%A4nderspiel%2C_Deutschland-Estland_StP_2078_LR10_by_Stepro_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -4573,7 +4821,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 89,
           "nameKo": "카이 하베르츠",
-          "nameZh": "凯·哈弗茨"
+          "nameZh": "凯·哈弗茨",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/1_kai_havertz_2026_%28cropped%29.jpg/120px-1_kai_havertz_2026_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -4588,7 +4837,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 89,
           "nameKo": "레온 고레츠카",
-          "nameZh": "萊昂·格雷茨卡"
+          "nameZh": "萊昂·格雷茨卡",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_27.jpg/120px-FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_27.jpg"
         },
         {
           "number": 9,
@@ -4603,7 +4853,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 88,
           "nameKo": "제이미 르웰링",
-          "nameZh": "杰米·勒威林"
+          "nameZh": "杰米·勒威林",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Jamie_leweling.jpg/120px-Jamie_leweling.jpg"
         },
         {
           "number": 10,
@@ -4618,7 +4869,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 88,
           "nameKo": "자말 무시알라",
-          "nameZh": "贾迈勒·穆西亚拉"
+          "nameZh": "贾迈勒·穆西亚拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jamal_Musiala_2022_%28cropped%29.jpg/120px-Jamal_Musiala_2022_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -4633,7 +4885,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 88,
           "nameKo": "닉 볼테마데",
-          "nameZh": "尼克·沃尔特马德"
+          "nameZh": "尼克·沃尔特马德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Nick_Woltemade_24052026_%285%29.jpg/120px-Nick_Woltemade_24052026_%285%29.jpg"
         },
         {
           "number": 12,
@@ -4648,7 +4901,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 87,
           "nameKo": "올리버 바우만",
-          "nameZh": "奥利弗·鲍曼"
+          "nameZh": "奥利弗·鲍曼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/OliverBaumann_%28cropped%29.jpg/120px-OliverBaumann_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -4663,7 +4917,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 87,
           "nameKo": "파스칼 그로스",
-          "nameZh": "帕斯卡尔·格罗斯"
+          "nameZh": "帕斯卡尔·格罗斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Pascal_Gross.jpg/120px-Pascal_Gross.jpg"
         },
         {
           "number": 14,
@@ -4678,7 +4933,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 87,
           "nameKo": "막시밀리안 바이어",
-          "nameZh": "马克西米利安·拜尔"
+          "nameZh": "马克西米利安·拜尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Maximilian_Beier_training_with_Borussia_Dortmund_%282026%29.jpg/120px-Maximilian_Beier_training_with_Borussia_Dortmund_%282026%29.jpg"
         },
         {
           "number": 15,
@@ -4693,7 +4949,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 87,
           "nameKo": "니코 슐로터베크",
-          "nameZh": "尼科·施洛特贝克"
+          "nameZh": "尼科·施洛特贝克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93069.jpg/120px-2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93069.jpg"
         },
         {
           "number": 16,
@@ -4708,7 +4965,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 87,
           "nameKo": "안젤로 슈틸러",
-          "nameZh": "安吉洛·斯蒂勒"
+          "nameZh": "安吉洛·斯蒂勒",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Angelo_Stiller_2023.jpg/120px-Angelo_Stiller_2023.jpg"
         },
         {
           "number": 17,
@@ -4723,7 +4981,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 87,
           "nameKo": "플로리안 비르츠",
-          "nameZh": "弗洛里安·维尔茨"
+          "nameZh": "弗洛里安·维尔茨",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Florian_Wirtz%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29_%28cropped%29.jpg/120px-Florian_Wirtz%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -4753,7 +5012,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 86,
           "nameKo": "리로이 자네",
-          "nameZh": "勒鲁瓦·萨内"
+          "nameZh": "勒鲁瓦·萨内",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_22.jpg/120px-FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_22.jpg"
         },
         {
           "number": 20,
@@ -4768,7 +5028,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 85,
           "nameKo": "나딤 아미리",
-          "nameZh": "纳迪埃姆·阿米里"
+          "nameZh": "纳迪埃姆·阿米里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/20161011_U21_AUT_GER_9328_%28cropped%29.jpg/120px-20161011_U21_AUT_GER_9328_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -4783,7 +5044,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 85,
           "nameKo": "알렉산더 뉘벨",
-          "nameZh": "亚历山大·尼贝尔"
+          "nameZh": "亚历山大·尼贝尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Alexander_nuebel.jpg/120px-Alexander_nuebel.jpg"
         },
         {
           "number": 22,
@@ -4798,7 +5060,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 85,
           "nameKo": "다비트 라움",
-          "nameZh": "大卫·劳姆"
+          "nameZh": "大卫·劳姆",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2658_%28cropped%29.jpg/120px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2658_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -4813,7 +5076,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 85,
           "nameKo": "펠릭스 은메차",
-          "nameZh": "费利克斯·恩梅查"
+          "nameZh": "费利克斯·恩梅查",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Felix_Nmecha_2021.jpg/120px-Felix_Nmecha_2021.jpg"
         },
         {
           "number": 24,
@@ -4828,7 +5092,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 85,
           "nameKo": "말릭 티아우",
-          "nameZh": "马利克·蒂奥"
+          "nameZh": "马利克·蒂奥",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Malick_Thiaw_24052026_%284%29.jpg/120px-Malick_Thiaw_24052026_%284%29.jpg"
         },
         {
           "number": 25,
@@ -4858,7 +5123,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 85,
           "nameKo": "데니스 운다브",
-          "nameZh": "德尼兹·翁达夫"
+          "nameZh": "德尼兹·翁达夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Deniz_undav.jpg/120px-Deniz_undav.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -4901,7 +5167,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 82,
           "nameKo": "에르난 갈린데스",
-          "nameZh": "埃尔南·加林德斯"
+          "nameZh": "埃尔南·加林德斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/HERN%C3%81N_GAL%C3%8DNDEZ.jpg/120px-HERN%C3%81N_GAL%C3%8DNDEZ.jpg"
         },
         {
           "number": 2,
@@ -4916,7 +5183,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 82,
           "nameKo": "펠릭스 토레스",
-          "nameZh": "菲利克斯·托雷斯·凯塞多"
+          "nameZh": "菲利克斯·托雷斯·凯塞多",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SELECCI%C3%93N_ECUATORIANA_DE_F%C3%9ATBOL_SUB_20_%2832041005832%29.jpg/120px-SELECCI%C3%93N_ECUATORIANA_DE_F%C3%9ATBOL_SUB_20_%2832041005832%29.jpg"
         },
         {
           "number": 3,
@@ -4931,7 +5199,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 83,
           "nameKo": "피에로 인카피에",
-          "nameZh": "皮耶罗·欣卡皮耶"
+          "nameZh": "皮耶罗·欣卡皮耶",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Piero_Hincapi%C3%A9%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg/120px-Piero_Hincapi%C3%A9%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg"
         },
         {
           "number": 4,
@@ -4945,7 +5214,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 65,
           "defense": 88,
           "form": 82,
-          "nameKo": "호엘 오르도녜스"
+          "nameKo": "호엘 오르도녜스",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/JoelOrd%C3%B3%C3%B1ez.jpg/120px-JoelOrd%C3%B3%C3%B1ez.jpg"
         },
         {
           "number": 5,
@@ -4958,7 +5228,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 75,
           "defense": 84,
-          "form": 82
+          "form": 82,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/SESI%C3%93N_NO._603_DEL_PLENO_DE_LA_ASAMBLEA_NACIONAL._QUITO%2C_25_DE_JUNIO_2019._%2848129379208%29_%28cropped%29.jpg/120px-SESI%C3%93N_NO._603_DEL_PLENO_DE_LA_ASAMBLEA_NACIONAL._QUITO%2C_25_DE_JUNIO_2019._%2848129379208%29_%28cropped%29.jpg"
         },
         {
           "number": 6,
@@ -4973,7 +5244,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 82,
           "nameKo": "윌리암 파초",
-          "nameZh": "威廉·帕乔"
+          "nameZh": "威廉·帕乔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Pacho_asse_psg_2425.png/120px-Pacho_asse_psg_2425.png"
         },
         {
           "number": 7,
@@ -4988,7 +5260,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 83,
           "nameKo": "페르비스 에스투피냔",
-          "nameZh": "佩維斯·艾斯圖皮尼昂"
+          "nameZh": "佩維斯·艾斯圖皮尼昂",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Pervis_Estupinan_00-00-54.40.png/120px-Pervis_Estupinan_00-00-54.40.png"
         },
         {
           "number": 8,
@@ -5014,7 +5287,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 83,
           "attack": 84,
           "defense": 68,
-          "form": 82
+          "form": 82,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/John_Yeboah_2020.png/120px-John_Yeboah_2020.png"
         },
         {
           "number": 10,
@@ -5029,7 +5303,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 82,
           "nameKo": "켄드리 파에스",
-          "nameZh": "簡治·派斯"
+          "nameZh": "簡治·派斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Kendry_Paez_2023_Sudamericano_Sub_17_%28cropped%29.jpg/120px-Kendry_Paez_2023_Sudamericano_Sub_17_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -5074,7 +5349,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 71,
           "form": 82,
           "nameKo": "에네르 발렌시아",
-          "nameZh": "恩纳·瓦伦西亚"
+          "nameZh": "恩纳·瓦伦西亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Enner_Valencia_CONTINUACI%C3%93N_DE_LA_SESI%C3%93N_N.%C2%BA_056_DEL_PLENO_DE_LA_ASAMBLEA_NACIONAL._ECUADOR%2C_09_DE_DICIEMBRE_DE_2025_%28cropped%29.jpg/120px-Enner_Valencia_CONTINUACI%C3%93N_DE_LA_SESI%C3%93N_N.%C2%BA_056_DEL_PLENO_DE_LA_ASAMBLEA_NACIONAL._ECUADOR%2C_09_DE_DICIEMBRE_DE_2025_%28cropped%29.jpg"
         },
         {
           "number": 14,
@@ -5100,7 +5376,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 75,
           "defense": 84,
-          "form": 81
+          "form": 81,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Inter_Miami_CF_3-1_UNAM_%286_August_2025%29_04_%28cropped%29.jpg/120px-Inter_Miami_CF_3-1_UNAM_%286_August_2025%29_04_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -5114,7 +5391,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 83,
           "defense": 68,
           "form": 81,
-          "nameZh": "乔迪·凯塞多"
+          "nameZh": "乔迪·凯塞多",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/J._Kaisedo.jpg/120px-J._Kaisedo.jpg"
         },
         {
           "number": 17,
@@ -5129,7 +5407,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 82,
           "nameKo": "앙헬로 프레시아도",
-          "nameZh": "安杰洛·普雷西亚多"
+          "nameZh": "安杰洛·普雷西亚多",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Angelo_Preciado.jpg/120px-Angelo_Preciado.jpg"
         },
         {
           "number": 18,
@@ -5157,7 +5436,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 79,
           "nameKo": "곤살로 플라타",
-          "nameZh": "岡薩洛·普拉塔"
+          "nameZh": "岡薩洛·普拉塔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2022_FIFA_World_Cup_Qatar_0%E2%80%932_Ecuador_-_Plata.jpg/120px-2022_FIFA_World_Cup_Qatar_0%E2%80%932_Ecuador_-_Plata.jpg"
         },
         {
           "number": 20,
@@ -5171,7 +5451,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 80,
           "defense": 68,
           "form": 79,
-          "nameZh": "尼尔森·安古罗"
+          "nameZh": "尼尔森·安古罗",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Nilson_Angulo_RSC_Anderlecht_2025.jpg/120px-Nilson_Angulo_RSC_Anderlecht_2025.jpg"
         },
         {
           "number": 21,
@@ -5214,7 +5495,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 80,
           "nameKo": "모이세스 카이세도",
-          "nameZh": "摩西斯·卡些度"
+          "nameZh": "摩西斯·卡些度",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Moises_Caicedo_2022_%28cropped%29.jpg/120px-Moises_Caicedo_2022_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -5242,7 +5524,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 79,
           "nameKo": "작손 포로소",
-          "nameZh": "傑克遜·波羅佐"
+          "nameZh": "傑克遜·波羅佐",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Jackson_Porozo_2022.jpg/120px-Jackson_Porozo_2022.jpg"
         },
         {
           "number": 26,
@@ -5298,7 +5581,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 81,
           "nameKo": "야히아 포파나",
-          "nameZh": "叶海亚·福法纳"
+          "nameZh": "叶海亚·福法纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fofana_asse_sco_2425.png/120px-Fofana_asse_sco_2425.png"
         },
         {
           "number": 2,
@@ -5313,7 +5597,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 81,
           "nameKo": "우스망 디오망데",
-          "nameZh": "奥斯曼·迪奥曼德"
+          "nameZh": "奥斯曼·迪奥曼德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%C3%89quipe_football_ivoirien_03_%28Ousmane_Diomande%29.jpg/120px-%C3%89quipe_football_ivoirien_03_%28Ousmane_Diomande%29.jpg"
         },
         {
           "number": 3,
@@ -5328,7 +5613,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 82,
           "nameKo": "기슬랭 코난",
-          "nameZh": "吉兰·科南"
+          "nameZh": "吉兰·科南",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Joueur_ivoirien_02.jpg/120px-Joueur_ivoirien_02.jpg"
         },
         {
           "number": 4,
@@ -5343,7 +5629,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 82,
           "nameKo": "장 미카엘 세리",
-          "nameZh": "简·塞里"
+          "nameZh": "简·塞里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Jean_Seri.jpg/120px-Jean_Seri.jpg"
         },
         {
           "number": 5,
@@ -5358,7 +5645,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 81,
           "nameKo": "윌프리드 싱고",
-          "nameZh": "威尔弗里德·辛戈"
+          "nameZh": "威尔弗里德·辛戈",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Singo_asse_asm_2425.png/120px-Singo_asse_asm_2425.png"
         },
         {
           "number": 6,
@@ -5373,7 +5661,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 81,
           "nameKo": "세코 포파나",
-          "nameZh": "塞科·福法纳"
+          "nameZh": "塞科·福法纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Seko_Fofana.jpg/120px-Seko_Fofana.jpg"
         },
         {
           "number": 7,
@@ -5388,7 +5677,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 81,
           "nameKo": "오딜롱 코수누",
-          "nameZh": "奧迪倫·科索努"
+          "nameZh": "奧迪倫·科索努",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Odilon_Kossounou%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg/120px-Odilon_Kossounou%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg"
         },
         {
           "number": 8,
@@ -5403,7 +5693,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 82,
           "nameKo": "프랑크 케시에",
-          "nameZh": "弗兰克·凯西"
+          "nameZh": "弗兰克·凯西",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Franck_Yannick_Kessi%C3%A9.jpg/120px-Franck_Yannick_Kessi%C3%A9.jpg"
         },
         {
           "number": 9,
@@ -5433,7 +5724,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 62,
           "form": 81,
           "nameKo": "시몽 아딩라",
-          "nameZh": "西蒙·阿丁拉"
+          "nameZh": "西蒙·阿丁拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Simon_Adingra_USG_2023.jpg/120px-Simon_Adingra_USG_2023.jpg"
         },
         {
           "number": 11,
@@ -5463,7 +5755,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 61,
           "form": 80,
           "nameKo": "엘리예 와히",
-          "nameZh": "艾利·瓦希"
+          "nameZh": "艾利·瓦希",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Elye_Wahi_2022.jpg/120px-Elye_Wahi_2022.jpg"
         },
         {
           "number": 13,
@@ -5477,7 +5770,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 68,
           "defense": 80,
           "form": 80,
-          "nameKo": "크리스토페르 오페리"
+          "nameKo": "크리스토페르 오페리",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Christopher_Op%C3%A9ri_21_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_20250731_%286%29.jpg/120px-Christopher_Op%C3%A9ri_21_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_20250731_%286%29.jpg"
         },
         {
           "number": 14,
@@ -5492,7 +5786,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 62,
           "form": 80,
           "nameKo": "우마르 디아키테",
-          "nameZh": "奧馬爾·迪亞基特"
+          "nameZh": "奧馬爾·迪亞基特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Diakite_asse_sr_2425.png/120px-Diakite_asse_sr_2425.png"
         },
         {
           "number": 15,
@@ -5507,7 +5802,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 62,
           "form": 80,
           "nameKo": "아마드 디알로",
-          "nameZh": "阿馬德·迪亞洛"
+          "nameZh": "阿馬德·迪亞洛",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Manchester_United_v_BSC_Young_Boys%2C_8_December_2021_%2817%29_%28cropped%29.jpg/120px-Manchester_United_v_BSC_Young_Boys%2C_8_December_2021_%2817%29_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -5535,7 +5831,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 80,
           "nameKo": "겔라 두에",
-          "nameZh": "瓜拉·杜埃"
+          "nameZh": "瓜拉·杜埃",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Doue_asse_rcsa_2425.jpg/120px-Doue_asse_rcsa_2425.jpg"
         },
         {
           "number": 18,
@@ -5550,7 +5847,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 81,
           "nameKo": "이브라힘 상가레",
-          "nameZh": "伊布拉欣·桑加雷"
+          "nameZh": "伊布拉欣·桑加雷",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ibrahim_Sangar%C3%A9_%282018-05-09%29.jpg/120px-Ibrahim_Sangar%C3%A9_%282018-05-09%29.jpg"
         },
         {
           "number": 19,
@@ -5565,7 +5863,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 79,
           "nameKo": "니콜라 페페",
-          "nameZh": "尼古拉·佩佩"
+          "nameZh": "尼古拉·佩佩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Nicolas_Pepe_LOSC_%28cropped2%29.jpg/120px-Nicolas_Pepe_LOSC_%28cropped2%29.jpg"
         },
         {
           "number": 20,
@@ -5580,7 +5879,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 78,
           "nameKo": "에마뉘엘 아그바두",
-          "nameZh": "艾曼纽尔·阿格巴杜"
+          "nameZh": "艾曼纽尔·阿格巴杜",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Emmanuel_Agbadou.jpg/120px-Emmanuel_Agbadou.jpg"
         },
         {
           "number": 21,
@@ -5595,7 +5895,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 78,
           "nameKo": "에방 은디카",
-          "nameZh": "埃万·恩迪卡"
+          "nameZh": "埃万·恩迪卡",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/2022128151247_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_0370_-_B70I6481_%28Evan_N%E2%80%99Dicka_cropped%29.jpg/120px-2022128151247_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_0370_-_B70I6481_%28Evan_N%E2%80%99Dicka_cropped%29.jpg"
         },
         {
           "number": 22,
@@ -5610,7 +5911,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 62,
           "form": 78,
           "nameKo": "에방 게상",
-          "nameZh": "蓋桑"
+          "nameZh": "蓋桑",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Guessand_asse_ogcn_2425.png/120px-Guessand_asse_ogcn_2425.png"
         },
         {
           "number": 23,
@@ -5625,7 +5927,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 78,
           "nameKo": "알반 라퐁",
-          "nameZh": "阿爾班·拉馮"
+          "nameZh": "阿爾班·拉馮",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Alban_Lafont_%282018-04-21%29_1.jpg/120px-Alban_Lafont_%282018-04-21%29_1.jpg"
         },
         {
           "number": 24,
@@ -5651,7 +5954,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 78,
           "attack": 78,
           "defense": 75,
-          "form": 78
+          "form": 78,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/%D7%A4%D7%90%D7%A8%D7%A4%D7%94_%D7%92%D7%95%D7%99%D7%90%D7%92%D7%95%D7%9F_-_Parfait_Guiagon.jpg/120px-%D7%A4%D7%90%D7%A8%D7%A4%D7%94_%D7%92%D7%95%D7%99%D7%90%D7%92%D7%95%D7%9F_-_Parfait_Guiagon.jpg"
         },
         {
           "number": 26,
@@ -5707,7 +6011,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 97,
           "form": 88,
           "nameKo": "바르트 페르브뤼헌",
-          "nameZh": "巴特·維爾布魯根"
+          "nameZh": "巴特·維爾布魯根",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Bart_Verbruggen.png/120px-Bart_Verbruggen.png"
         },
         {
           "number": 2,
@@ -5722,7 +6027,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 96,
           "form": 88,
           "nameKo": "유리언 팀버르",
-          "nameZh": "尤里安·廷伯"
+          "nameZh": "尤里安·廷伯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/JURRIEN_TIMBER.jpg/120px-JURRIEN_TIMBER.jpg"
         },
         {
           "number": 3,
@@ -5737,7 +6043,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 94,
           "form": 88,
           "nameKo": "마르턴 더 론",
-          "nameZh": "德魯恩"
+          "nameZh": "德魯恩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Marten_de_Roon_03.jpg/120px-Marten_de_Roon_03.jpg"
         },
         {
           "number": 4,
@@ -5752,7 +6059,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 99,
           "form": 89,
           "nameKo": "버질 판 데이크",
-          "nameZh": "维吉尔·范戴克"
+          "nameZh": "维吉尔·范戴克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/20160604_AUT_NED_8876_%28cropped%29.jpg/120px-20160604_AUT_NED_8876_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -5767,7 +6075,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 97,
           "form": 89,
           "nameKo": "나탄 아케",
-          "nameZh": "尼敦·阿基"
+          "nameZh": "尼敦·阿基",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Yokohama_F._Marinos_-_Manchester_City_%283-5%29_-_53075276224_%28Nathan_Ake%29.jpg/120px-Yokohama_F._Marinos_-_Manchester_City_%283-5%29_-_53075276224_%28Nathan_Ake%29.jpg"
         },
         {
           "number": 6,
@@ -5781,7 +6090,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 73,
           "defense": 95,
           "form": 88,
-          "nameZh": "真·保羅·雲赫基"
+          "nameZh": "真·保羅·雲赫基",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg/120px-Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -5796,7 +6106,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 88,
           "nameKo": "저스틴 클라위버르트",
-          "nameZh": "賈斯汀·克魯伊維特"
+          "nameZh": "賈斯汀·克魯伊維特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Justin_Kluivert_2023.jpg/120px-Justin_Kluivert_2023.jpg"
         },
         {
           "number": 8,
@@ -5811,7 +6122,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 88,
           "nameKo": "라이언 흐라번베르흐",
-          "nameZh": "瑞安·格拉文贝尔赫"
+          "nameZh": "瑞安·格拉文贝尔赫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/2022-07-30_Fu%C3%9Fball%2C_M%C3%A4nner%2C_DFL-Supercup%2C_RB_Leipzig_-_FC_Bayern_M%C3%BCnchen_1DX_3342_by_Stepro_%28cropped%29.jpg/120px-2022-07-30_Fu%C3%9Fball%2C_M%C3%A4nner%2C_DFL-Supercup%2C_RB_Leipzig_-_FC_Bayern_M%C3%BCnchen_1DX_3342_by_Stepro_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -5826,7 +6138,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 77,
           "form": 89,
           "nameKo": "부트 베르호스트",
-          "nameZh": "沃特·韦霍斯特"
+          "nameZh": "沃特·韦霍斯特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Qaraba%C4%9F_vs_Ajax_%2824.10.2024%29_%284%29_%28Wout_Weghorst%29.jpg/120px-Qaraba%C4%9F_vs_Ajax_%2824.10.2024%29_%284%29_%28Wout_Weghorst%29.jpg"
         },
         {
           "number": 10,
@@ -5841,7 +6154,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 89,
           "nameKo": "멤피스 디페이",
-          "nameZh": "孟菲斯·德佩"
+          "nameZh": "孟菲斯·德佩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Memphis_Depay_2019.jpg/120px-Memphis_Depay_2019.jpg"
         },
         {
           "number": 11,
@@ -5856,7 +6170,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 77,
           "form": 88,
           "nameKo": "코디 학포",
-          "nameZh": "科迪·哈克波"
+          "nameZh": "科迪·哈克波",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cody_Gakpo_06042025_%282%29_%28cropped%29.jpg/120px-Cody_Gakpo_06042025_%282%29_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -5871,7 +6186,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 95,
           "form": 87,
           "nameKo": "마츠 비퍼르",
-          "nameZh": "馬特斯·維弗爾"
+          "nameZh": "馬特斯·維弗爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/FC_RB_Salzburg_gegen_Feyenoord_Rotterdam_%28Testspiel_2022-07-09%29_39_%28cropped%29.jpg/120px-FC_RB_Salzburg_gegen_Feyenoord_Rotterdam_%28Testspiel_2022-07-09%29_39_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -5900,7 +6216,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 87,
           "nameKo": "티자니 라인더르스",
-          "nameZh": "泰贾尼·赖因德斯"
+          "nameZh": "泰贾尼·赖因德斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Reijnders_arriva_in_albergo_%28cropped%29.jpg/120px-Reijnders_arriva_in_albergo_%28cropped%29.jpg"
         },
         {
           "number": 15,
@@ -5915,7 +6232,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 95,
           "form": 87,
           "nameKo": "미키 판 더 펜",
-          "nameZh": "米奇·范德文"
+          "nameZh": "米奇·范德文",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Micky_Van_De_Ven_pre-match_training_%28cropped%29.jpg/120px-Micky_Van_De_Ven_pre-match_training_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -5930,7 +6248,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 87,
           "nameKo": "휘스 틸",
-          "nameZh": "古斯·蒂爾"
+          "nameZh": "古斯·蒂爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Guus_Til_%28Spartak_Moscow%2C_19.08.2019%29.jpg/120px-Guus_Til_%28Spartak_Moscow%2C_19.08.2019%29.jpg"
         },
         {
           "number": 17,
@@ -5945,7 +6264,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 76,
           "form": 87,
           "nameKo": "노아 랑",
-          "nameZh": "诺亚·朗"
+          "nameZh": "诺亚·朗",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Austria_U-18_vs._Netherlands_U-18_2017-03-23_%28094%29.jpg/120px-Austria_U-18_vs._Netherlands_U-18_2017-03-23_%28094%29.jpg"
         },
         {
           "number": 18,
@@ -5960,7 +6280,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 77,
           "form": 88,
           "nameKo": "도니얼 말런",
-          "nameZh": "唐耶爾·馬倫"
+          "nameZh": "唐耶爾·馬倫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/DONYELL_MALEN_%E2%80%93_2023.08.12.jpg/120px-DONYELL_MALEN_%E2%80%93_2023.08.12.jpg"
         },
         {
           "number": 19,
@@ -5975,7 +6296,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 75,
           "form": 85,
           "nameKo": "브라이언 브로비",
-          "nameZh": "布莱恩·布罗比"
+          "nameZh": "布莱恩·布罗比",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/GAE_-_Ajax_-_52788469380_%28Brobbey%29.jpg/120px-GAE_-_Ajax_-_52788469380_%28Brobbey%29.jpg"
         },
         {
           "number": 20,
@@ -5990,7 +6312,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 85,
           "nameKo": "퇸 코프메이너르스",
-          "nameZh": "蒂恩·库普迈纳斯"
+          "nameZh": "蒂恩·库普迈纳斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Teun_Koopmeiners_Manchester_United_v_Atalanta_BC%2C_20_October_2021_%2812%29_%28cropped%29.jpg/120px-Teun_Koopmeiners_Manchester_United_v_Atalanta_BC%2C_20_October_2021_%2812%29_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -6005,7 +6328,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 86,
           "nameKo": "프렝키 더 용",
-          "nameZh": "弗蘭基·德容"
+          "nameZh": "弗蘭基·德容",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%91%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D0%BE%D0%BD%D0%B0%C2%BB_0-1._2_%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F_2021_%D0%B3%D0%BE%D0%B4%D0%B0._II_%E2%80%94_1289671_%28cropped%29.jpg/120px-%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%91%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D0%BE%D0%BD%D0%B0%C2%BB_0-1._2_%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F_2021_%D0%B3%D0%BE%D0%B4%D0%B0._II_%E2%80%94_1289671_%28cropped%29.jpg"
         },
         {
           "number": 22,
@@ -6020,7 +6344,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 95,
           "form": 86,
           "nameKo": "덴젤 둠프리스",
-          "nameZh": "丹佐·邓弗里斯"
+          "nameZh": "丹佐·邓弗里斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Edison_ndreca_inter_egnati_%28cropped_Denzel_Dumfries%29.jpg/120px-Edison_ndreca_inter_egnati_%28cropped_Denzel_Dumfries%29.jpg"
         },
         {
           "number": 23,
@@ -6035,7 +6360,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 85,
           "nameKo": "마르크 플레컨",
-          "nameZh": "馬克·弗萊肯"
+          "nameZh": "馬克·弗萊肯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flekken%2C_Mark_Greuther_F%C3%BCrth_15-16_WP_%28cropped%29.jpg/120px-Flekken%2C_Mark_Greuther_F%C3%BCrth_15-16_WP_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -6049,7 +6375,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 88,
           "defense": 75,
           "form": 85,
-          "nameZh": "克利森西奥·萨默维尔"
+          "nameZh": "克利森西奥·萨默维尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Crysencio_Summerville_of_West_Ham_United.jpeg/120px-Crysencio_Summerville_of_West_Ham_United.jpeg"
         },
         {
           "number": 25,
@@ -6064,7 +6391,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 85,
           "nameKo": "조렐 하토",
-          "nameZh": "喬瑞爾·哈托"
+          "nameZh": "喬瑞爾·哈托",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Jorrel_Hato_Chelsea_AC_Milan_warm_up.jpg/120px-Jorrel_Hato_Chelsea_AC_Milan_warm_up.jpg"
         },
         {
           "number": 26,
@@ -6079,7 +6407,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 85,
           "nameKo": "크빈턴 팀버르",
-          "nameZh": "昆腾·廷伯"
+          "nameZh": "昆腾·廷伯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Quinten_Timber.jpg/120px-Quinten_Timber.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -6122,7 +6451,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 87,
           "nameKo": "스즈키 자이온",
-          "nameZh": "鈴木彩艷"
+          "nameZh": "鈴木彩艷",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/ZION_SUZUKI_-_JPN_vs_THA_-_Friendly_Match_-_2024.01.01.jpg/120px-ZION_SUZUKI_-_JPN_vs_THA_-_Friendly_Match_-_2024.01.01.jpg"
         },
         {
           "number": 2,
@@ -6137,7 +6467,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 87,
           "nameKo": "스가와라 유키나리",
-          "nameZh": "菅原由勢"
+          "nameZh": "菅原由勢",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/4822940_AE7I9740_-_Yukinari_Sugawara.jpg/120px-4822940_AE7I9740_-_Yukinari_Sugawara.jpg"
         },
         {
           "number": 3,
@@ -6152,7 +6483,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 87,
           "nameKo": "타니구치 쇼고",
-          "nameZh": "谷口彰悟"
+          "nameZh": "谷口彰悟",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Shogo_Taniguchi.jpg/120px-Shogo_Taniguchi.jpg"
         },
         {
           "number": 4,
@@ -6167,7 +6499,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 87,
           "nameKo": "이타쿠라 고",
-          "nameZh": "板仓滉"
+          "nameZh": "板仓滉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ko_Itakura_%28cropped%29.jpg/120px-Ko_Itakura_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -6182,7 +6515,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 88,
           "nameKo": "나가토모 유토",
-          "nameZh": "長友佑都"
+          "nameZh": "長友佑都",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Yuto_Nagatomo_in_2018.jpg/120px-Yuto_Nagatomo_in_2018.jpg"
         },
         {
           "number": 6,
@@ -6197,7 +6531,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 88,
           "nameKo": "엔도 와타루",
-          "nameZh": "遠藤航"
+          "nameZh": "遠藤航",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Wataru_Endo_at_Iran-Japan_pre-match_conference.jpg/120px-Wataru_Endo_at_Iran-Japan_pre-match_conference.jpg"
         },
         {
           "number": 7,
@@ -6212,7 +6547,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 87,
           "nameKo": "다나카 아오",
-          "nameZh": "田中碧"
+          "nameZh": "田中碧",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Ao_Tanaka_13092025_%281%29_%28cropped%29.jpg/120px-Ao_Tanaka_13092025_%281%29_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -6227,7 +6563,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 87,
           "nameKo": "구보 다케후사",
-          "nameZh": "久保建英"
+          "nameZh": "久保建英",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Takefusa_Kubo_2019.png/120px-Takefusa_Kubo_2019.png"
         },
         {
           "number": 9,
@@ -6257,7 +6594,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 88,
           "nameKo": "도안 리쓰",
-          "nameZh": "堂安律"
+          "nameZh": "堂安律",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ritsu_Doan%2C_2019_AFC_Asian_Cup_1.jpg/120px-Ritsu_Doan%2C_2019_AFC_Asian_Cup_1.jpg"
         },
         {
           "number": 11,
@@ -6272,7 +6610,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 87,
           "nameKo": "마에다 다이젠",
-          "nameZh": "前田大然"
+          "nameZh": "前田大然",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Celtic-20240722-018_%28cropped%29.jpg/120px-Celtic-20240722-018_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -6287,7 +6626,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 86,
           "nameKo": "오사코 게이스케",
-          "nameZh": "大迫敬介"
+          "nameZh": "大迫敬介",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Sanfrecce_Hiroshima_-1_Keisuke_OSAKO.jpg/120px-Sanfrecce_Hiroshima_-1_Keisuke_OSAKO.jpg"
         },
         {
           "number": 13,
@@ -6302,7 +6642,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 86,
           "nameKo": "나카무라 게이토",
-          "nameZh": "中村敬斗"
+          "nameZh": "中村敬斗",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Nakamura_asse_sr_2425.png/120px-Nakamura_asse_sr_2425.png"
         },
         {
           "number": 14,
@@ -6317,7 +6658,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 87,
           "nameKo": "이토 준야",
-          "nameZh": "伊東純也"
+          "nameZh": "伊東純也",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Ito_asse_sr_2425.png/120px-Ito_asse_sr_2425.png"
         },
         {
           "number": 15,
@@ -6332,7 +6674,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 86,
           "nameKo": "가마다 다이치",
-          "nameZh": "鎌田大地"
+          "nameZh": "鎌田大地",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2022128173756_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_0725_-_AK8I7460_%28Daichi_Kamada_cropped%29.jpg/120px-2022128173756_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_0725_-_AK8I7460_%28Daichi_Kamada_cropped%29.jpg"
         },
         {
           "number": 16,
@@ -6362,7 +6705,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 86,
           "nameKo": "스즈키 유이토",
-          "nameZh": "鈴木唯人"
+          "nameZh": "鈴木唯人",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Suzuki_%282023%29.png/120px-Suzuki_%282023%29.png"
         },
         {
           "number": 18,
@@ -6377,7 +6721,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 68,
           "form": 86,
           "nameKo": "우에다 아야세",
-          "nameZh": "上田綺世"
+          "nameZh": "上田綺世",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Go_Ahead_Eagles_-_Feyenoord_-_53679351240_%28Ayase_Ueda%29.jpg/120px-Go_Ahead_Eagles_-_Feyenoord_-_53679351240_%28Ayase_Ueda%29.jpg"
         },
         {
           "number": 19,
@@ -6392,7 +6737,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 67,
           "form": 84,
           "nameKo": "오가와 고키",
-          "nameZh": "小川航基"
+          "nameZh": "小川航基",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/GAE_-_NEC_-_53493888105_%28Koki_Ogawa%29.jpg/120px-GAE_-_NEC_-_53493888105_%28Koki_Ogawa%29.jpg"
         },
         {
           "number": 20,
@@ -6422,7 +6768,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 84,
           "nameKo": "이토 히로키",
-          "nameZh": "伊藤洋輝"
+          "nameZh": "伊藤洋輝",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Hiroki_Ito_VfB_Stuttgart.jpg/120px-Hiroki_Ito_VfB_Stuttgart.jpg"
         },
         {
           "number": 22,
@@ -6437,7 +6784,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 84,
           "nameKo": "도미야스 다케히로",
-          "nameZh": "富安健洋"
+          "nameZh": "富安健洋",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Takehiro_Tomiyasu%2C_2019_AFC_Asian_Cup_1.jpg/120px-Takehiro_Tomiyasu%2C_2019_AFC_Asian_Cup_1.jpg"
         },
         {
           "number": 23,
@@ -6467,7 +6815,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 84,
           "nameKo": "사노 가이슈",
-          "nameZh": "佐野海舟"
+          "nameZh": "佐野海舟",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kaishu_Sano_2024_%28cropped%29.jpg/120px-Kaishu_Sano_2024_%28cropped%29.jpg"
         },
         {
           "number": 25,
@@ -6539,7 +6888,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 45,
           "defense": 86,
           "form": 77,
-          "nameKo": "Jacob Widell Zetterström"
+          "nameKo": "Jacob Widell Zetterström",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Jacob_Widell_Zetterstr%C3%B6m_25042026_%288%29.jpg/120px-Jacob_Widell_Zetterstr%C3%B6m_25042026_%288%29.jpg"
         },
         {
           "number": 2,
@@ -6552,7 +6902,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 80,
           "attack": 64,
           "defense": 85,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Celtic-20240722-060_%28Lagerbielke%29.jpg/120px-Celtic-20240722-060_%28Lagerbielke%29.jpg"
         },
         {
           "number": 3,
@@ -6567,7 +6918,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 78,
           "nameKo": "빅토르 린델뢰프",
-          "nameZh": "维克托·林德勒夫"
+          "nameZh": "维克托·林德勒夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Sweden-Slovenia_Nations_League_2022-09-27_6_%28Victor_Lindelof%2C_cropped%29.jpg/120px-Sweden-Slovenia_Nations_League_2022-09-27_6_%28Victor_Lindelof%2C_cropped%29.jpg"
         },
         {
           "number": 4,
@@ -6596,7 +6948,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 77,
           "nameKo": "가브리엘 구드문드손",
-          "nameZh": "加布里埃尔·古德曼德松"
+          "nameZh": "加布里埃尔·古德曼德松",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Gabriel_Gudmundsson_%28Sweden_vs_Moldova%2C_12_October_2023%29_%28cropped%29.jpg/120px-Gabriel_Gudmundsson_%28Sweden_vs_Moldova%2C_12_October_2023%29_%28cropped%29.jpg"
         },
         {
           "number": 6,
@@ -6609,7 +6962,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 80,
           "attack": 64,
           "defense": 85,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Herman_Johansson_NY_Red_Bulls_v_FC_Dallas_2_May_2026-67_%28cropped%29.jpg/120px-Herman_Johansson_NY_Red_Bulls_v_FC_Dallas_2_May_2026-67_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -6624,7 +6978,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 77,
           "nameKo": "루카스 베리발",
-          "nameZh": "卢卡斯·贝里瓦尔"
+          "nameZh": "卢卡斯·贝里瓦尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Lucas_Bergvall_%28Sweden_U21_vs_Moldova_U21%2C_13_October_2023%29.jpg/120px-Lucas_Bergvall_%28Sweden_U21_vs_Moldova_U21%2C_13_October_2023%29.jpg"
         },
         {
           "number": 8,
@@ -6639,7 +6994,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 77,
           "nameKo": "Daniel Svensson",
-          "nameZh": "丹尼尔·斯文松 (2002年生足球运动员)"
+          "nameZh": "丹尼尔·斯文松 (2002年生足球运动员)",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Daniel_Svensson_Nordsjaelland_%28Testspiel_2023-07-08%29_48_%28cropped%29_%282%29.jpg/120px-Daniel_Svensson_Nordsjaelland_%28Testspiel_2023-07-08%29_48_%28cropped%29_%282%29.jpg"
         },
         {
           "number": 9,
@@ -6654,7 +7010,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 67,
           "form": 78,
           "nameKo": "알렉산데르 이사크",
-          "nameZh": "亚历山大·伊萨克"
+          "nameZh": "亚历山大·伊萨克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Alexander_Isak_56_%28cropped%29.jpg/120px-UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Alexander_Isak_56_%28cropped%29.jpg"
         },
         {
           "number": 10,
@@ -6667,7 +7024,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 80,
           "attack": 74,
           "defense": 82,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Benjamin_Nygren_%28cropped%29.jpg/120px-Benjamin_Nygren_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -6682,7 +7040,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 66,
           "form": 77,
           "nameKo": "안토니 엘랑가",
-          "nameZh": "安东尼·埃兰加"
+          "nameZh": "安东尼·埃兰加",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Anthony_Elanga_%28Sweden_vs_Moldova%2C_12_October_2023%29.jpg/120px-Anthony_Elanga_%28Sweden_vs_Moldova%2C_12_October_2023%29.jpg"
         },
         {
           "number": 12,
@@ -6696,7 +7055,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 45,
           "defense": 85,
           "form": 76,
-          "nameZh": "维克托·约翰松"
+          "nameZh": "维克托·约翰松",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Viktor_Johansson_20092025_%288%29.jpg/120px-Viktor_Johansson_20092025_%288%29.jpg"
         },
         {
           "number": 13,
@@ -6710,7 +7070,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 75,
           "defense": 82,
           "form": 76,
-          "nameZh": "肯·塞馬"
+          "nameZh": "肯·塞馬",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_52_%28Ken_Sema%29.jpg/120px-UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_52_%28Ken_Sema%29.jpg"
         },
         {
           "number": 14,
@@ -6725,7 +7086,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 76,
           "nameKo": "얄마르 에크달",
-          "nameZh": "哈尔马·埃克达尔"
+          "nameZh": "哈尔马·埃克达尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Hjalmar_Ekdal_%28Sirius%2C_2020%2C_cropped%29.jpg/120px-Hjalmar_Ekdal_%28Sirius%2C_2020%2C_cropped%29.jpg"
         },
         {
           "number": 15,
@@ -6739,7 +7101,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 64,
           "defense": 85,
           "form": 76,
-          "nameZh": "卡尔·斯塔费尔特"
+          "nameZh": "卡尔·斯塔费尔特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Carl_Starfelt_2020.jpg/120px-Carl_Starfelt_2020.jpg"
         },
         {
           "number": 16,
@@ -6754,7 +7117,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 76,
           "nameKo": "예스페르 칼스트룀",
-          "nameZh": "雅斯珀·卡爾斯特羅姆"
+          "nameZh": "雅斯珀·卡爾斯特羅姆",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Jesper_Karlstr%C3%B6m_%28Djurg%C3%A5rden%2C_2020%2C_cropped%29.jpg/120px-Jesper_Karlstr%C3%B6m_%28Djurg%C3%A5rden%2C_2020%2C_cropped%29.jpg"
         },
         {
           "number": 17,
@@ -6769,7 +7133,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 66,
           "form": 76,
           "nameKo": "빅토르 요케레스",
-          "nameZh": "维克托·哲凯赖什"
+          "nameZh": "维克托·哲凯赖什",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/1_Viktor_Gy%C3%B6keres_2026.jpg/120px-1_Viktor_Gy%C3%B6keres_2026.jpg"
         },
         {
           "number": 18,
@@ -6783,7 +7148,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 74,
           "defense": 82,
           "form": 76,
-          "nameZh": "亚辛·阿亚里"
+          "nameZh": "亚辛·阿亚里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Yasin_Ayari_%28Sweden_U21_vs_Moldova_U21%2C_13_October_2023%29_%28cropped%29.jpg/120px-Yasin_Ayari_%28Sweden_U21_vs_Moldova_U21%2C_13_October_2023%29_%28cropped%29.jpg"
         },
         {
           "number": 19,
@@ -6798,7 +7164,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 74,
           "nameKo": "마티아스 스반베리",
-          "nameZh": "马蒂亚斯·斯万贝里"
+          "nameZh": "马蒂亚斯·斯万贝里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mattias_Svanberg.jpg/120px-Mattias_Svanberg.jpg"
         },
         {
           "number": 20,
@@ -6813,7 +7180,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 74,
           "nameKo": "에리크 스미스",
-          "nameZh": "埃里克·史密斯"
+          "nameZh": "埃里克·史密斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/2025-04-23_-_FC_St_Pauli_-_Eric_Smith.jpg/120px-2025-04-23_-_FC_St_Pauli_-_Eric_Smith.jpg"
         },
         {
           "number": 21,
@@ -6827,7 +7195,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 64,
           "defense": 82,
           "form": 74,
-          "nameKo": "알렉산데르 베른하르드손"
+          "nameKo": "알렉산데르 베른하르드손",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2026-03-04_Alexander_Bernhardsson.jpg/120px-2026-03-04_Alexander_Bernhardsson.jpg"
         },
         {
           "number": 22,
@@ -6840,7 +7209,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 77,
           "attack": 74,
           "defense": 79,
-          "form": 74
+          "form": 74,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Besfort_Zeneli_Union_Saint-Gilloise_2026.jpg/120px-Besfort_Zeneli_Union_Saint-Gilloise_2026.jpg"
         },
         {
           "number": 23,
@@ -6855,7 +7225,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 74,
           "nameKo": "크리스토페르 노르드펠트",
-          "nameZh": "克里斯托夫·諾德弗爾特"
+          "nameZh": "克里斯托夫·諾德弗爾特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kristoffer_Nordfeldt_%28Sweden_starting_XI_vs_Moldova%2C_12_October_2023%29.jpg/120px-Kristoffer_Nordfeldt_%28Sweden_starting_XI_vs_Moldova%2C_12_October_2023%29.jpg"
         },
         {
           "number": 24,
@@ -6882,7 +7253,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 80,
           "defense": 65,
           "form": 74,
-          "nameZh": "古斯塔夫·尼尔松"
+          "nameZh": "古斯塔夫·尼尔松",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Gustaf_Nilsson_USG_2023.jpg/120px-Gustaf_Nilsson_USG_2023.jpg"
         },
         {
           "number": 26,
@@ -6938,7 +7310,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 86,
           "nameKo": "티보 쿠르투아",
-          "nameZh": "蒂博·库尔图瓦"
+          "nameZh": "蒂博·库尔图瓦",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Courtois_2018_%28cropped%29.jpg/120px-Courtois_2018_%28cropped%29.jpg"
         },
         {
           "number": 2,
@@ -6953,7 +7326,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 85,
           "nameKo": "제노 데바스트",
-          "nameZh": "芝诺·德巴斯特"
+          "nameZh": "芝诺·德巴斯特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Zeno_Debast_USMNT_v_Belgium_Mar_28_2026-80_%28cropped%29.jpg/120px-Zeno_Debast_USMNT_v_Belgium_Mar_28_2026-80_%28cropped%29.jpg"
         },
         {
           "number": 3,
@@ -6968,7 +7342,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 85,
           "nameKo": "아서 테이트",
-          "nameZh": "亞瑟·泰特"
+          "nameZh": "亞瑟·泰特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Arthur_Theate_USMNT_v_Belgium_Mar_28_2026-22_%28cropped%29.jpg/120px-Arthur_Theate_USMNT_v_Belgium_Mar_28_2026-22_%28cropped%29.jpg"
         },
         {
           "number": 4,
@@ -6983,7 +7358,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 85,
           "nameKo": "브랜든 메켈레",
-          "nameZh": "布蘭登·梅切萊"
+          "nameZh": "布蘭登·梅切萊",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brandon_Mechele_USMNT_v_Belgium_Mar_28_2026-78_%28cropped%29.jpg/120px-Brandon_Mechele_USMNT_v_Belgium_Mar_28_2026-78_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -6998,7 +7374,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 85,
           "nameKo": "막심 더 카위퍼르",
-          "nameZh": "马克西姆·德克伊珀"
+          "nameZh": "马克西姆·德克伊珀",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Maxim_De_Cuyper_USMNT_v_Belgium_Mar_28_2026-79_%28cropped%29.jpg/120px-Maxim_De_Cuyper_USMNT_v_Belgium_Mar_28_2026-79_%28cropped%29.jpg"
         },
         {
           "number": 6,
@@ -7013,7 +7390,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 86,
           "nameKo": "악셀 비첼",
-          "nameZh": "阿克塞尔·维特塞尔"
+          "nameZh": "阿克塞尔·维特塞尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Axel_Witsel_USMNT_v_Belgium_Mar_28_2026-34_%28cropped%29.jpg/120px-Axel_Witsel_USMNT_v_Belgium_Mar_28_2026-34_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -7028,7 +7406,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 86,
           "nameKo": "케빈 더 브라위너",
-          "nameZh": "凯文·德布劳内"
+          "nameZh": "凯文·德布劳内",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg/120px-Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -7043,7 +7422,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 86,
           "nameKo": "유리 틸레만스",
-          "nameZh": "约埃里·蒂耶莱曼斯"
+          "nameZh": "约埃里·蒂耶莱曼斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Youri_Tielemans_USMNT_v_Belgium_Mar_28_2026-20_%28cropped%29.jpg/120px-Youri_Tielemans_USMNT_v_Belgium_Mar_28_2026-20_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -7058,7 +7438,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 86,
           "nameKo": "로멜루 루카쿠",
-          "nameZh": "罗梅卢·卢卡库"
+          "nameZh": "罗梅卢·卢卡库",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Romelu_Lukaku_2021.jpg/120px-Romelu_Lukaku_2021.jpg"
         },
         {
           "number": 10,
@@ -7073,7 +7454,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 85,
           "nameKo": "레안드로 트로사르",
-          "nameZh": "莱安德罗·特罗萨德"
+          "nameZh": "莱安德罗·特罗萨德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg/120px-RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -7088,7 +7470,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 85,
           "nameKo": "제레미 도쿠",
-          "nameZh": "杰里米·多库"
+          "nameZh": "杰里米·多库",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/J%C3%A9r%C3%A9my_Doku_USMNT_v_Belgium_Mar_28_2026-27_%28cropped%29.jpg/120px-J%C3%A9r%C3%A9my_Doku_USMNT_v_Belgium_Mar_28_2026-27_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -7103,7 +7486,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 84,
           "nameKo": "세너 라먼스",
-          "nameZh": "森納·拉門斯"
+          "nameZh": "森納·拉門斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Senne_Lammens_USMNT_v_Belgium_Mar_28_2026-98_%28cropped%29.jpg/120px-Senne_Lammens_USMNT_v_Belgium_Mar_28_2026-98_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -7133,7 +7517,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 68,
           "form": 84,
           "nameKo": "도디 루케바키오",
-          "nameZh": "多迪·卢克瓦基奥"
+          "nameZh": "多迪·卢克瓦基奥",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Dodi_Lukebakio_2021.jpg/120px-Dodi_Lukebakio_2021.jpg"
         },
         {
           "number": 15,
@@ -7148,7 +7533,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 85,
           "nameKo": "토마스 뫼니에",
-          "nameZh": "托馬斯·穆尼爾"
+          "nameZh": "托馬斯·穆尼爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Thomas_Meunier_USMNT_v_Belgium_Mar_28_2026-16_%28cropped%29.jpg/120px-Thomas_Meunier_USMNT_v_Belgium_Mar_28_2026-16_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -7163,7 +7549,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 84,
           "nameKo": "코니 더빈터르",
-          "nameZh": "干尼.迪雲達"
+          "nameZh": "干尼.迪雲達",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Koni_De_Winter_USMNT_v_Belgium_Mar_28_2026-36_%28cropped%29.jpg/120px-Koni_De_Winter_USMNT_v_Belgium_Mar_28_2026-36_%28cropped%29.jpg"
         },
         {
           "number": 17,
@@ -7178,7 +7565,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 68,
           "form": 84,
           "nameKo": "샤를 드 케텔라에",
-          "nameZh": "查尔斯·德凯特莱尔"
+          "nameZh": "查尔斯·德凯特莱尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Charles_De_Ketelaere_USMNT_v_Belgium_Mar_28_2026-76_%28cropped%29.jpg/120px-Charles_De_Ketelaere_USMNT_v_Belgium_Mar_28_2026-76_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -7192,7 +7580,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 75,
           "defense": 86,
           "form": 84,
-          "nameKo": "호아킨 세이스"
+          "nameKo": "호아킨 세이스",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Joaquin_Seys_USMNT_v_Belgium_Mar_28_2026-206.jpg/120px-Joaquin_Seys_USMNT_v_Belgium_Mar_28_2026-206.jpg"
         },
         {
           "number": 19,
@@ -7207,7 +7596,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 82,
           "nameKo": "디에구 모레이라",
-          "nameZh": "迭戈·莫雷拉"
+          "nameZh": "迭戈·莫雷拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Moreira2_asse_rcsa_2425.jpg/120px-Moreira2_asse_rcsa_2425.jpg"
         },
         {
           "number": 20,
@@ -7222,7 +7612,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 82,
           "nameKo": "한스 바나켄",
-          "nameZh": "漢斯·范內肯"
+          "nameZh": "漢斯·范內肯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Hans_Vanaken_Lommel_United.jpg/120px-Hans_Vanaken_Lommel_United.jpg"
         },
         {
           "number": 21,
@@ -7237,7 +7628,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 83,
           "nameKo": "티모티 카스타뉴",
-          "nameZh": "蒂莫西·卡斯塔涅"
+          "nameZh": "蒂莫西·卡斯塔涅",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Timothy_Castagne_USMNT_v_Belgium_Mar_28_2026-17_%28cropped%29.jpg/120px-Timothy_Castagne_USMNT_v_Belgium_Mar_28_2026-17_%28cropped%29.jpg"
         },
         {
           "number": 22,
@@ -7252,7 +7644,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 82,
           "nameKo": "알렉시스 세일러메이커스",
-          "nameZh": "亞歷克西斯·薩勒馬克思"
+          "nameZh": "亞歷克西斯·薩勒馬克思",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Alexis_Saelemaekers_USMNT_v_Belgium_Mar_28_2026-13_%28cropped%29.jpg/120px-Alexis_Saelemaekers_USMNT_v_Belgium_Mar_28_2026-13_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -7267,7 +7660,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 82,
           "nameKo": "니콜라 라스킨",
-          "nameZh": "尼古拉斯·拉斯金"
+          "nameZh": "尼古拉斯·拉斯金",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Nicolas_Raskin_USMNT_v_Belgium_Mar_28_2026-14_%28cropped%29.jpg/120px-Nicolas_Raskin_USMNT_v_Belgium_Mar_28_2026-14_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -7282,7 +7676,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 82,
           "nameKo": "아마두 오나나",
-          "nameZh": "阿马杜·奥纳纳"
+          "nameZh": "阿马杜·奥纳纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Amadou_Onana_USMNT_v_Belgium_Mar_28_2026-96_%28cropped%29.jpg/120px-Amadou_Onana_USMNT_v_Belgium_Mar_28_2026-96_%28cropped%29.jpg"
         },
         {
           "number": 25,
@@ -7310,7 +7705,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 90,
           "defense": 67,
           "form": 82,
-          "nameKo": "마티아스 페르난데스파르도"
+          "nameKo": "마티아스 페르난데스파르도",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Pardo_asselosc_2425_%28cropped%29.jpg/120px-Pardo_asselosc_2425_%28cropped%29.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -7353,7 +7749,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 79,
           "nameKo": "알리레자 베이란반드",
-          "nameZh": "阿里礼萨·贝兰万德"
+          "nameZh": "阿里礼萨·贝兰万德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Alireza_Beiranvand_14021113000490638424849868670974_66487.jpg/120px-Alireza_Beiranvand_14021113000490638424849868670974_66487.jpg"
         },
         {
           "number": 2,
@@ -7367,7 +7764,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 63,
           "defense": 85,
           "form": 78,
-          "nameZh": "萨利赫·哈达尼"
+          "nameZh": "萨利赫·哈达尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Esteghlal_Celebrate_IPL_Title_Win_at_Azadi_Stadium_-_020.jpg/120px-Esteghlal_Celebrate_IPL_Title_Win_at_Azadi_Stadium_-_020.jpg"
         },
         {
           "number": 3,
@@ -7382,7 +7780,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 79,
           "nameKo": "에산 하지사피",
-          "nameZh": "伊桑·哈吉萨菲"
+          "nameZh": "伊桑·哈吉萨菲",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/%D9%86%D8%B4%D8%B3%D8%AA_%D8%AE%D8%A8%D8%B1%DB%8C_%D9%BE%DB%8C%D8%B4_%D8%A7%D8%B2_%D8%A8%D8%A7%D8%B2%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D9%88_%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%B3_%2826%29_%28cropped%29.jpg/120px-%D9%86%D8%B4%D8%B3%D8%AA_%D8%AE%D8%A8%D8%B1%DB%8C_%D9%BE%DB%8C%D8%B4_%D8%A7%D8%B2_%D8%A8%D8%A7%D8%B2%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D9%88_%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%B3_%2826%29_%28cropped%29.jpg"
         },
         {
           "number": 4,
@@ -7397,7 +7796,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 79,
           "nameKo": "쇼자 칼릴자데",
-          "nameZh": "舒贾·哈利勒扎德"
+          "nameZh": "舒贾·哈利勒扎德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Shoja_Khalilzadeh_at_Fars_News_Agency.jpg/120px-Shoja_Khalilzadeh_at_Fars_News_Agency.jpg"
         },
         {
           "number": 5,
@@ -7412,7 +7812,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 79,
           "nameKo": "밀라드 모함마디",
-          "nameZh": "米拉德·穆罕默迪"
+          "nameZh": "米拉德·穆罕默迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Milad_Mohammadi_2017.jpg/120px-Milad_Mohammadi_2017.jpg"
         },
         {
           "number": 6,
@@ -7427,7 +7828,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 79,
           "nameKo": "사이드 에자톨라히",
-          "nameZh": "赛义德·伊扎图拉希"
+          "nameZh": "赛义德·伊扎图拉希",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Saeid_Ezatolahi_at_Iran_training_2018.jpg/120px-Saeid_Ezatolahi_at_Iran_training_2018.jpg"
         },
         {
           "number": 7,
@@ -7442,7 +7844,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 79,
           "nameKo": "알리레자 자한바흐시",
-          "nameZh": "阿里-礼萨·贾汉巴赫什"
+          "nameZh": "阿里-礼萨·贾汉巴赫什",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/2022_FIFA_World_Cup_England_6%E2%80%932_Iran_-_%2826%29_%28cropped%29.jpg/120px-2022_FIFA_World_Cup_England_6%E2%80%932_Iran_-_%2826%29_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -7457,7 +7860,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 78,
           "nameKo": "모함마드 모헤비",
-          "nameZh": "穆罕默德·莫赫比"
+          "nameZh": "穆罕默德·莫赫比",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Mohammad_Mohebi%2C_Esteghlal_FC_vs_Gol_Gohar_Sirjan_FC%2C_6_March_2023.jpg/120px-Mohammad_Mohebi%2C_Esteghlal_FC_vs_Gol_Gohar_Sirjan_FC%2C_6_March_2023.jpg"
         },
         {
           "number": 9,
@@ -7472,7 +7876,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 68,
           "form": 79,
           "nameKo": "메디 타레미",
-          "nameZh": "迈赫迪·塔雷米"
+          "nameZh": "迈赫迪·塔雷米",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Iran_-_Japan%2C_AFC_Asian_Cup_2019_42_%28cropped%29.jpg/120px-Iran_-_Japan%2C_AFC_Asian_Cup_2019_42_%28cropped%29.jpg"
         },
         {
           "number": 10,
@@ -7487,7 +7892,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 78,
           "nameKo": "메흐디 가예디",
-          "nameZh": "迈赫迪·迦耶迪"
+          "nameZh": "迈赫迪·迦耶迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Esteghlal_FC_vs_Tractor_FC%2C_18_May_2023_-_04.jpg/120px-Esteghlal_FC_vs_Tractor_FC%2C_18_May_2023_-_04.jpg"
         },
         {
           "number": 11,
@@ -7501,7 +7907,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 81,
           "defense": 65,
           "form": 78,
-          "nameZh": "阿里·阿里普尔"
+          "nameZh": "阿里·阿里普尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Persepolis_F.C._v_Shahr_Khodro_F.C.%2C_27_February_2020_%2813%29_%28cropped%29.jpg/120px-Persepolis_F.C._v_Shahr_Khodro_F.C.%2C_27_February_2020_%2813%29_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -7516,7 +7923,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 77,
           "nameKo": "파얌 니아즈만드",
-          "nameZh": "帕亞姆·尼亞茲曼德"
+          "nameZh": "帕亞姆·尼亞茲曼德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Payam_Niazmand%2C_Esteghlal_vs._Sepahan.jpg/120px-Payam_Niazmand%2C_Esteghlal_vs._Sepahan.jpg"
         },
         {
           "number": 13,
@@ -7531,7 +7939,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 78,
           "nameKo": "호세인 카나니자데간",
-          "nameZh": "侯賽恩·卡納尼"
+          "nameZh": "侯賽恩·卡納尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Hossein_Kanaani_14000213000920637556755600710662.jpg/120px-Hossein_Kanaani_14000213000920637556755600710662.jpg"
         },
         {
           "number": 14,
@@ -7546,7 +7955,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 78,
           "nameKo": "사만 고도스",
-          "nameZh": "萨曼·格多斯"
+          "nameZh": "萨曼·格多斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Saman_Ghoddos_-_2018_FIFA_World_Cup.jpg/120px-Saman_Ghoddos_-_2018_FIFA_World_Cup.jpg"
         },
         {
           "number": 15,
@@ -7561,7 +7971,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 77,
           "nameKo": "루즈베 체슈미",
-          "nameZh": "鲁兹贝赫·切什米"
+          "nameZh": "鲁兹贝赫·切什米",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Esteghlal_Celebrate_IPL_Title_Win_at_Azadi_Stadium_-_106.jpg/120px-Esteghlal_Celebrate_IPL_Title_Win_at_Azadi_Stadium_-_106.jpg"
         },
         {
           "number": 16,
@@ -7576,7 +7987,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 78,
           "nameKo": "메디 토라비",
-          "nameZh": "迈赫迪·塔雷米"
+          "nameZh": "迈赫迪·塔雷米",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Mehdi_Torabi_2021.jpg/120px-Mehdi_Torabi_2021.jpg"
         },
         {
           "number": 17,
@@ -7589,7 +8001,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 79,
           "attack": 63,
           "defense": 84,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/YousefiCropped.jpg/120px-YousefiCropped.jpg"
         },
         {
           "number": 18,
@@ -7603,7 +8016,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 81,
           "defense": 65,
           "form": 77,
-          "nameZh": "阿米尔霍赛因·霍赛因扎德"
+          "nameZh": "阿米尔霍赛因·霍赛因扎德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Esteghlal_FC_in_training%2C_29_September_2021_-_09.jpg/120px-Esteghlal_FC_in_training%2C_29_September_2021_-_09.jpg"
         },
         {
           "number": 19,
@@ -7617,7 +8031,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 63,
           "defense": 82,
           "form": 75,
-          "nameZh": "阿里·内马蒂"
+          "nameZh": "阿里·内马蒂",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Mes_Rafsanjan_F.C._vs_Persepolis_F.C.%2C_19_November_2021_2.jpg/120px-Mes_Rafsanjan_F.C._vs_Persepolis_F.C.%2C_19_November_2021_2.jpg"
         },
         {
           "number": 20,
@@ -7631,7 +8046,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 78,
           "defense": 65,
           "form": 75,
-          "nameZh": "沙里亚尔·莫汉卢"
+          "nameZh": "沙里亚尔·莫汉卢",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Shahriyar_Moghanlou_14000129000016637543017694769152.jpg/120px-Shahriyar_Moghanlou_14000129000016637543017694769152.jpg"
         },
         {
           "number": 21,
@@ -7644,7 +8060,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 77,
           "attack": 73,
           "defense": 79,
-          "form": 75
+          "form": 75,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Mohammad_Ghorbani_%28footballer%29_2024.jpg/120px-Mohammad_Ghorbani_%28footballer%29_2024.jpg"
         },
         {
           "number": 22,
@@ -7659,7 +8076,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 75,
           "nameKo": "호세인 호세이니",
-          "nameZh": "侯赛因·侯赛尼"
+          "nameZh": "侯赛因·侯赛尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Esteghlal_FC_vs_Sepahan_FC%2C_14_December_2021_-_26.jpg/120px-Esteghlal_FC_vs_Sepahan_FC%2C_14_December_2021_-_26.jpg"
         },
         {
           "number": 23,
@@ -7674,7 +8092,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 76,
           "nameKo": "라민 레자얀",
-          "nameZh": "拉明·礼萨伊安"
+          "nameZh": "拉明·礼萨伊安",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Esteghlal_0_-_0_Al_Nassr%2C_round_of_16_of_the_AFC_Elite_League%2C_Azadi_Stadium%2C_3_March_2025_15.jpg/120px-Esteghlal_0_-_0_Al_Nassr%2C_round_of_16_of_the_AFC_Elite_League%2C_Azadi_Stadium%2C_3_March_2025_15.jpg"
         },
         {
           "number": 24,
@@ -7688,7 +8107,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 78,
           "defense": 64,
           "form": 75,
-          "nameZh": "丹尼斯·埃克特"
+          "nameZh": "丹尼斯·埃克特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/XXIII_Memorial_Quinocho_%28RC_Celta_vs_Mainz_05%29_-_55_%28cropped%29.jpg/120px-XXIII_Memorial_Quinocho_%28RC_Celta_vs_Mainz_05%29_-_55_%28cropped%29.jpg"
         },
         {
           "number": 25,
@@ -7757,7 +8177,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 90,
           "nameKo": "다비드 라야",
-          "nameZh": "戴维·拉亚"
+          "nameZh": "戴维·拉亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/David_Raya_in_2025_%28cropped%29.jpg/120px-David_Raya_in_2025_%28cropped%29.jpg"
         },
         {
           "number": 2,
@@ -7772,7 +8193,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 90,
           "nameKo": "마르크 푸빌",
-          "nameZh": "馬克·普比爾"
+          "nameZh": "馬克·普比爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Uzbekistan_vs._Spain%2C_2024_Summer_Olympic_men%27s_association_football%2C_2024-07-24_%28250%29_-_Marc_Pubill.jpg/120px-Uzbekistan_vs._Spain%2C_2024_Summer_Olympic_men%27s_association_football%2C_2024-07-24_%28250%29_-_Marc_Pubill.jpg"
         },
         {
           "number": 3,
@@ -7787,7 +8209,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 90,
           "nameKo": "알렉스 그리말도",
-          "nameZh": "亞力斯·格里馬爾多"
+          "nameZh": "亞力斯·格里馬爾多",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Alex_Grimaldo_2020.png/120px-Alex_Grimaldo_2020.png"
         },
         {
           "number": 4,
@@ -7802,7 +8225,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 90,
           "nameKo": "에릭 가르시아",
-          "nameZh": "埃里克·加西亞"
+          "nameZh": "埃里克·加西亞",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Eric_Garcia_autographs_2022_%28cropped%29.jpg/120px-Eric_Garcia_autographs_2022_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -7817,7 +8241,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 90,
           "nameKo": "마르코스 요렌테",
-          "nameZh": "馬科斯·略倫特"
+          "nameZh": "馬科斯·略倫特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Marcos_Llorente_2019.jpg/120px-Marcos_Llorente_2019.jpg"
         },
         {
           "number": 6,
@@ -7832,7 +8257,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 90,
           "nameKo": "미켈 메리노",
-          "nameZh": "米克尔·梅里诺"
+          "nameZh": "米克尔·梅里诺",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/1_mikel_merino_arsenal_2025_%28cropped%29.jpg/120px-1_mikel_merino_arsenal_2025_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -7847,7 +8273,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 91,
           "nameKo": "페란 토레스",
-          "nameZh": "费兰·托雷斯"
+          "nameZh": "费兰·托雷斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ferran_Torres_2019.png/120px-Ferran_Torres_2019.png"
         },
         {
           "number": 8,
@@ -7862,7 +8289,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 90,
           "nameKo": "파비안 루이스",
-          "nameZh": "法比安·魯伊斯"
+          "nameZh": "法比安·魯伊斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ruiz_asse_psg_2425.png/120px-Ruiz_asse_psg_2425.png"
         },
         {
           "number": 9,
@@ -7877,7 +8305,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 90,
           "nameKo": "파블로 가비",
-          "nameZh": "加維"
+          "nameZh": "加維",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jugadors_pretemporada_pels_Estats_Units_%28cropped%292.jpg/120px-Jugadors_pretemporada_pels_Estats_Units_%28cropped%292.jpg"
         },
         {
           "number": 10,
@@ -7892,7 +8321,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 90,
           "nameKo": "다니 올모",
-          "nameZh": "达尼·奥尔莫"
+          "nameZh": "达尼·奥尔莫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Dani_Olmo_2022.jpg/120px-Dani_Olmo_2022.jpg"
         },
         {
           "number": 11,
@@ -7907,7 +8337,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 90,
           "nameKo": "예레미 피노",
-          "nameZh": "耶利美·賓奴"
+          "nameZh": "耶利美·賓奴",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Y%C3%A9remi_Pino_at_the_press_conference_before_the_Europa_League_final%2C_27_May_2026_%2809%29.jpg/120px-Y%C3%A9remi_Pino_at_the_press_conference_before_the_Europa_League_final%2C_27_May_2026_%2809%29.jpg"
         },
         {
           "number": 12,
@@ -7922,7 +8353,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 89,
           "nameKo": "페드로 포로",
-          "nameZh": "佩德羅·波洛"
+          "nameZh": "佩德羅·波洛",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pedro_Porro_2021.png/120px-Pedro_Porro_2021.png"
         },
         {
           "number": 13,
@@ -7937,7 +8369,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 89,
           "nameKo": "주안 가르시아",
-          "nameZh": "约安·加西亚"
+          "nameZh": "约安·加西亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/CE_Manresa_Alev%C3%AD_A%2C_amb_el_porter_Joan_Garcia%2C_abril_de_2012_%28cropped%29.jpg/120px-CE_Manresa_Alev%C3%AD_A%2C_amb_el_porter_Joan_Garcia%2C_abril_de_2012_%28cropped%29.jpg"
         },
         {
           "number": 14,
@@ -7952,7 +8385,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 89,
           "nameKo": "에므리크 라포르트",
-          "nameZh": "埃梅里克·拉波爾特"
+          "nameZh": "埃梅里克·拉波爾特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Aymeric_Laporte_2023_%28cropped%29_2.jpg/120px-Aymeric_Laporte_2023_%28cropped%29_2.jpg"
         },
         {
           "number": 15,
@@ -7967,7 +8401,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 89,
           "nameKo": "알렉스 바에나",
-          "nameZh": "亞歷克斯·巴埃納"
+          "nameZh": "亞歷克斯·巴埃納",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/%C3%81lex_Baena_2019.jpg/120px-%C3%81lex_Baena_2019.jpg"
         },
         {
           "number": 16,
@@ -7982,7 +8417,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 90,
           "nameKo": "로드리",
-          "nameZh": "罗德里"
+          "nameZh": "罗德里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/120px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg"
         },
         {
           "number": 17,
@@ -7997,7 +8433,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 89,
           "nameKo": "니코 윌리암스",
-          "nameZh": "尼科·威廉斯"
+          "nameZh": "尼科·威廉斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/ATHLETIC-OSASUNA_SEMIFINAL._MAIDER_GOIKOETXEA_%28168%29_%28cropped%29.jpg/120px-ATHLETIC-OSASUNA_SEMIFINAL._MAIDER_GOIKOETXEA_%28168%29_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -8012,7 +8449,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 89,
           "nameKo": "마르틴 수비멘디",
-          "nameZh": "马丁·苏比门迪"
+          "nameZh": "马丁·苏比门迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Mart%C3%ADn_Zubimendi.jpg/120px-Mart%C3%ADn_Zubimendi.jpg"
         },
         {
           "number": 19,
@@ -8027,7 +8465,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 87,
           "nameKo": "라민 야말",
-          "nameZh": "拉明·亚马尔"
+          "nameZh": "拉明·亚马尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Lamine_Yamal_in_2025.jpg/120px-Lamine_Yamal_in_2025.jpg"
         },
         {
           "number": 20,
@@ -8042,7 +8481,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 87,
           "nameKo": "페드리",
-          "nameZh": "佩德里"
+          "nameZh": "佩德里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Pedri.jpg/120px-Pedri.jpg"
         },
         {
           "number": 21,
@@ -8057,7 +8497,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 88,
           "nameKo": "미켈 오야르사발",
-          "nameZh": "米克尔·奥亚萨瓦尔"
+          "nameZh": "米克尔·奥亚萨瓦尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_108_%28cropped%29.jpg/120px-UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_108_%28cropped%29.jpg"
         },
         {
           "number": 22,
@@ -8072,7 +8513,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 87,
           "nameKo": "파우 쿠바르시",
-          "nameZh": "保·库瓦尔西"
+          "nameZh": "保·库瓦尔西",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Pau_Cubars%C3%AD_%28cropped%29.jpg/120px-Pau_Cubars%C3%AD_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -8087,7 +8529,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 88,
           "nameKo": "우나이 시몬",
-          "nameZh": "乌奈·西蒙"
+          "nameZh": "乌奈·西蒙",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Unai_Sim%C3%B3n_2025_%28cropped%29.jpg/120px-Unai_Sim%C3%B3n_2025_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -8102,7 +8545,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 87,
           "nameKo": "마르크 쿠쿠레야",
-          "nameZh": "马克·库库雷利亚"
+          "nameZh": "马克·库库雷利亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Spain_football_team_in_202_%28Marc_Cucurella%29.jpg/120px-Spain_football_team_in_202_%28Marc_Cucurella%29.jpg"
         },
         {
           "number": 25,
@@ -8131,7 +8575,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 71,
           "form": 87,
           "nameKo": "보르하 이글레시아스",
-          "nameZh": "博爾哈·伊格萊西亞斯"
+          "nameZh": "博爾哈·伊格萊西亞斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Borja_iglesias_2019001_%28cropped%29.jpg/120px-Borja_iglesias_2019001_%28cropped%29.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -8174,7 +8619,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 86,
           "nameKo": "세르히오 로체트",
-          "nameZh": "塞尔吉奥·罗切特"
+          "nameZh": "塞尔吉奥·罗切特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Sergio_Rochet_%282022%29.jpg/120px-Sergio_Rochet_%282022%29.jpg"
         },
         {
           "number": 2,
@@ -8189,7 +8635,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 87,
           "nameKo": "호세 마리아 히메네스",
-          "nameZh": "何塞·马里亚·希门尼斯"
+          "nameZh": "何塞·马里亚·希门尼斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Jos%C3%A9_Mar%C3%ADa_Gim%C3%A9nez.jpg/120px-Jos%C3%A9_Mar%C3%ADa_Gim%C3%A9nez.jpg"
         },
         {
           "number": 3,
@@ -8203,7 +8650,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 72,
           "defense": 89,
           "form": 86,
-          "nameKo": "세바스티안 카세레스"
+          "nameKo": "세바스티안 카세레스",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sebasti%C3%A1n_C%C3%A1ceres.jpg/120px-Sebasti%C3%A1n_C%C3%A1ceres.jpg"
         },
         {
           "number": 4,
@@ -8218,7 +8666,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 86,
           "nameKo": "로날드 아라우호",
-          "nameZh": "罗纳德·阿劳霍"
+          "nameZh": "罗纳德·阿劳霍",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/120px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -8233,7 +8682,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 86,
           "nameKo": "마누엘 우가르테",
-          "nameZh": "曼努埃爾·烏加特"
+          "nameZh": "曼努埃爾·烏加特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/M.UGARTE.jpg/120px-M.UGARTE.jpg"
         },
         {
           "number": 6,
@@ -8248,7 +8698,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 87,
           "nameKo": "로드리고 벤탕쿠르",
-          "nameZh": "罗德里戈-本坦库尔"
+          "nameZh": "罗德里戈-本坦库尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/20171114_AUT_URU_4518_-_Rodrigo_Bentancur_%28cropped%29_2.jpg/120px-20171114_AUT_URU_4518_-_Rodrigo_Bentancur_%28cropped%29_2.jpg"
         },
         {
           "number": 7,
@@ -8263,7 +8714,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 86,
           "nameKo": "니콜라스 데 라 크루스",
-          "nameZh": "尼古拉斯·德拉克魯茲"
+          "nameZh": "尼古拉斯·德拉克魯茲",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Nicol%C3%A1s_de_la_Cruz.jpg/120px-Nicol%C3%A1s_de_la_Cruz.jpg"
         },
         {
           "number": 8,
@@ -8278,7 +8730,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 87,
           "nameKo": "페데리코 발베르데",
-          "nameZh": "费德里科·巴尔韦德"
+          "nameZh": "费德里科·巴尔韦德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Federico_Valverde_2021_%28cropped%29.jpg/120px-Federico_Valverde_2021_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -8293,7 +8746,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 86,
           "nameKo": "다르윈 누녜스",
-          "nameZh": "達爾文·努涅斯"
+          "nameZh": "達爾文·努涅斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Darwin_N%C3%BA%C3%B1ez_%28cropped%29.jpg/120px-Darwin_N%C3%BA%C3%B1ez_%28cropped%29.jpg"
         },
         {
           "number": 10,
@@ -8308,7 +8762,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 87,
           "nameKo": "히오르히안 데 아라스카에타",
-          "nameZh": "乔尔詹·德·阿拉斯卡埃塔"
+          "nameZh": "乔尔詹·德·阿拉斯卡埃塔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Giorgian_De_Arrascaeta_20171114_AUT_URU_4546_%28cropped%29.jpg/120px-Giorgian_De_Arrascaeta_20171114_AUT_URU_4546_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -8323,7 +8778,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 86,
           "nameKo": "파쿤도 펠리스트리",
-          "nameZh": "法昆多·佩里斯里"
+          "nameZh": "法昆多·佩里斯里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Facundo_Pellistri_WC2022.jpg/120px-Facundo_Pellistri_WC2022.jpg"
         },
         {
           "number": 12,
@@ -8336,7 +8792,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 86,
           "attack": 45,
           "defense": 88,
-          "form": 85
+          "form": 85,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Santiago_Mele.jpg/120px-Santiago_Mele.jpg"
         },
         {
           "number": 13,
@@ -8351,7 +8808,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 85,
           "nameKo": "기예르모 바렐라",
-          "nameZh": "吉列尔莫·瓦雷拉"
+          "nameZh": "吉列尔莫·瓦雷拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Guillermo_Varela_2022.jpg/120px-Guillermo_Varela_2022.jpg"
         },
         {
           "number": 14,
@@ -8366,7 +8824,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 85,
           "nameKo": "아구스틴 카노비오",
-          "nameZh": "奧古斯甸·卡諾比奧"
+          "nameZh": "奧古斯甸·卡諾比奧",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Agust%C3%ADn_Canobbio_2018.jpg/120px-Agust%C3%ADn_Canobbio_2018.jpg"
         },
         {
           "number": 15,
@@ -8380,7 +8839,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 82,
           "defense": 84,
           "form": 85,
-          "nameZh": "埃米利亚诺·马丁内斯 (1999年)"
+          "nameZh": "埃米利亚诺·马丁内斯 (1999年)",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Emiliano-martinez-palmeiras-sport-ago-25-3_%28cropped%29.jpg/120px-Emiliano-martinez-palmeiras-sport-ago-25-3_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -8395,7 +8855,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 85,
           "nameKo": "마티아스 올리베라",
-          "nameZh": "马蒂亚斯·奥利韦拉"
+          "nameZh": "马蒂亚斯·奥利韦拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Math%C3%ADas_Olivera_WC2022.jpg/120px-Math%C3%ADas_Olivera_WC2022.jpg"
         },
         {
           "number": 17,
@@ -8410,7 +8871,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 85,
           "nameKo": "마티아스 비냐",
-          "nameZh": "马蒂亚斯·维尼亚"
+          "nameZh": "马蒂亚斯·维尼亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Mat%C3%ADas_Vi%C3%B1a.jpg/120px-Mat%C3%ADas_Vi%C3%B1a.jpg"
         },
         {
           "number": 18,
@@ -8425,7 +8887,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 85,
           "nameKo": "브리아 로드리게스",
-          "nameZh": "布莱恩·罗德里格斯"
+          "nameZh": "布莱恩·罗德里格斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Brian_Rodriguez.png/120px-Brian_Rodriguez.png"
         },
         {
           "number": 19,
@@ -8465,7 +8928,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 84,
           "attack": 87,
           "defense": 68,
-          "form": 83
+          "form": 83,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Federico_Vi%C3%B1as.jpg/120px-Federico_Vi%C3%B1as.jpg"
         },
         {
           "number": 22,
@@ -8480,7 +8944,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 83,
           "nameKo": "호아킨 피케레스",
-          "nameZh": "祖亞昆·比基利斯"
+          "nameZh": "祖亞昆·比基利斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Joaquin-Piquerez-Palmeiras-Liverpool-abr24.jpg/120px-Joaquin-Piquerez-Palmeiras-Liverpool-abr24.jpg"
         },
         {
           "number": 23,
@@ -8495,7 +8960,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 84,
           "nameKo": "페르난도 무슬레라",
-          "nameZh": "费尔南多·穆斯莱拉"
+          "nameZh": "费尔南多·穆斯莱拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Fernando_Muslera_in_2021.jpg/120px-Fernando_Muslera_in_2021.jpg"
         },
         {
           "number": 24,
@@ -8509,7 +8975,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 72,
           "defense": 85,
           "form": 83,
-          "nameZh": "聖地亞哥·布埃諾"
+          "nameZh": "聖地亞哥·布埃諾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Santiago_Bueno.png/120px-Santiago_Bueno.png"
         },
         {
           "number": 25,
@@ -8580,7 +9047,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 86,
           "nameKo": "외리안 뉠란",
-          "nameZh": "厄尔延·尼兰"
+          "nameZh": "厄尔延·尼兰",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Norway_Italy_-_June_2025_A_10_%28cropped%29.jpg/120px-Norway_Italy_-_June_2025_A_10_%28cropped%29.jpg"
         },
         {
           "number": 2,
@@ -8595,7 +9063,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 85,
           "nameKo": "모르텐 토르스뷔",
-          "nameZh": "莫滕·托斯比"
+          "nameZh": "莫滕·托斯比",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Norway_Italy_-_June_2025_E_24_%28cropped%29.jpg/120px-Norway_Italy_-_June_2025_E_24_%28cropped%29.jpg"
         },
         {
           "number": 3,
@@ -8610,7 +9079,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 85,
           "nameKo": "크리스토페르 아예르",
-          "nameZh": "克里斯托弗·阿耶"
+          "nameZh": "克里斯托弗·阿耶",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Norway_Italy_-_June_2025_E_21_%28cropped%29.jpg/120px-Norway_Italy_-_June_2025_E_21_%28cropped%29.jpg"
         },
         {
           "number": 4,
@@ -8625,7 +9095,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 85,
           "nameKo": "레오 스키리 외스티고르",
-          "nameZh": "莱奥·厄斯蒂高"
+          "nameZh": "莱奥·厄斯蒂高",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Norway_Italy_-_June_2025_A_06_%28cropped%29.jpg/120px-Norway_Italy_-_June_2025_A_06_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -8639,7 +9110,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 75,
           "defense": 84,
           "form": 85,
-          "nameZh": "达维德·默勒·沃尔费"
+          "nameZh": "达维德·默勒·沃尔费",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/David_M%C3%B8ller_Wolfe.jpg/120px-David_M%C3%B8ller_Wolfe.jpg"
         },
         {
           "number": 6,
@@ -8652,7 +9124,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 87,
           "attack": 85,
           "defense": 82,
-          "form": 85
+          "form": 85,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Norway_Italy_-_June_2025_A_14_%28cropped%29.jpg/120px-Norway_Italy_-_June_2025_A_14_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -8667,7 +9140,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 66,
           "form": 86,
           "nameKo": "알렉산데르 쇨로트",
-          "nameZh": "亚历山大·瑟尔洛特"
+          "nameZh": "亚历山大·瑟尔洛特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Norway_Italy_-_June_2025_E_10.jpg/120px-Norway_Italy_-_June_2025_E_10.jpg"
         },
         {
           "number": 8,
@@ -8682,7 +9156,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 86,
           "nameKo": "사네르 베르게",
-          "nameZh": "桑德·貝格"
+          "nameZh": "桑德·貝格",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Norway_Italy_-_June_2025_E_25_%28cropped%29.jpg/120px-Norway_Italy_-_June_2025_E_25_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -8697,7 +9172,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 85,
           "nameKo": "엘링 홀란",
-          "nameZh": "埃尔林·哈兰德"
+          "nameZh": "埃尔林·哈兰德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/120px-Erling_Haaland_June_2025.jpg"
         },
         {
           "number": 10,
@@ -8712,7 +9188,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 86,
           "nameKo": "마르틴 외데가르드",
-          "nameZh": "马丁·厄德高"
+          "nameZh": "马丁·厄德高",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Norway_Italy_-_June_2025_E_04.jpg/120px-Norway_Italy_-_June_2025_E_04.jpg"
         },
         {
           "number": 11,
@@ -8727,7 +9204,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 85,
           "nameKo": "예르겐 스트란드 라르센",
-          "nameZh": "尤爾根·拉爾森"
+          "nameZh": "尤爾根·拉爾森",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Norway_Italy_-_June_2025_A_15_%28cropped%29.jpg/120px-Norway_Italy_-_June_2025_A_15_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -8753,7 +9231,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 84,
           "attack": 45,
           "defense": 83,
-          "form": 84
+          "form": 84,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Norway_Italy_-_June_2025_A_07_%28cropped%29.jpg/120px-Norway_Italy_-_June_2025_A_07_%28cropped%29.jpg"
         },
         {
           "number": 14,
@@ -8767,7 +9246,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 85,
           "defense": 80,
           "form": 84,
-          "nameZh": "弗雷德里克·奧爾斯尼斯"
+          "nameZh": "弗雷德里克·奧爾斯尼斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Zenit-Mo%3Bde_%286%29_%28cropped%29.jpg/120px-Zenit-Mo%3Bde_%286%29_%28cropped%29.jpg"
         },
         {
           "number": 15,
@@ -8781,7 +9261,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 75,
           "defense": 83,
           "form": 84,
-          "nameZh": "弗雷德里克·比约坎"
+          "nameZh": "弗雷德里克·比约坎",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/F_Bj%C3%B8rkan.jpg/120px-F_Bj%C3%B8rkan.jpg"
         },
         {
           "number": 16,
@@ -8795,7 +9276,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 75,
           "defense": 83,
           "form": 84,
-          "nameZh": "马库斯·佩德森"
+          "nameZh": "马库斯·佩德森",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Marcus_Holmgren_Pedersen_2022_FC_RB_Salzburg_gegen_Feyenoord_Rotterdam_%28cropped%29.jpg/120px-Marcus_Holmgren_Pedersen_2022_FC_RB_Salzburg_gegen_Feyenoord_Rotterdam_%28cropped%29.jpg"
         },
         {
           "number": 17,
@@ -8808,7 +9290,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 85,
           "attack": 75,
           "defense": 83,
-          "form": 84
+          "form": 84,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Norway_Italy_-_June_2025_D_05_%28cropped%29.jpg/120px-Norway_Italy_-_June_2025_D_05_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -8852,7 +9335,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 82,
           "nameKo": "안토니오 누사",
-          "nameZh": "安東尼奧·盧沙"
+          "nameZh": "安東尼奧·盧沙",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Norway_Italy_-_June_2025_C_23.jpg/120px-Norway_Italy_-_June_2025_C_23.jpg"
         },
         {
           "number": 21,
@@ -8882,7 +9366,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 78,
           "form": 82,
           "nameKo": "오스카르 보브",
-          "nameZh": "奥斯卡·鲍勃"
+          "nameZh": "奥斯卡·鲍勃",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/ManCity20240722-050_%28Oscar_Bobb2%29.jpg/120px-ManCity20240722-050_%28Oscar_Bobb2%29.jpg"
         },
         {
           "number": 23,
@@ -8896,7 +9381,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 85,
           "defense": 78,
           "form": 82,
-          "nameZh": "候格"
+          "nameZh": "候格",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/2022128171253_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_2064_-_B70I8175_%28Jens_Petter_Hauge_cropped%29.jpg/120px-2022128171253_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_2064_-_B70I8175_%28Jens_Petter_Hauge_cropped%29.jpg"
         },
         {
           "number": 24,
@@ -8909,7 +9395,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 75,
           "defense": 80,
-          "form": 82
+          "form": 82,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Sondre_Lang%C3%A5s_25042026_%281%29.jpg/120px-Sondre_Lang%C3%A5s_25042026_%281%29.jpg"
         },
         {
           "number": 25,
@@ -8922,7 +9409,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 75,
           "defense": 80,
-          "form": 82
+          "form": 82,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Henrik_Falchener_25_Viking_FK_UECL_20250813_%285%29.jpg/120px-Henrik_Falchener_25_Viking_FK_UECL_20250813_%285%29.jpg"
         },
         {
           "number": 26,
@@ -8937,7 +9425,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 82,
           "nameKo": "율리안 뤼에르손",
-          "nameZh": "尤利安·雷爾森"
+          "nameZh": "尤利安·雷爾森",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93102.jpg/120px-2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93102.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -8980,7 +9469,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 81,
           "nameKo": "예방 디우프",
-          "nameZh": "叶文·迪乌夫"
+          "nameZh": "叶文·迪乌夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Diouf_asse_sr_2425.png/120px-Diouf_asse_sr_2425.png"
         },
         {
           "number": 2,
@@ -8995,7 +9485,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 81,
           "nameKo": "마마두 사르",
-          "nameZh": "馬馬杜·沙亞"
+          "nameZh": "馬馬杜·沙亞",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Sarr_asse_rcsa_2425.jpg/120px-Sarr_asse_rcsa_2425.jpg"
         },
         {
           "number": 3,
@@ -9010,7 +9501,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 82,
           "nameKo": "칼리두 쿨리발리",
-          "nameZh": "高列巴尼"
+          "nameZh": "高列巴尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Joueur_de_foot.jpg/120px-Joueur_de_foot.jpg"
         },
         {
           "number": 4,
@@ -9024,7 +9516,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 69,
           "defense": 89,
           "form": 81,
-          "nameKo": "압둘라예 세크"
+          "nameKo": "압둘라예 세크",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Abdoulaye_Seck.jpg/120px-Abdoulaye_Seck.jpg"
         },
         {
           "number": 5,
@@ -9039,7 +9532,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 82,
           "nameKo": "이드리사 게예",
-          "nameZh": "伊祖沙·古爾"
+          "nameZh": "伊祖沙·古爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Idrissa_Gueye_%28cropped%29.jpg/120px-Idrissa_Gueye_%28cropped%29.jpg"
         },
         {
           "number": 6,
@@ -9083,7 +9577,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 79,
           "defense": 86,
           "form": 81,
-          "nameKo": "라민 카마라"
+          "nameKo": "라민 카마라",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/5._Islamic_Solidarity_Games_2021_Konya_7_Lamine_Camara_%28cropped%29.jpg/120px-5._Islamic_Solidarity_Games_2021_Konya_7_Lamine_Camara_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -9098,7 +9593,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 81,
           "nameKo": "밤바 디엥",
-          "nameZh": "班巴·迪昂"
+          "nameZh": "班巴·迪昂",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Dieng_asse_sco_2425.png/120px-Dieng_asse_sco_2425.png"
         },
         {
           "number": 10,
@@ -9113,7 +9609,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 82,
           "nameKo": "사디오 마네",
-          "nameZh": "萨迪奥·马内"
+          "nameZh": "萨迪奥·马内",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Sadio_Mane_Al-Nassr.jpg/120px-Sadio_Mane_Al-Nassr.jpg"
         },
         {
           "number": 11,
@@ -9128,7 +9625,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 81,
           "nameKo": "니콜라 작송",
-          "nameZh": "尼古拉·雅克松"
+          "nameZh": "尼古拉·雅克松",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Nicolas_Jackson_2025_FIFA_Club_World_Cup_Final.jpg/120px-Nicolas_Jackson_2025_FIFA_Club_World_Cup_Final.jpg"
         },
         {
           "number": 12,
@@ -9143,7 +9641,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 80,
           "nameKo": "셰리프 은디아예",
-          "nameZh": "谢里夫·恩迪亚耶"
+          "nameZh": "谢里夫·恩迪亚耶",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Cherif_Ndiaye%2C_27092025_%28cropped%29.jpg/120px-Cherif_Ndiaye%2C_27092025_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -9158,7 +9657,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 80,
           "nameKo": "일리만 은디아예",
-          "nameZh": "伊利曼·恩迪亞耶"
+          "nameZh": "伊利曼·恩迪亞耶",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Iliman_Ndiaye.png/120px-Iliman_Ndiaye.png"
         },
         {
           "number": 14,
@@ -9173,7 +9673,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 80,
           "nameKo": "이스마일 야콥스",
-          "nameZh": "伊斯梅尔·雅各布斯"
+          "nameZh": "伊斯梅尔·雅各布斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Ismail_Jakobs.jpg/120px-Ismail_Jakobs.jpg"
         },
         {
           "number": 15,
@@ -9188,7 +9689,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 81,
           "nameKo": "크레팽 디아타",
-          "nameZh": "克雷平·迪亞塔"
+          "nameZh": "克雷平·迪亞塔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Diatta_asse_asm_2425.png/120px-Diatta_asse_asm_2425.png"
         },
         {
           "number": 16,
@@ -9203,7 +9705,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 81,
           "nameKo": "에두아르 멘디",
-          "nameZh": "愛德華·門迪"
+          "nameZh": "愛德華·門迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2021_FIFA_Club_World_Cup_Final_-_30.jpg/120px-2021_FIFA_Club_World_Cup_Final_-_30.jpg"
         },
         {
           "number": 17,
@@ -9218,7 +9721,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 80,
           "nameKo": "파페 마타르 사르",
-          "nameZh": "帕普·马塔尔·萨尔"
+          "nameZh": "帕普·马塔尔·萨尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Pape_Matar_Sarr.png/120px-Pape_Matar_Sarr.png"
         },
         {
           "number": 18,
@@ -9233,7 +9737,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 71,
           "form": 81,
           "nameKo": "이스마일라 사르",
-          "nameZh": "伊斯梅拉·萨尔"
+          "nameZh": "伊斯梅拉·萨尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ismaila_Sarr_2022.jpg/120px-Ismaila_Sarr_2022.jpg"
         },
         {
           "number": 19,
@@ -9248,7 +9753,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 78,
           "nameKo": "무사 니아카테",
-          "nameZh": "穆萨·尼亚卡特"
+          "nameZh": "穆萨·尼亚卡特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Niakhat%C3%A9_asse_ol_2425.png/120px-Niakhat%C3%A9_asse_ol_2425.png"
         },
         {
           "number": 20,
@@ -9262,7 +9768,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 84,
           "defense": 68,
           "form": 78,
-          "nameKo": "이브라힘 음바예"
+          "nameKo": "이브라힘 음바예",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/PSG_attacking_vs_Atletico_Madrid_Club_World_Cup_%28cropped%29.jpg/120px-PSG_attacking_vs_Atletico_Madrid_Club_World_Cup_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -9277,7 +9784,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 78,
           "nameKo": "하비브 디아라",
-          "nameZh": "穆罕默杜·迪亞拉"
+          "nameZh": "穆罕默杜·迪亞拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Diarra_asse_rcsa_2425.jpg/120px-Diarra_asse_rcsa_2425.jpg"
         },
         {
           "number": 22,
@@ -9305,7 +9813,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 78,
           "nameKo": "모리 디아우",
-          "nameZh": "莫里·迪奧"
+          "nameZh": "莫里·迪奧",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Mory_Diaw_2015_%28cropped%29.jpg/120px-Mory_Diaw_2015_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -9320,7 +9829,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 78,
           "nameKo": "앙투안 멘디",
-          "nameZh": "安托万·门迪"
+          "nameZh": "安托万·门迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Mendy_asse_ogcn_2425.png/120px-Mendy_asse_ogcn_2425.png"
         },
         {
           "number": 25,
@@ -9350,7 +9860,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 78,
           "nameKo": "파페 게예",
-          "nameZh": "帕佩·古爾"
+          "nameZh": "帕佩·古爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pape_Gueye_Le_Havre_AC_2019.jpg/120px-Pape_Gueye_Le_Havre_AC_2019.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -9393,7 +9904,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 94,
           "form": 92,
           "nameKo": "후안 무소",
-          "nameZh": "胡安·穆索"
+          "nameZh": "胡安·穆索",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Musso_Udinese.png/120px-Musso_Udinese.png"
         },
         {
           "number": 2,
@@ -9408,7 +9920,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 92,
           "nameKo": "레오나르도 발레르디",
-          "nameZh": "巴勒迪"
+          "nameZh": "巴勒迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Balerdi_asse_om_2425.png/120px-Balerdi_asse_om_2425.png"
         },
         {
           "number": 3,
@@ -9423,7 +9936,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 96,
           "form": 93,
           "nameKo": "니콜라스 탈리아피코",
-          "nameZh": "尼古拉斯·塔利亚菲科"
+          "nameZh": "尼古拉斯·塔利亚菲科",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Tagliafico_asse_ol_2425.png/120px-Tagliafico_asse_ol_2425.png"
         },
         {
           "number": 4,
@@ -9438,7 +9952,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 95,
           "form": 92,
           "nameKo": "곤살로 몬티엘",
-          "nameZh": "蒙提爾"
+          "nameZh": "蒙提爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Argentina_national_football_team_-_2_-_2022_%28Gonzalo_Montiel%29_%28cropped%29.jpg/120px-Argentina_national_football_team_-_2_-_2022_%28Gonzalo_Montiel%29_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -9453,7 +9968,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 93,
           "nameKo": "레안드로 파레데스",
-          "nameZh": "莱安德罗·帕雷德斯"
+          "nameZh": "莱安德罗·帕雷德斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Leandro_Paredes_2018_%28cropped%29.jpg/120px-Leandro_Paredes_2018_%28cropped%29.jpg"
         },
         {
           "number": 6,
@@ -9468,7 +9984,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 94,
           "form": 92,
           "nameKo": "리산드로 마르티네스",
-          "nameZh": "利桑德罗·马丁内斯"
+          "nameZh": "利桑德罗·马丁内斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Lisandro_Martinez_2022.jpg/120px-Lisandro_Martinez_2022.jpg"
         },
         {
           "number": 7,
@@ -9483,7 +10000,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 93,
           "nameKo": "로드리고 데 폴",
-          "nameZh": "罗德里戈·德保罗"
+          "nameZh": "罗德里戈·德保罗",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Rodrigo_De_Paul_NYCFC_Miami_24_Sep_2025-018_%28cropped%29.jpg/120px-Rodrigo_De_Paul_NYCFC_Miami_24_Sep_2025-018_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -9498,7 +10016,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 92,
           "nameKo": "발렌틴 바르코",
-          "nameZh": "巴倫丁·巴爾科"
+          "nameZh": "巴倫丁·巴爾科",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Entrenamiento_Argentina_Sub20_previo_al_mundial_-_BugWarp_%2813%29_%28cropped%29_%28cropped%29.jpg/120px-Entrenamiento_Argentina_Sub20_previo_al_mundial_-_BugWarp_%2813%29_%28cropped%29_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -9513,7 +10032,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 75,
           "form": 93,
           "nameKo": "훌리안 알바레즈",
-          "nameZh": "胡利安·阿瓦雷斯"
+          "nameZh": "胡利安·阿瓦雷斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Argentina_national_football_team_-_2_-_2022_%28Juli%C3%A1n_%C3%81lvarez%29.jpg/120px-Argentina_national_football_team_-_2_-_2022_%28Juli%C3%A1n_%C3%81lvarez%29.jpg"
         },
         {
           "number": 10,
@@ -9528,7 +10048,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 78,
           "form": 93,
           "nameKo": "리오넬 메시",
-          "nameZh": "利昂内尔·梅西"
+          "nameZh": "利昂内尔·梅西",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lionel_Messi_White_House_2026_%283x4_cropped%29.jpg/120px-Lionel_Messi_White_House_2026_%283x4_cropped%29.jpg"
         },
         {
           "number": 11,
@@ -9543,7 +10064,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 93,
           "nameKo": "조바니 로 셀소",
-          "nameZh": "喬瓦尼·路些素"
+          "nameZh": "喬瓦尼·路些素",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3705_by_Stepro.jpg/120px-2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3705_by_Stepro.jpg"
         },
         {
           "number": 12,
@@ -9558,7 +10080,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 91,
           "nameKo": "헤로니모 룰리",
-          "nameZh": "魯利"
+          "nameZh": "魯利",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Rulli_asse_om_2425.png/120px-Rulli_asse_om_2425.png"
         },
         {
           "number": 13,
@@ -9573,7 +10096,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 94,
           "form": 91,
           "nameKo": "크리스티안 로메로",
-          "nameZh": "克里斯蒂安·罗梅罗"
+          "nameZh": "克里斯蒂安·罗梅罗",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Cristian_Romero_WC2022.jpg/120px-Cristian_Romero_WC2022.jpg"
         },
         {
           "number": 14,
@@ -9588,7 +10112,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 91,
           "nameKo": "에세키엘 팔라시오스",
-          "nameZh": "帕拉西奧斯"
+          "nameZh": "帕拉西奧斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Exequiel_Palacios%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg/120px-Exequiel_Palacios%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg"
         },
         {
           "number": 15,
@@ -9603,7 +10128,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 91,
           "nameKo": "니콜라스 곤살레스",
-          "nameZh": "尼古拉斯·冈萨雷斯"
+          "nameZh": "尼古拉斯·冈萨雷斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/NicolasGonzalez_%28cropped%29.jpg/120px-NicolasGonzalez_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -9618,7 +10144,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 74,
           "form": 91,
           "nameKo": "티아고 알마다",
-          "nameZh": "蒂亚戈·阿尔马达"
+          "nameZh": "蒂亚戈·阿尔马达",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Almada_asse_ol_2425.png/120px-Almada_asse_ol_2425.png"
         },
         {
           "number": 17,
@@ -9633,7 +10160,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 91,
           "nameKo": "줄리아노 시메오네",
-          "nameZh": "朱利亞諾·施蒙尼"
+          "nameZh": "朱利亞諾·施蒙尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Giuliano_Simeone%2C_FC_Salzburg_vs._Atletico_Madrid_%282025-01-29_UEFA_Championsleague%29_53_%28cropped%29.jpg/120px-Giuliano_Simeone%2C_FC_Salzburg_vs._Atletico_Madrid_%282025-01-29_UEFA_Championsleague%29_53_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -9647,7 +10175,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 95,
           "defense": 73,
           "form": 91,
-          "nameKo": "니코 파스"
+          "nameKo": "니코 파스",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Nico_Paz_Como_2025.jpg/120px-Nico_Paz_Como_2025.jpg"
         },
         {
           "number": 19,
@@ -9662,7 +10191,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 95,
           "form": 90,
           "nameKo": "니콜라스 오타멘디",
-          "nameZh": "尼古拉斯·奥塔门迪"
+          "nameZh": "尼古拉斯·奥塔门迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Argentina_team_in_St._Petersburg_%28cropped%29_Otamendi.jpg/120px-Argentina_team_in_St._Petersburg_%28cropped%29_Otamendi.jpg"
         },
         {
           "number": 20,
@@ -9677,7 +10207,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 89,
           "nameKo": "알렉시스 마크 아이스테르",
-          "nameZh": "亚历克西斯·麦卡利斯特"
+          "nameZh": "亚历克西斯·麦卡利斯特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Alexis_Mac_Allister_WC_2022.jpg/120px-Alexis_Mac_Allister_WC_2022.jpg"
         },
         {
           "number": 21,
@@ -9690,7 +10221,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 91,
           "attack": 93,
           "defense": 73,
-          "form": 89
+          "form": 89,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Flaco-Lopez-Palmeiras-Juventude-jun24.jpg/120px-Flaco-Lopez-Palmeiras-Juventude-jun24.jpg"
         },
         {
           "number": 22,
@@ -9705,7 +10237,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 76,
           "form": 90,
           "nameKo": "라우타로 마르티네스",
-          "nameZh": "劳塔罗·马丁内斯"
+          "nameZh": "劳塔罗·马丁内斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Lautaro_Martinez_ARGENTINA_VS_VENEZUELA_2017.jpg/120px-Lautaro_Martinez_ARGENTINA_VS_VENEZUELA_2017.jpg"
         },
         {
           "number": 23,
@@ -9720,7 +10253,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 90,
           "nameKo": "에밀리아노 마르티네스",
-          "nameZh": "达米安·马丁内斯"
+          "nameZh": "达米安·马丁内斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/St._Louis_City_vs_Aston_Villa_%28Jul_2025%29_14_%28Emiliano_Mart%C3%ADnez%29.jpg/120px-St._Louis_City_vs_Aston_Villa_%28Jul_2025%29_14_%28Emiliano_Mart%C3%ADnez%29.jpg"
         },
         {
           "number": 24,
@@ -9735,7 +10269,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 89,
           "nameKo": "엔소 페르난데스",
-          "nameZh": "恩佐·费尔南德斯"
+          "nameZh": "恩佐·费尔南德斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Enzo_Fern%C3%A1ndez_2025_FIFA_Club_World_Cup_Final.jpg/120px-Enzo_Fern%C3%A1ndez_2025_FIFA_Club_World_Cup_Final.jpg"
         },
         {
           "number": 25,
@@ -9750,7 +10285,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 89,
           "nameKo": "파쿤도 메디나",
-          "nameZh": "法昆多·米迪拿"
+          "nameZh": "法昆多·米迪拿",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Facundo_M%C3%A9dina_ASSE_RCL_2425.jpg/120px-Facundo_M%C3%A9dina_ASSE_RCL_2425.jpg"
         },
         {
           "number": 26,
@@ -9765,7 +10301,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 90,
           "nameKo": "나우엘 몰리나",
-          "nameZh": "纳韦尔·莫利纳"
+          "nameZh": "纳韦尔·莫利纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Universidad_Cat%C3%B3lica_-_Rosario_Central_20190313_04.jpg/120px-Universidad_Cat%C3%B3lica_-_Rosario_Central_20190313_04.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -9808,7 +10345,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 84,
           "nameKo": "알렉산더 슐라거",
-          "nameZh": "亞歷山大·施拉格"
+          "nameZh": "亞歷山大·施拉格",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/FC_Salzburg_vs._Atletico_Madrid_%282025-01-29_UEFA_Championsleague%29_47.jpg/120px-FC_Salzburg_vs._Atletico_Madrid_%282025-01-29_UEFA_Championsleague%29_47.jpg"
         },
         {
           "number": 2,
@@ -9823,7 +10361,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 84,
           "nameKo": "다비드 아펜그루버",
-          "nameZh": "达维德·阿丰格鲁伯"
+          "nameZh": "达维德·阿丰格鲁伯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/FC_RB_Salzburg_gegen_SK_Sturm_Graz%282023-05-21%29_56.jpg/120px-FC_RB_Salzburg_gegen_SK_Sturm_Graz%282023-05-21%29_56.jpg"
         },
         {
           "number": 3,
@@ -9838,7 +10377,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 84,
           "nameKo": "케빈 단소",
-          "nameZh": "凯文·丹索"
+          "nameZh": "凯文·丹索",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Kevin_Danso_ASSE_RCL_2425.jpg/120px-Kevin_Danso_ASSE_RCL_2425.jpg"
         },
         {
           "number": 4,
@@ -9853,7 +10393,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 84,
           "nameKo": "크사버 슐라거",
-          "nameZh": "沙费尔·施拉格"
+          "nameZh": "沙费尔·施拉格",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Xaver_Schlager_850_1680.jpg/120px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Xaver_Schlager_850_1680.jpg"
         },
         {
           "number": 5,
@@ -9868,7 +10409,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 85,
           "nameKo": "슈테판 포슈",
-          "nameZh": "斯特凡·波施"
+          "nameZh": "斯特凡·波施",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Austria_national_under-21_football_team_-_Teamcamp_June_2017_%28110%29.jpg/120px-Austria_national_under-21_football_team_-_Teamcamp_June_2017_%28110%29.jpg"
         },
         {
           "number": 6,
@@ -9883,7 +10425,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 84,
           "nameKo": "니콜라스 자이발트",
-          "nameZh": "尼古拉斯·塞瓦尔德"
+          "nameZh": "尼古拉斯·塞瓦尔德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Meisterteller%C3%BCbergabe_Saison_2021-22_%282022-05-21%29_49.jpg/120px-Meisterteller%C3%BCbergabe_Saison_2021-22_%282022-05-21%29_49.jpg"
         },
         {
           "number": 7,
@@ -9898,7 +10441,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 71,
           "form": 85,
           "nameKo": "마르코 아르나우토비치",
-          "nameZh": "马尔科·阿尔诺托维奇"
+          "nameZh": "马尔科·阿尔诺托维奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Marko_Arnautovi%C4%87_850_1633.jpg/120px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Marko_Arnautovi%C4%87_850_1633.jpg"
         },
         {
           "number": 8,
@@ -9913,7 +10457,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 85,
           "nameKo": "다비트 알라바",
-          "nameZh": "大衛·阿拉巴"
+          "nameZh": "大衛·阿拉巴",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_David_Alaba_850_1632.jpg/120px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_David_Alaba_850_1632.jpg"
         },
         {
           "number": 9,
@@ -9928,7 +10473,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 85,
           "nameKo": "마르셀 자비처",
-          "nameZh": "馬塞爾·薩比策"
+          "nameZh": "馬塞爾·薩比策",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Marcel_Sabitzer_2020_%28cropped%29.jpg/120px-Marcel_Sabitzer_2020_%28cropped%29.jpg"
         },
         {
           "number": 10,
@@ -9943,7 +10489,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 85,
           "nameKo": "플로리안 그릴리치",
-          "nameZh": "弗洛里安·格里利奇"
+          "nameZh": "弗洛里安·格里利奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/20180602_AUTGER_4687_%28cropped%29_Florian_Grillitsch.jpg/120px-20180602_AUTGER_4687_%28cropped%29_Florian_Grillitsch.jpg"
         },
         {
           "number": 11,
@@ -9958,7 +10505,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 85,
           "nameKo": "미하엘 그레고리치",
-          "nameZh": "米夏埃尔·格雷戈里奇"
+          "nameZh": "米夏埃尔·格雷戈里奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Michael_Gregoritsch_U21_Austria_vs._Albania_2014-03-05_01.jpg/120px-Michael_Gregoritsch_U21_Austria_vs._Albania_2014-03-05_01.jpg"
         },
         {
           "number": 12,
@@ -9986,7 +10534,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 83,
           "nameKo": "파트리크 펜츠",
-          "nameZh": "派屈克·彭茲"
+          "nameZh": "派屈克·彭茲",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Pentz_%282024%29.png/120px-Pentz_%282024%29.png"
         },
         {
           "number": 14,
@@ -10001,7 +10550,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 67,
           "form": 83,
           "nameKo": "사샤 칼라이지치",
-          "nameZh": "萨沙·卡拉德西奇"
+          "nameZh": "萨沙·卡拉德西奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sasa_kalajdzic.jpg/120px-Sasa_kalajdzic.jpg"
         },
         {
           "number": 15,
@@ -10016,7 +10566,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 83,
           "nameKo": "필리프 린하르트",
-          "nameZh": "菲利普·利恩哈特"
+          "nameZh": "菲利普·利恩哈特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Austria_national_under-21_football_team_-_Teamcamp_June_2017_%28057%29.jpg/120px-Austria_national_under-21_football_team_-_Teamcamp_June_2017_%28057%29.jpg"
         },
         {
           "number": 16,
@@ -10031,7 +10582,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 83,
           "nameKo": "필리프 음웨네",
-          "nameZh": "菲利普·姆韦内"
+          "nameZh": "菲利普·姆韦内",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Phillipp-mwene.jpg/120px-Phillipp-mwene.jpg"
         },
         {
           "number": 17,
@@ -10061,7 +10613,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 83,
           "nameKo": "로마노 슈미트",
-          "nameZh": "罗曼诺·施密德"
+          "nameZh": "罗曼诺·施密德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/UEFA_Euro_2023_Qualifiers_Austria_vs._Finland_%282022-06-03%29_30.jpg/120px-UEFA_Euro_2023_Qualifiers_Austria_vs._Finland_%282022-06-03%29_30.jpg"
         },
         {
           "number": 19,
@@ -10076,7 +10629,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 82,
           "nameKo": "크리스토프 바움가르트너",
-          "nameZh": "克里斯托夫·鮑姆加特納"
+          "nameZh": "克里斯托夫·鮑姆加特納",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Austria_national_under-21_football_team_-_Teamcamp_October_2019_%2861%29_%28cropped%29.jpg/120px-Austria_national_under-21_football_team_-_Teamcamp_October_2019_%2861%29_%28cropped%29.jpg"
         },
         {
           "number": 20,
@@ -10091,7 +10645,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 82,
           "nameKo": "콘라트 라이머",
-          "nameZh": "孔拉德·萊梅爾"
+          "nameZh": "孔拉德·萊梅爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2137_by_Stepro_%28cropped%29.jpg/120px-2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2137_by_Stepro_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -10106,7 +10661,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 67,
           "form": 81,
           "nameKo": "파트리크 비머",
-          "nameZh": "帕特里克·维默尔"
+          "nameZh": "帕特里克·维默尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/U19_Austria_vs._Ireland%2819._November_2019_%29_42.jpg/120px-U19_Austria_vs._Ireland%2819._November_2019_%29_42.jpg"
         },
         {
           "number": 22,
@@ -10121,7 +10677,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 81,
           "nameKo": "알렉산더 프라스",
-          "nameZh": "亚历山大·普拉斯"
+          "nameZh": "亚历山大·普拉斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/FC_Liefering_versus_WSG_Wattens_%2824._Mai_2019%29_06.jpg/120px-FC_Liefering_versus_WSG_Wattens_%2824._Mai_2019%29_06.jpg"
         },
         {
           "number": 23,
@@ -10136,7 +10693,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 81,
           "nameKo": "마르코 프리들",
-          "nameZh": "马尔科·弗里德尔"
+          "nameZh": "马尔科·弗里德尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Austria_national_under-21_football_team_-_Teamcamp_June_2017_%28053%29.jpg/120px-Austria_national_under-21_football_team_-_Teamcamp_June_2017_%28053%29.jpg"
         },
         {
           "number": 24,
@@ -10151,7 +10709,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 81,
           "nameKo": "폴 워너",
-          "nameZh": "保罗·万纳"
+          "nameZh": "保罗·万纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Paul_wanner-1772636856_%28cropped%29.JPG/120px-Paul_wanner-1772636856_%28cropped%29.JPG"
         },
         {
           "number": 25,
@@ -10165,7 +10724,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 66,
           "defense": 83,
           "form": 81,
-          "nameKo": "미하엘 스보보다"
+          "nameKo": "미하엘 스보보다",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/FC_RB_Salzburg_gegen_WSG_Swarowski_Tirol_%287._Dezember_2019%29_62_%28Michael_Svoboda%29.jpg/120px-FC_RB_Salzburg_gegen_WSG_Swarowski_Tirol_%287._Dezember_2019%29_62_%28Michael_Svoboda%29.jpg"
         },
         {
           "number": 26,
@@ -10180,7 +10740,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 81,
           "nameKo": "알레산드로 쇠프",
-          "nameZh": "亞歷山卓·施霍夫"
+          "nameZh": "亞歷山卓·施霍夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/20140905_U21_AUT_BIH_AT08_1103.jpg/120px-20140905_U21_AUT_BIH_AT08_1103.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -10223,7 +10784,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 90,
           "nameKo": "디오구 코스타",
-          "nameZh": "迪奥戈·科斯塔"
+          "nameZh": "迪奥戈·科斯塔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Portugal_national_football_team_0866_%28Diogo_Costa%29.jpg/120px-Portugal_national_football_team_0866_%28Diogo_Costa%29.jpg"
         },
         {
           "number": 2,
@@ -10238,7 +10800,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 90,
           "nameKo": "넬송 세메두",
-          "nameZh": "内尔松·塞梅多"
+          "nameZh": "内尔松·塞梅多",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Mex-por-14_%28cropped%29.jpg/120px-Mex-por-14_%28cropped%29.jpg"
         },
         {
           "number": 3,
@@ -10253,7 +10816,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 91,
           "nameKo": "후벵 디아스",
-          "nameZh": "鲁本·迪亚斯"
+          "nameZh": "鲁本·迪亚斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Portugal_national_football_team_0866_%28R%C3%BAben_Dias%29.jpg/120px-Portugal_national_football_team_0866_%28R%C3%BAben_Dias%29.jpg"
         },
         {
           "number": 4,
@@ -10267,7 +10831,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 79,
           "defense": 90,
           "form": 90,
-          "nameZh": "托马斯·阿劳约"
+          "nameZh": "托马斯·阿劳约",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Tom%C3%A1s_Ara%C3%BAjo_USMNT_v_Portugal_Mar_31_2026-40_%28cropped%29.jpg/120px-Tom%C3%A1s_Ara%C3%BAjo_USMNT_v_Portugal_Mar_31_2026-40_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -10282,7 +10847,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 90,
           "nameKo": "디오구 달로트",
-          "nameZh": "達洛特"
+          "nameZh": "達洛特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Diogo_Dalot_USMNT_v_Portugal_Mar_31_2026-12.jpg/120px-Diogo_Dalot_USMNT_v_Portugal_Mar_31_2026-12.jpg"
         },
         {
           "number": 6,
@@ -10297,7 +10863,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 90,
           "nameKo": "마테우스 누네스",
-          "nameZh": "马特乌斯·努内斯"
+          "nameZh": "马特乌斯·努内斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Matheus_Nunes_USMNT_v_Portugal_Mar_31_2026-21_%28cropped%29.jpg/120px-Matheus_Nunes_USMNT_v_Portugal_Mar_31_2026-21_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -10312,7 +10879,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 75,
           "form": 91,
           "nameKo": "크리스티아누 호날두",
-          "nameZh": "克里斯蒂亚诺·罗纳尔多"
+          "nameZh": "克里斯蒂亚诺·罗纳尔多",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/President_Donald_Trump_meets_with_Cristiano_Ronaldo_in_the_Oval_Office_%2854933344262%29_%28cropped_and_rotated%29.jpg/120px-President_Donald_Trump_meets_with_Cristiano_Ronaldo_in_the_Oval_Office_%2854933344262%29_%28cropped_and_rotated%29.jpg"
         },
         {
           "number": 8,
@@ -10327,7 +10895,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 91,
           "nameKo": "브루누 페르난드스",
-          "nameZh": "布鲁诺·费尔南德斯"
+          "nameZh": "布鲁诺·费尔南德斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27_%28cropped%29.jpg/120px-Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -10342,7 +10911,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 71,
           "form": 90,
           "nameKo": "곤살루 하무스",
-          "nameZh": "贡萨洛·拉莫斯"
+          "nameZh": "贡萨洛·拉莫斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Gon%C3%A7alo_Ramos_USMNT_v_Portugal_Mar_31_2026-32_%28cropped%29.jpg/120px-Gon%C3%A7alo_Ramos_USMNT_v_Portugal_Mar_31_2026-32_%28cropped%29.jpg"
         },
         {
           "number": 10,
@@ -10357,7 +10927,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 91,
           "nameKo": "베르나르두 실바",
-          "nameZh": "贝尔纳多·席尔瓦"
+          "nameZh": "贝尔纳多·席尔瓦",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Bernardo_Silva_%28Isto_%C3%89_Gozar_Com_Quem_Trabalha%2C_2024%29.png/120px-Bernardo_Silva_%28Isto_%C3%89_Gozar_Com_Quem_Trabalha%2C_2024%29.png"
         },
         {
           "number": 11,
@@ -10372,7 +10943,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 91,
           "nameKo": "주앙 펠리스",
-          "nameZh": "若昂·费利克斯"
+          "nameZh": "若昂·费利克斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Jo%C3%A3o_F%C3%A9lix_USMNT_v_Portugal_Mar_31_2026-22_%28cropped%29.jpg/120px-Jo%C3%A3o_F%C3%A9lix_USMNT_v_Portugal_Mar_31_2026-22_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -10387,7 +10959,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 89,
           "nameKo": "조제 사",
-          "nameZh": "若泽·萨"
+          "nameZh": "若泽·萨",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jos%C3%A9_S%C3%A1_USMNT_v_Portugal_Mar_31_2026-185_%28cropped%29.jpg/120px-Jos%C3%A9_S%C3%A1_USMNT_v_Portugal_Mar_31_2026-185_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -10402,7 +10975,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 89,
           "nameKo": "헤나투 베이가",
-          "nameZh": "雷纳托·韦加"
+          "nameZh": "雷纳托·韦加",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Renato_Veiga_USMNT_v_Portugal_Mar_31_2026-20.jpg/120px-Renato_Veiga_USMNT_v_Portugal_Mar_31_2026-20.jpg"
         },
         {
           "number": 14,
@@ -10417,7 +10991,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 89,
           "nameKo": "곤살루 이나시우",
-          "nameZh": "貢薩洛·伊納西奧"
+          "nameZh": "貢薩洛·伊納西奧",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Gon%C3%A7alo_In%C3%A1cio_USMNT_v_Portugal_Mar_31_2026-42_%28cropped%29.jpg/120px-Gon%C3%A7alo_In%C3%A1cio_USMNT_v_Portugal_Mar_31_2026-42_%28cropped%29.jpg"
         },
         {
           "number": 15,
@@ -10432,7 +11007,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 89,
           "nameKo": "주앙 네베스",
-          "nameZh": "若昂·内维斯"
+          "nameZh": "若昂·内维斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Jo%C3%A3o_Neves_USMNT_v_Portugal_Mar_31_2026-18_%28cropped%29.jpg/120px-Jo%C3%A3o_Neves_USMNT_v_Portugal_Mar_31_2026-18_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -10447,7 +11023,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 71,
           "form": 89,
           "nameKo": "프란시스쿠 트링캉",
-          "nameZh": "特林肖"
+          "nameZh": "特林肖",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Francisco_Trinc%C3%A3o_USMNT_v_Portugal_Mar_31_2026-55_%28cropped%29.jpg/120px-Francisco_Trinc%C3%A3o_USMNT_v_Portugal_Mar_31_2026-55_%28cropped%29.jpg"
         },
         {
           "number": 17,
@@ -10462,7 +11039,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 89,
           "nameKo": "하파엘 레앙",
-          "nameZh": "萊奧"
+          "nameZh": "萊奧",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RafaelLe%C3%A3oPortugal23.jpg/120px-RafaelLe%C3%A3oPortugal23.jpg"
         },
         {
           "number": 18,
@@ -10477,7 +11055,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 71,
           "form": 89,
           "nameKo": "페드루 네투",
-          "nameZh": "柏度·尼圖"
+          "nameZh": "柏度·尼圖",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Pedro_Neto_USMNT_v_Portugal_Mar_31_2026-48.jpg/120px-Pedro_Neto_USMNT_v_Portugal_Mar_31_2026-48.jpg"
         },
         {
           "number": 19,
@@ -10492,7 +11071,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 71,
           "form": 87,
           "nameKo": "곤살루 게지스",
-          "nameZh": "贡萨洛·格德斯"
+          "nameZh": "贡萨洛·格德斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Gon%C3%A7alo_Guedes_USMNT_v_Portugal_Mar_31_2026-64_%28cropped%29.jpg/120px-Gon%C3%A7alo_Guedes_USMNT_v_Portugal_Mar_31_2026-64_%28cropped%29.jpg"
         },
         {
           "number": 20,
@@ -10507,7 +11087,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 88,
           "nameKo": "주앙 칸셀루",
-          "nameZh": "若昂·坎塞洛"
+          "nameZh": "若昂·坎塞洛",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Jo%C3%A3o_Cancelo_USMNT_v_Portugal_Mar_31_2026-30_%28cropped%29.jpg/120px-Jo%C3%A3o_Cancelo_USMNT_v_Portugal_Mar_31_2026-30_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -10522,7 +11103,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 88,
           "nameKo": "후벵 네베스",
-          "nameZh": "鲁本·内维斯"
+          "nameZh": "鲁本·内维斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Ruben_Neves_USMNT_v_Portugal_Mar_31_2026-25.jpg/120px-Ruben_Neves_USMNT_v_Portugal_Mar_31_2026-25.jpg"
         },
         {
           "number": 22,
@@ -10537,7 +11119,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 87,
           "nameKo": "후이 실바",
-          "nameZh": "鲁伊·席尔瓦"
+          "nameZh": "鲁伊·席尔瓦",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Rui_Silva_USMNT_v_Portugal_Mar_31_2026-14_%28cropped%29.jpg/120px-Rui_Silva_USMNT_v_Portugal_Mar_31_2026-14_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -10552,7 +11135,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 87,
           "nameKo": "비티냐",
-          "nameZh": "维蒂尼亚"
+          "nameZh": "维蒂尼亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Vitinha_USMNT_v_Portugal_Mar_31_2026-50_%28cropped%29.jpg/120px-Vitinha_USMNT_v_Portugal_Mar_31_2026-50_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -10567,7 +11151,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 87,
           "nameKo": "사무 코스타",
-          "nameZh": "萨穆·科斯塔"
+          "nameZh": "萨穆·科斯塔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Sam%C3%BA_Costa_USMNT_v_Portugal_Mar_31_2026-54_%28cropped%29.jpg/120px-Sam%C3%BA_Costa_USMNT_v_Portugal_Mar_31_2026-54_%28cropped%29.jpg"
         },
         {
           "number": 25,
@@ -10582,7 +11167,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 87,
           "nameKo": "누누 멘드스",
-          "nameZh": "努诺·门德斯"
+          "nameZh": "努诺·门德斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Portugal_national_football_team_0866_%28cropped%29.jpg/120px-Portugal_national_football_team_0866_%28cropped%29.jpg"
         },
         {
           "number": 26,
@@ -10597,7 +11183,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 71,
           "form": 87,
           "nameKo": "프란시스쿠 콘세이상",
-          "nameZh": "弗朗西斯科·孔塞桑"
+          "nameZh": "弗朗西斯科·孔塞桑",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Francisco_Concei%C3%A7%C3%A3o_USMNT_v_Portugal_Mar_31_2026-62_%28cropped%29.jpg/120px-Francisco_Concei%C3%A7%C3%A3o_USMNT_v_Portugal_Mar_31_2026-62_%28cropped%29.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -10640,7 +11227,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 87,
           "nameKo": "다비드 오스피나",
-          "nameZh": "戴维·奥斯皮纳"
+          "nameZh": "戴维·奥斯皮纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/David_Ospina%2C_2015-05-31.JPG/120px-David_Ospina%2C_2015-05-31.JPG"
         },
         {
           "number": 2,
@@ -10670,7 +11258,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 86,
           "nameKo": "혼 루쿠미",
-          "nameZh": "琼·卢库米"
+          "nameZh": "琼·卢库米",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Jhon_Lucum%C3%AD_September_2019.jpg/120px-Jhon_Lucum%C3%AD_September_2019.jpg"
         },
         {
           "number": 4,
@@ -10685,7 +11274,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 87,
           "nameKo": "산티아고 아리아스",
-          "nameZh": "聖地亞哥·阿里亞斯"
+          "nameZh": "聖地亞哥·阿里亞斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/ATL-Madrid-Lokomotiv001-Arias.jpg/120px-ATL-Madrid-Lokomotiv001-Arias.jpg"
         },
         {
           "number": 5,
@@ -10699,7 +11289,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 81,
           "defense": 83,
           "form": 86,
-          "nameKo": "케빈 카스타뇨"
+          "nameKo": "케빈 카스타뇨",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Kevin_con_Krasnodar_en_2023.jpg/120px-Kevin_con_Krasnodar_en_2023.jpg"
         },
         {
           "number": 6,
@@ -10713,7 +11304,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 81,
           "defense": 83,
           "form": 86,
-          "nameKo": "리차르드 리오스"
+          "nameKo": "리차르드 리오스",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Richard-Rios-Palmeiras-Liverpool-abr24.jpg/120px-Richard-Rios-Palmeiras-Liverpool-abr24.jpg"
         },
         {
           "number": 7,
@@ -10728,7 +11320,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 68,
           "form": 87,
           "nameKo": "루이스 디아스",
-          "nameZh": "路易斯·迪亚斯"
+          "nameZh": "路易斯·迪亚斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/FC_RB_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_%282026-01-06_Testspiel%29_40_%28Luiz_D%C3%ADaz%29.jpg/120px-FC_RB_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_%282026-01-06_Testspiel%29_40_%28Luiz_D%C3%ADaz%29.jpg"
         },
         {
           "number": 8,
@@ -10742,7 +11335,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 81,
           "defense": 83,
           "form": 86,
-          "nameKo": "호르헤 카라스칼"
+          "nameKo": "호르헤 카라스칼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Jorge_Carrascal_2025.jpg/120px-Jorge_Carrascal_2025.jpg"
         },
         {
           "number": 9,
@@ -10756,7 +11350,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 90,
           "defense": 66,
           "form": 86,
-          "nameZh": "霍恩·科尔多瓦"
+          "nameZh": "霍恩·科尔多瓦",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Jhon_C%C3%B3rdoba_2022.jpg/120px-Jhon_C%C3%B3rdoba_2022.jpg"
         },
         {
           "number": 10,
@@ -10771,7 +11366,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 87,
           "nameKo": "하메스 로드리게스",
-          "nameZh": "哈姆斯·罗德里格斯"
+          "nameZh": "哈姆斯·罗德里格斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/James_Rodriguez_2018.jpg/120px-James_Rodriguez_2018.jpg"
         },
         {
           "number": 11,
@@ -10785,7 +11381,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 82,
           "defense": 83,
           "form": 86,
-          "nameZh": "約翰·阿拿斯"
+          "nameZh": "約翰·阿拿斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Jhon_Arias_en_Palmeiras_-_Copa_Libertadores_2026.jpg/120px-Jhon_Arias_en_Palmeiras_-_Copa_Libertadores_2026.jpg"
         },
         {
           "number": 12,
@@ -10800,7 +11397,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 85,
           "nameKo": "카밀로 바르가스",
-          "nameZh": "卡米羅·巴爾加斯"
+          "nameZh": "卡米羅·巴爾加斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Camilo_Andres_Vargas.jpg/120px-Camilo_Andres_Vargas.jpg"
         },
         {
           "number": 13,
@@ -10815,7 +11413,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 86,
           "nameKo": "예리 미나",
-          "nameZh": "耶里·米纳"
+          "nameZh": "耶里·米纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/FWC_2018_-_Round_of_16_-_COL_v_ENG_-_Photo_103_%28cropped%29.jpg/120px-FWC_2018_-_Round_of_16_-_COL_v_ENG_-_Photo_103_%28cropped%29.jpg"
         },
         {
           "number": 14,
@@ -10830,7 +11429,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 85,
           "nameKo": "구스타보 푸에르타",
-          "nameZh": "古斯塔沃·普埃尔塔"
+          "nameZh": "古斯塔沃·普埃尔塔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Gustavo_Puerta_2023_%28cropped%29.jpg/120px-Gustavo_Puerta_2023_%28cropped%29.jpg"
         },
         {
           "number": 15,
@@ -10858,7 +11458,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 86,
           "nameKo": "제퍼슨 레르마",
-          "nameZh": "赫费尔松·莱尔马"
+          "nameZh": "赫费尔松·莱尔马",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Jefferson_Lerma_2018.png/120px-Jefferson_Lerma_2018.png"
         },
         {
           "number": 17,
@@ -10872,7 +11473,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 71,
           "defense": 86,
           "form": 85,
-          "nameZh": "约翰·莫西卡"
+          "nameZh": "约翰·莫西卡",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/FWC_2018_-_Round_of_16_-_COL_v_ENG_-_Photo_102_%28cropped%29_2.jpg/120px-FWC_2018_-_Round_of_16_-_COL_v_ENG_-_Photo_102_%28cropped%29_2.jpg"
         },
         {
           "number": 18,
@@ -10885,7 +11487,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 84,
           "attack": 71,
           "defense": 84,
-          "form": 85
+          "form": 85,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Willer_Ditta_en_Newell%27s_Old_Boys.jpg/120px-Willer_Ditta_en_Newell%27s_Old_Boys.jpg"
         },
         {
           "number": 19,
@@ -10899,7 +11502,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 86,
           "defense": 65,
           "form": 83,
-          "nameZh": "祖安靴南迪斯"
+          "nameZh": "祖安靴南迪斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Cucho_Hernandez_%28cropped%29.jpg/120px-Cucho_Hernandez_%28cropped%29.jpg"
         },
         {
           "number": 20,
@@ -10914,7 +11518,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 83,
           "nameKo": "후안 페르난도 킨테로",
-          "nameZh": "胡安·昆特罗"
+          "nameZh": "胡安·昆特罗",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Juan_Quintero_%28cropped%29.jpg/120px-Juan_Quintero_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -10943,7 +11548,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 83,
           "nameKo": "데이베르 마차도",
-          "nameZh": "戴伊維爾·馬查多"
+          "nameZh": "戴伊維爾·馬查多",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Lens_-_Reims_%2812-05-2023%29_33.jpg/120px-Lens_-_Reims_%2812-05-2023%29_33.jpg"
         },
         {
           "number": 23,
@@ -10958,7 +11564,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 84,
           "nameKo": "다빈손 산체스",
-          "nameZh": "戴雲遜·山齊士"
+          "nameZh": "戴雲遜·山齊士",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/FWC_2018_-_Round_of_16_-_COL_v_ENG_-_D_S%C3%A1nchez.jpg/120px-FWC_2018_-_Round_of_16_-_COL_v_ENG_-_D_S%C3%A1nchez.jpg"
         },
         {
           "number": 24,
@@ -10972,7 +11579,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 45,
           "defense": 83,
           "form": 83,
-          "nameZh": "阿尔瓦罗·蒙特罗"
+          "nameZh": "阿尔瓦罗·蒙特罗",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Alvaro_Montero.jpg/120px-Alvaro_Montero.jpg"
         },
         {
           "number": 25,
@@ -10987,7 +11595,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 83,
           "nameKo": "루이스 수아레스",
-          "nameZh": "路易斯·蘇亞雷斯"
+          "nameZh": "路易斯·蘇亞雷斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Luis_Javier_Su%C3%A1rez_Charris.jpg/120px-Luis_Javier_Su%C3%A1rez_Charris.jpg"
         },
         {
           "number": 26,
@@ -11000,7 +11609,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 86,
           "defense": 65,
-          "form": 83
+          "form": 83,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/IMCF_vs._RSL_25_%28cropped%29_%28cropped%29.jpg/120px-IMCF_vs._RSL_25_%28cropped%29_%28cropped%29.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -11043,7 +11653,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 96,
           "form": 92,
           "nameKo": "조던 픽퍼드",
-          "nameZh": "乔丹·皮克福德"
+          "nameZh": "乔丹·皮克福德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Jordan_Pickford_2022-07-16_1.jpg/120px-Jordan_Pickford_2022-07-16_1.jpg"
         },
         {
           "number": 2,
@@ -11058,7 +11669,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 91,
           "nameKo": "에즈리 콘사",
-          "nameZh": "安斯·干沙"
+          "nameZh": "安斯·干沙",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Ezri_Konsa_April_2026_%28cropped%29.jpg/120px-Ezri_Konsa_April_2026_%28cropped%29.jpg"
         },
         {
           "number": 3,
@@ -11073,7 +11685,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 91,
           "nameKo": "니코 오라일리",
-          "nameZh": "尼科·奥赖利"
+          "nameZh": "尼科·奥赖利",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/ManCity20240722-020.jpg/120px-ManCity20240722-020.jpg"
         },
         {
           "number": 4,
@@ -11088,7 +11701,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 92,
           "nameKo": "데클런 라이스",
-          "nameZh": "德克兰·赖斯"
+          "nameZh": "德克兰·赖斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/1_declan_rice_arsenal_2025_%28cropped%29.jpg/120px-1_declan_rice_arsenal_2025_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -11103,7 +11717,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 95,
           "form": 92,
           "nameKo": "존 스톤즈",
-          "nameZh": "约翰·斯通斯"
+          "nameZh": "约翰·斯通斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/1_john_stones_2015_%28cropped%29.jpg/120px-1_john_stones_2015_%28cropped%29.jpg"
         },
         {
           "number": 6,
@@ -11118,7 +11733,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 91,
           "nameKo": "마크 게히",
-          "nameZh": "馬克·格希"
+          "nameZh": "馬克·格希",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Marc_Guehi_December_2018.jpg/120px-Marc_Guehi_December_2018.jpg"
         },
         {
           "number": 7,
@@ -11133,7 +11749,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 74,
           "form": 91,
           "nameKo": "부카요 사카",
-          "nameZh": "布卡约·萨卡"
+          "nameZh": "布卡约·萨卡",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/1_bukayo_saka_arsenal_2025_%28cropped%29.jpg/120px-1_bukayo_saka_arsenal_2025_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -11163,7 +11780,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 76,
           "form": 92,
           "nameKo": "해리 케인",
-          "nameZh": "哈里·凱恩"
+          "nameZh": "哈里·凱恩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Harry_Kane_on_October_10%2C_2023.jpg/120px-Harry_Kane_on_October_10%2C_2023.jpg"
         },
         {
           "number": 10,
@@ -11178,7 +11796,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 91,
           "nameKo": "주드 벨링엄",
-          "nameZh": "祖迪·比寧咸"
+          "nameZh": "祖迪·比寧咸",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Jude_Bellingham_-_240422_190551-2_%28cropped%29.jpg/120px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Jude_Bellingham_-_240422_190551-2_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -11193,7 +11812,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 75,
           "form": 92,
           "nameKo": "마커스 래쉬포드",
-          "nameZh": "马库斯·拉什福德"
+          "nameZh": "马库斯·拉什福德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Marcus_Rashford_in_2023.jpg/120px-Marcus_Rashford_in_2023.jpg"
         },
         {
           "number": 12,
@@ -11223,7 +11843,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 90,
           "nameKo": "딘 헨더슨",
-          "nameZh": "迪恩·亨德森"
+          "nameZh": "迪恩·亨德森",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/DeanHenderson2018.jpg/120px-DeanHenderson2018.jpg"
         },
         {
           "number": 14,
@@ -11238,7 +11859,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 91,
           "nameKo": "조던 헨더슨",
-          "nameZh": "乔丹·亨德森"
+          "nameZh": "乔丹·亨德森",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Jordan_Henderson_29112025_%284%29.jpg/120px-Jordan_Henderson_29112025_%284%29.jpg"
         },
         {
           "number": 15,
@@ -11253,7 +11875,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 90,
           "nameKo": "댄 번",
-          "nameZh": "丹·巴恩"
+          "nameZh": "丹·巴恩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Premier_League_Newcastle-Arsenal_2023-05-07_29_%28cropped_Dan_Burn%29.jpg/120px-Premier_League_Newcastle-Arsenal_2023-05-07_29_%28cropped_Dan_Burn%29.jpg"
         },
         {
           "number": 16,
@@ -11283,7 +11906,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 90,
           "nameKo": "모건 로저스",
-          "nameZh": "摩根·罗杰斯"
+          "nameZh": "摩根·罗杰斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Morgan_Rogers_April_2026_%28cropped%29.jpg/120px-Morgan_Rogers_April_2026_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -11298,7 +11922,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 90,
           "nameKo": "앤서니 고든",
-          "nameZh": "安东尼·戈登"
+          "nameZh": "安东尼·戈登",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gordon_in_2024_%28cropped%29.jpg/120px-Gordon_in_2024_%28cropped%29.jpg"
         },
         {
           "number": 19,
@@ -11313,7 +11938,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 88,
           "nameKo": "올리 왓킨스",
-          "nameZh": "奥利·沃特金斯"
+          "nameZh": "奥利·沃特金斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Manchester_United_v_Aston_Villa%2C_25_September_2021_%2817%29_%28cropped%29.jpg/120px-Manchester_United_v_Aston_Villa%2C_25_September_2021_%2817%29_%28cropped%29.jpg"
         },
         {
           "number": 20,
@@ -11328,7 +11954,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 88,
           "nameKo": "노니 마두에케",
-          "nameZh": "朗尼·馬度亞基"
+          "nameZh": "朗尼·馬度亞基",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/1_Noni_Madueke.jpg/120px-1_Noni_Madueke.jpg"
         },
         {
           "number": 21,
@@ -11343,7 +11970,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 88,
           "nameKo": "에베레치 에제",
-          "nameZh": "伊比爾·伊斯"
+          "nameZh": "伊比爾·伊斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/1_Eberechi_Eze_2026.jpg/120px-1_Eberechi_Eze_2026.jpg"
         },
         {
           "number": 22,
@@ -11358,7 +11986,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 88,
           "nameKo": "이반 토니",
-          "nameZh": "頓妮"
+          "nameZh": "頓妮",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ivan_Tony_with_Al-Ahli.jpg/120px-Ivan_Tony_with_Al-Ahli.jpg"
         },
         {
           "number": 23,
@@ -11373,7 +12002,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 88,
           "nameKo": "제임스 트래퍼드",
-          "nameZh": "詹姆斯·特拉福德"
+          "nameZh": "詹姆斯·特拉福德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Queen_Park_Rangers_v_Burnley_26042025_%2825%29_%28James_Trafford%29.jpg/120px-Queen_Park_Rangers_v_Burnley_26042025_%2825%29_%28James_Trafford%29.jpg"
         },
         {
           "number": 24,
@@ -11388,7 +12018,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 88,
           "nameKo": "리스 제임스",
-          "nameZh": "里斯·詹姆斯"
+          "nameZh": "里斯·詹姆斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Reece_James_FIFA_Club_World_Cup_final_extraction.jpg/120px-Reece_James_FIFA_Club_World_Cup_final_extraction.jpg"
         },
         {
           "number": 25,
@@ -11418,7 +12049,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 88,
           "nameKo": "자렐 콴사",
-          "nameZh": "賈雷爾·昆沙"
+          "nameZh": "賈雷爾·昆沙",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Jarell_Quansah_06042025_%281%29.jpg/120px-Jarell_Quansah_06042025_%281%29.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -11461,7 +12093,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 81,
           "nameKo": "도미니크 리바코비치",
-          "nameZh": "多米尼克·利瓦科维奇"
+          "nameZh": "多米尼克·利瓦科维奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Dominik_Livakovi%C4%87_2021.jpg/120px-Dominik_Livakovi%C4%87_2021.jpg"
         },
         {
           "number": 2,
@@ -11476,7 +12109,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 80,
           "nameKo": "요시프 스타니시치",
-          "nameZh": "约西普·斯坦尼西奇"
+          "nameZh": "约西普·斯坦尼西奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Josip_Stani%C5%A1i%C4%87_during_an_Interview_in_2023.png/120px-Josip_Stani%C5%A1i%C4%87_during_an_Interview_in_2023.png"
         },
         {
           "number": 3,
@@ -11491,7 +12125,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 80,
           "nameKo": "마린 폰그라치치",
-          "nameZh": "馬林·彭拉契奇"
+          "nameZh": "馬林·彭拉契奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Marin_Pongracic_2021.jpg/120px-Marin_Pongracic_2021.jpg"
         },
         {
           "number": 4,
@@ -11506,7 +12141,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 80,
           "nameKo": "요슈코 그바르디올",
-          "nameZh": "约什科·格瓦迪奥尔"
+          "nameZh": "约什科·格瓦迪奥尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2611_%28Jo%C5%A1ko_Gvardiol%29.jpg/120px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2611_%28Jo%C5%A1ko_Gvardiol%29.jpg"
         },
         {
           "number": 5,
@@ -11521,7 +12157,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 80,
           "nameKo": "두예 찰레타차르",
-          "nameZh": "杜耶·查萊塔-卡爾"
+          "nameZh": "杜耶·查萊塔-卡爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Caleta_asse_ol_2425.png/120px-Caleta_asse_ol_2425.png"
         },
         {
           "number": 6,
@@ -11536,7 +12173,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 80,
           "nameKo": "요시프 슈탈로",
-          "nameZh": "约瑟普·舒塔洛"
+          "nameZh": "约瑟普·舒塔洛",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Qaraba%C4%9F_vs_Ajax_%2824.10.2024%29_%284%29_%28Josip_%C5%A0utalo%29.jpg/120px-Qaraba%C4%9F_vs_Ajax_%2824.10.2024%29_%284%29_%28Josip_%C5%A0utalo%29.jpg"
         },
         {
           "number": 7,
@@ -11551,7 +12189,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 80,
           "nameKo": "니콜라 모로",
-          "nameZh": "尼古拉·莫罗"
+          "nameZh": "尼古拉·莫罗",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Nikola_Moro_2020.jpg/120px-Nikola_Moro_2020.jpg"
         },
         {
           "number": 8,
@@ -11566,7 +12205,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 81,
           "nameKo": "마테오 코바치치",
-          "nameZh": "马特奥·科瓦契奇"
+          "nameZh": "马特奥·科瓦契奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Chelsea_vs._Arsenal%2C_29_May_2019_18_Kovacic.jpg/120px-Chelsea_vs._Arsenal%2C_29_May_2019_18_Kovacic.jpg"
         },
         {
           "number": 9,
@@ -11581,7 +12221,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 81,
           "nameKo": "안드레이 크라마리치",
-          "nameZh": "安德烈·克拉马里奇"
+          "nameZh": "安德烈·克拉马里奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Andrej_Kramari%C4%87_2018.jpg/120px-Andrej_Kramari%C4%87_2018.jpg"
         },
         {
           "number": 10,
@@ -11596,7 +12237,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 87,
           "form": 81,
           "nameKo": "루카 모드리치",
-          "nameZh": "卢卡·莫德里奇"
+          "nameZh": "卢卡·莫德里奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ofrenda_de_la_Liga_y_la_Champions-57-L.Mill%C3%A1n_%2852109310843%29_%28Luka_Modri%C4%87%29.jpg/120px-Ofrenda_de_la_Liga_y_la_Champions-57-L.Mill%C3%A1n_%2852109310843%29_%28Luka_Modri%C4%87%29.jpg"
         },
         {
           "number": 11,
@@ -11611,7 +12253,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 66,
           "form": 80,
           "nameKo": "안테 부디미르",
-          "nameZh": "畢迪米亞"
+          "nameZh": "畢迪米亞",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Budimir%2C_Ante_FCSP_15-16_WP_%28cropped%29.jpg/120px-Budimir%2C_Ante_FCSP_15-16_WP_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -11639,7 +12282,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 80,
           "nameKo": "니콜라 블라시치",
-          "nameZh": "尼古拉·弗拉希奇"
+          "nameZh": "尼古拉·弗拉希奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Nikola_Vla%C5%A1i%C4%87_%28CSKA_Moscow%2C_19.08.2019%29.jpg/120px-Nikola_Vla%C5%A1i%C4%87_%28CSKA_Moscow%2C_19.08.2019%29.jpg"
         },
         {
           "number": 14,
@@ -11654,7 +12298,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 70,
           "form": 80,
           "nameKo": "이반 페리시치",
-          "nameZh": "伊万·佩里希奇"
+          "nameZh": "伊万·佩里希奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Ivan_Peri%C5%A1i%C4%87_%28cropped%29.jpg/120px-Ivan_Peri%C5%A1i%C4%87_%28cropped%29.jpg"
         },
         {
           "number": 15,
@@ -11669,7 +12314,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 84,
           "form": 80,
           "nameKo": "마리오 파샬리치",
-          "nameZh": "馬里奧·帕薩利奇"
+          "nameZh": "馬里奧·帕薩利奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Pasalic_6459_%28cropped%29.jpg/120px-Pasalic_6459_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -11684,7 +12330,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 79,
           "nameKo": "마르틴 바투리나",
-          "nameZh": "马丁·巴图里纳"
+          "nameZh": "马丁·巴图里纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/FC_Salzburg_gegen_GNK_Dinamo_Zagreb_%28UEFA_Championsleague_2022-10-05%29_52.jpg/120px-FC_Salzburg_gegen_GNK_Dinamo_Zagreb_%28UEFA_Championsleague_2022-10-05%29_52.jpg"
         },
         {
           "number": 17,
@@ -11698,7 +12345,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 76,
           "defense": 82,
           "form": 79,
-          "nameKo": "페타르 수치치"
+          "nameKo": "페타르 수치치",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Petar_Su%C4%8Di%C4%87.png/120px-Petar_Su%C4%8Di%C4%87.png"
         },
         {
           "number": 18,
@@ -11713,7 +12361,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 79,
           "nameKo": "크리스티얀 야키치",
-          "nameZh": "克里斯蒂扬·亚基奇"
+          "nameZh": "克里斯蒂扬·亚基奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Kristijan-Jakic.png/120px-Kristijan-Jakic.png"
         },
         {
           "number": 19,
@@ -11757,7 +12406,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 77,
           "nameKo": "루카 수치치",
-          "nameZh": "盧卡·蘇契奇"
+          "nameZh": "盧卡·蘇契奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/SD_Negreira_-_Real_Sociedad%2C_Copa_do_Rei_2025-26_05_-_Luka_Sucic.jpg/120px-SD_Negreira_-_Real_Sociedad%2C_Copa_do_Rei_2025-26_05_-_Luka_Sucic.jpg"
         },
         {
           "number": 22,
@@ -11787,7 +12437,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 77,
           "nameKo": "도미니크 코타르스키",
-          "nameZh": "庫塔斯基"
+          "nameZh": "庫塔斯基",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/S%C3%B8nderjyskE_-_FC_K%C3%B8benhavn%2C_27._September_2025_-_j_%28Dominik_Kotarski%29.jpg/120px-S%C3%B8nderjyskE_-_FC_K%C3%B8benhavn%2C_27._September_2025_-_j_%28Dominik_Kotarski%29.jpg"
         },
         {
           "number": 24,
@@ -11802,7 +12453,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 66,
           "form": 77,
           "nameKo": "마르코 파샬리치",
-          "nameZh": "马尔科·帕沙利奇"
+          "nameZh": "马尔科·帕沙利奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Marco_Pa%C5%A1ali%C4%87_%28cropped%29.jpg/120px-Marco_Pa%C5%A1ali%C4%87_%28cropped%29.jpg"
         },
         {
           "number": 25,
@@ -11817,7 +12469,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 77,
           "nameKo": "마르틴 에를리치",
-          "nameZh": "马丁·埃尔里奇"
+          "nameZh": "马丁·埃尔里奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Martin-Erlic.png/120px-Martin-Erlic.png"
         },
         {
           "number": 26,
@@ -11832,7 +12485,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 77,
           "nameKo": "페타르 무사",
-          "nameZh": "佩塔爾·穆薩"
+          "nameZh": "佩塔爾·穆薩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Petar_Musa_NY_Red_Bulls_v_FC_Dallas_2_May_2026-53_%28cropped%29.jpg/120px-Petar_Musa_NY_Red_Bulls_v_FC_Dallas_2_May_2026-53_%28cropped%29.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -11875,7 +12529,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 78,
           "nameKo": "로런스 아티지기",
-          "nameZh": "勞倫斯·塔蒂-齊吉"
+          "nameZh": "勞倫斯·塔蒂-齊吉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/FC_Red_Bull_Salzburg_gegen_SK_Rapid_Wien_%2813._Mai_2017%29_34.jpg/120px-FC_Red_Bull_Salzburg_gegen_SK_Rapid_Wien_%2813._Mai_2017%29_34.jpg"
         },
         {
           "number": 2,
@@ -11931,7 +12586,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 78,
           "form": 79,
           "nameKo": "토머스 파티",
-          "nameZh": "托马斯·帕尔特伊"
+          "nameZh": "托马斯·帕尔特伊",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/ATL-Madrid-Lokomotiv001-Thomas_%28cropped%29.jpg/120px-ATL-Madrid-Lokomotiv001-Thomas_%28cropped%29.jpg"
         },
         {
           "number": 6,
@@ -11959,7 +12615,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 60,
           "form": 78,
           "nameKo": "압둘 파타우 이사하쿠",
-          "nameZh": "法達胡·艾沙夏古"
+          "nameZh": "法達胡·艾沙夏古",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Abdul_Fatawu_24082024_%286%29.jpg/120px-Abdul_Fatawu_24082024_%286%29.jpg"
         },
         {
           "number": 8,
@@ -11987,7 +12644,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 79,
           "nameKo": "조던 아예우",
-          "nameZh": "乔丹·阿尤"
+          "nameZh": "乔丹·阿尤",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Jordan_Ayew_24082024_%282%29.jpg/120px-Jordan_Ayew_24082024_%282%29.jpg"
         },
         {
           "number": 10,
@@ -12016,7 +12674,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 77,
           "form": 78,
           "nameKo": "앙투안 세메뇨",
-          "nameZh": "安托萬·塞梅諾"
+          "nameZh": "安托萬·塞梅諾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Antoine_Semenyo_2026.png/120px-Antoine_Semenyo_2026.png"
         },
         {
           "number": 12,
@@ -12030,7 +12689,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 45,
           "defense": 79,
           "form": 77,
-          "nameZh": "約瑟夫·阿南"
+          "nameZh": "約瑟夫·阿南",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hertha_BSC_vs._West_Ham_United_20190731_%28199%29.jpg/120px-Hertha_BSC_vs._West_Ham_United_20190731_%28199%29.jpg"
         },
         {
           "number": 13,
@@ -12059,7 +12719,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 77,
           "nameKo": "기디언 멘사",
-          "nameZh": "吉迪昂·门萨"
+          "nameZh": "吉迪昂·门萨",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mensah_aja_asse_2425.png/120px-Mensah_aja_asse_2425.png"
         },
         {
           "number": 15,
@@ -12074,7 +12735,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 76,
           "form": 77,
           "nameKo": "엘리샤 오우수",
-          "nameZh": "艾利沙·奧胡蘇"
+          "nameZh": "艾利沙·奧胡蘇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Lens_-_Sochaux_%2815-09-2018%29_175_%28cropped%29.jpg/120px-Lens_-_Sochaux_%2815-09-2018%29_175_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -12102,7 +12764,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 78,
           "nameKo": "바바 라만",
-          "nameZh": "艾度巴巴"
+          "nameZh": "艾度巴巴",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Ghana_national_Baba_Rahman.jpg/120px-Ghana_national_Baba_Rahman.jpg"
         },
         {
           "number": 18,
@@ -12115,7 +12778,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 78,
           "attack": 66,
           "defense": 78,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Jerome_Opoku_3_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_UECL_20250813_%281%29.jpg/120px-Jerome_Opoku_3_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_UECL_20250813_%281%29.jpg"
         },
         {
           "number": 19,
@@ -12130,7 +12794,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 60,
           "form": 75,
           "nameKo": "이냐키 윌리암스",
-          "nameZh": "伊拿基·威廉斯"
+          "nameZh": "伊拿基·威廉斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/I%C3%B1aki_Williams.png/120px-I%C3%B1aki_Williams.png"
         },
         {
           "number": 20,
@@ -12144,7 +12809,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 76,
           "defense": 73,
           "form": 75,
-          "nameKo": "어거스틴 부아치"
+          "nameKo": "어거스틴 부아치",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Boakye_ASSE_MHSC_2425.png/120px-Boakye_ASSE_MHSC_2425.png"
         },
         {
           "number": 21,
@@ -12172,7 +12838,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 60,
           "form": 75,
           "nameKo": "카말딘 술레마나",
-          "nameZh": "卡马尔丁·苏勒马纳"
+          "nameZh": "卡马尔丁·苏勒马纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Kamaldeen_Sulemana_%28cropped%29.jpg/120px-Kamaldeen_Sulemana_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -12186,7 +12853,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 66,
           "defense": 76,
           "form": 75,
-          "nameZh": "德里克·盧卡森"
+          "nameZh": "德里克·盧卡森",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Derrick_luckassen-1447005764.JPG/120px-Derrick_luckassen-1447005764.JPG"
         },
         {
           "number": 24,
@@ -12201,7 +12869,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 60,
           "form": 75,
           "nameKo": "어니스트 누아마",
-          "nameZh": "埃内斯特·努瓦马"
+          "nameZh": "埃内斯特·努瓦马",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Nuamah_vs_FCSB.png/120px-Nuamah_vs_FCSB.png"
         },
         {
           "number": 25,
@@ -12270,7 +12939,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 95,
           "form": 93,
           "nameKo": "브리스 삼바",
-          "nameZh": "布里斯·桑巴"
+          "nameZh": "布里斯·桑巴",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Brice_Samba_asse_rcl_23_24.jpg/120px-Brice_Samba_asse_rcl_23_24.jpg"
         },
         {
           "number": 2,
@@ -12285,7 +12955,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 94,
           "form": 93,
           "nameKo": "말로 귀스토",
-          "nameZh": "马洛·古斯托"
+          "nameZh": "马洛·古斯托",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Malo_Gusto_20042025_%281%29.jpg/120px-Malo_Gusto_20042025_%281%29.jpg"
         },
         {
           "number": 3,
@@ -12300,7 +12971,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 96,
           "form": 94,
           "nameKo": "뤼카 디뉴",
-          "nameZh": "盧卡斯·迪尼"
+          "nameZh": "盧卡斯·迪尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Lucas_Digne_Everton_%28cropped%29.jpg/120px-Lucas_Digne_Everton_%28cropped%29.jpg"
         },
         {
           "number": 4,
@@ -12315,7 +12987,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 95,
           "form": 93,
           "nameKo": "다요 우파메카노",
-          "nameZh": "達約特·烏帕梅卡諾"
+          "nameZh": "達約特·烏帕梅卡諾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/2022-07-30_Fu%C3%9Fball%2C_M%C3%A4nner%2C_DFL-Supercup%2C_RB_Leipzig_-_FC_Bayern_M%C3%BCnchen_1DX_3244_by_Stepro_%28cropped%29.jpg/120px-2022-07-30_Fu%C3%9Fball%2C_M%C3%A4nner%2C_DFL-Supercup%2C_RB_Leipzig_-_FC_Bayern_M%C3%BCnchen_1DX_3244_by_Stepro_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -12330,7 +13003,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 96,
           "form": 93,
           "nameKo": "쥘 쿤데",
-          "nameZh": "朱尔·昆代"
+          "nameZh": "朱尔·昆代",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Jules_Kound%C3%A9_2020.jpg/120px-Jules_Kound%C3%A9_2020.jpg"
         },
         {
           "number": 6,
@@ -12345,7 +13019,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 93,
           "nameKo": "콰디오 코네",
-          "nameZh": "庫瓦迪奧·科內"
+          "nameZh": "庫瓦迪奧·科內",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Kouadio_Manu_Kon%C3%A9_%282019-08-31%29_%28cropped%29.jpg/120px-Kouadio_Manu_Kon%C3%A9_%282019-08-31%29_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -12360,7 +13035,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 76,
           "form": 94,
           "nameKo": "우스만 뎀벨레",
-          "nameZh": "奥斯曼·登贝莱"
+          "nameZh": "奥斯曼·登贝莱",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Ousmane_Demb%C3%A9l%C3%A9_2018_%28cropped%29.jpg/120px-Ousmane_Demb%C3%A9l%C3%A9_2018_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -12375,7 +13051,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 93,
           "nameKo": "오렐리앵 추아메니",
-          "nameZh": "奥雷利安·楚阿梅尼"
+          "nameZh": "奥雷利安·楚阿梅尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/2025_04_26_Final_de_la_Copa_del_Rey_-_Aur%C3%A9lien_Tchouam%C3%A9ni.jpg/120px-2025_04_26_Final_de_la_Copa_del_Rey_-_Aur%C3%A9lien_Tchouam%C3%A9ni.jpg"
         },
         {
           "number": 9,
@@ -12390,7 +13067,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 75,
           "form": 93,
           "nameKo": "마르퀴스 튀람",
-          "nameZh": "马库斯·图拉姆"
+          "nameZh": "马库斯·图拉姆",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Marcus_Thuram_in_2023.jpg/120px-Marcus_Thuram_in_2023.jpg"
         },
         {
           "number": 10,
@@ -12405,7 +13083,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 78,
           "form": 94,
           "nameKo": "킬리안 음바페",
-          "nameZh": "基利安·姆巴佩"
+          "nameZh": "基利安·姆巴佩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Picture_with_Mbapp%C3%A9_%28cropped_and_rotated%29.jpg/120px-Picture_with_Mbapp%C3%A9_%28cropped_and_rotated%29.jpg"
         },
         {
           "number": 11,
@@ -12420,7 +13099,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 75,
           "form": 93,
           "nameKo": "마이클 올리세",
-          "nameZh": "米高·奧利斯"
+          "nameZh": "米高·奧利斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/FC_RB_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_%282026-01-06_Testspiel%29_10.jpg/120px-FC_RB_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_%282026-01-06_Testspiel%29_10.jpg"
         },
         {
           "number": 12,
@@ -12435,7 +13115,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 75,
           "form": 92,
           "nameKo": "브래들리 바르콜라",
-          "nameZh": "布拉德利·巴尔科拉"
+          "nameZh": "布拉德利·巴尔科拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Barcola_asse_psg_2425.png/120px-Barcola_asse_psg_2425.png"
         },
         {
           "number": 13,
@@ -12450,7 +13131,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 93,
           "nameKo": "은골로 캉테",
-          "nameZh": "尼高路·簡迪"
+          "nameZh": "尼高路·簡迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/N%27Golo_Kant%C3%A9_%28cropped%29.jpg/120px-N%27Golo_Kant%C3%A9_%28cropped%29.jpg"
         },
         {
           "number": 14,
@@ -12465,7 +13147,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 93,
           "nameKo": "아드리앙 라비오",
-          "nameZh": "阿德里安·拉比奥"
+          "nameZh": "阿德里安·拉比奥",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Rabiot_asse_om_2425.png/120px-Rabiot_asse_om_2425.png"
         },
         {
           "number": 15,
@@ -12480,7 +13163,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 94,
           "form": 92,
           "nameKo": "이브라히마 코나테",
-          "nameZh": "易卜拉希馬·科内特"
+          "nameZh": "易卜拉希馬·科内特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ibrahima_Konat%C3%A9_in_2021.jpg/120px-Ibrahima_Konat%C3%A9_in_2021.jpg"
         },
         {
           "number": 16,
@@ -12495,7 +13179,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 96,
           "form": 92,
           "nameKo": "마이크 메냥",
-          "nameZh": "麥克·邁尼昂"
+          "nameZh": "麥克·邁尼昂",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mike_Maignan_2022_Salzburg_vs_AC_Milan_2022-09-06.jpg/120px-Mike_Maignan_2022_Salzburg_vs_AC_Milan_2022-09-06.jpg"
         },
         {
           "number": 17,
@@ -12510,7 +13195,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 94,
           "form": 92,
           "nameKo": "윌리암 살리바",
-          "nameZh": "威廉·沙列巴"
+          "nameZh": "威廉·沙列巴",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/1_william_saliba_arsenal_2025_%28cropped%29.jpg/120px-1_william_saliba_arsenal_2025_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -12525,7 +13211,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 90,
           "form": 92,
           "nameKo": "워렌 자이르에메리",
-          "nameZh": "沃伦·扎伊尔-埃梅里"
+          "nameZh": "沃伦·扎伊尔-埃梅里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Zaire_asse_psg_2425.png/120px-Zaire_asse_psg_2425.png"
         },
         {
           "number": 19,
@@ -12540,7 +13227,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 90,
           "nameKo": "테오 에르난데스",
-          "nameZh": "特奧·埃尔南德斯"
+          "nameZh": "特奧·埃尔南德斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/FC_Salzburg_vs._AC_Mailand_%28UEFA_Championsleague_2022-09-06%29_Th%C3%A9o_Hernandez.jpg/120px-FC_Salzburg_vs._AC_Mailand_%28UEFA_Championsleague_2022-09-06%29_Th%C3%A9o_Hernandez.jpg"
         },
         {
           "number": 20,
@@ -12555,7 +13243,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 74,
           "form": 90,
           "nameKo": "데지레 두에",
-          "nameZh": "德西雷·杜埃"
+          "nameZh": "德西雷·杜埃",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Doue_asse_psg_2425.png/120px-Doue_asse_psg_2425.png"
         },
         {
           "number": 21,
@@ -12570,7 +13259,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 93,
           "form": 90,
           "nameKo": "루카스 에르난데스",
-          "nameZh": "卢卡斯·埃尔南德斯"
+          "nameZh": "卢卡斯·埃尔南德斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Hernandez_asse_psg_2425.png/120px-Hernandez_asse_psg_2425.png"
         },
         {
           "number": 22,
@@ -12585,7 +13275,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 74,
           "form": 90,
           "nameKo": "장필리프 마테타",
-          "nameZh": "让-菲利普·马特塔"
+          "nameZh": "让-菲利普·马特塔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/1_jean-philippe_mateta_2026.jpg/120px-1_jean-philippe_mateta_2026.jpg"
         },
         {
           "number": 23,
@@ -12600,7 +13291,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 92,
           "form": 90,
           "nameKo": "로뱅 리세르",
-          "nameZh": "罗班·里塞"
+          "nameZh": "罗班·里塞",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Montpellier-Strasbourg_18-08-24%2C_Robin_Risser.jpg/120px-Montpellier-Strasbourg_18-08-24%2C_Robin_Risser.jpg"
         },
         {
           "number": 24,
@@ -12615,7 +13307,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 90,
           "nameKo": "라얀 셰르키",
-          "nameZh": "拉揚·切爾基"
+          "nameZh": "拉揚·切爾基",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cherki_asse_ol_2425.png/120px-Cherki_asse_ol_2425.png"
         },
         {
           "number": 25,
@@ -12630,7 +13323,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 90,
           "nameKo": "마그네스 아클리우슈",
-          "nameZh": "马格纳斯·阿克利乌舍"
+          "nameZh": "马格纳斯·阿克利乌舍",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Akliouche2_asse_asm_2425.png/120px-Akliouche2_asse_asm_2425.png"
         },
         {
           "number": 26,
@@ -12645,7 +13339,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 91,
           "form": 90,
           "nameKo": "막상스 라크루아",
-          "nameZh": "马克桑斯·拉克鲁瓦"
+          "nameZh": "马克桑斯·拉克鲁瓦",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lens_-_Sochaux_%2823-11-2019%29_73.jpg/120px-Lens_-_Sochaux_%2823-11-2019%29_73.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -12688,7 +13383,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 76,
           "nameKo": "론웬 윌리엄스",
-          "nameZh": "朗文·威廉姆斯"
+          "nameZh": "朗文·威廉姆斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ronwen_Williams_AFCON2025Q_35.jpg/120px-Ronwen_Williams_AFCON2025Q_35.jpg"
         },
         {
           "number": 2,
@@ -12755,7 +13451,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 61,
           "defense": 82,
           "form": 75,
-          "nameKo": "오브리 모디바"
+          "nameKo": "오브리 모디바",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Aubrey_Modiba_%28cropped%29.jpg/120px-Aubrey_Modiba_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -12796,7 +13493,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 61,
           "form": 75,
           "nameKo": "라일 포스터",
-          "nameZh": "L.科士打"
+          "nameZh": "L.科士打",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Lyle_Foster_29112025_%286%29.jpg/120px-Lyle_Foster_29112025_%286%29.jpg"
         },
         {
           "number": 10,
@@ -12837,7 +13535,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 74,
           "attack": 77,
           "defense": 60,
-          "form": 74
+          "form": 74,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Go_Ahead_Eagles_-_Mamelodi_Sundowns_FC_-_53066145739.jpg/120px-Go_Ahead_Eagles_-_Mamelodi_Sundowns_FC_-_53066145739.jpg"
         },
         {
           "number": 13,
@@ -12997,7 +13696,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 72,
           "attack": 60,
           "defense": 77,
-          "form": 72
+          "form": 72,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Olwethu_Makhanya_Philadelphia_Union_New_York_City_FC_Nov_23_2025-027_%28cropped%29.jpg/120px-Olwethu_Makhanya_Philadelphia_Union_New_York_City_FC_Nov_23_2025-027_%28cropped%29.jpg"
         },
         {
           "number": 25,
@@ -13064,7 +13764,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 80,
           "attack": 45,
           "defense": 82,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/2025-04-23_-_FC_St_Pauli_-_Nikola_Vasilj.jpg/120px-2025-04-23_-_FC_St_Pauli_-_Nikola_Vasilj.jpg"
         },
         {
           "number": 2,
@@ -13091,7 +13792,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 80,
           "attack": 65,
           "defense": 81,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Dennis_Had%C5%BEikaduni%C4%87_2021.jpg/120px-Dennis_Had%C5%BEikaduni%C4%87_2021.jpg"
         },
         {
           "number": 4,
@@ -13120,7 +13822,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 78,
           "nameKo": "세야드 콜라시나치",
-          "nameZh": "塞亞德·克拉西納茨"
+          "nameZh": "塞亞德·克拉西納茨",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Kolasinac_2015.jpg/120px-Kolasinac_2015.jpg"
         },
         {
           "number": 6,
@@ -13134,7 +13837,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 75,
           "defense": 78,
           "form": 77,
-          "nameZh": "本傑明·塔希羅維奇"
+          "nameZh": "本傑明·塔希羅維奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Benjamin_Tahirovic_for_Br%C3%B8ndby.jpg/120px-Benjamin_Tahirovic_for_Br%C3%B8ndby.jpg"
         },
         {
           "number": 7,
@@ -13149,7 +13853,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 77,
           "nameKo": "아마르 데디치",
-          "nameZh": "阿马尔·德蒂奇"
+          "nameZh": "阿马尔·德蒂奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/%282024-09-10_%29_FC_RB_Salzburg_gegen_SCR_Altach_24.jpg/120px-%282024-09-10_%29_FC_RB_Salzburg_gegen_SCR_Altach_24.jpg"
         },
         {
           "number": 8,
@@ -13162,7 +13867,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 80,
           "attack": 75,
           "defense": 78,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/2025-03-05_Armin_Gigovic_Holstein_Kiel_pic1.jpg/120px-2025-03-05_Armin_Gigovic_Holstein_Kiel_pic1.jpg"
         },
         {
           "number": 9,
@@ -13205,7 +13911,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 78,
           "nameKo": "에딘 제코",
-          "nameZh": "埃丁·哲科"
+          "nameZh": "埃丁·哲科",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/20150331_2026_AUT_BIH_2177_Edin_D%C5%BEeko_%28cropped%29.jpg/120px-20150331_2026_AUT_BIH_2177_Edin_D%C5%BEeko_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -13231,7 +13938,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 79,
           "attack": 75,
           "defense": 77,
-          "form": 76
+          "form": 76,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ivan_Ba%C5%A1i%C4%87_2022.jpg/120px-Ivan_Ba%C5%A1i%C4%87_2022.jpg"
         },
         {
           "number": 14,
@@ -13245,7 +13953,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 75,
           "defense": 76,
           "form": 76,
-          "nameZh": "艾雲·辛積"
+          "nameZh": "艾雲·辛積",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ivan_%C5%A0unji%C4%87_2022.jpg/120px-Ivan_%C5%A0unji%C4%87_2022.jpg"
         },
         {
           "number": 15,
@@ -13272,7 +13981,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 75,
           "defense": 77,
           "form": 76,
-          "nameZh": "阿米爾·哈齊亞梅托維奇"
+          "nameZh": "阿米爾·哈齊亞梅托維奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Amir_Had%C5%BEiahmetovi%C4%87_playing_for_Be%C5%9Fikta%C5%9F.jpg/120px-Amir_Had%C5%BEiahmetovi%C4%87_playing_for_Be%C5%9Fikta%C5%9F.jpg"
         },
         {
           "number": 17,
@@ -13286,7 +13996,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 75,
           "defense": 77,
           "form": 76,
-          "nameZh": "登尼斯·布爾尼奇"
+          "nameZh": "登尼斯·布爾尼奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/2019-08-10_TuS_Dassendorf_vs._SG_Dynamo_Dresden_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93151.jpg/120px-2019-08-10_TuS_Dassendorf_vs._SG_Dynamo_Dresden_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93151.jpg"
         },
         {
           "number": 18,
@@ -13300,7 +14011,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 65,
           "defense": 80,
           "form": 76,
-          "nameZh": "尼古拉·卡蒂奇"
+          "nameZh": "尼古拉·卡蒂奇",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/SM-Rangers18_%2816%29.jpg/120px-SM-Rangers18_%2816%29.jpg"
         },
         {
           "number": 19,
@@ -13314,7 +14026,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 80,
           "defense": 60,
           "form": 74,
-          "nameKo": "케림 알라이베고비치"
+          "nameKo": "케림 알라이베고비치",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/FC_Red_Bull_Salzburg_gegen_WSG_Tirol_%282025-10-30_%C3%96FB_Cup%29_19.jpg/120px-FC_Red_Bull_Salzburg_gegen_WSG_Tirol_%282025-10-30_%C3%96FB_Cup%29_19.jpg"
         },
         {
           "number": 20,
@@ -13381,7 +14094,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 65,
           "defense": 77,
           "form": 74,
-          "nameKo": "니달 첼리크"
+          "nameKo": "니달 첼리크",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%C4%8Celik_rcl_asse_2425.png/120px-%C4%8Celik_rcl_asse_2425.png"
         },
         {
           "number": 25,
@@ -13464,7 +14178,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 75,
           "nameKo": "호호",
-          "nameZh": "罗罗"
+          "nameZh": "罗罗",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/R%C3%B3-R%C3%B3%2C_Qatar_v_Japan_%E2%80%93_AFC_Asian_Cup_2019_final_29_%28crop%29.jpg/120px-R%C3%B3-R%C3%B3%2C_Qatar_v_Japan_%E2%80%93_AFC_Asian_Cup_2019_final_29_%28crop%29.jpg"
         },
         {
           "number": 3,
@@ -13479,7 +14194,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 74,
           "nameKo": "루카스 멘데스",
-          "nameZh": "卢卡斯·门迪斯"
+          "nameZh": "卢卡斯·门迪斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Valais_Cup_2013_-_OM-FC_Porto_13-07-2013_-_Lucas_Mendes.jpg/120px-Valais_Cup_2013_-_OM-FC_Porto_13-07-2013_-_Lucas_Mendes.jpg"
         },
         {
           "number": 4,
@@ -13507,7 +14223,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 74,
           "nameKo": "자셈 가베르",
-          "nameZh": "耶森·加巴"
+          "nameZh": "耶森·加巴",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Asian_Nations_Cup_Iran_-_Qatar_%285%29_%28cropped%29.jpg/120px-Asian_Nations_Cup_Iran_-_Qatar_%285%29_%28cropped%29.jpg"
         },
         {
           "number": 6,
@@ -13522,7 +14239,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 75,
           "nameKo": "압둘라지즈 하템",
-          "nameZh": "阿卜杜勒阿齐玆·哈特姆"
+          "nameZh": "阿卜杜勒阿齐玆·哈特姆",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Abdulaziz_Hatem.jpg/120px-Abdulaziz_Hatem.jpg"
         },
         {
           "number": 7,
@@ -13537,7 +14255,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 61,
           "form": 75,
           "nameKo": "아흐메드 알라엘딘",
-          "nameZh": "艾哈迈德·艾勒丁"
+          "nameZh": "艾哈迈德·艾勒丁",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Qatar_v_Japan_%E2%80%93_AFC_Asian_Cup_2019_final_04_%28cropped%29.jpg/120px-Qatar_v_Japan_%E2%80%93_AFC_Asian_Cup_2019_final_04_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -13551,7 +14270,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 77,
           "defense": 59,
           "form": 74,
-          "nameZh": "埃德米尔森·儒尼奥尔"
+          "nameZh": "埃德米尔森·儒尼奥尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Edmilson_Junior_2018.jpg/120px-Edmilson_Junior_2018.jpg"
         },
         {
           "number": 9,
@@ -13566,7 +14286,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 61,
           "form": 75,
           "nameKo": "모하메드 문타리",
-          "nameZh": "穆罕默德·蒙塔里"
+          "nameZh": "穆罕默德·蒙塔里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Esteghlal_FC_vs_Al-Gharafa_FC%2C_16_September_2024_-_02.jpg/120px-Esteghlal_FC_vs_Al-Gharafa_FC%2C_16_September_2024_-_02.jpg"
         },
         {
           "number": 10,
@@ -13581,7 +14302,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 75,
           "nameKo": "하산 알하이도스",
-          "nameZh": "哈辛·艾希度斯"
+          "nameZh": "哈辛·艾希度斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Qatar_-_Japan%2C_AFC_Asian_Cup_2019_58_-_Hassan_Al_Haydos.jpg/120px-Qatar_-_Japan%2C_AFC_Asian_Cup_2019_58_-_Hassan_Al_Haydos.jpg"
         },
         {
           "number": 11,
@@ -13596,7 +14318,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 75,
           "nameKo": "아크람 아피프",
-          "nameZh": "阿克拉姆·阿费夫"
+          "nameZh": "阿克拉姆·阿费夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Qatar_v_Lebanon_%2837%29_%28cropped%29.jpg/120px-Qatar_v_Lebanon_%2837%29_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -13611,7 +14334,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 74,
           "nameKo": "카림 부디아프",
-          "nameZh": "卡里姆·布迪亚夫"
+          "nameZh": "卡里姆·布迪亚夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Karim_Boudiaf_2011_1.jpg/120px-Karim_Boudiaf_2011_1.jpg"
         },
         {
           "number": 13,
@@ -13639,7 +14363,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 74,
           "nameKo": "호맘 아흐메드",
-          "nameZh": "霍曼·艾哈迈德"
+          "nameZh": "霍曼·艾哈迈德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Asian_Nations_Cup_Iran_-_Qatar_%288%29_%28cropped%29.jpg/120px-Asian_Nations_Cup_Iran_-_Qatar_%288%29_%28cropped%29.jpg"
         },
         {
           "number": 15,
@@ -13654,7 +14379,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 60,
           "form": 73,
           "nameKo": "유수프 압두리사그",
-          "nameZh": "优素福·阿卜杜勒拉扎克"
+          "nameZh": "优素福·阿卜杜勒拉扎克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Asian_Nations_Cup_Iran_-_Qatar_%2822%29_%28cropped1%29.jpg/120px-Asian_Nations_Cup_Iran_-_Qatar_%2822%29_%28cropped1%29.jpg"
         },
         {
           "number": 16,
@@ -13669,7 +14395,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 74,
           "nameKo": "부알렘 쿠키",
-          "nameZh": "布阿莱姆·胡希"
+          "nameZh": "布阿莱姆·胡希",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Boualem_Khoukhi.png/120px-Boualem_Khoukhi.png"
         },
         {
           "number": 17,
@@ -13697,7 +14424,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 59,
           "defense": 78,
           "form": 73,
-          "nameZh": "苏丹·布雷克"
+          "nameZh": "苏丹·布雷克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sultan_Al_Brake_in_2018.jpg/120px-Sultan_Al_Brake_in_2018.jpg"
         },
         {
           "number": 19,
@@ -13712,7 +14440,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 72,
           "nameKo": "알모에즈 알리",
-          "nameZh": "阿尔莫埃斯·阿里"
+          "nameZh": "阿尔莫埃斯·阿里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Moez_Ali_at_Qatar_v_Japan_%E2%80%93_AFC_Asian_Cup_2019_final_32_%282%29.jpg/120px-Moez_Ali_at_Qatar_v_Japan_%E2%80%93_AFC_Asian_Cup_2019_final_32_%282%29.jpg"
         },
         {
           "number": 20,
@@ -13726,7 +14455,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 69,
           "defense": 74,
           "form": 71,
-          "nameZh": "艾哈迈德·法蒂"
+          "nameZh": "艾哈迈德·法蒂",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Asian_Nations_Cup_Iran_-_Qatar_%2821%29_%28cropped%29.jpg/120px-Asian_Nations_Cup_Iran_-_Qatar_%2821%29_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -13755,7 +14485,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 78,
           "form": 72,
           "nameKo": "메샬 바르샴",
-          "nameZh": "马沙尔·埃萨·巴尔沙姆"
+          "nameZh": "马沙尔·埃萨·巴尔沙姆",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Qatar_v_Lebanon_%2832%29_%28cropped%29.jpg/120px-Qatar_v_Lebanon_%2832%29_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -13770,7 +14501,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 74,
           "form": 71,
           "nameKo": "아심 마디보",
-          "nameZh": "阿西姆·马迪博"
+          "nameZh": "阿西姆·马迪博",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Qatar_-_Japan%2C_AFC_Asian_Cup_2019_58_-_Assim_Madibo.jpg/120px-Qatar_-_Japan%2C_AFC_Asian_Cup_2019_58_-_Assim_Madibo.jpg"
         },
         {
           "number": 24,
@@ -13852,7 +14584,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 74,
           "nameKo": "조니 플라시드",
-          "nameZh": "约翰尼·普拉德"
+          "nameZh": "约翰尼·普拉德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Johny_Placide_in_Tsarsko_selo.jpg/120px-Johny_Placide_in_Tsarsko_selo.jpg"
         },
         {
           "number": 2,
@@ -13865,7 +14598,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 75,
           "attack": 59,
           "defense": 77,
-          "form": 74
+          "form": 74,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/RC_Lens_-_AJ_Auxerre_%2809-03-2019%29_96.jpg/120px-RC_Lens_-_AJ_Auxerre_%2809-03-2019%29_96.jpg"
         },
         {
           "number": 3,
@@ -13906,7 +14640,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 59,
           "defense": 75,
           "form": 73,
-          "nameZh": "漢尼斯·戴柯華"
+          "nameZh": "漢尼斯·戴柯華",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FC_Red_Bull_Salzburg_gegen_RSC_Anderlecht_%28Testspiel_7._Juli_2017%29_50.jpg/120px-FC_Red_Bull_Salzburg_gegen_RSC_Anderlecht_%28Testspiel_7._Juli_2017%29_50.jpg"
         },
         {
           "number": 6,
@@ -13933,7 +14668,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 79,
           "defense": 57,
           "form": 73,
-          "nameKo": "데릭 에티엔 주니어"
+          "nameKo": "데릭 에티엔 주니어",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Derrick_Etienne_%2828411015376%29_%28cropped2%29.jpg/120px-Derrick_Etienne_%2828411015376%29_%28cropped2%29.jpg"
         },
         {
           "number": 8,
@@ -13961,7 +14697,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 58,
           "form": 74,
           "nameKo": "뒤켕 나종",
-          "nameZh": "达肯斯·纳左恩"
+          "nameZh": "达肯斯·纳左恩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/2025_Iran_Football_Premier_League_Esteghlal_and_Zob_Ahan_football_match_3_Mehr_%28cropped%29.jpg/120px-2025_Iran_Football_Premier_League_Esteghlal_and_Zob_Ahan_football_match_3_Mehr_%28cropped%29.jpg"
         },
         {
           "number": 10,
@@ -13976,7 +14713,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 73,
           "nameKo": "장릭네르 벨가르드",
-          "nameZh": "让-里克纳·贝勒加德"
+          "nameZh": "让-里克纳·贝勒加德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Lens_B_-_AC_Amiens_%2812-09-2015%29_64_%28cropped%29.JPG/120px-Lens_B_-_AC_Amiens_%2812-09-2015%29_64_%28cropped%29.JPG"
         },
         {
           "number": 11,
@@ -14068,7 +14806,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 70,
           "defense": 72,
           "form": 72,
-          "nameZh": "丹利·让·雅克"
+          "nameZh": "丹利·让·雅克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Danley_Jean_Jacques_Philadelphia_Union_New_York_City_FC_Nov_23_2025-062_%28cropped%29.jpg/120px-Danley_Jean_Jacques_Philadelphia_Union_New_York_City_FC_Nov_23_2025-062_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -14082,7 +14821,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 76,
           "defense": 55,
           "form": 72,
-          "nameZh": "威尔逊·伊西多尔"
+          "nameZh": "威尔逊·伊西多尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Wilson_Isidor_2022.jpg/120px-Wilson_Isidor_2022.jpg"
         },
         {
           "number": 19,
@@ -14136,7 +14876,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 71,
           "attack": 59,
           "defense": 73,
-          "form": 70
+          "form": 70,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/RC_Lens_-_FC_Nantes_%2828-10-2023%29_17.jpg/120px-RC_Lens_-_FC_Nantes_%2828-10-2023%29_17.jpg"
         },
         {
           "number": 23,
@@ -14231,7 +14972,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 45,
           "defense": 88,
           "form": 80,
-          "nameZh": "凯蒂·费尔南德斯"
+          "nameZh": "凯蒂·费尔南德斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gatito_Fern%C3%A1ndez_%28Cerro_Porte%C3%B1o%29.png/120px-Gatito_Fern%C3%A1ndez_%28Cerro_Porte%C3%B1o%29.png"
         },
         {
           "number": 2,
@@ -14258,7 +15000,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 65,
           "defense": 87,
           "form": 80,
-          "nameZh": "奥马尔·阿尔德雷特"
+          "nameZh": "奥马尔·阿尔德雷特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Omar_Alderete_2019_%28cropped%29.jpg/120px-Omar_Alderete_2019_%28cropped%29.jpg"
         },
         {
           "number": 4,
@@ -14271,7 +15014,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 64,
           "defense": 87,
-          "form": 80
+          "form": 80,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Juan_Jos%C3%A9_C%C3%A1ceres_2025.jpg/120px-Juan_Jos%C3%A9_C%C3%A1ceres_2025.jpg"
         },
         {
           "number": 5,
@@ -14285,7 +15029,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 64,
           "defense": 88,
           "form": 80,
-          "nameZh": "法比安·巴布埃纳"
+          "nameZh": "法比安·巴布埃纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Fabi%C3%A1n_Balbuena_2021.jpg/120px-Fabi%C3%A1n_Balbuena_2021.jpg"
         },
         {
           "number": 6,
@@ -14299,7 +15044,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 65,
           "defense": 89,
           "form": 81,
-          "nameZh": "尤尼尔·阿隆索"
+          "nameZh": "尤尼尔·阿隆索",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/J%C3%BAnior_Alonso_20180612_%28cropped%29.jpg/120px-J%C3%BAnior_Alonso_20180612_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -14312,7 +15058,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 74,
           "defense": 84,
-          "form": 80
+          "form": 80,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Ramon-sosa-palmeiras-sport-ago-25-4_%28cropped%29.jpg/120px-Ramon-sosa-palmeiras-sport-ago-25-4_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -14325,7 +15072,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 74,
           "defense": 84,
-          "form": 80
+          "form": 80,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Inter_Miami_vs_Real_Salt_Lake_02_%28cropped%29.jpg/120px-Inter_Miami_vs_Real_Salt_Lake_02_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -14340,7 +15088,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 68,
           "form": 80,
           "nameKo": "안토니오 사나브리아",
-          "nameZh": "辛拿比亞"
+          "nameZh": "辛拿比亞",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Antonio_Sanabria%2C_2025_%28cropped%29.jpg/120px-Antonio_Sanabria%2C_2025_%28cropped%29.jpg"
         },
         {
           "number": 10,
@@ -14355,7 +15104,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 81,
           "nameKo": "미겔 알미론",
-          "nameZh": "米格爾·艾馬朗"
+          "nameZh": "米格爾·艾馬朗",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Miguel_Almir%C3%B3n_Red_Bull_Atlanta_5.31.25-069_%28cropped%29.jpg/120px-Miguel_Almir%C3%B3n_Red_Bull_Atlanta_5.31.25-069_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -14368,7 +15118,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 81,
           "attack": 74,
           "defense": 83,
-          "form": 80
+          "form": 80,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Mauricio-palmeiras-sport-ago-25_%28cropped%29.jpg/120px-Mauricio-palmeiras-sport-ago-25_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -14408,7 +15159,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 74,
           "defense": 83,
           "form": 79,
-          "nameZh": "安德烈斯·库巴斯"
+          "nameZh": "安德烈斯·库巴斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/InddelVal-Boca_%283%29.jpg/120px-InddelVal-Boca_%283%29.jpg"
         },
         {
           "number": 15,
@@ -14423,7 +15175,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 89,
           "form": 80,
           "nameKo": "구스타보 고메스",
-          "nameZh": "古斯塔沃·戈麦斯"
+          "nameZh": "古斯塔沃·戈麦斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gustavo-Gomez-Palmeiras-Athletico-jul-2022-2.jpg/120px-Gustavo-Gomez-Palmeiras-Athletico-jul-2022-2.jpg"
         },
         {
           "number": 16,
@@ -14450,7 +15203,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 82,
           "defense": 67,
           "form": 79,
-          "nameZh": "亞歷杭德羅·羅梅羅"
+          "nameZh": "亞歷杭德羅·羅梅羅",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Alejandro_Romero_20180612_%28cropped%29.jpg/120px-Alejandro_Romero_20180612_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -14477,7 +15231,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 80,
           "defense": 67,
           "form": 77,
-          "nameZh": "胡利奥·恩西索"
+          "nameZh": "胡利奥·恩西索",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Enciso_2022.jpg/120px-Enciso_2022.jpg"
         },
         {
           "number": 20,
@@ -14491,7 +15246,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 74,
           "defense": 81,
           "form": 77,
-          "nameZh": "布赖恩·奥赫达"
+          "nameZh": "布赖恩·奥赫达",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Dynamo_vs_Real_Salt_Lake_%28Mar_2025%29_16_%28cropped%29.jpg/120px-Dynamo_vs_Real_Salt_Lake_%28Mar_2025%29_16_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -14532,7 +15288,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 79,
           "attack": 74,
           "defense": 81,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Mat%C3%ADas_Galarza_-_Brasileir%C3%A3o_S%C3%A9rie_A-_Bragantino_4_x_2_Coritiba_-_52150854647_%28cropped%29.jpg/120px-Mat%C3%ADas_Galarza_-_Brasileir%C3%A3o_S%C3%A9rie_A-_Bragantino_4_x_2_Coritiba_-_52150854647_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -14558,7 +15315,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 78,
           "attack": 79,
           "defense": 66,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Isidro-Pitta-Juventude-Corinthians-jun-2022.jpg/120px-Isidro-Pitta-Juventude-Corinthians-jun-2022.jpg"
         },
         {
           "number": 26,
@@ -14614,7 +15372,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 73,
           "nameKo": "엘로이 롬",
-          "nameZh": "伊洛·魯姆"
+          "nameZh": "伊洛·魯姆",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Room_Eloy_Columbus_Crew_SC_Meet_the_Team_2019.jpg/120px-Room_Eloy_Columbus_Crew_SC_Meet_the_Team_2019.jpg"
         },
         {
           "number": 2,
@@ -14641,7 +15400,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 73,
           "attack": 56,
           "defense": 77,
-          "form": 73
+          "form": 73,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Go_Ahead_Eagles_-_RKC_Waalwijk_-_52830811567_%28cropped%29.jpg/120px-Go_Ahead_Eagles_-_RKC_Waalwijk_-_52830811567_%28cropped%29.jpg"
         },
         {
           "number": 4,
@@ -14654,7 +15414,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 73,
           "attack": 56,
           "defense": 76,
-          "form": 72
+          "form": 72,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Roshon_van_Eijma_2025_profile_photo_%28cropped%29.png/120px-Roshon_van_Eijma_2025_profile_photo_%28cropped%29.png"
         },
         {
           "number": 5,
@@ -14667,7 +15428,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 73,
           "attack": 56,
           "defense": 76,
-          "form": 72
+          "form": 72,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sherel_Floranus_at_Antalyaspor_vs_Fatih_Karag%C3%BCmr%C3%BCk_SK_20220213.jpg/120px-Sherel_Floranus_at_Antalyaspor_vs_Fatih_Karag%C3%BCmr%C3%BCk_SK_20220213.jpg"
         },
         {
           "number": 6,
@@ -14696,7 +15458,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 74,
           "form": 72,
           "nameKo": "주니뇨 바쿠나",
-          "nameZh": "祖連奴·巴根拿"
+          "nameZh": "祖連奴·巴根拿",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Juninho_bacuna-1531777726.jpeg/120px-Juninho_bacuna-1531777726.jpeg"
         },
         {
           "number": 8,
@@ -14724,7 +15487,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 56,
           "form": 72,
           "nameKo": "위르헌 로카디아",
-          "nameZh": "於爾根·盧卡達"
+          "nameZh": "於爾根·盧卡達",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/J%C3%BCrgen_Locadia%2C_Persepolis_v_Havadar%2C_5_September_2022.jpg/120px-J%C3%BCrgen_Locadia%2C_Persepolis_v_Havadar%2C_5_September_2022.jpg"
         },
         {
           "number": 10,
@@ -14739,7 +15503,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 75,
           "form": 73,
           "nameKo": "레안드로 바쿠나",
-          "nameZh": "莱安德罗·巴屈纳"
+          "nameZh": "莱安德罗·巴屈纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Leandro_Bacuna.jpg/120px-Leandro_Bacuna.jpg"
         },
         {
           "number": 11,
@@ -14765,7 +15530,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 71,
           "attack": 73,
           "defense": 55,
-          "form": 71
+          "form": 71,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Sontje_Hansen_16082025_%281%29.jpg/120px-Sontje_Hansen_16082025_%281%29.jpg"
         },
         {
           "number": 13,
@@ -14778,7 +15544,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 71,
           "attack": 73,
           "defense": 55,
-          "form": 71
+          "form": 71,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Tyrese_Noslin.jpg/120px-Tyrese_Noslin.jpg"
         },
         {
           "number": 14,
@@ -14792,7 +15559,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 74,
           "defense": 56,
           "form": 71,
-          "nameKo": "켄지 호레"
+          "nameKo": "켄지 호레",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Kenji_Gorr%C3%A9_%282015%29.jpg/120px-Kenji_Gorr%C3%A9_%282015%29.jpg"
         },
         {
           "number": 15,
@@ -14806,7 +15574,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 66,
           "defense": 71,
           "form": 71,
-          "nameZh": "阿爾賈尼·馬沙"
+          "nameZh": "阿爾賈尼·馬沙",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ar%27jany_Martha_18042026_%283%29.jpg/120px-Ar%27jany_Martha_18042026_%283%29.jpg"
         },
         {
           "number": 16,
@@ -14832,7 +15601,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 71,
           "attack": 73,
           "defense": 56,
-          "form": 71
+          "form": 71,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Brandley_Kuwas.png/120px-Brandley_Kuwas.png"
         },
         {
           "number": 18,
@@ -14846,7 +15616,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 56,
           "defense": 74,
           "form": 71,
-          "nameZh": "阿曼多·歐比斯波"
+          "nameZh": "阿曼多·歐比斯波",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Austria_U-18_vs._Netherlands_U-18_2017-03-23_%28060%29.jpg/120px-Austria_U-18_vs._Netherlands_U-18_2017-03-23_%28060%29.jpg"
         },
         {
           "number": 19,
@@ -14860,7 +15631,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 73,
           "defense": 56,
           "form": 69,
-          "nameZh": "謝雲·卡斯坦尼亞"
+          "nameZh": "謝雲·卡斯坦尼亞",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Gervane-kastaneer.jpg/120px-Gervane-kastaneer.jpg"
         },
         {
           "number": 20,
@@ -14874,7 +15646,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 56,
           "defense": 73,
           "form": 69,
-          "nameZh": "约书亚·布雷内特"
+          "nameZh": "约书亚·布雷内特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/PSV_Eindhoven%2C_Teamcamp_Bad_Erlach%2C_July_2014_%28076%29.jpg/120px-PSV_Eindhoven%2C_Teamcamp_Bad_Erlach%2C_July_2014_%28076%29.jpg"
         },
         {
           "number": 21,
@@ -14889,7 +15662,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 69,
           "nameKo": "타히트 총",
-          "nameZh": "鐘塔西"
+          "nameZh": "鐘塔西",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tahith_Chong_%2838487929362%29.jpg/120px-Tahith_Chong_%2838487929362%29.jpg"
         },
         {
           "number": 22,
@@ -14903,7 +15677,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 66,
           "defense": 70,
           "form": 69,
-          "nameZh": "凯文·费利达"
+          "nameZh": "凯文·费利达",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kevin_felida-1571753982.jpg/120px-Kevin_felida-1571753982.jpg"
         },
         {
           "number": 23,
@@ -14918,7 +15693,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 72,
           "form": 69,
           "nameKo": "리헤들리 바주르",
-          "nameZh": "里奇德利·巴佐尔"
+          "nameZh": "里奇德利·巴佐尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Go_Ahead_Eagles_-_AZ_-_53170906955_%28Riechedly_Bazoer%29.jpg/120px-Go_Ahead_Eagles_-_AZ_-_53170906955_%28Riechedly_Bazoer%29.jpg"
         },
         {
           "number": 24,
@@ -14958,7 +15734,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 45,
           "defense": 73,
           "form": 69,
-          "nameKo": "트레버 도른뷔스"
+          "nameKo": "트레버 도른뷔스",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Austria_U-18_vs._Netherlands_U-18_2017-03-23_%28095%29_%28cropped%29.jpg/120px-Austria_U-18_vs._Netherlands_U-18_2017-03-23_%28095%29_%28cropped%29.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -15014,7 +15791,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 77,
           "nameKo": "알리 압디",
-          "nameZh": "阿里·阿布迪"
+          "nameZh": "阿里·阿布迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Abdi_asse_ogcn_2425.png/120px-Abdi_asse_ogcn_2425.png"
         },
         {
           "number": 3,
@@ -15029,7 +15807,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 78,
           "nameKo": "몬타사르 탈비",
-          "nameZh": "蒙萨塔尔·塔比"
+          "nameZh": "蒙萨塔尔·塔比",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Montassar_Talbi_2021.jpg/120px-Montassar_Talbi_2021.jpg"
         },
         {
           "number": 4,
@@ -15070,7 +15849,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 86,
           "form": 78,
           "nameKo": "딜랑 브론",
-          "nameZh": "迪伦·布朗"
+          "nameZh": "迪伦·布朗",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Dylan_Bronn_2.jpg/120px-Dylan_Bronn_2.jpg"
         },
         {
           "number": 7,
@@ -15084,7 +15864,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 80,
           "defense": 65,
           "form": 77,
-          "nameZh": "伊莱亚斯·阿乔里"
+          "nameZh": "伊莱亚斯·阿乔里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Elias_Achouri%2C_Vejle_Boldklub_-_FC_K%C3%B8benhavn%2C_29._July_2023_-_opvarmning_FCK%27s_1._hold_%28cropped%29.jpg/120px-Elias_Achouri%2C_Vejle_Boldklub_-_FC_K%C3%B8benhavn%2C_29._July_2023_-_opvarmning_FCK%27s_1._hold_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -15098,7 +15879,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 80,
           "defense": 65,
           "form": 77,
-          "nameZh": "埃利亚斯·扎德"
+          "nameZh": "埃利亚斯·扎德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2025-04-23_-_FC_St_Pauli_-_Elias_Saad.jpg/120px-2025-04-23_-_FC_St_Pauli_-_Elias_Saad.jpg"
         },
         {
           "number": 9,
@@ -15111,7 +15893,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 80,
           "attack": 80,
           "defense": 65,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Hazem_Mastouri_2026.jpg/120px-Hazem_Mastouri_2026.jpg"
         },
         {
           "number": 10,
@@ -15126,7 +15909,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 77,
           "nameKo": "한니발 메지브리",
-          "nameZh": "漢尼拔·梅布里"
+          "nameZh": "漢尼拔·梅布里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hannibal_Mejbri_26042025_%281%29.jpg/120px-Hannibal_Mejbri_26042025_%281%29.jpg"
         },
         {
           "number": 11,
@@ -15140,7 +15924,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 71,
           "defense": 82,
           "form": 77,
-          "nameZh": "伊斯梅爾·加比"
+          "nameZh": "伊斯梅爾·加比",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Isma%C3%ABl_Gharbi_at_the_PSG-VAFC_game_%28cropped%29.jpg/120px-Isma%C3%ABl_Gharbi_at_the_PSG-VAFC_game_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -15153,7 +15938,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 78,
           "attack": 61,
           "defense": 84,
-          "form": 76
+          "form": 76,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Mortadha_Ben_Ouanes.jpg/120px-Mortadha_Ben_Ouanes.jpg"
         },
         {
           "number": 13,
@@ -15168,7 +15954,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 76,
           "nameKo": "라니 케디라",
-          "nameZh": "蘭尼·基迪拉"
+          "nameZh": "蘭尼·基迪拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Testspiel_Rasenballsport_Leipzig_gegen_FC_Liefering_%289.August_2016%29_36.jpg/120px-Testspiel_Rasenballsport_Leipzig_gegen_FC_Liefering_%289.August_2016%29_36.jpg"
         },
         {
           "number": 14,
@@ -15224,7 +16011,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 77,
           "nameKo": "엘리에스 스키리",
-          "nameZh": "埃利耶斯·斯凯里"
+          "nameZh": "埃利耶斯·斯凯里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2021-08-08_FC_Carl_Zeiss_Jena_gegen_1._FC_K%C3%B6ln_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93182_%28cropped2%29.jpg/120px-2021-08-08_FC_Carl_Zeiss_Jena_gegen_1._FC_K%C3%B6ln_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93182_%28cropped2%29.jpg"
         },
         {
           "number": 18,
@@ -15264,7 +16052,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 61,
           "defense": 82,
           "form": 74,
-          "nameZh": "恩·華利尼"
+          "nameZh": "恩·華利尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sheffield_Wednesday%27s_Starting_Eleven_18102025_%281%29_%28cropped%29.jpg/120px-Sheffield_Wednesday%27s_Starting_Eleven_18102025_%281%29_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -15277,7 +16066,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 76,
           "attack": 61,
           "defense": 81,
-          "form": 74
+          "form": 74,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mohamed_Amine_Ben_Hmida_%28cropped%29.jpg/120px-Mohamed_Amine_Ben_Hmida_%28cropped%29.jpg"
         },
         {
           "number": 22,
@@ -15331,7 +16121,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 74,
           "nameKo": "아니스 벤 슬리만",
-          "nameZh": "阿尼斯·本·苏莱曼"
+          "nameZh": "阿尼斯·本·苏莱曼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/FC_Salzburg_gegen_Br%C3%B8ndby_IF_%28Championsleague_Play_off_Hinspiel_17._August_2021%29_12.jpg/120px-FC_Salzburg_gegen_Br%C3%B8ndby_IF_%28Championsleague_Play_off_Hinspiel_17._August_2021%29_12.jpg"
         },
         {
           "number": 26,
@@ -15387,7 +16178,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 83,
           "nameKo": "모하메드 엘셰나위",
-          "nameZh": "模罕默德·希纳维"
+          "nameZh": "模罕默德·希纳维",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Mohamed_El_Shenawy.jpg/120px-Mohamed_El_Shenawy.jpg"
         },
         {
           "number": 2,
@@ -15401,7 +16193,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 72,
           "defense": 85,
           "form": 82,
-          "nameZh": "亞西爾·伊巴謙"
+          "nameZh": "亞西爾·伊巴謙",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Yasser_Ibrahim_in_FIFA_Club_World_Cup.jpg/120px-Yasser_Ibrahim_in_FIFA_Club_World_Cup.jpg"
         },
         {
           "number": 3,
@@ -15415,7 +16208,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 72,
           "defense": 86,
           "form": 82,
-          "nameZh": "穆罕默德·哈尼"
+          "nameZh": "穆罕默德·哈尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mohamed_Hany_in_2021_FIFA_Club_World_Cup.jpg/120px-Mohamed_Hany_in_2021_FIFA_Club_World_Cup.jpg"
         },
         {
           "number": 4,
@@ -15428,7 +16222,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 85,
           "attack": 72,
           "defense": 85,
-          "form": 82
+          "form": 82,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Hossam_Abdel_Maguid.jpg/120px-Hossam_Abdel_Maguid.jpg"
         },
         {
           "number": 5,
@@ -15441,7 +16236,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 85,
           "attack": 73,
           "defense": 86,
-          "form": 82
+          "form": 82,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ramy_Rabia_in_2021_FIFA_Club_World_Cup.jpg/120px-Ramy_Rabia_in_2021_FIFA_Club_World_Cup.jpg"
         },
         {
           "number": 6,
@@ -15455,7 +16251,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 73,
           "defense": 85,
           "form": 82,
-          "nameZh": "穆罕默德·阿卜杜勒莫南"
+          "nameZh": "穆罕默德·阿卜杜勒莫南",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Abdelmonem_asse_ogcn_2425.png/120px-Abdelmonem_asse_ogcn_2425.png"
         },
         {
           "number": 7,
@@ -15470,7 +16267,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 68,
           "form": 83,
           "nameKo": "마흐무드 하산",
-          "nameZh": "马哈茂德·哈桑"
+          "nameZh": "马哈茂德·哈桑",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mahmoud_Tr%C3%A9z%C3%A9guet_in_world_cup_2018.jpg/120px-Mahmoud_Tr%C3%A9z%C3%A9guet_in_world_cup_2018.jpg"
         },
         {
           "number": 8,
@@ -15484,7 +16282,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 82,
           "defense": 82,
           "form": 82,
-          "nameZh": "艾疏亞"
+          "nameZh": "艾疏亞",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Emam22.jpg/120px-Emam22.jpg"
         },
         {
           "number": 9,
@@ -15512,7 +16311,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 69,
           "form": 83,
           "nameKo": "모하메드 살라",
-          "nameZh": "穆罕默德·萨拉赫"
+          "nameZh": "穆罕默德·萨拉赫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mohamed_Salah_2018.jpg/120px-Mohamed_Salah_2018.jpg"
         },
         {
           "number": 11,
@@ -15565,7 +16365,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 82,
           "defense": 82,
           "form": 82,
-          "nameZh": "哈姆迪·法特希"
+          "nameZh": "哈姆迪·法特希",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Hamdy_Fathy_2.jpg/120px-Hamdy_Fathy_2.jpg"
         },
         {
           "number": 15,
@@ -15578,7 +16379,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 83,
           "attack": 72,
           "defense": 83,
-          "form": 81
+          "form": 81,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Karim_Hafez_%28RC_Lens%29.jpg/120px-Karim_Hafez_%28RC_Lens%29.jpg"
         },
         {
           "number": 16,
@@ -15632,7 +16434,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 82,
           "defense": 79,
-          "form": 79
+          "form": 79,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Marwan_Attia.jpg/120px-Marwan_Attia.jpg"
         },
         {
           "number": 20,
@@ -15645,7 +16448,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 88,
           "defense": 65,
-          "form": 79
+          "form": 79,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ibrahim_Adel_2025.jpg/120px-Ibrahim_Adel_2025.jpg"
         },
         {
           "number": 21,
@@ -15673,7 +16477,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 66,
           "form": 79,
           "nameKo": "오마르 마르무시",
-          "nameZh": "奧馬爾·馬爾穆什"
+          "nameZh": "奧馬爾·馬爾穆什",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/OmarMarmoush.png/120px-OmarMarmoush.png"
         },
         {
           "number": 23,
@@ -15713,7 +16518,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 88,
           "defense": 66,
           "form": 80,
-          "nameZh": "艾哈邁德·賽義德"
+          "nameZh": "艾哈邁德·賽義德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/A.Zizo.jpg/120px-A.Zizo.jpg"
         },
         {
           "number": 26,
@@ -15767,7 +16573,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 74,
           "attack": 45,
           "defense": 80,
-          "form": 74
+          "form": 74,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Max_Crocombe_290425.jpg/120px-Max_Crocombe_290425.jpg"
         },
         {
           "number": 2,
@@ -15795,7 +16602,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 74,
           "attack": 58,
           "defense": 79,
-          "form": 74
+          "form": 74,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Francis_de_Vries.jpg/120px-Francis_de_Vries.jpg"
         },
         {
           "number": 4,
@@ -15822,7 +16630,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 58,
           "defense": 80,
           "form": 75,
-          "nameZh": "邁克·伯克薩爾"
+          "nameZh": "邁克·伯克薩爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Michael_Boxall_-_MNUFC_-_MLS_-_new_zealand_-_%2852125271279%29.jpg/120px-Michael_Boxall_-_MNUFC_-_MLS_-_new_zealand_-_%2852125271279%29.jpg"
         },
         {
           "number": 6,
@@ -15836,7 +16645,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 68,
           "defense": 76,
           "form": 74,
-          "nameZh": "乔·贝尔"
+          "nameZh": "乔·贝尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Joe_Bell_2023.jpg/120px-Joe_Bell_2023.jpg"
         },
         {
           "number": 7,
@@ -15864,7 +16674,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 68,
           "defense": 76,
           "form": 74,
-          "nameZh": "马尔科·斯塔梅尼克"
+          "nameZh": "马尔科·斯塔梅尼克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FC_Zenit_Saint_Petersburg_vs._Red_Star_Belgrade%2C_4_July_2023_%2850%29.jpg/120px-FC_Zenit_Saint_Petersburg_vs._Red_Star_Belgrade%2C_4_July_2023_%2850%29.jpg"
         },
         {
           "number": 9,
@@ -15879,7 +16690,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 62,
           "form": 75,
           "nameKo": "크리스 우드",
-          "nameZh": "克里斯·伍德"
+          "nameZh": "克里斯·伍德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chris_Wood_%28cropped%29.jpg/120px-Chris_Wood_%28cropped%29.jpg"
         },
         {
           "number": 10,
@@ -15893,7 +16705,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 68,
           "defense": 76,
           "form": 74,
-          "nameZh": "萨普里特·辛格"
+          "nameZh": "萨普里特·辛格",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sarpreet_Singh_Training_2019-07-28_FC_Bayern_Munich.png/120px-Sarpreet_Singh_Training_2019-07-28_FC_Bayern_Munich.png"
         },
         {
           "number": 11,
@@ -15906,7 +16719,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 76,
           "attack": 69,
           "defense": 77,
-          "form": 74
+          "form": 74,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Elijah_Just.jpg/120px-Elijah_Just.jpg"
         },
         {
           "number": 12,
@@ -15920,7 +16734,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 45,
           "defense": 78,
           "form": 73,
-          "nameZh": "亚历克斯·保尔森"
+          "nameZh": "亚历克斯·保尔森",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Alex_Paulsen.jpg/120px-Alex_Paulsen.jpg"
         },
         {
           "number": 13,
@@ -15935,7 +16750,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 78,
           "form": 73,
           "nameKo": "리버라토 커카치",
-          "nameZh": "利貝拉托·凱卡斯"
+          "nameZh": "利貝拉托·凱卡斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Liberato_Cacace_30082025_%281%29.jpg/120px-Liberato_Cacace_30082025_%281%29.jpg"
         },
         {
           "number": 14,
@@ -15949,7 +16765,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 68,
           "defense": 75,
           "form": 73,
-          "nameZh": "亚历克斯·鲁费尔"
+          "nameZh": "亚历克斯·鲁费尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Alex_Rufer.jpg/120px-Alex_Rufer.jpg"
         },
         {
           "number": 15,
@@ -15976,7 +16793,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 58,
           "defense": 78,
           "form": 73,
-          "nameZh": "芬恩·苏尔曼"
+          "nameZh": "芬恩·苏尔曼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Finn_Surman.jpg/120px-Finn_Surman.jpg"
         },
         {
           "number": 17,
@@ -15990,7 +16808,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 77,
           "defense": 61,
           "form": 74,
-          "nameZh": "哥斯達·巴巴路西斯"
+          "nameZh": "哥斯達·巴巴路西斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Kosta_Barbarousas_Training.JPG/120px-Kosta_Barbarousas_Training.JPG"
         },
         {
           "number": 18,
@@ -16004,7 +16823,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 77,
           "defense": 59,
           "form": 73,
-          "nameZh": "班·韋恩"
+          "nameZh": "班·韋恩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Ben_Waine.jpg/120px-Ben_Waine.jpg"
         },
         {
           "number": 19,
@@ -16018,7 +16838,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 68,
           "defense": 73,
           "form": 71,
-          "nameZh": "本·奥尔德"
+          "nameZh": "本·奥尔德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Old_asse_psg_2425.png/120px-Old_asse_psg_2425.png"
         },
         {
           "number": 20,
@@ -16032,7 +16853,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 69,
           "defense": 73,
           "form": 71,
-          "nameZh": "卡勒姆·麥考瓦特"
+          "nameZh": "卡勒姆·麥考瓦特",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Callum_McCowatt_playing_for_New_Zealand%2C_26_March_2023_%282%29_%28cropped%29.jpg/120px-Callum_McCowatt_playing_for_New_Zealand%2C_26_March_2023_%282%29_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -16058,7 +16880,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 71,
           "attack": 45,
           "defense": 76,
-          "form": 71
+          "form": 71,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Michael_Woud.jpg/120px-Michael_Woud.jpg"
         },
         {
           "number": 23,
@@ -16073,7 +16896,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 73,
           "form": 71,
           "nameKo": "라이언 토머스",
-          "nameZh": "莱恩·托马斯"
+          "nameZh": "莱恩·托马斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Ryan_Jared_Thomas.jpg/120px-Ryan_Jared_Thomas.jpg"
         },
         {
           "number": 24,
@@ -16086,7 +16910,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 71,
           "attack": 58,
           "defense": 75,
-          "form": 71
+          "form": 71,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Callan_Elliot.jpg/120px-Callan_Elliot.jpg"
         },
         {
           "number": 25,
@@ -16099,7 +16924,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 71,
           "attack": 68,
           "defense": 72,
-          "form": 71
+          "form": 71,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Lachlan_Bayliss.jpg/120px-Lachlan_Bayliss.jpg"
         },
         {
           "number": 26,
@@ -16114,7 +16940,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 77,
           "form": 72,
           "nameKo": "토미 스미스",
-          "nameZh": "汤米·史密斯"
+          "nameZh": "汤米·史密斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Tommy_Smith_March_2024.jpg/120px-Tommy_Smith_March_2024.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -16172,7 +16999,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 79,
           "nameKo": "스토피라",
-          "nameZh": "拉尼奎·多斯桑托斯·塔瓦雷斯"
+          "nameZh": "拉尼奎·多斯桑托斯·塔瓦雷斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Cap-vert_vs_Ethiopi_%2825%29.jpg/120px-Cap-vert_vs_Ethiopi_%2825%29.jpg"
         },
         {
           "number": 3,
@@ -16198,7 +17026,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 78,
           "attack": 62,
           "defense": 82,
-          "form": 78
+          "form": 78,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Roberto_Lopes%2C_Jan_2026_%28cropped%29.jpg/120px-Roberto_Lopes%2C_Jan_2026_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -16212,7 +17041,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 62,
           "defense": 81,
           "form": 78,
-          "nameKo": "로강 코스타"
+          "nameKo": "로강 코스타",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Logan_Costa_-_2023-02-01_%28cropped_medium_shot%29.jpg/120px-Logan_Costa_-_2023-02-01_%28cropped_medium_shot%29.jpg"
         },
         {
           "number": 6,
@@ -16225,7 +17055,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 78,
           "attack": 72,
           "defense": 78,
-          "form": 78
+          "form": 78,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Kevin_Pina_%28footballer%29_2022.jpg/120px-Kevin_Pina_%28footballer%29_2022.jpg"
         },
         {
           "number": 7,
@@ -16240,7 +17071,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 78,
           "form": 78,
           "nameKo": "조반 카브랄",
-          "nameZh": "久瓦尼·卡布拉爾"
+          "nameZh": "久瓦尼·卡布拉爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/JovaneCabral_2021.jpg/120px-JovaneCabral_2021.jpg"
         },
         {
           "number": 8,
@@ -16266,7 +17098,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 78,
           "attack": 81,
           "defense": 61,
-          "form": 78
+          "form": 78,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Benchimol_2024.jpg/120px-Benchimol_2024.jpg"
         },
         {
           "number": 10,
@@ -16280,7 +17113,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 73,
           "defense": 79,
           "form": 79,
-          "nameKo": "자미루 몬테이루"
+          "nameKo": "자미루 몬테이루",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Jamiro_Monteiro_Philadelphia_Union_2019.jpg/120px-Jamiro_Monteiro_Philadelphia_Union_2019.jpg"
         },
         {
           "number": 11,
@@ -16295,7 +17129,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 79,
           "nameKo": "가리 호드리게스",
-          "nameZh": "加里·羅德里格斯"
+          "nameZh": "加里·羅德里格斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cap-vert_vs_Ethiopi_%2824%29.jpg/120px-Cap-vert_vs_Ethiopi_%2824%29.jpg"
         },
         {
           "number": 12,
@@ -16308,7 +17143,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 76,
           "attack": 45,
           "defense": 80,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Phase_de_match_Ethiopie_-_Cape_verde_%28cropped%29.jpg/120px-Phase_de_match_Ethiopie_-_Cape_verde_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -16335,7 +17171,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 72,
           "defense": 77,
           "form": 77,
-          "nameKo": "데로이 두아르트"
+          "nameKo": "데로이 두아르트",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Deroy_Duarte_2026.jpg/120px-Deroy_Duarte_2026.jpg"
         },
         {
           "number": 15,
@@ -16375,7 +17212,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 76,
           "attack": 72,
           "defense": 77,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/RC_Lens_-_Grenoble_Foot_38_%2810-02-2020%29_70.jpg/120px-RC_Lens_-_Grenoble_Foot_38_%2810-02-2020%29_70.jpg"
         },
         {
           "number": 18,
@@ -16416,7 +17254,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 76,
           "nameKo": "리안 멘드스",
-          "nameZh": "賴恩·文迪斯"
+          "nameZh": "賴恩·文迪斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ryan_Mendes_%28LOSC_Lille%29.JPG/120px-Ryan_Mendes_%28LOSC_Lille%29.JPG"
         },
         {
           "number": 21,
@@ -16430,7 +17269,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 72,
           "defense": 74,
           "form": 75,
-          "nameZh": "紐奴·達哥斯達"
+          "nameZh": "紐奴·達哥斯達",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Nuno_da_Costa_10_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_20250731_%2810%29.jpg/120px-Nuno_da_Costa_10_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_20250731_%2810%29.jpg"
         },
         {
           "number": 22,
@@ -16444,7 +17284,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 62,
           "defense": 78,
           "form": 75,
-          "nameKo": "스테벵 모레이라"
+          "nameKo": "스테벵 모레이라",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Steven_Moreira_NYCFC_v_Columbus_10_May_2026-67_%28cropped%29.jpg/120px-Steven_Moreira_NYCFC_v_Columbus_10_May_2026-67_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -16457,7 +17298,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 74,
           "attack": 45,
           "defense": 78,
-          "form": 75
+          "form": 75,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/C.J._dos_Santos_%28cropped%29.jpg/120px-C.J._dos_Santos_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -16539,7 +17381,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 77,
           "nameKo": "나와프 알아키디",
-          "nameZh": "纳瓦夫·阿奇迪"
+          "nameZh": "纳瓦夫·阿奇迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Nawaf_Al-Aqidi_2023_%28cropped%29.jpg/120px-Nawaf_Al-Aqidi_2023_%28cropped%29.jpg"
         },
         {
           "number": 2,
@@ -16553,7 +17396,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 62,
           "defense": 82,
           "form": 77,
-          "nameZh": "阿里·马加斯希"
+          "nameZh": "阿里·马加斯希",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ali_Majrashi%2C_2025_CONCACAF_Gold_Cup_%28cropped%29.jpg/120px-Ali_Majrashi%2C_2025_CONCACAF_Gold_Cup_%28cropped%29.jpg"
         },
         {
           "number": 3,
@@ -16567,7 +17411,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 62,
           "defense": 82,
           "form": 77,
-          "nameZh": "阿里·阿劳杰米"
+          "nameZh": "阿里·阿劳杰米",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/AFC_Elite_League_Western%2C_Azadi_Stadium%2C_Persepolis_0-0_Al_Nassr%2C_17_February_2025%2C_Ali_Lajami.jpg/120px-AFC_Elite_League_Western%2C_Azadi_Stadium%2C_Persepolis_0-0_Al_Nassr%2C_17_February_2025%2C_Ali_Lajami.jpg"
         },
         {
           "number": 4,
@@ -16582,7 +17427,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 77,
           "nameKo": "압둘레라 알암리",
-          "nameZh": "阿卜杜勒拉·阿尔-阿姆里"
+          "nameZh": "阿卜杜勒拉·阿尔-阿姆里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Abdulelah_Al-Amri_2023_%28cropped%29.jpg/120px-Abdulelah_Al-Amri_2023_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -16612,7 +17458,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 77,
           "nameKo": "나세르 알다우사리",
-          "nameZh": "拉菲爾·維加"
+          "nameZh": "拉菲爾·維加",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Saudi_Arabia_v_Oman_%289%29_%28cropped%29.jpg/120px-Saudi_Arabia_v_Oman_%289%29_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -16640,7 +17487,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 80,
           "defense": 62,
           "form": 77,
-          "nameZh": "艾曼·亚哈亚"
+          "nameZh": "艾曼·亚哈亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Esteghlal_0_-_0_Al_Nassr%2C_round_of_16_of_the_AFC_Elite_League%2C_Azadi_Stadium%2C_3_March_2025%2C_Ayman_Yahya_lineup.jpg/120px-Esteghlal_0_-_0_Al_Nassr%2C_round_of_16_of_the_AFC_Elite_League%2C_Azadi_Stadium%2C_3_March_2025%2C_Ayman_Yahya_lineup.jpg"
         },
         {
           "number": 9,
@@ -16655,7 +17503,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 78,
           "nameKo": "피라스 알부라이칸",
-          "nameZh": "菲爾斯·阿爾比拉坎"
+          "nameZh": "菲爾斯·阿爾比拉坎",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Firas_Al-Buraikan_2026.jpg/120px-Firas_Al-Buraikan_2026.jpg"
         },
         {
           "number": 10,
@@ -16670,7 +17519,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 78,
           "nameKo": "살렘 알다우사리",
-          "nameZh": "萨利姆·多萨里"
+          "nameZh": "萨利姆·多萨里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Salem_Al-Dawsari_2018.jpg/120px-Salem_Al-Dawsari_2018.jpg"
         },
         {
           "number": 11,
@@ -16700,7 +17550,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 77,
           "nameKo": "사우드 압둘하미드",
-          "nameZh": "沙特·阿卜杜勒哈米德"
+          "nameZh": "沙特·阿卜杜勒哈米德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Saudi_Arabia_v_Oman_%282%29_%28cropped%29.jpg/120px-Saudi_Arabia_v_Oman_%282%29_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -16714,7 +17565,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 62,
           "defense": 81,
           "form": 76,
-          "nameZh": "纳瓦夫·布沙尔"
+          "nameZh": "纳瓦夫·布沙尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Esteghlal_0_-_0_Al_Nassr%2C_round_of_16_of_the_AFC_Elite_League%2C_Azadi_Stadium%2C_3_March_2025%2C_Nawaf_Boushal.jpg/120px-Esteghlal_0_-_0_Al_Nassr%2C_round_of_16_of_the_AFC_Elite_League%2C_Azadi_Stadium%2C_3_March_2025%2C_Nawaf_Boushal.jpg"
         },
         {
           "number": 14,
@@ -16743,7 +17595,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 76,
           "nameKo": "압둘라 알카이바리",
-          "nameZh": "阿卜杜拉·海巴里"
+          "nameZh": "阿卜杜拉·海巴里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Abdullah_Al-Khaibari_2023_%28cropped%29.jpg/120px-Abdullah_Al-Khaibari_2023_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -16757,7 +17610,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 72,
           "defense": 77,
           "form": 76,
-          "nameZh": "齐亚德·阿尔约哈尼"
+          "nameZh": "齐亚德·阿尔约哈尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ziyad_Al-Johani.jpg/120px-Ziyad_Al-Johani.jpg"
         },
         {
           "number": 17,
@@ -16826,7 +17680,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 75,
           "nameKo": "모하메드 알오와이스",
-          "nameZh": "穆罕穆德·奥维斯"
+          "nameZh": "穆罕穆德·奥维斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Mohammed_Al-Owais_2018.jpg/120px-Mohammed_Al-Owais_2018.jpg"
         },
         {
           "number": 22,
@@ -16854,7 +17709,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 78,
           "form": 75,
           "nameKo": "모하메드 칸노",
-          "nameZh": "穆罕默德·卡诺"
+          "nameZh": "穆罕默德·卡诺",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Group_photographs_of_Al_Hilal%2C_Al_Hilal_SFC_vs_Chelsea_F.C.%2C_9_February_2022_%28cropped%29.jpg/120px-Group_photographs_of_Al_Hilal%2C_Al_Hilal_SFC_vs_Chelsea_F.C.%2C_9_February_2022_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -16937,7 +17793,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 78,
           "nameKo": "파하드 탈리브",
-          "nameZh": "法赫德·塔利布"
+          "nameZh": "法赫德·塔利布",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Fahad_Talib.png/120px-Fahad_Talib.png"
         },
         {
           "number": 2,
@@ -16952,7 +17809,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 79,
           "nameKo": "레빈 술라카",
-          "nameZh": "雷宾·苏拉卡"
+          "nameZh": "雷宾·苏拉卡",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/240519_FC_%EC%84%9C%EC%9A%B8_%ED%8F%AC%ED%86%A0%ED%83%80%EC%9E%84_%28Rebin_Sulaka%29.jpg/120px-240519_FC_%EC%84%9C%EC%9A%B8_%ED%8F%AC%ED%86%A0%ED%83%80%EC%9E%84_%28Rebin_Sulaka%29.jpg"
         },
         {
           "number": 3,
@@ -16967,7 +17825,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 78,
           "nameKo": "후세인 알리",
-          "nameZh": "侯赛因·阿里"
+          "nameZh": "侯赛因·阿里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/GAE_-_SC_Heerenveen_-Hussein_Ali.jpg/120px-GAE_-_SC_Heerenveen_-Hussein_Ali.jpg"
         },
         {
           "number": 4,
@@ -17022,7 +17881,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 71,
           "defense": 79,
           "form": 78,
-          "nameZh": "优素福·艾姆"
+          "nameZh": "优素福·艾姆",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/4822944_AE7I9304_%28cropped%29.jpg/120px-4822944_AE7I9304_%28cropped%29.jpg"
         },
         {
           "number": 8,
@@ -17052,7 +17912,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 62,
           "form": 78,
           "nameKo": "알리 알하마디",
-          "nameZh": "阿里·阿爾-哈馬迪"
+          "nameZh": "阿里·阿爾-哈馬迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ali_Al-Hamadi.jpg/120px-Ali_Al-Hamadi.jpg"
         },
         {
           "number": 10,
@@ -17067,7 +17928,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 79,
           "nameKo": "모하나드 알리",
-          "nameZh": "穆罕奈德·阿里"
+          "nameZh": "穆罕奈德·阿里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mohanad_Ali.jpg/120px-Mohanad_Ali.jpg"
         },
         {
           "number": 11,
@@ -17080,7 +17942,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 76,
           "attack": 79,
           "defense": 61,
-          "form": 78
+          "form": 78,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ahmed_Qasem_Revolution_Nashville_6.25.25-025_%28cropped%29.jpg/120px-Ahmed_Qasem_Revolution_Nashville_6.25.25-025_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -17095,7 +17958,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 85,
           "form": 78,
           "nameKo": "잘랄 하산",
-          "nameZh": "贾拉尔·哈桑"
+          "nameZh": "贾拉尔·哈桑",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Jalal_Hassan.jpg/120px-Jalal_Hassan.jpg"
         },
         {
           "number": 13,
@@ -17123,7 +17987,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 78,
           "form": 77,
           "nameKo": "지단 이크발",
-          "nameZh": "齐达内·伊克巴尔"
+          "nameZh": "齐达内·伊克巴尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Zidane_Iqbal_debut_%28cropped%29.jpg/120px-Zidane_Iqbal_debut_%28cropped%29.jpg"
         },
         {
           "number": 15,
@@ -17137,7 +18002,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 61,
           "defense": 81,
           "form": 77,
-          "nameZh": "艾哈迈德·叶海亚"
+          "nameZh": "艾哈迈德·叶海亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/4822940_AE7I9740_-_Ahmed_Yahya.jpg/120px-4822940_AE7I9740_-_Ahmed_Yahya.jpg"
         },
         {
           "number": 16,
@@ -17151,7 +18017,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 71,
           "defense": 79,
           "form": 77,
-          "nameZh": "阿米尔·阿尔·阿马里"
+          "nameZh": "阿米尔·阿尔·阿马里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Amir_Al-Ammari_%28Halmstad_vs_Degerfors%2C_7_October_2023%29.jpg/120px-Amir_Al-Ammari_%28Halmstad_vs_Degerfors%2C_7_October_2023%29.jpg"
         },
         {
           "number": 17,
@@ -17181,7 +18048,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 78,
           "nameKo": "아이멘 후세인",
-          "nameZh": "艾曼·胡辛"
+          "nameZh": "艾曼·胡辛",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/4822953_AE7I9053_%28cropped2%29.jpg/120px-4822953_AE7I9053_%28cropped2%29.jpg"
         },
         {
           "number": 19,
@@ -17195,7 +18063,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 71,
           "defense": 75,
           "form": 75,
-          "nameZh": "凯文·亚科布"
+          "nameZh": "凯文·亚科布",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Kevin_Enkido_Yakob2.jpg/120px-Kevin_Enkido_Yakob2.jpg"
         },
         {
           "number": 20,
@@ -17208,7 +18077,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 74,
           "attack": 71,
           "defense": 75,
-          "form": 75
+          "form": 75,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/GAE_-_FC_Groningen_-_52878021366_%28cropped1%29.jpg/120px-GAE_-_FC_Groningen_-_52878021366_%28cropped1%29.jpg"
         },
         {
           "number": 21,
@@ -17250,7 +18120,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 75,
           "nameKo": "메르카스 도스키",
-          "nameZh": "梅赫加斯·多斯基"
+          "nameZh": "梅赫加斯·多斯基",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Merchas_doski.jpg/120px-Merchas_doski.jpg"
         },
         {
           "number": 24,
@@ -17347,7 +18218,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 88,
           "form": 82,
           "nameKo": "아이사 만디",
-          "nameZh": "艾萨·曼迪"
+          "nameZh": "艾萨·曼迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Mandi_asselosc_2425_%28cropped%29.jpg/120px-Mandi_asselosc_2425_%28cropped%29.jpg"
         },
         {
           "number": 3,
@@ -17373,7 +18245,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 84,
           "attack": 70,
           "defense": 84,
-          "form": 81
+          "form": 81,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mohamed_Amine_Tougai.jpg/120px-Mohamed_Amine_Tougai.jpg"
         },
         {
           "number": 5,
@@ -17386,7 +18259,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 83,
           "attack": 70,
           "defense": 83,
-          "form": 81
+          "form": 81,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Zineddine_Bela%C3%AFd_-_20240326_%28cropped%29.jpg/120px-Zineddine_Bela%C3%AFd_-_20240326_%28cropped%29.jpg"
         },
         {
           "number": 6,
@@ -17401,7 +18275,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 82,
           "nameKo": "라미즈 제루키",
-          "nameZh": "拉米茲·澤魯基"
+          "nameZh": "拉米茲·澤魯基",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ramiz_zerrouki-1672746224.jpg/120px-Ramiz_zerrouki-1672746224.jpg"
         },
         {
           "number": 7,
@@ -17416,7 +18291,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 68,
           "form": 82,
           "nameKo": "리야드 마흐레즈",
-          "nameZh": "里亚德·马赫雷斯"
+          "nameZh": "里亚德·马赫雷斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Mahrez_2021.jpg/120px-Mahrez_2021.jpg"
         },
         {
           "number": 8,
@@ -17431,7 +18307,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 81,
           "nameKo": "우셈 아우아르",
-          "nameZh": "侯賽姆·奧瓦爾"
+          "nameZh": "侯賽姆·奧瓦爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Houssem_Aouar_in_2024.jpg/120px-Houssem_Aouar_in_2024.jpg"
         },
         {
           "number": 9,
@@ -17446,7 +18323,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 81,
           "nameKo": "아민 구이리",
-          "nameZh": "阿明·古伊里"
+          "nameZh": "阿明·古伊里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lens_-_Stade_Rennais_%2820-08-2023%29_22.jpg/120px-Lens_-_Stade_Rennais_%2820-08-2023%29_22.jpg"
         },
         {
           "number": 10,
@@ -17461,7 +18339,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 81,
           "nameKo": "파레스 샤이비",
-          "nameZh": "法雷斯·查伊比"
+          "nameZh": "法雷斯·查伊比",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/World_Cup_Qualification_Africa_Guinea_v_Algeria_14_%28Far%C3%A8s_Cha%C3%AFbi%29.jpg/120px-World_Cup_Qualification_Africa_Guinea_v_Algeria_14_%28Far%C3%A8s_Cha%C3%AFbi%29.jpg"
         },
         {
           "number": 11,
@@ -17474,7 +18353,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 84,
           "attack": 88,
           "defense": 64,
-          "form": 81
+          "form": 81,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/MCI_VS_FER_2024_%28Anis_Hadj_Moussa%29.jpg/120px-MCI_VS_FER_2024_%28Anis_Hadj_Moussa%29.jpg"
         },
         {
           "number": 12,
@@ -17487,7 +18367,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 82,
           "attack": 87,
           "defense": 63,
-          "form": 80
+          "form": 80,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ahmed_Nadhir_Benbouali_2025.jpg/120px-Ahmed_Nadhir_Benbouali_2025.jpg"
         },
         {
           "number": 13,
@@ -17500,7 +18381,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 83,
           "attack": 71,
           "defense": 83,
-          "form": 80
+          "form": 80,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/RC_Lens_-_FC_Nantes_%2828-10-2023%29_10.jpg/120px-RC_Lens_-_FC_Nantes_%2828-10-2023%29_10.jpg"
         },
         {
           "number": 14,
@@ -17515,7 +18397,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 80,
           "nameKo": "이샴 부다위",
-          "nameZh": "希查姆·布達維"
+          "nameZh": "希查姆·布達維",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Boudaoui_asse_ogcn_2425.png/120px-Boudaoui_asse_ogcn_2425.png"
         },
         {
           "number": 15,
@@ -17530,7 +18413,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 80,
           "nameKo": "라얀 아이트누리",
-          "nameZh": "雷恩·艾-洛利"
+          "nameZh": "雷恩·艾-洛利",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rayan_A%C3%AFt-Nouri_playing_for_Algeria_in_2024.jpg/120px-Rayan_A%C3%AFt-Nouri_playing_for_Algeria_in_2024.jpg"
         },
         {
           "number": 16,
@@ -17571,7 +18455,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 80,
           "nameKo": "모하메드 아무라",
-          "nameZh": "穆罕默德·阿穆拉"
+          "nameZh": "穆罕默德·阿穆拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Mohammed_Amoura_training_against_Mozambique.png/120px-Mohammed_Amoura_training_against_Mozambique.png"
         },
         {
           "number": 19,
@@ -17586,7 +18471,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 79,
           "nameKo": "나빌 벤탈렙",
-          "nameZh": "拿比爾·賓特納"
+          "nameZh": "拿比爾·賓特納",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/RC_Lens_-_Lille_OSC_%2808-10-2023%29_19_%28cropped%29.jpg/120px-RC_Lens_-_Lille_OSC_%2808-10-2023%29_19_%28cropped%29.jpg"
         },
         {
           "number": 20,
@@ -17599,7 +18485,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 80,
           "attack": 86,
           "defense": 63,
-          "form": 78
+          "form": 78,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Adel_Boulbina.jpg/120px-Adel_Boulbina.jpg"
         },
         {
           "number": 21,
@@ -17614,7 +18501,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 79,
           "nameKo": "라미 벤세바이니",
-          "nameZh": "拉米·本瑟拜尼"
+          "nameZh": "拉米·本瑟拜尼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93134.jpg/120px-2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93134.jpg"
         },
         {
           "number": 22,
@@ -17642,7 +18530,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 78,
           "nameKo": "루카 지단",
-          "nameZh": "盧卡·席丹"
+          "nameZh": "盧卡·席丹",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Real_Madrid_C.F._the_Winner_Of_The_Champions_League_in_2018_%28Luca2%29.jpg"
         },
         {
           "number": 24,
@@ -17723,7 +18612,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 45,
           "defense": 82,
           "form": 78,
-          "nameZh": "亚兹·阿布·莱拉"
+          "nameZh": "亚兹·阿布·莱拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Asian_Nations_Cup_-_Jordan_and_South_Korea_%2853%29_%28cropped%29.jpg/120px-Asian_Nations_Cup_-_Jordan_and_South_Korea_%2853%29_%28cropped%29.jpg"
         },
         {
           "number": 2,
@@ -17737,7 +18627,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 60,
           "defense": 80,
           "form": 78,
-          "nameKo": "모함마드 아부 하시쉬"
+          "nameKo": "모함마드 아부 하시쉬",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Mohammad_Abu_Hashish.png/120px-Mohammad_Abu_Hashish.png"
         },
         {
           "number": 3,
@@ -17751,7 +18642,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 61,
           "defense": 81,
           "form": 78,
-          "nameKo": "압달라 나시브"
+          "nameKo": "압달라 나시브",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Abdallah_Nasib.png/120px-Abdallah_Nasib.png"
         },
         {
           "number": 4,
@@ -17779,7 +18671,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 78,
           "nameKo": "야잔 알아라브",
-          "nameZh": "亚赞·阿布·阿拉伯"
+          "nameZh": "亚赞·阿布·阿拉伯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/250720_FC_%EC%84%9C%EC%9A%B8_vs_%EC%9A%B8%EC%82%B0_%28Yazan_Al-Arab%29_1.jpg/120px-250720_FC_%EC%84%9C%EC%9A%B8_vs_%EC%9A%B8%EC%82%B0_%28Yazan_Al-Arab%29_1.jpg"
         },
         {
           "number": 6,
@@ -17792,7 +18685,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 76,
           "attack": 70,
           "defense": 76,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/AFC_Champions_League_2_-_Esteghlal_and_Al-Wehdat_football_teams_meet_32_%282025%29_Tasnim_%28cropped%29.jpg/120px-AFC_Champions_League_2_-_Esteghlal_and_Al-Wehdat_football_teams_meet_32_%282025%29_Tasnim_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -17806,7 +18700,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 79,
           "defense": 60,
           "form": 77,
-          "nameZh": "穆罕默德·阿布-兹拉伊克"
+          "nameZh": "穆罕默德·阿布-兹拉伊克",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Mohammad_Abu_Zrayq.jpg/120px-Mohammad_Abu_Zrayq.jpg"
         },
         {
           "number": 8,
@@ -17821,7 +18716,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 78,
           "form": 78,
           "nameKo": "누르 알라왑데",
-          "nameZh": "努尔·拉瓦比德"
+          "nameZh": "努尔·拉瓦比德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Noor_Al-Rawabdeh.png/120px-Noor_Al-Rawabdeh.png"
         },
         {
           "number": 9,
@@ -17836,7 +18732,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 61,
           "form": 78,
           "nameKo": "알리 올완",
-          "nameZh": "阿里·奥尔旺"
+          "nameZh": "阿里·奥尔旺",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ali_Olwan.png/120px-Ali_Olwan.png"
         },
         {
           "number": 10,
@@ -17851,7 +18748,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 62,
           "form": 78,
           "nameKo": "무사 알타마리",
-          "nameZh": "慕薩·阿爾-他馬利"
+          "nameZh": "慕薩·阿爾-他馬利",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Al_taamari_asse_mhsc_2425.png/120px-Al_taamari_asse_mhsc_2425.png"
         },
         {
           "number": 11,
@@ -17864,7 +18762,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 74,
           "attack": 78,
           "defense": 58,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Sepahan_and_Al-Hussein_Jordan_football_teams_meet_10_%282025%29_esfahanzibaonline.ir_%28cropped%29.jpg/120px-Sepahan_and_Al-Hussein_Jordan_football_teams_meet_10_%282025%29_esfahanzibaonline.ir_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -17891,7 +18790,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 79,
           "defense": 62,
           "form": 77,
-          "nameZh": "馬哈茂德·瑪律迪"
+          "nameZh": "馬哈茂德·瑪律迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Asian_Nations_Cup_-_Jordan_and_South_Korea_%2867%29_%28cropped3%29.jpg/120px-Asian_Nations_Cup_-_Jordan_and_South_Korea_%2867%29_%28cropped3%29.jpg"
         },
         {
           "number": 14,
@@ -17905,7 +18805,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 70,
           "defense": 77,
           "form": 77,
-          "nameZh": "拉加·阿耶德"
+          "nameZh": "拉加·阿耶德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Sepahan_and_Al-Hussein_Jordan_football_teams_meet_2_%282025%29_esfahanzibaonline.ir_%28cropped2%29.jpg/120px-Sepahan_and_Al-Hussein_Jordan_football_teams_meet_2_%282025%29_esfahanzibaonline.ir_%28cropped2%29.jpg"
         },
         {
           "number": 15,
@@ -17947,7 +18848,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 60,
           "defense": 77,
           "form": 76,
-          "nameZh": "萨利姆·奥贝德"
+          "nameZh": "萨利姆·奥贝德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Sepahan_and_Al-Hussein_Jordan_football_teams_meet_21_%282025%29_esfahanzibaonline.ir_%28cropped2%29.jpg/120px-Sepahan_and_Al-Hussein_Jordan_football_teams_meet_21_%282025%29_esfahanzibaonline.ir_%28cropped2%29.jpg"
         },
         {
           "number": 18,
@@ -17960,7 +18862,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 73,
           "attack": 77,
           "defense": 58,
-          "form": 76
+          "form": 76,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Player_Ibraheem_Sabra.jpg/120px-Player_Ibraheem_Sabra.jpg"
         },
         {
           "number": 19,
@@ -17973,7 +18876,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 73,
           "attack": 60,
           "defense": 76,
-          "form": 74
+          "form": 74,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/AFC_Champions_League_-_Sepahan_of_Iran_and_Al-Hussein_of_Jordan_17_%28Mehr%2C_2025%29_%28cropped%29.jpg/120px-AFC_Champions_League_-_Sepahan_of_Iran_and_Al-Hussein_of_Jordan_17_%28Mehr%2C_2025%29_%28cropped%29.jpg"
         },
         {
           "number": 20,
@@ -18000,7 +18904,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 71,
           "defense": 74,
           "form": 74,
-          "nameKo": "니자르 알라쉬단"
+          "nameKo": "니자르 알라쉬단",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Asian_Nations_Cup_-_Jordan_and_South_Korea_%2874%29_%28cropped%29.jpg/120px-Asian_Nations_Cup_-_Jordan_and_South_Korea_%2874%29_%28cropped%29.jpg"
         },
         {
           "number": 22,
@@ -18014,7 +18919,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 45,
           "defense": 76,
           "form": 74,
-          "nameZh": "阿卜杜拉·法胡里"
+          "nameZh": "阿卜杜拉·法胡里",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Week_3_of_the_second_level_of_the_AFC_Champions_League%3B_Esteghlal_2_-_0_Al-Wehdat_Avash_27_%28cropped%29.jpg/120px-Week_3_of_the_second_level_of_the_AFC_Champions_League%3B_Esteghlal_2_-_0_Al-Wehdat_Avash_27_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -18029,7 +18935,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 75,
           "nameKo": "이흐산 하다드",
-          "nameZh": "伊赫桑·哈达德"
+          "nameZh": "伊赫桑·哈达德",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ihsan_Haddad.jpg/120px-Ihsan_Haddad.jpg"
         },
         {
           "number": 24,
@@ -18110,7 +19017,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 45,
           "defense": 84,
           "form": 80,
-          "nameKo": "리오넬 음파시"
+          "nameKo": "리오넬 음파시",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Lionel_Mpasi_%28cropped%29.jpg/120px-Lionel_Mpasi_%28cropped%29.jpg"
         },
         {
           "number": 2,
@@ -18125,7 +19033,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 80,
           "nameKo": "에런 완비사카",
-          "nameZh": "阿隆·萬-比薩卡"
+          "nameZh": "阿隆·萬-比薩卡",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Aaron_Wan-Bissaka_of_West_Ham_United.jpeg/120px-Aaron_Wan-Bissaka_of_West_Ham_United.jpeg"
         },
         {
           "number": 3,
@@ -18153,7 +19062,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 80,
           "nameKo": "악셀 튀앙제브",
-          "nameZh": "阿克塞尔·图安泽贝"
+          "nameZh": "阿克塞尔·图安泽贝",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Manchester_United_v_Everton%2C_7_August_2021_%2836%29.jpg/120px-Manchester_United_v_Everton%2C_7_August_2021_%2836%29.jpg"
         },
         {
           "number": 5,
@@ -18167,7 +19077,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 66,
           "defense": 83,
           "form": 80,
-          "nameKo": "딜랑 바투빈시카"
+          "nameKo": "딜랑 바투빈시카",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Batubinsika_asse_fcn_2425.png/120px-Batubinsika_asse_fcn_2425.png"
         },
         {
           "number": 6,
@@ -18211,7 +19122,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 81,
           "nameKo": "사뮈엘 무투사미",
-          "nameZh": "穆圖薩米"
+          "nameZh": "穆圖薩米",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Samuel_Moutoussamy_%28cropped%29.jpg/120px-Samuel_Moutoussamy_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -18238,7 +19150,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 77,
           "defense": 80,
           "form": 80,
-          "nameKo": "테오 봉곤다"
+          "nameKo": "테오 봉곤다",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Bongonda_in_DR_Congo_national_football_team_%28cropped%29.jpg/120px-Bongonda_in_DR_Congo_national_football_team_%28cropped%29.jpg"
         },
         {
           "number": 11,
@@ -18253,7 +19166,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 80,
           "nameKo": "가엘 카쿠타",
-          "nameZh": "盖尔·卡库塔"
+          "nameZh": "盖尔·卡库塔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Entra%C3%AEnement_du_RC_Lens_-_15_juillet_2020_24.jpg/120px-Entra%C3%AEnement_du_RC_Lens_-_15_juillet_2020_24.jpg"
         },
         {
           "number": 12,
@@ -18282,7 +19196,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 85,
           "defense": 65,
           "form": 80,
-          "nameZh": "马什哈克·埃利亚"
+          "nameZh": "马什哈克·埃利亚",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Meschack_Elia_%28cropped%29.jpg/120px-Meschack_Elia_%28cropped%29.jpg"
         },
         {
           "number": 14,
@@ -18297,7 +19212,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 79,
           "nameKo": "노아 사디키",
-          "nameZh": "诺亚·萨迪基"
+          "nameZh": "诺亚·萨迪基",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Noah_Sadiki_versus_Real_Betis_2nd_August_2025.jpg/120px-Noah_Sadiki_versus_Real_Betis_2nd_August_2025.jpg"
         },
         {
           "number": 15,
@@ -18312,7 +19228,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 79,
           "nameKo": "아론 치볼라",
-          "nameZh": "亚伦·齐博拉"
+          "nameZh": "亚伦·齐博拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Aaron_Tshibola_%28cropped%29.jpg/120px-Aaron_Tshibola_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -18340,7 +19257,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 65,
           "form": 80,
           "nameKo": "세드리크 바캄부",
-          "nameZh": "塞德里克·巴坎布"
+          "nameZh": "塞德里克·巴坎布",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/C%C3%A9dric_Bakambu_2016_%28cropped%29.jpg/120px-C%C3%A9dric_Bakambu_2016_%28cropped%29.jpg"
         },
         {
           "number": 18,
@@ -18355,7 +19273,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 79,
           "nameKo": "샤를 피켈",
-          "nameZh": "夏爾·皮克爾"
+          "nameZh": "夏爾·皮克爾",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Charles_Pickel_2023_Africa_Cup_of_Nations_%28cropped%29.jpg/120px-Charles_Pickel_2023_Africa_Cup_of_Nations_%28cropped%29.jpg"
         },
         {
           "number": 19,
@@ -18383,7 +19302,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 77,
           "nameKo": "요안 위사",
-          "nameZh": "約內·維薩"
+          "nameZh": "約內·維薩",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/CAN_2023RD_Congo_2-1_Guin%C3%A9e_9939_%28cropped%29.jpg/120px-CAN_2023RD_Congo_2-1_Guin%C3%A9e_9939_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -18411,7 +19331,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 78,
           "nameKo": "샹셀 음벰바",
-          "nameZh": "文古魯"
+          "nameZh": "文古魯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/24BBRW_-_53535940590_%28cropped%29.jpg/120px-24BBRW_-_53535940590_%28cropped%29.jpg"
         },
         {
           "number": 23,
@@ -18426,7 +19347,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 77,
           "nameKo": "시몽 반자",
-          "nameZh": "西蒙·班扎"
+          "nameZh": "西蒙·班扎",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Lens_-_Sochaux_%2823-11-2019%29_99_%28cropped%29.jpg/120px-Lens_-_Sochaux_%2823-11-2019%29_99_%28cropped%29.jpg"
         },
         {
           "number": 24,
@@ -18441,7 +19363,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 77,
           "nameKo": "제데옹 칼룰루",
-          "nameZh": "吉迪温·卡卢卢"
+          "nameZh": "吉迪温·卡卢卢",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/G%C3%A9d%C3%A9on_Kalulu_%28cropped%29.jpg/120px-G%C3%A9d%C3%A9on_Kalulu_%28cropped%29.jpg"
         },
         {
           "number": 25,
@@ -18455,7 +19378,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 76,
           "defense": 78,
           "form": 77,
-          "nameZh": "艾度·卡耶姆比"
+          "nameZh": "艾度·卡耶姆比",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Edo_Kayembe_2025_%28cropped%29.jpg/120px-Edo_Kayembe_2025_%28cropped%29.jpg"
         },
         {
           "number": 26,
@@ -18470,7 +19394,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 77,
           "nameKo": "아르튀르 마쉬아퀴",
-          "nameZh": "亞瑟·馬蘇阿庫"
+          "nameZh": "亞瑟·馬蘇阿庫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Arthur_Masuaku%2C_2023_%28cropped%29.jpg/120px-Arthur_Masuaku%2C_2023_%28cropped%29.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -18513,7 +19438,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 78,
           "nameKo": "오트키르 유수포프",
-          "nameZh": "乌特基尔·尤苏波夫"
+          "nameZh": "乌特基尔·尤苏波夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/O%CA%BBtkir_Yusupov_%28cropped%29.jpg/120px-O%CA%BBtkir_Yusupov_%28cropped%29.jpg"
         },
         {
           "number": 2,
@@ -18528,7 +19454,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 78,
           "nameKo": "압두코디르 후사노프",
-          "nameZh": "阿布杜科迪尔·胡萨诺夫"
+          "nameZh": "阿布杜科迪尔·胡萨诺夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Abdukodir_Khusanov_%28cropped%29.jpg/120px-Abdukodir_Khusanov_%28cropped%29.jpg"
         },
         {
           "number": 3,
@@ -18542,7 +19469,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 61,
           "defense": 82,
           "form": 78,
-          "nameZh": "霍賈克巴爾·阿利賈諾夫"
+          "nameZh": "霍賈克巴爾·阿利賈諾夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/FC_Pakhtakor_in_March_2019_%28cropped%29.jpg/120px-FC_Pakhtakor_in_March_2019_%28cropped%29.jpg"
         },
         {
           "number": 4,
@@ -18555,7 +19483,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 77,
           "attack": 61,
           "defense": 82,
-          "form": 78
+          "form": 78,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Iran_v_Uzbekistan_2-2%2C_25_March_2025%2C_Azadi_Stadium%2C_World_Cup_2026_qualifier_32_%28cropped%29.jpg/120px-Iran_v_Uzbekistan_2-2%2C_25_March_2025%2C_Azadi_Stadium%2C_World_Cup_2026_qualifier_32_%28cropped%29.jpg"
         },
         {
           "number": 5,
@@ -18570,7 +19499,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 82,
           "form": 78,
           "nameKo": "루스탐 아슈르마토프",
-          "nameZh": "鲁斯塔姆忠·阿舒尔马托夫"
+          "nameZh": "鲁斯塔姆忠·阿舒尔马托夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/%D8%B1%D8%B3%D8%AA%D9%85_%D8%A2%D8%B4%D9%88%D8%B1%D9%85%D8%A7%D8%AA%D9%81_%D8%B3%D8%A7%D9%84_2025_%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84.jpg/120px-%D8%B1%D8%B3%D8%AA%D9%85_%D8%A2%D8%B4%D9%88%D8%B1%D9%85%D8%A7%D8%AA%D9%81_%D8%B3%D8%A7%D9%84_2025_%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84.jpg"
         },
         {
           "number": 6,
@@ -18583,7 +19513,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 78,
           "attack": 71,
           "defense": 78,
-          "form": 78
+          "form": 78,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Akmal_Mozgovoy_2.jpg/120px-Akmal_Mozgovoy_2.jpg"
         },
         {
           "number": 7,
@@ -18598,7 +19529,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 79,
           "nameKo": "오타베크 슈쿠로프",
-          "nameZh": "奥塔别克·舒库罗夫"
+          "nameZh": "奥塔别克·舒库罗夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Otabek_Shukurov.webp/120px-Otabek_Shukurov.webp.png"
         },
         {
           "number": 8,
@@ -18613,7 +19545,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 78,
           "form": 78,
           "nameKo": "잠시드 이스칸데로프",
-          "nameZh": "賈姆什德·伊斯坎德羅夫"
+          "nameZh": "賈姆什德·伊斯坎德羅夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Jamshid_Iskanderov_%28cropped%29.jpg/120px-Jamshid_Iskanderov_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -18628,7 +19561,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 79,
           "nameKo": "오딜존 함로베코프",
-          "nameZh": "奥季利延·哈姆罗别科夫"
+          "nameZh": "奥季利延·哈姆罗别科夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Odiljon_Hamrobekov_2020.jpg/120px-Odiljon_Hamrobekov_2020.jpg"
         },
         {
           "number": 10,
@@ -18643,7 +19577,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 79,
           "nameKo": "잘롤리딘 마샤리포프",
-          "nameZh": "贾洛利丁·马沙里波夫"
+          "nameZh": "贾洛利丁·马沙里波夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Esteghlal_FC_vs_Al-Gharafa_FC%2C_16_September_2024_-_06.jpg/120px-Esteghlal_FC_vs_Al-Gharafa_FC%2C_16_September_2024_-_06.jpg"
         },
         {
           "number": 11,
@@ -18658,7 +19593,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 78,
           "nameKo": "오스톤 우루노프",
-          "nameZh": "奥斯通·乌鲁诺夫"
+          "nameZh": "奥斯通·乌鲁诺夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Oston_Urunov.jpg/120px-Oston_Urunov.jpg"
         },
         {
           "number": 12,
@@ -18673,7 +19609,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 77,
           "nameKo": "압두보히드 네마토프",
-          "nameZh": "阿卜杜沃赫德·内马托夫"
+          "nameZh": "阿卜杜沃赫德·内马托夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Abduvohid_Nematov_%28cropped%29.jpg/120px-Abduvohid_Nematov_%28cropped%29.jpg"
         },
         {
           "number": 13,
@@ -18686,7 +19623,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 77,
           "attack": 61,
           "defense": 80,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sherzod_Nasrullayev.jpg/120px-Sherzod_Nasrullayev.jpg"
         },
         {
           "number": 14,
@@ -18701,7 +19639,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 64,
           "form": 78,
           "nameKo": "엘도르 쇼무로도프",
-          "nameZh": "埃尔多尔·绍穆罗多夫"
+          "nameZh": "埃尔多尔·绍穆罗多夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Eldor_Shomurodov_14_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_20250731_%2810%29_%28cropped%29.jpg/120px-Eldor_Shomurodov_14_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_20250731_%2810%29_%28cropped%29.jpg"
         },
         {
           "number": 15,
@@ -18715,7 +19654,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 61,
           "defense": 80,
           "form": 77,
-          "nameZh": "乌马尔·艾什木拉多夫"
+          "nameZh": "乌马尔·艾什木拉多夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Umar_Eshmurodov_2.jpg/120px-Umar_Eshmurodov_2.jpg"
         },
         {
           "number": 16,
@@ -18728,7 +19668,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 76,
           "attack": 45,
           "defense": 80,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Botirali_Ergashev_03.jpg/120px-Botirali_Ergashev_03.jpg"
         },
         {
           "number": 17,
@@ -18743,7 +19684,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 77,
           "form": 77,
           "nameKo": "도스톤베크 함다모프",
-          "nameZh": "多斯通贝克·哈姆达莫夫"
+          "nameZh": "多斯通贝克·哈姆达莫夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Dostonbek_Khamdamov_2018.jpg/120px-Dostonbek_Khamdamov_2018.jpg"
         },
         {
           "number": 18,
@@ -18786,7 +19728,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 76,
           "defense": 60,
           "form": 75,
-          "nameZh": "阿齐兹贝克·阿莫诺夫"
+          "nameZh": "阿齐兹贝克·阿莫诺夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Esteghlal_Celebrate_IPL_Title_Win_at_Azadi_Stadium_-_145.jpg/120px-Esteghlal_Celebrate_IPL_Title_Win_at_Azadi_Stadium_-_145.jpg"
         },
         {
           "number": 21,
@@ -18801,7 +19744,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 63,
           "form": 76,
           "nameKo": "이고르 세르게예프",
-          "nameZh": "伊戈爾·謝爾蓋耶夫"
+          "nameZh": "伊戈爾·謝爾蓋耶夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Igor_Sergeev_Persepolis_v_Sepahan_23_January_2026.jpg/120px-Igor_Sergeev_Persepolis_v_Sepahan_23_January_2026.jpg"
         },
         {
           "number": 22,
@@ -18816,7 +19760,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 75,
           "form": 75,
           "nameKo": "아보스베크 파이줄라예프",
-          "nameZh": "法伊拉祖耶夫"
+          "nameZh": "法伊拉祖耶夫",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Abbosbek_Fayzullaev_11_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_UECL_20250821_%285%29.jpg/120px-Abbosbek_Fayzullaev_11_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_UECL_20250821_%285%29.jpg"
         },
         {
           "number": 23,
@@ -18829,7 +19774,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 74,
           "attack": 71,
           "defense": 74,
-          "form": 75
+          "form": 75,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sherzod_Esanov.jpg/120px-Sherzod_Esanov.jpg"
         },
         {
           "number": 24,
@@ -18842,7 +19788,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 73,
           "attack": 61,
           "defense": 77,
-          "form": 75
+          "form": 75,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Behruz_Karimov.jpg/120px-Behruz_Karimov.jpg"
         },
         {
           "number": 25,
@@ -18855,7 +19802,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 74,
           "attack": 61,
           "defense": 77,
-          "form": 75
+          "form": 75,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Avazbek_O%CA%BBlmasaliyev.jpg/120px-Avazbek_O%CA%BBlmasaliyev.jpg"
         },
         {
           "number": 26,
@@ -18868,7 +19816,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 73,
           "attack": 61,
           "defense": 77,
-          "form": 75
+          "form": 75,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jahongir_O%CA%BBrozov.jpg/120px-Jahongir_O%CA%BBrozov.jpg"
         }
       ],
       "squadSource": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
@@ -18909,7 +19858,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 76,
           "attack": 45,
           "defense": 83,
-          "form": 77
+          "form": 77,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Concacaf_Gold_Cup_%2848248588296%29_%28cropped%29.jpg/120px-Concacaf_Gold_Cup_%2848248588296%29_%28cropped%29.jpg"
         },
         {
           "number": 2,
@@ -18922,7 +19872,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 78,
           "attack": 61,
           "defense": 82,
-          "form": 76
+          "form": 76,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Partido_Galicia_-_Panam%C3%A1_en_Bala%C3%ADdos_153.jpg/120px-Partido_Galicia_-_Panam%C3%A1_en_Bala%C3%ADdos_153.jpg"
         },
         {
           "number": 3,
@@ -18935,7 +19886,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 77,
           "attack": 60,
           "defense": 81,
-          "form": 76
+          "form": 76,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Jos%C3%A9_C%C3%B3rdoba.jpg/120px-Jos%C3%A9_C%C3%B3rdoba.jpg"
         },
         {
           "number": 4,
@@ -18949,7 +19901,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 61,
           "defense": 84,
           "form": 77,
-          "nameZh": "菲德尔·埃斯科瓦尔"
+          "nameZh": "菲德尔·埃斯科瓦尔",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/ENG-PAN_%2813%29_2018-6-29_Fidel_Escobar.jpg"
         },
         {
           "number": 5,
@@ -18962,7 +19915,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 77,
           "attack": 60,
           "defense": 81,
-          "form": 76
+          "form": 76,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Partido_Galicia_-_Panam%C3%A1_en_Bala%C3%ADdos_21_%28Edgardo_Fari%C3%B1a%29.jpg/120px-Partido_Galicia_-_Panam%C3%A1_en_Bala%C3%ADdos_21_%28Edgardo_Fari%C3%B1a%29.jpg"
         },
         {
           "number": 6,
@@ -18976,7 +19930,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 70,
           "defense": 80,
           "form": 77,
-          "nameZh": "克里斯坦·马丁内斯"
+          "nameZh": "克里斯坦·马丁内斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Partido_Galicia_-_Panam%C3%A1_en_Bala%C3%ADdos_70_%28cropped%29.jpg/120px-Partido_Galicia_-_Panam%C3%A1_en_Bala%C3%ADdos_70_%28cropped%29.jpg"
         },
         {
           "number": 7,
@@ -18991,7 +19946,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 80,
           "form": 77,
           "nameKo": "호세 루이스 로드리게스",
-          "nameZh": "何塞·路易斯·罗德里格兹"
+          "nameZh": "何塞·路易斯·罗德里格兹",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Jos%C3%A9_Rodr%C3%ADguez.jpg/120px-Jos%C3%A9_Rodr%C3%ADguez.jpg"
         },
         {
           "number": 8,
@@ -19005,7 +19961,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 70,
           "defense": 80,
           "form": 77,
-          "nameZh": "阿达尔贝托·卡拉斯奎拉"
+          "nameZh": "阿达尔贝托·卡拉斯奎拉",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Inter_Miami_CF_3-1_UNAM_%286_August_2025%29_27_%28cropped%29.jpg/120px-Inter_Miami_CF_3-1_UNAM_%286_August_2025%29_27_%28cropped%29.jpg"
         },
         {
           "number": 9,
@@ -19046,7 +20003,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 72,
           "defense": 81,
           "form": 77,
-          "nameZh": "埃德加·乔尔·巴塞纳斯"
+          "nameZh": "埃德加·乔尔·巴塞纳斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/PAN-TUN_%2810%29_%28cropped%29.jpg/120px-PAN-TUN_%2810%29_%28cropped%29.jpg"
         },
         {
           "number": 12,
@@ -19101,7 +20059,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 83,
           "form": 76,
           "nameKo": "에릭 다비스",
-          "nameZh": "埃里克·戴维斯"
+          "nameZh": "埃里克·戴维斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Erick_Davis_2018_%28cropped%29.jpg/120px-Erick_Davis_2018_%28cropped%29.jpg"
         },
         {
           "number": 16,
@@ -19115,7 +20074,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 60,
           "defense": 81,
           "form": 75,
-          "nameZh": "安達斯·安達迪"
+          "nameZh": "安達斯·安達迪",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/FC_RB_Salzburg_gegen_LASK_%282023-10-21%29_33_%28cropped%29.jpg/120px-FC_RB_Salzburg_gegen_LASK_%282023-10-21%29_33_%28cropped%29.jpg"
         },
         {
           "number": 17,
@@ -19143,7 +20103,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 80,
           "defense": 62,
           "form": 76,
-          "nameZh": "塞西利歐·沃特曼"
+          "nameZh": "塞西利歐·沃特曼",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cecilio_Waterman_Everton_v_Cobresal_20230828_03.jpg/120px-Cecilio_Waterman_Everton_v_Cobresal_20230828_03.jpg"
         },
         {
           "number": 19,
@@ -19157,7 +20118,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 71,
           "defense": 79,
           "form": 74,
-          "nameZh": "阿尔贝托·奎特罗·梅迪纳"
+          "nameZh": "阿尔贝托·奎特罗·梅迪纳",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Alberto-Quintero.jpg/120px-Alberto-Quintero.jpg"
         },
         {
           "number": 20,
@@ -19172,7 +20134,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 79,
           "form": 74,
           "nameKo": "아니발 고도이",
-          "nameZh": "阿尼巴尔·戈多伊"
+          "nameZh": "阿尼巴尔·戈多伊",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ENG-PAN_%2815%29_%28cropped%29.jpg/120px-ENG-PAN_%2815%29_%28cropped%29.jpg"
         },
         {
           "number": 21,
@@ -19186,7 +20149,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 71,
           "defense": 76,
           "form": 74,
-          "nameZh": "謝薩爾·雅尼斯"
+          "nameZh": "謝薩爾·雅尼斯",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Partido_Galicia_-_Panam%C3%A1_en_Bala%C3%ADdos_16_%28cropped%29.jpg/120px-Partido_Galicia_-_Panam%C3%A1_en_Bala%C3%ADdos_16_%28cropped%29.jpg"
         },
         {
           "number": 22,
@@ -19199,7 +20163,8 @@ window.WORLDCUP_2026_DATA = {
           "rating": 74,
           "attack": 45,
           "defense": 80,
-          "form": 73
+          "form": 73,
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Partido_Galicia_-_Panam%C3%A1_en_Bala%C3%ADdos_160_%28Orlando_Mosquera%29.jpg/120px-Partido_Galicia_-_Panam%C3%A1_en_Bala%C3%ADdos_160_%28Orlando_Mosquera%29.jpg"
         },
         {
           "number": 23,
@@ -19214,7 +20179,8 @@ window.WORLDCUP_2026_DATA = {
           "defense": 81,
           "form": 74,
           "nameKo": "마이켈 아미르 무리요",
-          "nameZh": "迈克尔·阿米尔·穆里略"
+          "nameZh": "迈克尔·阿米尔·穆里略",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Michael_Amir_Murillo_vs_Cincinnati%2C_May_2019.jpg/120px-Michael_Amir_Murillo_vs_Cincinnati%2C_May_2019.jpg"
         },
         {
           "number": 24,
@@ -19241,7 +20207,8 @@ window.WORLDCUP_2026_DATA = {
           "attack": 60,
           "defense": 79,
           "form": 73,
-          "nameZh": "罗德里克·米勒"
+          "nameZh": "罗德里克·米勒",
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Partido_Galicia_-_Panam%C3%A1_en_Bala%C3%ADdos_59_%28Roderick_Miller%29.jpg/120px-Partido_Galicia_-_Panam%C3%A1_en_Bala%C3%ADdos_59_%28Roderick_Miller%29.jpg"
         },
         {
           "number": 26,
