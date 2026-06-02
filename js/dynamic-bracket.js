@@ -1,4 +1,4 @@
-const STORAGE_KEY = 'worldcup2026.state.v2';
+const STORAGE_KEY = 'worldcup2026.state.v3';
 
 const state = {
   activeTab: 'groups',
@@ -10,12 +10,16 @@ const state = {
   scheduleResults: {},
   scheduleCollapsed: {},
   groupResults: {},
-  selections: {},
-  isEditing: false
+  selections: {}
 };
 
 document.addEventListener('DOMContentLoaded', initDynamicBracket);
 
+/**
+ * 월드컵 예측 앱의 동적 렌더링을 시작한다.
+ * 데이터 번들, 저장된 로컬 상태, 초기 탭 값을 준비한 뒤 첫 화면을 그리며,
+ * 필수 데이터가 없을 때는 사용자에게 오류 패널을 보여준다.
+ */
 function initDynamicBracket() {
   const bracketRoot = document.querySelector('.tournament-bracket');
   if (!bracketRoot) return;
@@ -45,6 +49,10 @@ function initDynamicBracket() {
   }
 }
 
+/**
+ * 대진표 스크롤 컨테이너 상단에 동적 탭 영역을 보장한다.
+ * 이미 탭이 존재하면 중복 생성하지 않고, 렌더링 함수가 버튼만 갱신할 수 있게 빈 컨테이너를 만든다.
+ */
 function ensureTabs() {
   const scrollContainer = document.querySelector('.bracket-scroll-container');
   if (!scrollContainer || document.querySelector('.dynamic-tabs')) return;
@@ -54,6 +62,11 @@ function ensureTabs() {
   scrollContainer.insertBefore(tabs, scrollContainer.firstElementChild);
 }
 
+/**
+ * 현재 활성 탭에 맞춰 화면 전체를 다시 그린다.
+ * 조별 순위와 자동 대진 선택을 최신 일정/점수 기준으로 재계산하고,
+ * 탭별 CSS 클래스와 컬럼 DOM을 교체한 뒤 상태를 localStorage에 저장한다.
+ */
 function render() {
   state.groupResults = createGroupResultsFromSchedule();
   state.selections = createAutomaticBracketSelections();
@@ -63,8 +76,8 @@ function render() {
   const bracketRoot = document.querySelector('.tournament-bracket');
   const scrollContainer = document.querySelector('.bracket-scroll-container');
   bracketRoot.innerHTML = '';
-  bracketRoot.classList.remove('group-stage-view', 'team-info-view', 'schedule-view', 'tournament-view');
-  scrollContainer?.classList.remove('group-stage-scroll', 'team-info-scroll', 'schedule-scroll', 'tournament-scroll');
+  bracketRoot.classList.remove('group-stage-view', 'schedule-view', 'tournament-view');
+  scrollContainer?.classList.remove('group-stage-scroll', 'schedule-scroll', 'tournament-scroll');
 
   if (state.activeTab === 'groups') {
     scrollContainer?.classList.add('group-stage-scroll');
@@ -99,6 +112,10 @@ window.addEventListener('resize', () => {
   }
 });
 
+/**
+ * 상단 탭 버튼들을 현재 상태 기준으로 다시 만든다.
+ * 각 버튼은 활성 탭 표시를 갱신하고 클릭 시 상태를 바꾼 뒤 전체 렌더링을 다시 수행한다.
+ */
 function renderTabs() {
   const tabs = document.querySelector('.dynamic-tabs');
   if (!tabs) return;
@@ -119,33 +136,12 @@ function renderTabs() {
     });
     tabs.appendChild(button);
   });
-
-  // const editButton = document.createElement('button');
-  // editButton.type = 'button';
-  // editButton.className = `dynamic-edit-btn ${state.isEditing ? 'unlocked' : ''}`;
-  // editButton.innerHTML = state.isEditing
-  //   ? '<i class="fas fa-lock-open"></i><span>편집 중</span>'
-  //   : '<i class="fas fa-lock"></i><span>편집</span>';
-  // editButton.addEventListener('click', handleEditButtonClick);
-  // tabs.appendChild(editButton);
 }
 
-function handleEditButtonClick() {
-  if (state.isEditing) {
-    state.isEditing = false;
-    render();
-    return;
-  }
-
-  const password = window.prompt('편집 비밀번호를 입력하세요.');
-  if (password === '123789') {
-    state.isEditing = true;
-    render();
-  } else if (password !== null) {
-    window.alert('비밀번호가 올바르지 않습니다.');
-  }
-}
-
+/**
+ * 조별정보 탭의 안내용 도구 컬럼을 만든다.
+ * 조별 순위가 경기 일정 점수와 AI 예측 점수로 자동 계산된다는 설명을 표시한다.
+ */
 function createGroupStageControls() {
   const column = document.createElement('div');
   column.className = 'bracket-column bracket-tools-column';
@@ -161,23 +157,14 @@ function createGroupStageControls() {
     <p class="dynamic-help">조별 순위는 경기 일정 탭의 점수로 자동 계산됩니다. 입력한 실제 결과가 없으면 AI 예측 점수를 기본값으로 사용합니다.</p>
   `;
 
-  const resetButton = document.createElement('button');
-  resetButton.type = 'button';
-  resetButton.className = 'dynamic-reset-btn';
-  resetButton.disabled = !state.isEditing;
-  resetButton.innerHTML = '<i class="fas fa-rotate-left"></i><span>실제 결과 초기화</span>';
-  resetButton.addEventListener('click', () => {
-    state.scheduleResults = {};
-    state.groupResults = createGroupResultsFromSchedule();
-    state.selections = {};
-    render();
-  });
-
-  box.appendChild(resetButton);
   column.append(header, box);
   return column;
 }
 
+/**
+ * 토너먼트 탭의 안내용 도구 컬럼을 만든다.
+ * 32강부터 결승까지 자동 계산된다는 안내와 현재 토너먼트 모드의 기본 설명을 담는다.
+ */
 function createControls() {
   const column = document.createElement('div');
   column.className = 'bracket-column bracket-tools-column';
@@ -193,42 +180,14 @@ function createControls() {
     <p class="dynamic-help">32강부터 결승까지 경기 일정 점수와 AI 예측으로 자동 계산됩니다. 실제 결과를 바꾸려면 경기 일정 탭에서 점수를 입력하세요.</p>
   `;
 
-  const resetButton = document.createElement('button');
-  resetButton.type = 'button';
-  resetButton.className = 'dynamic-reset-btn';
-  resetButton.disabled = !state.isEditing;
-  resetButton.innerHTML = '<i class="fas fa-rotate-left"></i><span>실제 결과 초기화</span>';
-  resetButton.addEventListener('click', () => {
-    state.scheduleResults = {};
-    state.groupResults = createGroupResultsFromSchedule();
-    state.selections = createAutomaticBracketSelections();
-    render();
-  });
-
-  box.appendChild(resetButton);
   column.append(header, box);
   return column;
 }
 
-function createTeamInfoControls() {
-  const column = document.createElement('div');
-  column.className = 'bracket-column bracket-tools-column';
-
-  const header = document.createElement('div');
-  header.className = 'round-header';
-  header.innerHTML = '<i class="fas fa-users me-2"></i>팀정보';
-
-  const box = document.createElement('div');
-  box.className = 'matchup-box left-side dynamic-tools';
-  box.innerHTML = `
-    <div class="match-meta"><span>PARTICIPANTS</span><span>48 TEAMS</span></div>
-    <p class="dynamic-help">이번 대회 참가팀을 조별로 확인할 수 있습니다. 나라를 클릭하면 공개 선수 정보, 팀 스타일, 올해 능력치를 볼 수 있습니다.</p>
-  `;
-
-  column.append(header, box);
-  return column;
-}
-
+/**
+ * 경기 일정 탭의 상단 도구 컬럼을 만든다.
+ * 일정 개수, 개막전/결승전 날짜, 전체 접기/펼치기, FIFA 결과 동기화 버튼을 구성한다.
+ */
 function createScheduleControls() {
   const matches = getSortedScheduleMatches();
   const firstMatch = matches[0];
@@ -280,6 +239,10 @@ function createScheduleControls() {
   return column;
 }
 
+/**
+ * 전체 경기 일정을 중국 시간 기준 날짜별 그룹으로 묶는다.
+ * 일정 카드 컬럼이 날짜 단위로 접히고 펼쳐질 수 있도록 `{ date, matches }` 배열을 반환한다.
+ */
 function createScheduleDateGroups() {
   const groups = new Map();
   getSortedScheduleMatches().forEach((match) => {
@@ -293,6 +256,10 @@ function createScheduleDateGroups() {
   return Array.from(groups.entries()).map(([date, matches]) => ({ date, matches }));
 }
 
+/**
+ * 특정 날짜의 경기 목록 컬럼을 만든다.
+ * 날짜 헤더는 접기/펼치기 토글로 동작하고, 펼쳐진 상태에서 해당 날짜의 경기 카드를 순서대로 표시한다.
+ */
 function createScheduleDateColumn(dateGroup) {
   const column = document.createElement('div');
   column.className = 'bracket-column schedule-column';
@@ -325,6 +292,10 @@ function createScheduleDateColumn(dateGroup) {
   return column;
 }
 
+/**
+ * 단일 경기 일정 카드를 만든다.
+ * 홈/원정 팀, 현지/중국 시간, 적용 점수, 경기장 정보와 분석 버튼을 구성한다.
+ */
 function createScheduleCard(match) {
   const card = document.createElement('div');
   card.className = 'matchup-box schedule-card';
@@ -375,50 +346,13 @@ function createScheduleCard(match) {
   card.querySelector('[data-schedule-analysis]')?.addEventListener('click', () => {
     showMatchAnalysis(scheduleTeams.homeId, scheduleTeams.awayId, getScheduleStageLabel(match), appliedScore);
   });
-  attachScheduleResultListeners(card, match, scheduleTeams.homeId, scheduleTeams.awayId);
   return card;
 }
 
-function createTeamInfoGroupColumn(group) {
-  const column = document.createElement('div');
-  column.className = 'bracket-column team-info-column';
-
-  const header = document.createElement('div');
-  header.className = 'round-header';
-  header.innerHTML = `<i class="fas fa-flag me-2"></i>${group.label}`;
-
-  const box = document.createElement('div');
-  box.className = 'matchup-box left-side team-info-box';
-
-  const meta = document.createElement('div');
-  meta.className = 'match-meta';
-  meta.innerHTML = `<span>GROUP ${group.id}</span><span>${group.qualifiers.length}팀</span>`;
-  box.appendChild(meta);
-
-  group.qualifiers.forEach((qualifier) => {
-    box.appendChild(createTeamInfoButton(qualifier.teamId));
-  });
-
-  column.append(header, box);
-  return column;
-}
-
-function createTeamInfoButton(teamId) {
-  const team = state.teams[teamId];
-  const button = document.createElement('button');
-  button.type = 'button';
-  button.className = 'team-info-btn';
-  button.innerHTML = `
-    <span class="team-info-main">
-      ${getFlagIconMarkup(teamId)}
-      <span class="team-info-name">${team.name}</span>
-    </span>
-    <span class="team-info-rating">${team.rating.overall}</span>
-  `;
-  button.addEventListener('click', () => showTeamInfo(teamId));
-  return button;
-}
-
+/**
+ * 팀 상세 정보를 분석 모달에 표시한다.
+ * 조, 시드, 스타일, 요약, 능력치 그리드와 함께 경기 일정/출전선수 보기 이동 버튼을 제공한다.
+ */
 function showTeamInfo(teamId) {
   const team = state.teams[teamId];
   openInfoModal(
@@ -446,6 +380,10 @@ function showTeamInfo(teamId) {
   document.querySelector('[data-schedule-team]')?.addEventListener('click', () => showTeamSchedule(teamId));
 }
 
+/**
+ * 특정 팀의 경기 일정 목록을 모달에 표시한다.
+ * 해당 팀이 홈/원정 어느 쪽인지 계산해 상대, 시간, 점수, 경기장 정보를 팀 관점으로 정리한다.
+ */
 function showTeamSchedule(teamId) {
   const team = state.teams[teamId];
   const matches = getScheduleMatchesForTeam(teamId);
@@ -467,6 +405,10 @@ function showTeamSchedule(teamId) {
   document.querySelector('[data-back-team]')?.addEventListener('click', () => showTeamInfo(teamId));
 }
 
+/**
+ * 특정 팀이 포함된 모든 일정을 찾아 시간순 목록으로 반환한다.
+ * 일정 데이터의 직접 팀 코드와 토너먼트 선택 결과를 함께 고려해 매칭한다.
+ */
 function getScheduleMatchesForTeam(teamId) {
   return getSortedScheduleMatches()
     .map((match) => {
@@ -477,6 +419,10 @@ function getScheduleMatchesForTeam(teamId) {
     .filter(Boolean);
 }
 
+/**
+ * 팀 상세 모달 안에 들어갈 일정 항목 HTML을 만든다.
+ * 선택된 팀 기준으로 상대팀, 홈/원정 표시, 적용 점수, 경기 단계와 장소를 정리한다.
+ */
 function createTeamScheduleItemMarkup(teamId, item) {
   const { match, scheduleTeams } = item;
   const isHome = scheduleTeams.homeId === teamId;
@@ -510,6 +456,10 @@ function createTeamScheduleItemMarkup(teamId, item) {
   `;
 }
 
+/**
+ * 팀의 출전선수 목록을 포지션별 섹션으로 나누어 모달에 표시한다.
+ * 각 선수 행에 클릭 리스너를 붙여 선수 상세 화면으로 진입할 수 있게 한다.
+ */
 function showSquad(teamId) {
   const team = state.teams[teamId];
   const squad = getSquad(team);
@@ -531,6 +481,10 @@ function showSquad(teamId) {
   });
 }
 
+/**
+ * 선수단 배열을 골키퍼/수비수/미드필더/공격수 순서로 묶어 HTML 섹션을 만든다.
+ * 각 선수 행에는 사진, 다국어 이름, 등번호/클럽, 능력치가 포함된다.
+ */
 function createSquadPositionSectionsMarkup(squad) {
   const positionOrder = ['GK', 'DF', 'MF', 'FW'];
   return positionOrder.map((position) => {
@@ -549,7 +503,7 @@ function createSquadPositionSectionsMarkup(squad) {
           ${players.map(({ player, index }) => `
             <button type="button" class="squad-player-btn" data-player-index="${index}">
               ${createPlayerPhotoMarkup(player)}
-              <span>
+              <span class="squad-player-meta">
                 ${createLocalizedPlayerNameMarkup(player)}
                 <small>${player.number ? `${player.number}번 · ` : ''}${player.club || '-'}</small>
               </span>
@@ -562,6 +516,10 @@ function createSquadPositionSectionsMarkup(squad) {
   }).join('');
 }
 
+/**
+ * 포지션 코드를 선수 목록 섹션 제목으로 변환한다.
+ * 알려진 코드가 아니면 일반 포지션 라벨 변환 함수로 위임해 fallback을 제공한다.
+ */
 function getPositionGroupLabel(position) {
   return {
     GK: '골키퍼',
@@ -571,6 +529,10 @@ function getPositionGroupLabel(position) {
   }[position] || getPositionLabel(position);
 }
 
+/**
+ * 선수 목록에서 쓰는 작은 원형 사진 HTML을 만든다.
+ * 사진 URL이 없거나 로딩 실패 시 선수 이니셜 fallback을 같은 위치에 표시한다.
+ */
 function createPlayerPhotoMarkup(player) {
   const initials = getPlayerInitials(player);
   if (!player.photoUrl) {
@@ -585,6 +547,10 @@ function createPlayerPhotoMarkup(player) {
   `;
 }
 
+/**
+ * 선수 영문 이름에서 최대 두 글자의 이니셜을 만든다.
+ * 사진 fallback과 프로필 placeholder에 사용하며 이름이 없으면 물음표를 반환한다.
+ */
 function getPlayerInitials(player) {
   return (player.name || '')
     .split(/\s+/)
@@ -595,6 +561,10 @@ function getPlayerInitials(player) {
     .toUpperCase() || '?';
 }
 
+/**
+ * 선택한 선수의 상세 정보를 모달에 표시한다.
+ * 큰 프로필 이미지, 다국어 이름, 소속팀, 포지션, 대표팀 기록과 능력치 그리드를 함께 보여준다.
+ */
 function showPlayerInfo(teamId, playerIndex) {
   const team = state.teams[teamId];
   const player = getSquad(team)[playerIndex];
@@ -604,6 +574,7 @@ function showPlayerInfo(teamId, playerIndex) {
     player.rating,
     `
       <div class="team-detail-panel">
+        ${createPlayerProfileHeroMarkup(player)}
         <div class="team-detail-row"><span>소속 국가</span><strong>${team.flag} ${team.name}</strong></div>
         <div class="team-detail-row"><span>中文</span><strong>${getLocalizedPlayerNameParts(player).zh}</strong></div>
         <div class="team-detail-row"><span>English</span><strong>${getLocalizedPlayerNameParts(player).en}</strong></div>
@@ -628,6 +599,35 @@ function showPlayerInfo(teamId, playerIndex) {
   document.querySelector('[data-back-squad]')?.addEventListener('click', () => showSquad(teamId));
 }
 
+/**
+ * 선수 상세 화면 상단의 큰 프로필 영역 HTML을 만든다.
+ * 원형 이미지, 로딩 실패 fallback, 다국어 이름과 등번호/클럽 보조 정보를 한 묶음으로 구성한다.
+ */
+function createPlayerProfileHeroMarkup(player) {
+  const initials = getPlayerInitials(player);
+  const names = getLocalizedPlayerNameParts(player);
+  const imageMarkup = player.photoUrl
+    ? `<img src="${player.photoUrl}" alt="" loading="lazy" onerror="this.style.display='none';this.parentElement.querySelector('.player-profile-fallback').style.display='inline-flex';">`
+    : '';
+
+  return `
+    <div class="player-profile-hero">
+      <span class="player-profile-photo">
+        ${imageMarkup}
+        <span class="player-profile-fallback"${player.photoUrl ? '' : ' style="display: inline-flex;"'}>${initials}</span>
+      </span>
+      <div class="player-profile-name">
+        ${createLocalizedPlayerNameMarkup(player)}
+        <small>${player.number ? `${player.number}번 · ` : ''}${player.club || names.en}</small>
+      </div>
+    </div>
+  `;
+}
+
+/**
+ * 공용 분석 모달의 제목, 배지, 주요 값, 본문 HTML을 갱신하고 표시한다.
+ * 이미 열려 있는 모달을 재사용할 때는 Bootstrap 레이아웃 업데이트만 수행한다.
+ */
 function openInfoModal(title, badge, value, html) {
   const modalEl = document.getElementById('analysisModal');
   document.getElementById('titleTeam').innerText = title;
@@ -643,6 +643,10 @@ function openInfoModal(title, badge, value, html) {
   }
 }
 
+/**
+ * 공격/수비/폼 등 능력치 객체를 작은 지표 그리드 HTML로 변환한다.
+ * 지표 키는 사용자에게 보이는 한국어 라벨로 바꿔 표시한다.
+ */
 function createRatingGrid(rating) {
   return `
     <div class="rating-grid">
@@ -656,6 +660,10 @@ function createRatingGrid(rating) {
   `;
 }
 
+/**
+ * 팀 데이터에서 선수단 배열을 가져온다.
+ * 상세 squad 데이터가 없으면 기존 players 이름 배열을 기반으로 최소 선수 객체를 생성해 화면이 깨지지 않게 한다.
+ */
 function getSquad(team) {
   return team.squad?.length ? team.squad : (team.players || []).map((name, index) => ({
     name,
@@ -667,6 +675,10 @@ function getSquad(team) {
   }));
 }
 
+/**
+ * 선수 이름을 한국어, 중국어, 영어 순서의 stacked markup으로 만든다.
+ * 데이터에 번역명이 없으면 내장 override와 간단한 음역 fallback을 사용한다.
+ */
 function createLocalizedPlayerNameMarkup(player) {
   const names = getLocalizedPlayerNameParts(player);
   return `
@@ -678,6 +690,10 @@ function createLocalizedPlayerNameMarkup(player) {
   `;
 }
 
+/**
+ * 선수 한 명의 한국어/중국어/영어 이름 세트를 계산한다.
+ * 직접 제공된 값, 전체 이름 override, 음역 fallback 순서로 가장 적절한 표시명을 고른다.
+ */
 function getLocalizedPlayerNameParts(player) {
   const en = player.name || '-';
   const key = stripNameMarks(en).toLowerCase();
@@ -688,6 +704,10 @@ function getLocalizedPlayerNameParts(player) {
   };
 }
 
+/**
+ * 영문 이름 전체를 간단한 한국어 음역 문자열로 변환한다.
+ * 단어별 override를 먼저 적용하고, 없으면 음절 단위 변환 함수로 처리한다.
+ */
 function transliterateNameToKorean(name) {
   const cleanName = stripNameMarks(name);
   return cleanName
@@ -697,6 +717,10 @@ function transliterateNameToKorean(name) {
     .join(' ');
 }
 
+/**
+ * 영문 단어 하나를 대략적인 한글 발음으로 변환한다.
+ * 자음 시작부, 모음, 받침을 나눠 내장 매핑으로 조합하며 완벽한 언어 변환보다는 표시 fallback에 초점을 둔다.
+ */
 function transliterateWordToKorean(word) {
   const normalized = word.toLowerCase().replace(/[^a-z]/g, '');
   if (!normalized) return word;
@@ -711,6 +735,10 @@ function transliterateWordToKorean(word) {
   }).join('');
 }
 
+/**
+ * 영문 이름 전체를 간단한 중국어 음역 문자열로 변환한다.
+ * 단어 override를 우선 사용하고, 없는 단어는 음절/첫 글자 기반 fallback으로 채운다.
+ */
 function transliterateNameToChinese(name) {
   const cleanName = stripNameMarks(name);
   return cleanName
@@ -720,6 +748,10 @@ function transliterateNameToChinese(name) {
     .join('·');
 }
 
+/**
+ * 영문 단어 하나를 중국어 음역 fallback으로 변환한다.
+ * 음절 매핑이 없으면 첫 글자 기반 기본 음절을 사용해 빈 표시가 나오지 않게 한다.
+ */
 function transliterateWordToChinese(word) {
   const normalized = word.toLowerCase().replace(/[^a-z]/g, '');
   if (!normalized) return word;
@@ -728,6 +760,10 @@ function transliterateWordToChinese(word) {
   return chunks.map((chunk) => CHINESE_SYLLABLES[chunk] || CHINESE_SYLLABLES[chunk[0]] || '恩').join('');
 }
 
+/**
+ * 이름 비교와 음역 전에 악센트/구분 기호를 정규화한다.
+ * 유니코드 결합 기호를 제거해 override key와 검색 key를 안정적으로 맞춘다.
+ */
 function stripNameMarks(name) {
   return name
     .normalize('NFD')
@@ -890,11 +926,19 @@ const CHINESE_SYLLABLES = {
   ch: '奇', sh: '什', th: '特', ph: '夫'
 };
 
+/**
+ * 포지션 코드(GK/DF/MF/FW)를 한국어 라벨로 변환한다.
+ * 알 수 없는 코드는 원래 코드를 반환해 데이터 누락 시에도 표시가 유지되게 한다.
+ */
 function getPositionLabel(position) {
   const labels = { GK: '골키퍼', DF: '수비수', MF: '미드필더', FW: '공격수' };
   return labels[position] || position;
 }
 
+/**
+ * 능력치 키를 화면 표시용 한국어 라벨로 변환한다.
+ * 팀 능력치와 선수 능력치 그리드에서 공통으로 사용한다.
+ */
 function getRatingLabel(key) {
   const labels = {
     overall: '종합',
@@ -908,6 +952,10 @@ function getRatingLabel(key) {
   return labels[key] || key;
 }
 
+/**
+ * 조별정보 탭의 한 조 컬럼을 만든다.
+ * 경기 결과와 예측 점수로 계산된 순위표를 버튼 행으로 표시하고, 팀 클릭 시 상세 모달로 연결한다.
+ */
 function createEditableGroupColumn(group) {
   const column = document.createElement('div');
   column.className = 'bracket-column group-edit-column';
@@ -932,6 +980,10 @@ function createEditableGroupColumn(group) {
   return column;
 }
 
+/**
+ * 조별 순위표의 한 팀 행을 버튼 DOM으로 만든다.
+ * 순위, 국기, 팀명, 승점, 승무패, 득실을 표시하고 팀 상세 보기 이벤트를 붙인다.
+ */
 function createGroupStandingRow(standing, rank) {
   const row = document.createElement('button');
   row.type = 'button';
@@ -952,42 +1004,10 @@ function createGroupStandingRow(standing, rank) {
   return row;
 }
 
-function createGroupFinishSelect(group, finish) {
-  const selectedTeamId = state.groupResults[group.id]?.[finish] || '';
-  const wrapper = document.createElement('div');
-  wrapper.className = 'dynamic-select-row';
-
-  const label = document.createElement('label');
-  label.className = 'dynamic-select-label';
-  label.textContent = `${finish}위`;
-
-  const select = document.createElement('select');
-  select.className = 'dynamic-select';
-  select.disabled = !state.isEditing;
-
-  const placeholder = document.createElement('option');
-  placeholder.value = '';
-  placeholder.textContent = `${finish}위 팀 선택`;
-  select.appendChild(placeholder);
-
-  group.qualifiers.forEach((qualifier) => {
-    const teamId = qualifier.teamId;
-    const option = document.createElement('option');
-    option.value = teamId;
-    option.textContent = getTeamLabel(teamId);
-    option.selected = selectedTeamId === teamId;
-    option.disabled = isTeamUsedInGroup(group.id, finish, teamId);
-    select.appendChild(option);
-  });
-
-  select.addEventListener('change', (event) => {
-    updateGroupFinish(group.id, finish, event.target.value);
-  });
-
-  wrapper.append(label, select, createTeamSummary(selectedTeamId));
-  return wrapper;
-}
-
+/**
+ * 토너먼트 탭의 한 라운드 컬럼을 만든다.
+ * 라운드 제목, 진행률, 매치 카드 stack 높이와 카드 위치를 계산해 트리 형태 배치를 구성한다.
+ */
 function createRoundColumn(round, roundIndex) {
   const column = document.createElement('div');
   column.className = `bracket-column tournament-round-column tournament-round-${round.id}`;
@@ -1011,17 +1031,29 @@ function createRoundColumn(round, roundIndex) {
   return column;
 }
 
+/**
+ * 토너먼트 카드의 세로 위치를 라운드와 표시 순서 기준으로 계산한다.
+ * 라운드가 깊어질수록 카드 간 간격을 넓혀 연결선이 자연스럽게 보이도록 한다.
+ */
 function getTournamentCardTop(roundIndex, displayIndex) {
   const baseGap = 354;
   return (((displayIndex + 0.5) * Math.pow(2, roundIndex)) - 0.5) * baseGap;
 }
 
+/**
+ * 토너먼트 카드 stack 전체 높이를 계산한다.
+ * 현재 32강 기준 카드 수와 기본 간격을 바탕으로 절대 배치 영역의 높이를 고정한다.
+ */
 function getTournamentStackHeight() {
   const cardHeight = 306;
   const baseGap = 354;
   return 15 * baseGap + cardHeight;
 }
 
+/**
+ * 특정 라운드의 경기 표시 순서를 결정한다.
+ * 결승에서 역으로 따라간 브래킷 트리 순서를 우선하고, 누락된 경기는 뒤에 붙인다.
+ */
 function getDisplayMatchesForRound(round, roundIndex) {
   const orderedIds = getBracketTreeOrderForRound(roundIndex);
   if (!orderedIds.length) return round.matches;
@@ -1033,6 +1065,10 @@ function getDisplayMatchesForRound(round, roundIndex) {
   return [...orderedMatches, ...remainingMatches];
 }
 
+/**
+ * 결승 경로를 기준으로 특정 라운드의 매치 ID 표시 순서를 계산한다.
+ * source match 연결을 재귀적으로 따라가 좌우 브래킷 흐름이 맞게 정렬한다.
+ */
 function getBracketTreeOrderForRound(targetRoundIndex) {
   const finalRoundIndex = state.bracket.rounds.length - 1;
   const finalRound = state.bracket.rounds[finalRoundIndex];
@@ -1062,6 +1098,10 @@ function getBracketTreeOrderForRound(targetRoundIndex) {
   return finalRound.matches.flatMap((match) => collect(match, finalRoundIndex));
 }
 
+/**
+ * 토너먼트 경기 카드 DOM을 만든다.
+ * 자동 배정된 두 팀, 적용 점수, 승자, 요약 분석 버튼을 포함하고 한국/결승 강조 클래스를 적용한다.
+ */
 function createMatchCard(round, roundIndex, match) {
   const selection = getSelection(match.id);
   const comparison = getComparison(selection.teamA, selection.teamB);
@@ -1092,11 +1132,19 @@ function createMatchCard(round, roundIndex, match) {
   return card;
 }
 
+/**
+ * 이전 라운드 승자 연결 정보를 매치 제목에 붙일 보조 라벨로 만든다.
+ * source match가 없는 32강 슬롯은 빈 문자열을 반환한다.
+ */
 function getMatchPathLabel(match) {
   if (!match.teamASourceMatch || !match.teamBSourceMatch) return '';
   return ` · ${match.teamASourceMatch}/${match.teamBSourceMatch} 승자`;
 }
 
+/**
+ * 토너먼트 카드 안의 두 팀 행 목록을 만든다.
+ * 각 행은 현재 선택된 승자 정보와 비교해 winner 스타일을 받을 수 있다.
+ */
 function createTournamentTeamList(selection) {
   const wrapper = document.createElement('div');
   wrapper.className = 'tournament-team-list';
@@ -1105,6 +1153,10 @@ function createTournamentTeamList(selection) {
   return wrapper;
 }
 
+/**
+ * 토너먼트 카드의 단일 팀 행 DOM을 만든다.
+ * 팀이 아직 배정되지 않았으면 대기 상태를 표시하고, 배정된 팀은 국기/팀명/종합 능력치를 보여준다.
+ */
 function createTournamentTeamRow(teamId, winnerId) {
   const row = document.createElement('div');
   const team = state.teams[teamId];
@@ -1131,6 +1183,10 @@ function createTournamentTeamRow(teamId, winnerId) {
   return row;
 }
 
+/**
+ * 토너먼트 카드의 결과 요약 줄을 만든다.
+ * 점수 출처, 적용 점수, 승자 이름을 한 줄 그리드로 표시한다.
+ */
 function createTournamentResultStrip(selection, result) {
   const winner = state.teams[selection.winner];
   const strip = document.createElement('div');
@@ -1143,6 +1199,10 @@ function createTournamentResultStrip(selection, result) {
   return strip;
 }
 
+/**
+ * 토너먼트 카드의 간단 분석 영역을 만든다.
+ * 대진이 완성되면 우세 팀, 승률, 핵심 이유를 요약하고 상세 분석 모달 버튼을 연결한다.
+ */
 function createTournamentReasonBlock(selection, comparison, result) {
   const block = document.createElement('div');
   block.className = 'tournament-reason-block';
@@ -1173,6 +1233,10 @@ function createTournamentReasonBlock(selection, comparison, result) {
   return block;
 }
 
+/**
+ * 경기 일정 카드에 들어갈 분석 버튼 HTML을 만든다.
+ * 양 팀 코드가 모두 있을 때만 버튼을 반환해 대진 미확정 상태에서는 빈 영역으로 남긴다.
+ */
 function createScheduleAnalysisButtonMarkup(homeId, awayId) {
   if (!homeId || !awayId) return '';
   return `
@@ -1182,6 +1246,10 @@ function createScheduleAnalysisButtonMarkup(homeId, awayId) {
   `;
 }
 
+/**
+ * 두 팀 간 전력 비교 상세 분석을 모달로 표시한다.
+ * 승률, FIFA 순위/최근 폼/스쿼드 컨디션/예상 점수 섹션을 조합해 경기 단위 보고서를 만든다.
+ */
 function showMatchAnalysis(teamAId, teamBId, stageLabel, appliedScore) {
   const analysis = getMatchAnalysis(teamAId, teamBId);
   if (!analysis) return;
@@ -1214,6 +1282,10 @@ function showMatchAnalysis(teamAId, teamBId, stageLabel, appliedScore) {
   );
 }
 
+/**
+ * 토너먼트 카드에 표시할 점수와 출처 라벨을 결정한다.
+ * 일정 데이터의 실제 점수가 있으면 우선 사용하고, 없으면 AI 예측 점수를 적용한다.
+ */
 function getTournamentDisplayResult(match, selection) {
   const scheduleMatch = getScheduleMatchByBracketMatchId(match.id);
   if (!scheduleMatch || !selection.teamA || !selection.teamB) {
@@ -1230,130 +1302,10 @@ function getTournamentDisplayResult(match, selection) {
   };
 }
 
-function createTeamSelectBlock(round, roundIndex, match, field, candidates) {
-  const selection = getSelection(match.id);
-  const selectedTeamId = selection[field] || '';
-  const hasCandidatePool = candidates.length > 0;
-  const wrapper = document.createElement('div');
-  wrapper.className = 'dynamic-select-row';
-
-  const label = document.createElement('label');
-  label.className = 'dynamic-select-label';
-  label.textContent = getSlotLabel(match, field);
-
-  const select = document.createElement('select');
-  select.className = 'dynamic-select';
-  select.disabled = true;
-
-  const placeholder = document.createElement('option');
-  placeholder.value = '';
-  placeholder.textContent = hasCandidatePool ? '자동 배정 대기' : '소조 결과 대기';
-  select.appendChild(placeholder);
-
-  candidates.forEach((teamId) => {
-    const option = document.createElement('option');
-    option.value = teamId;
-    option.textContent = getTeamLabel(teamId);
-    option.disabled = isTeamUnavailable(round.id, match.id, field, teamId);
-    option.selected = selectedTeamId === teamId;
-    select.appendChild(option);
-  });
-
-  select.addEventListener('change', (event) => {
-    updateTeamSelection(roundIndex, match.id, field, event.target.value);
-  });
-
-  wrapper.append(label, select, createTeamSummary(selectedTeamId));
-  return wrapper;
-}
-
-function createWinnerSelectBlock(match, selection) {
-  const wrapper = document.createElement('div');
-  wrapper.className = 'dynamic-select-row winner-select-row';
-
-  const label = document.createElement('label');
-  label.className = 'dynamic-select-label';
-  label.textContent = '승자';
-
-  const select = document.createElement('select');
-  select.className = 'dynamic-select winner-select';
-  select.disabled = true;
-
-  const placeholder = document.createElement('option');
-  placeholder.value = '';
-  placeholder.textContent = selection.teamA && selection.teamB ? '자동 예측 대기' : '두 팀을 먼저 배정';
-  select.appendChild(placeholder);
-
-  [selection.teamA, selection.teamB].filter(Boolean).forEach((teamId) => {
-    const option = document.createElement('option');
-    option.value = teamId;
-    option.textContent = getTeamLabel(teamId);
-    option.selected = selection.winner === teamId;
-    select.appendChild(option);
-  });
-
-  select.addEventListener('change', (event) => {
-    updateWinnerSelection(match.id, event.target.value);
-  });
-
-  wrapper.append(label, select);
-  return wrapper;
-}
-
-function createComparisonBlock(comparison, selection) {
-  const block = document.createElement('div');
-  block.className = 'dynamic-comparison';
-
-  if (!selection.teamA || !selection.teamB) {
-    block.textContent = '두 팀을 선택하면 전력 비교가 표시됩니다.';
-    return block;
-  }
-
-  block.innerHTML = `
-    <div class="dynamic-auto-score">
-      <span>적용 점수</span>
-      <strong>${selection.score || '-'}</strong>
-    </div>
-    <button type="button" class="dynamic-analysis-btn">
-      <i class="fas fa-chart-line"></i>
-      <span>${comparison.teamAName} ${comparison.teamARate}% / ${comparison.teamBName} ${comparison.teamBRate}%</span>
-    </button>
-  `;
-
-  block.querySelector('button').addEventListener('click', () => {
-    showMatchAnalysis(selection.teamA, selection.teamB, '토너먼트', { source: 'ai', score: selection.score });
-  });
-
-  return block;
-}
-
-function createTeamSummary(teamId) {
-  const summary = document.createElement('div');
-  summary.className = 'dynamic-team-summary';
-
-  if (!teamId) {
-    summary.textContent = '선택 대기';
-    return summary;
-  }
-
-  const team = state.teams[teamId];
-  summary.innerHTML = `
-    ${getFlagIconMarkup(teamId)}
-    <strong>${team.name}</strong>
-    <span>종합 ${team.rating.overall}</span>
-  `;
-  return summary;
-}
-
-function createDefaultGroupResults() {
-  return Object.fromEntries(
-    state.qualifiers.groups.map((group) => [
-      group.id,
-      Object.fromEntries(group.qualifiers.map((qualifier, index) => [index + 1, qualifier.teamId]))
-    ])
-  );
-}
-
+/**
+ * 현재 일정 점수 기준으로 모든 조의 순위 결과를 계산한다.
+ * 각 조의 standings를 정렬한 뒤 순위 번호와 팀 ID를 매핑해 자동 대진의 입력값으로 사용한다.
+ */
 function createGroupResultsFromSchedule() {
   if (!state.qualifiers.groups?.length) return {};
 
@@ -1365,6 +1317,10 @@ function createGroupResultsFromSchedule() {
   );
 }
 
+/**
+ * 특정 조의 승점표를 계산한다.
+ * 조 참가 팀 초기값을 만들고, 조별 경기 결과/예측 점수를 반영한 뒤 승점, 득실, 득점, 팀 전력 순으로 정렬한다.
+ */
 function getGroupStandings(group) {
   const standings = new Map();
   group.qualifiers.forEach((qualifier) => {
@@ -1404,10 +1360,18 @@ function getGroupStandings(group) {
   });
 }
 
+/**
+ * 특정 조 ID에 해당하는 조별리그 일정만 추려낸다.
+ * 일정 stage/group 데이터의 Group 표기를 기준으로 필터링한다.
+ */
 function getGroupScheduleMatches(groupId) {
   return getSortedScheduleMatches().filter((match) => match.group === `Group ${groupId}`);
 }
 
+/**
+ * 단일 경기 점수를 두 팀의 순위표 통계에 반영한다.
+ * 득점/실점/득실/승무패/승점을 모두 갱신해 조별 순위 계산에 사용한다.
+ */
 function applyStandingResult(standing, goalsFor, goalsAgainst) {
   standing.played += 1;
   standing.goalsFor += goalsFor;
@@ -1425,6 +1389,10 @@ function applyStandingResult(standing, goalsFor, goalsAgainst) {
   }
 }
 
+/**
+ * 현재 조별 순위와 경기 결과를 기반으로 전체 토너먼트 선택 상태를 자동 생성한다.
+ * 각 매치의 팀 A/B와 승자, 점수를 순차적으로 계산해 다음 라운드 후보로 넘긴다.
+ */
 function createAutomaticBracketSelections() {
   const automaticSelections = {};
 
@@ -1451,6 +1419,10 @@ function createAutomaticBracketSelections() {
   return automaticSelections;
 }
 
+/**
+ * 특정 토너먼트 슬롯에 들어갈 팀을 자동 선택한다.
+ * 후보 중 같은 라운드에서 아직 쓰이지 않은 팀을 우선하고, 팀 순위 점수가 높은 순서로 고른다.
+ */
 function chooseAutomaticTeam(round, roundIndex, match, field, automaticSelections, usedInRound) {
   const candidates = getAutomaticCandidatesForSlot(round, roundIndex, match, field, automaticSelections);
   if (!candidates.length) return '';
@@ -1461,6 +1433,10 @@ function chooseAutomaticTeam(round, roundIndex, match, field, automaticSelection
   return pool.sort((a, b) => getTeamStandingScore(b) - getTeamStandingScore(a))[0] || '';
 }
 
+/**
+ * 자동 대진 슬롯의 후보 팀 목록을 계산한다.
+ * 32강은 조별 순위 source를 사용하고, 이후 라운드는 이전 매치 승자를 참조한다.
+ */
 function getAutomaticCandidatesForSlot(round, roundIndex, match, field, automaticSelections) {
   if (roundIndex === 0) {
     const source = field === 'teamA' ? match.teamASource : match.teamBSource;
@@ -1478,6 +1454,10 @@ function getAutomaticCandidatesForSlot(round, roundIndex, match, field, automati
   return previousMatch ? [automaticSelections[previousMatch.id]?.winner].filter(Boolean) : [];
 }
 
+/**
+ * 자동 대진의 단일 경기 결과를 계산한다.
+ * 실제 일정 점수가 있으면 그 승자를 반영하고, 없으면 전력 점수 기반 예측 점수와 승자를 만든다.
+ */
 function getAutomaticMatchResult(matchId, teamAId, teamBId) {
   if (!teamAId || !teamBId) {
     return { winner: '', score: '' };
@@ -1511,10 +1491,18 @@ function getAutomaticMatchResult(matchId, teamAId, teamBId) {
   };
 }
 
+/**
+ * 브래킷 매치 ID와 연결된 일정 데이터를 찾는다.
+ * FIFA match number를 내부 브래킷 ID로 변환해 토너먼트 카드와 일정 점수를 이어준다.
+ */
 function getScheduleMatchByBracketMatchId(matchId) {
   return (state.schedule.matches || []).find((match) => getScheduleBracketMatchId(match.matchNumber) === matchId);
 }
 
+/**
+ * 자동 대진 후보 정렬에 사용할 팀 점수를 계산한다.
+ * 조별 순위가 있으면 순위 기반 가중치를 주고, 없으면 팀 종합 능력치를 fallback으로 사용한다.
+ */
 function getTeamStandingScore(teamId) {
   const standing = getTeamStanding(teamId);
   if (!standing) {
@@ -1530,6 +1518,10 @@ function getTeamStandingScore(teamId) {
   );
 }
 
+/**
+ * 특정 팀의 현재 조별 순위표 항목을 찾는다.
+ * 모든 조 standings를 순회해 팀 ID가 일치하는 계산 결과를 반환한다.
+ */
 function getTeamStanding(teamId) {
   for (const group of state.qualifiers.groups) {
     const standing = getGroupStandings(group).find((item) => item.teamId === teamId);
@@ -1538,29 +1530,10 @@ function getTeamStanding(teamId) {
   return null;
 }
 
-function updateGroupFinish(groupId, finish, teamId) {
-  if (!state.isEditing) return;
-
-  if (!state.groupResults[groupId]) {
-    state.groupResults[groupId] = {};
-  }
-
-  Object.keys(state.groupResults[groupId]).forEach((key) => {
-    if (Number(key) !== finish && state.groupResults[groupId][key] === teamId) {
-      state.groupResults[groupId][key] = '';
-    }
-  });
-
-  state.groupResults[groupId][finish] = teamId;
-  state.selections = {};
-  render();
-}
-
-function isTeamUsedInGroup(groupId, finish, teamId) {
-  const groupResult = state.groupResults[groupId] || {};
-  return Object.entries(groupResult).some(([rank, selectedTeamId]) => Number(rank) !== finish && selectedTeamId === teamId);
-}
-
+/**
+ * 특정 브래킷 매치의 선택 상태 객체를 가져온다.
+ * 아직 상태가 없으면 팀 A/B, 승자, 점수 필드를 가진 기본 객체를 만들어 반환한다.
+ */
 function getSelection(matchId) {
   if (!state.selections[matchId]) {
     state.selections[matchId] = { teamA: '', teamB: '', winner: '', score: '' };
@@ -1568,41 +1541,10 @@ function getSelection(matchId) {
   return state.selections[matchId];
 }
 
-function updateTeamSelection(roundIndex, matchId, field, teamId) {
-  if (!state.isEditing) return;
-
-  const selection = getSelection(matchId);
-  selection[field] = teamId;
-
-  if (selection.teamA === selection.teamB) {
-    selection[field === 'teamA' ? 'teamB' : 'teamA'] = '';
-  }
-
-  if (selection.winner && selection.winner !== selection.teamA && selection.winner !== selection.teamB) {
-    selection.winner = '';
-  }
-
-  clearLaterRounds(roundIndex);
-  render();
-}
-
-function updateWinnerSelection(matchId, winnerId) {
-  if (!state.isEditing) return;
-
-  const roundIndex = findRoundIndexByMatchId(matchId);
-  getSelection(matchId).winner = winnerId;
-  clearLaterRounds(roundIndex);
-  render();
-}
-
-function clearLaterRounds(roundIndex) {
-  state.bracket.rounds.slice(roundIndex + 1).forEach((round) => {
-    round.matches.forEach((match) => {
-      delete state.selections[match.id];
-    });
-  });
-}
-
+/**
+ * 저장되어 있거나 자동 생성된 토너먼트 선택 상태를 현재 후보 규칙에 맞게 정리한다.
+ * 후보에서 벗어난 팀이나 양 팀에 포함되지 않는 승자를 비워 잘못된 상태 전파를 막는다.
+ */
 function normalizeSelections() {
   state.bracket.rounds.forEach((round, roundIndex) => {
     round.matches.forEach((match) => {
@@ -1620,6 +1562,10 @@ function normalizeSelections() {
   });
 }
 
+/**
+ * 특정 라운드에서 사용할 수 있는 후보 팀 목록을 반환한다.
+ * 첫 라운드는 조별 진출팀 전체를, 이후 라운드는 직전 라운드 승자 목록을 사용한다.
+ */
 function getCandidatesForRound(roundIndex) {
   if (roundIndex === 0) {
     return getAllSelectedGroupTeams();
@@ -1631,6 +1577,10 @@ function getCandidatesForRound(roundIndex) {
     .filter(Boolean);
 }
 
+/**
+ * 매치의 팀 A/B 슬롯별 후보 팀을 계산한다.
+ * source match가 있으면 해당 경기 승자를, 32강 source가 있으면 조별 순위 결과를 사용한다.
+ */
 function getCandidatesForSlot(round, roundIndex, match, field) {
   if (roundIndex !== 0) {
     const sourceMatchId = field === 'teamA' ? match.teamASourceMatch : match.teamBSourceMatch;
@@ -1648,6 +1598,10 @@ function getCandidatesForSlot(round, roundIndex, match, field) {
   return getTeamsBySource(source);
 }
 
+/**
+ * 브래킷 source 정의를 실제 팀 ID 목록으로 변환한다.
+ * 단일 조 또는 여러 조 묶음에서 지정 순위 팀을 찾아 후보 배열로 반환한다.
+ */
 function getTeamsBySource(source) {
   const groups = source.group ? [source.group] : source.groups || [];
   return groups
@@ -1655,35 +1609,20 @@ function getTeamsBySource(source) {
     .filter(Boolean);
 }
 
+/**
+ * 현재 조별 결과에서 선택된 모든 팀 ID를 평탄화해 반환한다.
+ * 첫 토너먼트 라운드 후보 풀과 fallback 후보 계산에 사용한다.
+ */
 function getAllSelectedGroupTeams() {
   return Object.values(state.groupResults)
     .flatMap((groupResult) => Object.values(groupResult))
     .filter(Boolean);
 }
 
-function getSlotLabel(match, field) {
-  const source = field === 'teamA' ? match.teamASource : match.teamBSource;
-  if (!source) {
-    return field === 'teamA' ? '팀 A' : '팀 B';
-  }
-
-  const groupText = source.group || (source.groups || []).join('/');
-  return `${groupText}조 ${source.rank}위`;
-}
-
-function isTeamUnavailable(roundId, matchId, field, teamId) {
-  const current = getSelection(matchId);
-  const oppositeField = field === 'teamA' ? 'teamB' : 'teamA';
-  if (current[oppositeField] === teamId) return true;
-
-  const round = state.bracket.rounds.find((item) => item.id === roundId);
-  return round.matches.some((match) => {
-    if (match.id === matchId) return false;
-    const selection = getSelection(match.id);
-    return selection.teamA === teamId || selection.teamB === teamId;
-  });
-}
-
+/**
+ * 두 팀의 전력 비교 분석 데이터를 계산한다.
+ * 팀 능력치, 외부 지표, 최근 폼, 선수단 컨디션을 조합해 승률과 설명 섹션을 만든다.
+ */
 function getMatchAnalysis(teamAId, teamBId) {
   if (!teamAId || !teamBId) return null;
 
@@ -1731,6 +1670,10 @@ function getMatchAnalysis(teamAId, teamBId) {
   };
 }
 
+/**
+ * 토너먼트 카드 요약에 필요한 간단 비교 정보를 반환한다.
+ * 상세 분석 결과에서 우세 팀 이름과 승률만 추려 카드용 문구로 쓰기 쉽게 만든다.
+ */
 function getComparison(teamAId, teamBId) {
   const analysis = getMatchAnalysis(teamAId, teamBId);
   if (!analysis) return null;
@@ -1745,6 +1688,10 @@ function getComparison(teamAId, teamBId) {
   };
 }
 
+/**
+ * 팀 선수단의 컨디션 요약을 계산한다.
+ * 폼과 레이팅이 높은 상위 선수 이름, 평균 폼, 전체 선수 수를 분석 문구에 쓰기 좋은 형태로 반환한다.
+ */
 function getSquadConditionSummary(team) {
   const squad = getSquad(team);
   const ranked = [...squad]
@@ -1760,26 +1707,46 @@ function getSquadConditionSummary(team) {
   };
 }
 
+/**
+ * 팀 ID에 해당하는 보조 지표 데이터를 가져온다.
+ * FIFA 랭킹, 최근 경기 흐름 등 별도 metrics 데이터가 없을 수 있으므로 null 가능성을 허용한다.
+ */
 function getTeamMetric(teamId) {
   return state.teamMetrics.teams?.[teamId] || null;
 }
 
+/**
+ * 팀의 종합 전력 점수를 계산한다.
+ * 기본 rating 가중치에 FIFA 포인트, 최근 폼, 선수 품질 보정치를 더해 매치 예측의 핵심 입력으로 사용한다.
+ */
 function getTeamPowerScore(teamId) {
   const metric = getTeamMetric(teamId);
   if (metric?.internetPower) return metric.internetPower;
   return getWeightedScore(state.teams[teamId].rating);
 }
 
+/**
+ * FIFA 랭킹 값을 화면 표시용 문자열로 변환한다.
+ * 지표가 없거나 랭킹이 없으면 대시를 반환해 모달 레이아웃을 유지한다.
+ */
 function formatRank(metric) {
   return metric?.fifaRank ?? '-';
 }
 
+/**
+ * 최근 폼 지표를 짧은 표시 문자열로 변환한다.
+ * 승/무/패와 점수를 함께 보여주되 데이터가 없으면 대시를 반환한다.
+ */
 function formatRecentForm(metric) {
   if (!metric?.recentForm?.matches) return '자료 부족';
   const form = metric.recentForm;
   return `${form.wins}승 ${form.draws}무 ${form.losses}패`;
 }
 
+/**
+ * 팀 rating 객체를 가중 평균 전력 점수로 환산한다.
+ * 종합, 공격, 중원, 수비, 선수층, 경험, 폼의 중요도를 다르게 적용한다.
+ */
 function getWeightedScore(rating) {
   return (
     rating.overall * 0.30 +
@@ -1792,15 +1759,27 @@ function getWeightedScore(rating) {
   );
 }
 
+/**
+ * 승률 숫자를 화면에 쓰기 좋은 범위로 제한한다.
+ * 한쪽 확률이 0%나 100%로 과도하게 보이지 않도록 최소/최대 경계를 둔다.
+ */
 function clampRate(rate) {
   return Math.max(35, Math.min(65, rate));
 }
 
+/**
+ * 팀 ID를 국기와 팀명 조합의 표시 문자열로 변환한다.
+ * 알 수 없는 팀 ID는 원본 ID를 반환해 데이터 누락 상황에서도 식별 가능하게 한다.
+ */
 function getTeamLabel(teamId) {
   const team = state.teams[teamId];
   return team ? `${team.flag} ${team.name}` : teamId;
 }
 
+/**
+ * FIFA 국기 이미지와 fallback 이모지 markup을 만든다.
+ * 이미지 로딩 실패 시 같은 위치에 팀 flag 문자열이 표시되도록 onerror 처리를 포함한다.
+ */
 function getFlagIconMarkup(teamId) {
   const team = state.teams[teamId];
   if (!team) return '<span class="flag-icon-placeholder"></span>';
@@ -1812,6 +1791,10 @@ function getFlagIconMarkup(teamId) {
   `;
 }
 
+/**
+ * 전체 일정을 현지 날짜 기준 시간순으로 정렬해 반환한다.
+ * 원본 state.schedule.matches를 직접 변경하지 않도록 복사본을 정렬한다.
+ */
 function getSortedScheduleMatches() {
   return [...(state.schedule.matches || [])].sort((a, b) => {
     const dateA = new Date(a.localDate || a.date).getTime();
@@ -1821,6 +1804,10 @@ function getSortedScheduleMatches() {
   });
 }
 
+/**
+ * 경기 일정 탭의 날짜 그룹 접힘 상태를 일괄 변경한다.
+ * 모든 날짜 key에 같은 boolean 값을 넣고 렌더링을 다시 수행한다.
+ */
 function setAllScheduleDatesCollapsed(isCollapsed) {
   const collapsedState = {};
   createScheduleDateGroups().forEach((dateGroup) => {
@@ -1830,6 +1817,10 @@ function setAllScheduleDatesCollapsed(isCollapsed) {
   render();
 }
 
+/**
+ * 날짜 값을 지정 타임존의 YYYY-MM-DD key로 변환한다.
+ * Intl DateTimeFormat의 formatToParts를 사용해 브라우저 로케일 차이에도 안정적인 key를 만든다.
+ */
 function getScheduleDateKey(value, timeZone = 'UTC') {
   const parts = new Intl.DateTimeFormat('en-CA', {
     year: 'numeric',
@@ -1841,6 +1832,10 @@ function getScheduleDateKey(value, timeZone = 'UTC') {
   return `${byType.year}-${byType.month}-${byType.day}`;
 }
 
+/**
+ * 일정 날짜를 한국어 화면 표시 문자열로 포맷한다.
+ * 타임존을 명시해 현지 시간/중국 시간 같은 서로 다른 관점의 날짜 표시를 지원한다.
+ */
 function formatScheduleDate(value, timeZone = 'UTC') {
   const date = new Date(value);
   return new Intl.DateTimeFormat('ko-KR', {
@@ -1851,6 +1846,10 @@ function formatScheduleDate(value, timeZone = 'UTC') {
   }).format(date);
 }
 
+/**
+ * 일정 시간을 HH:mm 형태로 포맷한다.
+ * 타임존 파라미터를 받아 경기 현지 시간과 중국 시간을 같은 함수로 표현한다.
+ */
 function formatScheduleTime(value, timeZone = 'UTC') {
   if (!value) return '-';
   return new Intl.DateTimeFormat('ko-KR', {
@@ -1861,6 +1860,10 @@ function formatScheduleTime(value, timeZone = 'UTC') {
   }).format(new Date(value));
 }
 
+/**
+ * 일정 데이터에서 홈/원정 팀 ID를 결정한다.
+ * 직접 코드가 있으면 우선 사용하고, 토너먼트 경기라면 브래킷 선택 결과를 fallback으로 사용한다.
+ */
 function getScheduleTeams(match) {
   const directHomeId = state.teams[match.homeCode] ? match.homeCode : '';
   const directAwayId = state.teams[match.awayCode] ? match.awayCode : '';
@@ -1875,11 +1878,19 @@ function getScheduleTeams(match) {
   };
 }
 
+/**
+ * FIFA match number에 대응하는 브래킷 선택 상태를 가져온다.
+ * 일정과 내부 토너먼트 매치 ID를 연결해 홈/원정 표시와 점수 적용에 사용한다.
+ */
 function getScheduleSelection(matchNumber) {
   const matchId = getScheduleBracketMatchId(matchNumber);
   return matchId ? (state.selections[matchId] || {}) : {};
 }
 
+/**
+ * FIFA match number를 내부 브래킷 match ID로 변환한다.
+ * 32강 이후 match number 범위를 round32/round16/quarter/semifinal/final ID 체계에 맞춘다.
+ */
 function getScheduleBracketMatchId(matchNumber) {
   if (matchNumber >= 73 && matchNumber <= 88) return `M${matchNumber}`;
   if (matchNumber >= 89 && matchNumber <= 96) return `R16-${String(matchNumber - 88).padStart(2, '0')}`;
@@ -1889,6 +1900,10 @@ function getScheduleBracketMatchId(matchNumber) {
   return '';
 }
 
+/**
+ * 실제 점수가 없을 때 사용할 AI 예측 점수를 계산한다.
+ * 양 팀 전력, 공격/수비 상성, 최근 폼, 토너먼트 여부를 반영해 홈/원정 득점과 승자를 만든다.
+ */
 function getPredictedScheduleScore(match, homeId, awayId) {
   if (!homeId || !awayId) {
     return {
@@ -1943,6 +1958,10 @@ function getPredictedScheduleScore(match, homeId, awayId) {
   };
 }
 
+/**
+ * 일정 카드와 토너먼트 계산에 실제/예측 점수 중 적용할 값을 결정한다.
+ * 실제 점수가 있으면 우선 사용하고, 없으면 예측 점수를 생성하며 출처 정보를 함께 반환한다.
+ */
 function getAppliedScheduleScore(match, homeId, awayId) {
   const actual = getActualScheduleScore(match);
   if (actual && Number.isInteger(actual.homeGoals) && Number.isInteger(actual.awayGoals)) {
@@ -1963,6 +1982,10 @@ function getAppliedScheduleScore(match, homeId, awayId) {
   return getPredictedScheduleScore(match, homeId, awayId);
 }
 
+/**
+ * 일정 데이터 또는 동기화 결과에서 실제 경기 점수를 추출한다.
+ * 여러 필드명 변형과 페널티 점수 필드를 coalesce해 데이터 출처가 달라도 처리할 수 있게 한다.
+ */
 function getActualScheduleScore(match) {
   const savedActual = state.scheduleResults[match.id];
   if (savedActual && Number.isInteger(savedActual.homeGoals) && Number.isInteger(savedActual.awayGoals)) {
@@ -2015,6 +2038,10 @@ function getActualScheduleScore(match) {
   };
 }
 
+/**
+ * 일정 카드에 표시할 현재 점수 적용 상태 HTML을 만든다.
+ * 현재는 편집 입력이 아니라 실제 점수 반영 여부 또는 AI 예측 적용 상태를 읽기 전용으로 보여준다.
+ */
 function createScheduleResultInputsMarkup(match, homeId, awayId, appliedScore) {
   return `
     <div class="schedule-result-editor locked ${appliedScore.source === 'actual' ? 'actual' : ''}">
@@ -2024,10 +2051,10 @@ function createScheduleResultInputsMarkup(match, homeId, awayId, appliedScore) {
   `;
 }
 
-function attachScheduleResultListeners(card, match, homeId, awayId) {
-  return;
-}
-
+/**
+ * FIFA 일정 API에서 실제 경기 결과를 가져와 로컬 상태에 반영한다.
+ * 응답 점수를 일정 ID 기준으로 매칭하고, 조별 순위와 자동 대진을 다시 계산한 뒤 화면을 갱신한다.
+ */
 async function syncFifaMatchResults() {
   const syncButton = document.querySelector('.fifa-sync-btn');
   const originalHtml = syncButton?.innerHTML;
@@ -2038,7 +2065,10 @@ async function syncFifaMatchResults() {
   }
 
   try {
-    const response = await fetch(getFifaScheduleApiUrl(), { cache: 'no-store' });
+    const response = await fetch(getFifaScheduleApiUrl(), {
+      cache: 'no-store',
+      credentials: 'omit'
+    });
     if (!response.ok) {
       throw new Error(`FIFA API 응답 오류: ${response.status}`);
     }
@@ -2082,10 +2112,18 @@ async function syncFifaMatchResults() {
   }
 }
 
+/**
+ * FIFA 일정 동기화에 사용할 API URL을 반환한다.
+ * schedule 데이터에 source가 있으면 우선 사용하고, 없으면 기본 FIFA calendar API 주소를 사용한다.
+ */
 function getFifaScheduleApiUrl() {
   return state.schedule.source || 'https://api.fifa.com/api/v3/calendar/matches?language=en&IdCompetition=17&from=2026-06-01&to=2026-07-31&count=200';
 }
 
+/**
+ * FIFA API 응답 한 건에서 정규화된 점수 객체를 추출한다.
+ * 정규 시간 점수가 없으면 null을 반환하고, 페널티 점수가 있으면 함께 포함한다.
+ */
 function extractFifaScore(apiMatch) {
   const homeGoals = coalesceScore(apiMatch.HomeTeamScore, apiMatch.Home?.Score);
   const awayGoals = coalesceScore(apiMatch.AwayTeamScore, apiMatch.Away?.Score);
@@ -2099,6 +2137,10 @@ function extractFifaScore(apiMatch) {
   };
 }
 
+/**
+ * 여러 후보 값 중 첫 번째 유효한 숫자 점수를 반환한다.
+ * null/undefined/빈 문자열을 건너뛰고 숫자로 변환 가능한 값은 정수로 정규화한다.
+ */
 function coalesceScore(...values) {
   const value = values.find((item) => item !== null && item !== undefined && item !== '');
   if (value === undefined) return null;
@@ -2106,74 +2148,18 @@ function coalesceScore(...values) {
   return Number.isFinite(score) ? Math.trunc(score) : null;
 }
 
-function updateScheduleResult(matchId, homeValue, awayValue) {
-  if (!state.isEditing) return;
-
-  if (homeValue === '' || awayValue === '') {
-    delete state.scheduleResults[matchId];
-  } else {
-    state.scheduleResults[matchId] = {
-      homeGoals: clampActualGoals(Number(homeValue)),
-      awayGoals: clampActualGoals(Number(awayValue))
-    };
-  }
-
-  const match = getScheduleMatchById(matchId);
-  handleScheduleResultImpact(match);
-  render();
-}
-
-function handleScheduleResultImpact(match) {
-  if (!match) return;
-
-  if (match.stage === 'First Stage') {
-    state.groupResults = createGroupResultsFromSchedule();
-    state.selections = {};
-    return;
-  }
-
-  applyScheduleResultToBracket(match);
-}
-
-function applyScheduleResultToBracket(match) {
-  const result = state.scheduleResults[match.id];
-  const bracketMatchId = getScheduleBracketMatchId(match.matchNumber);
-  if (!bracketMatchId) return;
-
-  const selection = state.selections[bracketMatchId];
-  if (!selection?.teamA || !selection?.teamB) return;
-
-  if (!result) {
-    selection.winner = '';
-  } else if (result.homeGoals > result.awayGoals) {
-    selection.winner = selection.teamA;
-  } else if (result.awayGoals > result.homeGoals) {
-    selection.winner = selection.teamB;
-  } else if (Number.isInteger(result.homePenalties) && Number.isInteger(result.awayPenalties) && result.homePenalties !== result.awayPenalties) {
-    selection.winner = result.homePenalties > result.awayPenalties ? selection.teamA : selection.teamB;
-  } else {
-    selection.winner = '';
-  }
-
-  const roundIndex = findRoundIndexByMatchId(bracketMatchId);
-  if (roundIndex >= 0) {
-    clearLaterRounds(roundIndex);
-  }
-}
-
-function getScheduleMatchById(matchId) {
-  return (state.schedule.matches || []).find((match) => match.id === matchId);
-}
-
-function clampActualGoals(value) {
-  if (!Number.isFinite(value)) return 0;
-  return Math.max(0, Math.min(20, Math.trunc(value)));
-}
-
+/**
+ * 예측 득점 값을 축구 경기 점수로 자연스러운 범위에 제한한다.
+ * 음수는 0으로, 과도하게 큰 값은 5로 잘라 카드 표시와 승자 계산을 안정화한다.
+ */
 function clampGoals(value) {
   return Math.max(0, Math.min(5, value));
 }
 
+/**
+ * 일정 카드용 팀 표시명을 만든다.
+ * 팀 코드가 데이터에 있으면 국기와 팀명을 사용하고, 없으면 일정 원본의 fallback 이름을 표시한다.
+ */
 function getScheduleTeamLabel(teamCode, fallbackName) {
   const team = state.teams[teamCode];
   if (team) {
@@ -2185,6 +2171,10 @@ function getScheduleTeamLabel(teamCode, fallbackName) {
   return '<span></span><strong>대진 미정</strong>';
 }
 
+/**
+ * 일정 stage 값을 한국어 경기 단계 라벨로 변환한다.
+ * 알려진 FIFA stage 문자열은 번역하고, 알 수 없는 값은 원본을 그대로 반환한다.
+ */
 function getScheduleStageLabel(match) {
   if (match.group) {
     return match.group.replace('Group ', '') + '조';
@@ -2202,15 +2192,19 @@ function getScheduleStageLabel(match) {
   return labels[match.stage] || match.stage || '경기';
 }
 
+/**
+ * 라운드별 진행률 문자열을 계산한다.
+ * 승자가 결정된 경기 수와 전체 경기 수를 `완료/전체` 형태로 반환해 라운드 헤더에 표시한다.
+ */
 function getRoundProgress(round) {
   const done = round.matches.filter((match) => getSelection(match.id).winner).length;
   return `${done}/${round.matches.length}`;
 }
 
-function findRoundIndexByMatchId(matchId) {
-  return state.bracket.rounds.findIndex((round) => round.matches.some((match) => match.id === matchId));
-}
-
+/**
+ * localStorage에 저장된 앱 상태를 읽어온다.
+ * JSON 파싱 실패나 저장값 없음 상황에서는 빈 객체를 반환해 초기화가 중단되지 않게 한다.
+ */
 function loadSavedState() {
   try {
     return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
@@ -2219,6 +2213,10 @@ function loadSavedState() {
   }
 }
 
+/**
+ * 현재 앱 상태 중 유지해야 할 값만 localStorage에 저장한다.
+ * 활성 탭, 일정 접힘 상태, 동기화된 경기 결과, 자동 대진 선택 상태를 다음 방문에 복원할 수 있게 한다.
+ */
 function saveState() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify({
     activeTab: state.activeTab,
@@ -2228,6 +2226,10 @@ function saveState() {
   }));
 }
 
+/**
+ * 초기화 실패 시 화면에 표시할 오류 카드 HTML을 만든다.
+ * 사용자가 원인을 볼 수 있도록 오류 메시지를 포함하되 기존 대진표 영역 안에 렌더링한다.
+ */
 function createErrorMarkup(error) {
   return `
     <div class="bracket-column">
@@ -2240,6 +2242,10 @@ function createErrorMarkup(error) {
   `;
 }
 
+/**
+ * 토너먼트 카드 사이의 연결선을 SVG로 그린다.
+ * 현재 DOM 위치를 측정해 이전 라운드 카드와 다음 라운드 카드를 곡선 path로 연결한다.
+ */
 function drawTournamentConnectors() {
   const root = document.querySelector('.tournament-bracket.tournament-view');
   if (!root) return;
@@ -2275,6 +2281,10 @@ function drawTournamentConnectors() {
   root.prepend(svg);
 }
 
+/**
+ * 연결선이 카드의 어느 지점에서 시작하거나 끝날지 좌표를 계산한다.
+ * 카드의 DOM rect와 루트 rect 차이를 이용해 SVG 내부 좌표계로 변환한다.
+ */
 function getCardAnchor(card, rootRect, side) {
   const rect = card.getBoundingClientRect();
   return {
@@ -2283,6 +2293,10 @@ function getCardAnchor(card, rootRect, side) {
   };
 }
 
+/**
+ * 두 anchor 좌표를 잇는 SVG path 요소를 만든다.
+ * 라운드 간 연결은 부드러운 cubic curve로 그리고, 결승 경로에는 별도 강조 클래스를 붙인다.
+ */
 function createTournamentConnectorPath(start, end, isFinalPath) {
   const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
   const midX = start.x + Math.max(28, (end.x - start.x) * 0.52);
