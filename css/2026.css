@@ -1028,6 +1028,171 @@
             min-height: 34px;
         }
 
+        .friendly-card .friendly-result {
+            border-color: rgba(16, 185, 129, 0.32);
+            background: rgba(16, 185, 129, 0.07);
+        }
+
+        .friendly-card .friendly-result span {
+            color: #34d399;
+        }
+
+        .friendly-analysis-score {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 86px minmax(0, 1fr);
+            align-items: center;
+            gap: 8px;
+            padding: 10px;
+            border: 1px solid rgba(56, 189, 248, 0.28);
+            border-radius: 6px;
+            background: rgba(15, 23, 42, 0.72);
+        }
+
+        .friendly-analysis-score strong {
+            color: #f8fafc;
+            font-size: 0.82rem;
+            font-weight: 900;
+            min-width: 0;
+        }
+
+        .friendly-analysis-score strong:last-child {
+            text-align: right;
+        }
+
+        .friendly-analysis-score span {
+            color: #fbbf24;
+            font-size: 1.05rem;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .friendly-stat-table {
+            display: grid;
+            gap: 6px;
+        }
+
+        .friendly-stat-row {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 92px minmax(0, 1fr);
+            align-items: center;
+            gap: 8px;
+            padding: 7px 9px;
+            border: 1px solid rgba(148, 163, 184, 0.16);
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.026);
+        }
+
+        .friendly-stat-row strong {
+            color: #f8fafc;
+            font-size: 0.84rem;
+            font-weight: 900;
+        }
+
+        .friendly-stat-row strong:last-child {
+            text-align: right;
+        }
+
+        .friendly-stat-row span {
+            color: #94a3b8;
+            font-size: 0.68rem;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .friendly-lineup-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px;
+        }
+
+        .friendly-lineup-panel {
+            display: grid;
+            gap: 8px;
+            min-width: 0;
+            padding: 10px;
+            border: 1px solid rgba(51, 65, 85, 0.95);
+            border-radius: 7px;
+            background: rgba(15, 23, 42, 0.66);
+        }
+
+        .friendly-lineup-panel.external p {
+            margin: 0;
+            color: #94a3b8;
+            font-size: 0.74rem;
+            line-height: 1.45;
+        }
+
+        .friendly-lineup-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            padding-bottom: 7px;
+            border-bottom: 1px solid rgba(51, 65, 85, 0.75);
+        }
+
+        .friendly-lineup-header strong {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            min-width: 0;
+            color: #f8fafc;
+            font-size: 0.82rem;
+            font-weight: 900;
+        }
+
+        .friendly-lineup-header span {
+            color: #38bdf8;
+            font-size: 0.66rem;
+            font-weight: 900;
+            white-space: nowrap;
+        }
+
+        .friendly-lineup-list {
+            display: grid;
+            gap: 5px;
+        }
+
+        .friendly-player-row {
+            display: grid;
+            grid-template-columns: 24px minmax(0, 1fr) 54px 34px;
+            align-items: center;
+            gap: 6px;
+            padding: 6px;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.026);
+        }
+
+        .friendly-player-row span,
+        .friendly-player-row em,
+        .friendly-player-row small {
+            color: #94a3b8;
+            font-size: 0.66rem;
+            font-style: normal;
+            font-weight: 800;
+        }
+
+        .friendly-player-row strong {
+            color: #e2e8f0;
+            font-size: 0.74rem;
+            font-weight: 900;
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .friendly-player-row b {
+            color: #fbbf24;
+            font-size: 0.78rem;
+            font-weight: 900;
+            text-align: right;
+        }
+
+        .friendly-player-row small {
+            grid-column: 2 / 5;
+        }
+
         .schedule-result-editor.actual {
             border-color: rgba(16, 185, 129, 0.4);
             background: rgba(16, 185, 129, 0.08);
@@ -1464,5 +1629,14 @@
 
             .tournament-result-strip {
                 grid-template-columns: 58px 62px minmax(0, 1fr);
+            }
+
+            .friendly-lineup-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .friendly-stat-row,
+            .friendly-analysis-score {
+                grid-template-columns: minmax(0, 1fr) 74px minmax(0, 1fr);
             }
         }

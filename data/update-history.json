@@ -1,0 +1,482 @@
+{
+  "updates": [
+    {
+      "updatedAt": "2026-06-05T16:30:00+08:00",
+      "cutoffDate": "2026-06-05",
+      "title": "Pre-World Cup 2026 data refresh",
+      "changedFiles": [
+        "data/teams.json",
+        "data/team-metrics.json",
+        "js/bracket-data.js",
+        "data/update-history.json"
+      ],
+      "scope": [
+        "? rating/form/depth ???",
+        "?? form/condition ??",
+        "??/?? ??? tacticalProfile ??",
+        "2026-05-29?? 2026-06-05 ???? ??? ???? ??",
+        "FIFA ?? 26? ?? ?? ?? ??"
+      ],
+      "sources": [
+        {
+          "name": "FIFA/Coca-Cola Men's World Ranking",
+          "url": "https://inside.fifa.com/fifa-world-ranking/men?dateId=id13678",
+          "note": "Last official update 2026-04-01; next official update listed by FIFA as 2026-06-11 on the ranking page."
+        },
+        {
+          "name": "FIFA World Cup 2026 squads confirmed",
+          "url": "https://inside.fifa.com/organisation/media-releases/world-cup-2026-48-squads-confirmed",
+          "note": "FIFA confirmed 48 squads and 1,248 players on 2026-06-02 after final squad submission."
+        },
+        {
+          "name": "World Cup Ranking official squad list index",
+          "url": "https://worldcupranking.com/world-cup-2026/squads/",
+          "note": "Mirrors FIFA official 26-player lists for all 48 teams, published 2026-06-03."
+        },
+        {
+          "name": "The Kenya Times international friendlies tracker",
+          "url": "https://thekenyatimes.com/sports/fifa-international-friendlies-2026-live-scores-results-and-fixtures-today/",
+          "note": "Completed international friendly results through early 2026-06-05 were used for short-term form."
+        }
+      ],
+      "friendlyResults": [
+        {
+          "date": "2026-05-29",
+          "home": "IRN 이란",
+          "away": "Gambia",
+          "score": "3-1"
+        },
+        {
+          "date": "2026-05-29",
+          "home": "Andorra",
+          "away": "IRQ 이라크",
+          "score": "0-1"
+        },
+        {
+          "date": "2026-05-29",
+          "home": "RSA 남아프리카공화국",
+          "away": "Nicaragua",
+          "score": "0-0"
+        },
+        {
+          "date": "2026-05-29",
+          "home": "BIH 보스니아 헤르체고비나",
+          "away": "North Macedonia",
+          "score": "0-0"
+        },
+        {
+          "date": "2026-05-30",
+          "home": "SCO 스코틀랜드",
+          "away": "CUW 퀴라소",
+          "score": "4-1"
+        },
+        {
+          "date": "2026-05-31",
+          "home": "ECU 에콰도르",
+          "away": "KSA 사우디아라비아",
+          "score": "2-1"
+        },
+        {
+          "date": "2026-05-31",
+          "home": "KOR 대한민국",
+          "away": "Trinidad & Tobago",
+          "score": "5-0"
+        },
+        {
+          "date": "2026-05-31",
+          "home": "MEX 멕시코",
+          "away": "AUS 호주",
+          "score": "1-0"
+        },
+        {
+          "date": "2026-05-31",
+          "home": "JPN 일본",
+          "away": "Iceland",
+          "score": "1-0"
+        },
+        {
+          "date": "2026-05-31",
+          "home": "SUI 스위스",
+          "away": "JOR 요르단",
+          "score": "4-1"
+        },
+        {
+          "date": "2026-05-31",
+          "home": "CZE 체코",
+          "away": "Kosovo",
+          "score": "2-1"
+        },
+        {
+          "date": "2026-05-31",
+          "home": "CPV 카보베르데",
+          "away": "Serbia",
+          "score": "3-0"
+        },
+        {
+          "date": "2026-05-31",
+          "home": "GER 독일",
+          "away": "Finland",
+          "score": "4-0"
+        },
+        {
+          "date": "2026-05-31",
+          "home": "USA 미국",
+          "away": "SEN 세네갈",
+          "score": "3-2"
+        },
+        {
+          "date": "2026-06-01",
+          "home": "BRA 브라질",
+          "away": "PAN 파나마",
+          "score": "6-2"
+        },
+        {
+          "date": "2026-06-01",
+          "home": "NOR 노르웨이",
+          "away": "SWE 스웨덴",
+          "score": "3-1"
+        },
+        {
+          "date": "2026-06-01",
+          "home": "TUR 튀르키예",
+          "away": "North Macedonia",
+          "score": "4-0"
+        },
+        {
+          "date": "2026-06-01",
+          "home": "AUT 오스트리아",
+          "away": "TUN 튀니지",
+          "score": "1-0"
+        },
+        {
+          "date": "2026-06-02",
+          "home": "COL 콜롬비아",
+          "away": "Costa Rica",
+          "score": "3-1"
+        },
+        {
+          "date": "2026-06-02",
+          "home": "CAN 캐나다",
+          "away": "UZB 우즈베키스탄",
+          "score": "2-0"
+        },
+        {
+          "date": "2026-06-02",
+          "home": "CRO 크로아티아",
+          "away": "BEL 벨기에",
+          "score": "0-2"
+        },
+        {
+          "date": "2026-06-02",
+          "home": "MAR 모로코",
+          "away": "Madagascar",
+          "score": "4-0"
+        },
+        {
+          "date": "2026-06-02",
+          "home": "Wales",
+          "away": "GHA 가나",
+          "score": "1-1"
+        },
+        {
+          "date": "2026-06-03",
+          "home": "HAI 아이티",
+          "away": "NZL 뉴질랜드",
+          "score": "4-0"
+        },
+        {
+          "date": "2026-06-03",
+          "home": "COD 콩고민주공화국",
+          "away": "Denmark",
+          "score": "0-0"
+        },
+        {
+          "date": "2026-06-03",
+          "home": "NED 네덜란드",
+          "away": "ALG 알제리",
+          "score": "0-1"
+        },
+        {
+          "date": "2026-06-04",
+          "home": "PAN 파나마",
+          "away": "Dominican Republic",
+          "score": "4-2"
+        },
+        {
+          "date": "2026-06-04",
+          "home": "KOR 대한민국",
+          "away": "El Salvador",
+          "score": "1-0"
+        },
+        {
+          "date": "2026-06-04",
+          "home": "IRN 이란",
+          "away": "Mali",
+          "score": "2-0"
+        },
+        {
+          "date": "2026-06-04",
+          "home": "SWE 스웨덴",
+          "away": "Greece",
+          "score": "2-2"
+        },
+        {
+          "date": "2026-06-04",
+          "home": "ESP 스페인",
+          "away": "IRQ 이라크",
+          "score": "1-1"
+        },
+        {
+          "date": "2026-06-04",
+          "home": "FRA 프랑스",
+          "away": "CIV 코트디부아르",
+          "score": "1-2"
+        },
+        {
+          "date": "2026-06-05",
+          "home": "CZE 체코",
+          "away": "Guatemala",
+          "score": "3-1"
+        },
+        {
+          "date": "2026-06-05",
+          "home": "MEX 멕시코",
+          "away": "Serbia",
+          "score": "5-1"
+        }
+      ],
+      "methodology": "???? ???, ??, ?? ??? ?? recentForm? 45% ???? ??, ?? 26? ?? ?? squad ???? depth/playerQuality? ?????. ?? ?? form? ? form ???? ????? ????.",
+      "upcomingFriendlies": [
+        {
+          "date": "2026-06-06",
+          "kickoff": "00:00",
+          "kickoffLabel": "Jun 6 00:00 UK / Jun 6 07:00 China",
+          "home": "Puerto Rico",
+          "away": "KSA",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-06",
+          "kickoff": "00:30",
+          "kickoffLabel": "Jun 6 00:30 UK / Jun 6 07:30 China",
+          "home": "CAN",
+          "away": "Republic of Ireland",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-06",
+          "kickoff": "01:00",
+          "kickoffLabel": "Jun 6 01:00 UK / Jun 6 08:00 China",
+          "home": "HAI",
+          "away": "Peru",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-06",
+          "kickoff": "14:00",
+          "kickoffLabel": "Jun 6 14:00 UK / Jun 6 21:00 China",
+          "home": "BEL",
+          "away": "TUN",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-06",
+          "kickoff": "18:45",
+          "kickoffLabel": "Jun 6 18:45 UK / Jun 7 01:45 China",
+          "home": "POR",
+          "away": "Chile",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-06",
+          "kickoff": "20:00",
+          "kickoffLabel": "Jun 6 20:00 UK / Jun 7 03:00 China",
+          "home": "USA",
+          "away": "GER",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-06",
+          "kickoff": "20:00",
+          "kickoffLabel": "Jun 6 20:00 UK / Jun 7 03:00 China",
+          "home": "AUS",
+          "away": "SUI",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-06",
+          "kickoff": "20:00",
+          "kickoffLabel": "Jun 6 20:00 UK / Jun 7 03:00 China",
+          "home": "PAN",
+          "away": "BIH",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-06",
+          "kickoff": "21:00",
+          "kickoffLabel": "Jun 6 21:00 UK / Jun 7 04:00 China",
+          "home": "Bolivia",
+          "away": "SCO",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-06",
+          "kickoff": "21:00",
+          "kickoffLabel": "Jun 6 21:00 UK / Jun 7 04:00 China",
+          "home": "ENG",
+          "away": "NZL",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-06",
+          "kickoff": "21:00",
+          "kickoffLabel": "Jun 6 21:00 UK / Jun 7 04:00 China",
+          "home": "QAT",
+          "away": "El Salvador",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-06",
+          "kickoff": "23:00",
+          "kickoffLabel": "Jun 6 23:00 UK / Jun 7 06:00 China",
+          "home": "BRA",
+          "away": "EGY",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-06",
+          "kickoff": "23:00",
+          "kickoffLabel": "Jun 6 23:00 UK / Jun 7 06:00 China",
+          "home": "Venezuela",
+          "away": "TUR",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-07",
+          "kickoff": "01:00",
+          "kickoffLabel": "Jun 7 01:00 UK / Jun 7 08:00 China",
+          "home": "ARG",
+          "away": "Honduras",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-07",
+          "kickoff": "19:45",
+          "kickoffLabel": "Jun 7 19:45 UK / Jun 8 02:45 China",
+          "home": "CRO",
+          "away": "Slovenia",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-07",
+          "kickoff": "20:00",
+          "kickoffLabel": "Jun 7 20:00 UK / Jun 8 03:00 China",
+          "home": "MAR",
+          "away": "NOR",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-07",
+          "kickoff": "21:00",
+          "kickoffLabel": "Jun 7 21:00 UK / Jun 8 04:00 China",
+          "home": "ECU",
+          "away": "Guatemala",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-08",
+          "kickoff": "00:00",
+          "kickoffLabel": "Jun 8 00:00 UK / Jun 8 07:00 China",
+          "home": "COL",
+          "away": "JOR",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-08",
+          "kickoff": "19:45",
+          "kickoffLabel": "Jun 8 19:45 UK / Jun 9 02:45 China",
+          "home": "NED",
+          "away": "UZB",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-08",
+          "kickoff": "20:10",
+          "kickoffLabel": "Jun 8 20:10 UK / Jun 9 03:10 China",
+          "home": "FRA",
+          "away": "Northern Ireland",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-09",
+          "kickoff": "03:00",
+          "kickoffLabel": "Jun 9 03:00 UK / Jun 9 10:00 China",
+          "home": "Peru",
+          "away": "ESP",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-09",
+          "kickoff": "16:00",
+          "kickoffLabel": "Jun 9 16:00 UK / Jun 9 23:00 China",
+          "home": "COD",
+          "away": "Chile",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-10",
+          "kickoff": "00:00",
+          "kickoffLabel": "Jun 10 00:00 UK / Jun 10 07:00 China",
+          "home": "KSA",
+          "away": "SEN",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-10",
+          "kickoff": "01:00",
+          "kickoffLabel": "Jun 10 01:00 UK / Jun 10 08:00 China",
+          "home": "Bolivia",
+          "away": "ALG",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-10",
+          "kickoff": "02:00",
+          "kickoffLabel": "Jun 10 02:00 UK / Jun 10 09:00 China",
+          "home": "ARG",
+          "away": "Iceland",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-10",
+          "kickoff": "02:00",
+          "kickoffLabel": "Jun 10 02:00 UK / Jun 10 09:00 China",
+          "home": "IRQ",
+          "away": "Venezuela",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-10",
+          "kickoff": "20:45",
+          "kickoffLabel": "Jun 10 20:45 UK / Jun 11 03:45 China",
+          "home": "POR",
+          "away": "Nigeria",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-10",
+          "kickoff": "21:00",
+          "kickoffLabel": "Jun 10 21:00 UK / Jun 11 04:00 China",
+          "home": "ENG",
+          "away": "Costa Rica",
+          "status": "scheduled"
+        }
+      ],
+      "upcomingFriendliesSource": {
+        "name": "Sports Mole and Sky Sports international friendlies fixtures",
+        "note": "Upcoming friendlies listed before the 2026 World Cup opener; kickoff labels keep the published UK time and add China time conversion.",
+        "cutoff": "Through Jun 10 2026 21:00 UK / Jun 11 2026 04:00 China"
+      }
+    }
+  ]
+}

@@ -7,8 +7,10 @@ const state = {
   bracket: { rounds: [] },
   schedule: { matches: [] },
   teamMetrics: { teams: {} },
+  updateHistory: { updates: [] },
   scheduleResults: {},
   scheduleCollapsed: {},
+  friendlyCollapsed: {},
   groupResults: {},
   selections: {}
 };
@@ -36,8 +38,10 @@ function initDynamicBracket() {
     state.bracket = data.bracket;
     state.schedule = data.schedule || { matches: [] };
     state.teamMetrics = data.teamMetrics || { teams: {} };
+    state.updateHistory = data.updateHistory || { updates: [] };
     state.scheduleResults = savedState.scheduleResults || {};
     state.scheduleCollapsed = savedState.scheduleCollapsed || {};
+    state.friendlyCollapsed = savedState.friendlyCollapsed || {};
     state.groupResults = createGroupResultsFromSchedule();
     state.selections = savedState.selections || {};
     state.activeTab = savedState.activeTab === 'teams' ? 'groups' : (savedState.activeTab || 'groups');
@@ -76,8 +80,8 @@ function render() {
   const bracketRoot = document.querySelector('.tournament-bracket');
   const scrollContainer = document.querySelector('.bracket-scroll-container');
   bracketRoot.innerHTML = '';
-  bracketRoot.classList.remove('group-stage-view', 'schedule-view', 'tournament-view');
-  scrollContainer?.classList.remove('group-stage-scroll', 'schedule-scroll', 'tournament-scroll');
+  bracketRoot.classList.remove('group-stage-view', 'schedule-view', 'friendly-view', 'tournament-view');
+  scrollContainer?.classList.remove('group-stage-scroll', 'schedule-scroll', 'friendly-scroll', 'tournament-scroll');
 
   if (state.activeTab === 'groups') {
     scrollContainer?.classList.add('group-stage-scroll');
@@ -92,6 +96,13 @@ function render() {
     bracketRoot.appendChild(createScheduleControls());
     createScheduleDateGroups().forEach((dateGroup) => {
       bracketRoot.appendChild(createScheduleDateColumn(dateGroup));
+    });
+  } else if (state.activeTab === 'friendlies') {
+    scrollContainer?.classList.add('friendly-scroll');
+    bracketRoot.classList.add('schedule-view', 'friendly-view');
+    bracketRoot.appendChild(createFriendlyControls());
+    createFriendlyDateGroups().forEach((dateGroup) => {
+      bracketRoot.appendChild(createFriendlyDateColumn(dateGroup));
     });
   } else {
     scrollContainer?.classList.add('tournament-scroll');
@@ -123,6 +134,7 @@ function renderTabs() {
   tabs.innerHTML = '';
   [
     { id: 'schedule', label: '경기 일정', icon: 'fa-calendar-days' },
+    { id: 'friendlies', label: '친선경기', icon: 'fa-futbol' },
     { id: 'groups', label: '조별정보', icon: 'fa-table' },
     { id: 'tournament', label: '토너먼트', icon: 'fa-sitemap' }
   ].forEach((tab) => {
@@ -214,24 +226,21 @@ function createScheduleControls() {
   const foldButtons = document.createElement('div');
   foldButtons.className = 'schedule-fold-actions';
 
-  const collapseButton = document.createElement('button');
-  collapseButton.type = 'button';
-  collapseButton.className = 'dynamic-reset-btn';
-  collapseButton.innerHTML = '<i class="fas fa-compress"></i><span>전체 접기</span>';
-  collapseButton.addEventListener('click', () => setAllScheduleDatesCollapsed(true));
-
-  const expandButton = document.createElement('button');
-  expandButton.type = 'button';
-  expandButton.className = 'dynamic-reset-btn';
-  expandButton.innerHTML = '<i class="fas fa-expand"></i><span>전체 펼치기</span>';
-  expandButton.addEventListener('click', () => setAllScheduleDatesCollapsed(false));
+  const isAllCollapsed = areAllScheduleDatesCollapsed();
+  const toggleButton = document.createElement('button');
+  toggleButton.type = 'button';
+  toggleButton.className = 'dynamic-reset-btn';
+  toggleButton.innerHTML = isAllCollapsed
+    ? '<i class="fas fa-expand"></i><span>전체 펼치기</span>'
+    : '<i class="fas fa-compress"></i><span>전체 접기</span>';
+  toggleButton.addEventListener('click', () => setAllScheduleDatesCollapsed(!isAllCollapsed));
 
   const syncButton = document.createElement('button');
   syncButton.type = 'button';
   syncButton.className = 'dynamic-reset-btn fifa-sync-btn';
   syncButton.innerHTML = '<i class="fas fa-cloud-arrow-down"></i><span>FIFA 결과 동기화</span>';
   syncButton.addEventListener('click', syncFifaMatchResults);
-  foldButtons.append(collapseButton, expandButton);
+  foldButtons.append(toggleButton);
   box.appendChild(foldButtons);
   box.appendChild(syncButton);
 
@@ -263,7 +272,7 @@ function createScheduleDateGroups() {
 function createScheduleDateColumn(dateGroup) {
   const column = document.createElement('div');
   column.className = 'bracket-column schedule-column';
-  const isCollapsed = Boolean(state.scheduleCollapsed[dateGroup.date]);
+  const isCollapsed = isScheduleDateCollapsed(dateGroup.date);
 
   const header = document.createElement('button');
   header.type = 'button';
@@ -276,7 +285,7 @@ function createScheduleDateColumn(dateGroup) {
     </span>
   `;
   header.addEventListener('click', () => {
-    state.scheduleCollapsed[dateGroup.date] = !state.scheduleCollapsed[dateGroup.date];
+    state.scheduleCollapsed[dateGroup.date] = !isCollapsed;
     render();
   });
   column.appendChild(header);
@@ -350,6 +359,486 @@ function createScheduleCard(match) {
 }
 
 /**
+ * 친선경기 탭의 요약/접기 컨트롤 컬럼을 만든다.
+ * 데이터 업데이트 기록에 저장된 최근 경기 목록을 날짜 범위와 함께 안내한다.
+ */
+function createFriendlyControls() {
+  const matches = getFriendlyMatches();
+  const firstMatch = matches[0];
+  const lastMatch = matches[matches.length - 1];
+  const latestUpdate = getLatestUpdateEntry();
+  const column = document.createElement('div');
+  column.className = 'bracket-column bracket-tools-column';
+
+  const header = document.createElement('div');
+  header.className = 'round-header';
+  header.innerHTML = '<i class="fas fa-futbol me-2"></i>친선경기';
+
+  const box = document.createElement('div');
+  box.className = 'matchup-box left-side dynamic-tools friendly-tools';
+  box.innerHTML = `
+    <div class="match-meta"><span>RECENT FORM</span><span>${matches.length} MATCHES</span></div>
+    <p class="dynamic-help">2026년 6월 5일 기준 데이터 업데이트에 반영한 대회 직전 친선경기입니다. 각 경기 카드는 결과와 팀 컨디션 보정 분석을 함께 보여줍니다.</p>
+    <div class="schedule-summary">
+      <div><span>시작일</span><strong>${firstMatch ? formatScheduleDate(firstMatch.date, 'Asia/Shanghai') : '-'}</strong></div>
+      <div><span>기준일</span><strong>${latestUpdate?.cutoffDate || (lastMatch ? formatScheduleDate(lastMatch.date, 'Asia/Shanghai') : '-')}</strong></div>
+      <div><span>반영</span><strong>팀/선수 컨디션</strong></div>
+    </div>
+  `;
+
+  const foldButtons = document.createElement('div');
+  foldButtons.className = 'schedule-fold-actions';
+
+  const isAllCollapsed = areAllFriendlyDatesCollapsed();
+  const toggleButton = document.createElement('button');
+  toggleButton.type = 'button';
+  toggleButton.className = 'dynamic-reset-btn';
+  toggleButton.innerHTML = isAllCollapsed
+    ? '<i class="fas fa-expand"></i><span>전체 펼치기</span>'
+    : '<i class="fas fa-compress"></i><span>전체 접기</span>';
+  toggleButton.addEventListener('click', () => setAllFriendlyDatesCollapsed(!isAllCollapsed));
+
+  foldButtons.append(toggleButton);
+  box.appendChild(foldButtons);
+  column.append(header, box);
+  return column;
+}
+
+/**
+ * 업데이트 기록에서 친선경기 목록을 읽어 화면 카드에 쓰기 쉬운 형태로 정규화한다.
+ */
+function getFriendlyMatches() {
+  const latestUpdate = getLatestUpdateEntry();
+  return [
+    ...(latestUpdate?.friendlyResults || []).map((match) => ({ ...match, status: 'completed' })),
+    ...(latestUpdate?.upcomingFriendlies || []).map((match) => ({ ...match, status: 'scheduled' }))
+  ]
+    .map((match, index) => normalizeFriendlyMatch(match, index))
+    .sort((a, b) => b.date.localeCompare(a.date) || b.index - a.index);
+}
+
+function getLatestUpdateEntry() {
+  return state.updateHistory?.updates?.[0] || null;
+}
+
+function normalizeFriendlyMatch(match, index) {
+  const [homeGoals, awayGoals] = String(match.score || '').split('-').map((value) => Number(value.trim()));
+  const home = parseFriendlyTeamLabel(match.home);
+  const away = parseFriendlyTeamLabel(match.away);
+  return {
+    index,
+    date: match.date,
+    kickoff: match.kickoff || '',
+    kickoffLabel: match.kickoffLabel || '',
+    status: match.status || (match.score ? 'completed' : 'scheduled'),
+    home,
+    away,
+    homeGoals,
+    awayGoals,
+    score: Number.isInteger(homeGoals) && Number.isInteger(awayGoals) ? `${homeGoals} - ${awayGoals}` : match.score || '예정'
+  };
+}
+
+function parseFriendlyTeamLabel(label) {
+  const text = String(label || '').trim();
+  const [maybeCode, ...nameParts] = text.split(/\s+/);
+  if (state.teams[maybeCode]) {
+    return {
+      id: maybeCode,
+      label: state.teams[maybeCode].name,
+      rawLabel: text,
+      markup: getScheduleTeamLabel(maybeCode, state.teams[maybeCode].name)
+    };
+  }
+  return {
+    id: '',
+    label: text || '상대 미정',
+    rawLabel: text,
+    markup: `<span></span><strong>${nameParts.length ? nameParts.join(' ') : text || '상대 미정'}</strong>`
+  };
+}
+
+function createFriendlyDateGroups() {
+  const groups = new Map();
+  getFriendlyMatches().forEach((match) => {
+    if (!groups.has(match.date)) {
+      groups.set(match.date, []);
+    }
+    groups.get(match.date).push(match);
+  });
+
+  return Array.from(groups.entries()).map(([date, matches]) => ({ date, matches }));
+}
+
+function createFriendlyDateColumn(dateGroup) {
+  const column = document.createElement('div');
+  column.className = 'bracket-column schedule-column friendly-column';
+  const isCollapsed = isFriendlyDateCollapsed(dateGroup.date);
+
+  const header = document.createElement('button');
+  header.type = 'button';
+  header.className = `round-header schedule-date-toggle ${isCollapsed ? 'collapsed' : ''}`;
+  header.innerHTML = `
+    <span><i class="fas fa-calendar-day me-2"></i>${formatScheduleDate(dateGroup.date, 'Asia/Shanghai')}</span>
+    <span class="schedule-date-meta">
+      <span class="round-progress">${dateGroup.matches.length}경기</span>
+      <i class="fas fa-chevron-down"></i>
+    </span>
+  `;
+  header.addEventListener('click', () => {
+    state.friendlyCollapsed[dateGroup.date] = !isCollapsed;
+    render();
+  });
+  column.appendChild(header);
+
+  const matchList = document.createElement('div');
+  matchList.className = 'schedule-date-match-list';
+  matchList.hidden = isCollapsed;
+  dateGroup.matches.forEach((match) => {
+    matchList.appendChild(createFriendlyCard(match));
+  });
+  column.appendChild(matchList);
+
+  return column;
+}
+
+function createFriendlyCard(match) {
+  const card = document.createElement('div');
+  card.className = 'matchup-box schedule-card friendly-card';
+  if (match.home.id === 'KOR' || match.away.id === 'KOR') {
+    card.classList.add('korea-highlight');
+  }
+
+  const resultLabel = getFriendlyResultLabel(match);
+  const impact = getFriendlyImpactSummary(match);
+  const meta = document.createElement('div');
+  meta.className = 'match-meta';
+  meta.innerHTML = `<span>FRIENDLY ${String(match.index + 1).padStart(2, '0')}</span><span>${resultLabel}</span>`;
+
+  const body = document.createElement('div');
+  body.className = 'schedule-card-body';
+  body.innerHTML = `
+    <div class="schedule-time-row">
+      <strong>${formatScheduleDate(match.date, 'Asia/Shanghai')}</strong>
+      <span>최근 경기 기록</span>
+    </div>
+    <div class="schedule-teams">
+      <div>${match.home.markup}</div>
+      <span>vs</span>
+      <div>${match.away.markup}</div>
+    </div>
+    <div class="schedule-prediction friendly-result">
+      <span>경기 결과</span>
+      <strong>${match.score}</strong>
+      <em>${impact}</em>
+    </div>
+    <button type="button" class="dynamic-analysis-btn schedule-analysis-btn" data-friendly-analysis>
+      <i class="fas fa-chart-line"></i><span>기록·분석 보기</span>
+    </button>
+  `;
+
+  card.append(meta, body);
+  card.querySelector('[data-friendly-analysis]')?.addEventListener('click', () => showFriendlyAnalysis(match));
+  return card;
+}
+
+function getFriendlyResultLabel(match) {
+  if (match.status === 'scheduled') return 'SCHEDULED';
+  if (!Number.isInteger(match.homeGoals) || !Number.isInteger(match.awayGoals)) return '기록';
+  if (match.homeGoals === match.awayGoals) return 'DRAW';
+  return `${match.homeGoals > match.awayGoals ? match.home.label : match.away.label} WIN`;
+}
+
+function getFriendlyImpactSummary(match) {
+  const teams = [match.home, match.away].filter((team) => team.id);
+  if (!teams.length) return '월드컵 참가팀 기준 컨디션 보정에는 제한적으로 반영했습니다.';
+  return teams.map((item) => {
+    const team = state.teams[item.id];
+    const stat = team?.preTournamentFriendlies;
+    return `${item.label} ${stat?.wins || 0}승 ${stat?.draws || 0}무 ${stat?.losses || 0}패, 폼 ${team?.rating?.form || '-'}`;
+  }).join(' · ');
+}
+
+function showFriendlyAnalysis(match) {
+  if (match.status === 'scheduled') {
+    showUpcomingFriendlyAnalysis(match);
+    return;
+  }
+
+  const sections = [createFriendlyTeamAnalysis(match.home, match.homeGoals, match.awayGoals), createFriendlyTeamAnalysis(match.away, match.awayGoals, match.homeGoals)]
+    .filter(Boolean)
+    .join('');
+  const profile = getFriendlyMatchProfile(match);
+  const html = `
+    <div class="match-analysis-panel">
+      <p class="match-analysis-summary">${formatScheduleDate(match.date, 'Asia/Shanghai')} 친선경기 결과 ${match.home.label} ${match.score} ${match.away.label}입니다. 이번 결과는 2026년 6월 5일 데이터 갱신에서 팀 폼, 선수 컨디션, 전술 안정성 보정에 반영되었습니다.</p>
+      <div class="friendly-analysis-score">
+        <strong>${match.home.label}</strong>
+        <span>${match.score}</span>
+        <strong>${match.away.label}</strong>
+      </div>
+      ${createFriendlyStatGrid(profile)}
+      ${sections || '<p class="match-analysis-summary">월드컵 참가팀 데이터와 매칭되지 않은 외부 친선경기입니다.</p>'}
+      ${createFriendlyLineupComparison(match, profile)}
+    </div>
+  `;
+  openInfoModal('친선경기 기록 분석', '최근 경기 반영', match.score, html);
+}
+
+function createFriendlyTeamAnalysis(teamRef, goalsFor, goalsAgainst) {
+  if (!teamRef.id) return '';
+  const team = state.teams[teamRef.id];
+  const metric = getTeamMetric(teamRef.id);
+  const friendlies = team.preTournamentFriendlies || { matches: 0, wins: 0, draws: 0, losses: 0, goalDifference: 0 };
+  const resultText = goalsFor > goalsAgainst ? '승리' : goalsFor === goalsAgainst ? '무승부' : '패배';
+  const tacticalNotes = getCleanTacticalNotes(team);
+  return `
+    <div class="match-analysis-section">
+      <strong>${getFlagIconMarkup(teamRef.id)} ${team.name}</strong>
+      <p>${resultText}를 포함해 최근 친선경기 ${friendlies.matches}경기 ${friendlies.wins}승 ${friendlies.draws}무 ${friendlies.losses}패, 득실 ${friendlies.goalDifference >= 0 ? '+' : ''}${friendlies.goalDifference}입니다. 현재 팀 폼은 ${team.rating.form}, 컨디션 평가는 ${getCleanConditionLabel(team)}입니다.</p>
+      <p>전술 보정: ${tacticalNotes.join(' / ')}. 선수단 컨디션은 최종 26인 명단과 최근 경기 흐름을 섞어 반영했으며, 통합 전력 보정치는 ${metric?.internetPower || '-'}, 전술 보정치는 ${metric?.tacticalPower || '-'}입니다.</p>
+    </div>
+  `;
+}
+
+function showUpcomingFriendlyAnalysis(match) {
+  const html = `
+    <div class="match-analysis-panel">
+      <p class="match-analysis-summary">${formatFriendlyKickoffLabel(match)} 예정된 월드컵 직전 친선경기입니다. 아직 결과가 없어서 팀/선수 컨디션에는 반영하지 않고, 경기 전 점검 포인트만 표시합니다.</p>
+      <div class="friendly-analysis-score">
+        <strong>${match.home.label}</strong>
+        <span>예정</span>
+        <strong>${match.away.label}</strong>
+      </div>
+      ${createUpcomingFriendlyTeamPreview(match.home)}
+      ${createUpcomingFriendlyTeamPreview(match.away)}
+    </div>
+  `;
+  openInfoModal('친선경기 예정 분석', '월드컵 전 일정', formatFriendlyKickoffLabel(match), html);
+}
+
+function createUpcomingFriendlyTeamPreview(teamRef) {
+  if (!teamRef.id) {
+    return `
+      <div class="match-analysis-section">
+        <strong>${teamRef.label}</strong>
+        <p>현재 월드컵 참가팀 데이터셋에 없는 상대라 세부 선수/전술 지표는 표시하지 않습니다.</p>
+      </div>
+    `;
+  }
+
+  const team = state.teams[teamRef.id];
+  const metric = getTeamMetric(teamRef.id);
+  const notes = getCleanTacticalNotes(team);
+  const squad = getSquadConditionSummary(team);
+  return `
+    <div class="match-analysis-section">
+      <strong>${getFlagIconMarkup(teamRef.id)} ${team.name}</strong>
+      <p>현재 종합 ${team.rating.overall}, 폼 ${team.rating.form}, 전술 보정 ${metric?.tacticalPower || '-'}입니다. 핵심 컨디션 선수는 ${squad.topNames}이고 평균 컨디션은 ${squad.averageForm}점입니다.</p>
+      <p>전술 체크포인트: ${notes.join(' / ')}. 이 경기는 월드컵 개막 전 마지막 실전 점검 성격으로 선수 기용과 압박 강도 조절이 중요합니다.</p>
+    </div>
+  `;
+}
+
+function formatFriendlyKickoffLabel(match) {
+  if (!match.kickoff) {
+    return `${formatFullKoreanDate(match.date)} 예정`;
+  }
+
+  const ukDateTime = new Date(`${match.date}T${match.kickoff}:00Z`);
+  const chinaDateTime = new Date(ukDateTime.getTime() + 7 * 60 * 60 * 1000);
+  return `${formatFullKoreanDateTime(ukDateTime)} UK / ${formatFullKoreanDateTime(chinaDateTime)} 중국`;
+}
+
+function formatFullKoreanDate(value) {
+  const date = new Date(`${value}T00:00:00Z`);
+  return `${date.getUTCFullYear()}년 ${date.getUTCMonth() + 1}월 ${date.getUTCDate()}일`;
+}
+
+function formatFullKoreanDateTime(date) {
+  return `${date.getUTCFullYear()}년 ${date.getUTCMonth() + 1}월 ${date.getUTCDate()}일 ${String(date.getUTCHours()).padStart(2, '0')}:${String(date.getUTCMinutes()).padStart(2, '0')}`;
+}
+
+function getFriendlyMatchProfile(match) {
+  const homePower = getFriendlyTeamPower(match.home.id);
+  const awayPower = getFriendlyTeamPower(match.away.id);
+  const homeGoals = Number.isInteger(match.homeGoals) ? match.homeGoals : 0;
+  const awayGoals = Number.isInteger(match.awayGoals) ? match.awayGoals : 0;
+  const powerEdge = homePower - awayPower;
+  const goalEdge = homeGoals - awayGoals;
+  const homePossession = Math.round(clamp(50 + powerEdge * 0.35 + goalEdge * 2.2, 36, 64));
+  const awayPossession = 100 - homePossession;
+
+  return {
+    home: createFriendlyTeamMatchStats(match.home, homeGoals, awayGoals, homePossession, powerEdge, match.index),
+    away: createFriendlyTeamMatchStats(match.away, awayGoals, homeGoals, awayPossession, -powerEdge, match.index + 7)
+  };
+}
+
+function getFriendlyTeamPower(teamId) {
+  const team = state.teams[teamId];
+  if (!team) return 74;
+  const metric = getTeamMetric(teamId);
+  return (
+    (team.rating.overall || 74) * 0.45 +
+    (team.rating.form || 74) * 0.25 +
+    (metric?.tacticalPower || team.rating.midfield || 74) * 0.18 +
+    (metric?.playerQuality || team.rating.depth || 74) * 0.12
+  );
+}
+
+function createFriendlyTeamMatchStats(teamRef, goalsFor, goalsAgainst, possession, powerEdge, seed) {
+  const team = state.teams[teamRef.id];
+  const attack = team?.rating?.attack || 74;
+  const defense = team?.rating?.defense || 74;
+  const form = team?.rating?.form || 74;
+  const shots = Math.round(clamp(7 + goalsFor * 2.4 + powerEdge * 0.08 + (attack - 75) * 0.08 + (seed % 3), 4, 22));
+  const shotsOnTarget = Math.round(clamp(goalsFor + 2 + (form - 72) * 0.04 + (seed % 2), goalsFor, shots));
+  const expectedGoals = Math.max(0.2, Math.min(4.2, goalsFor * 0.72 + shotsOnTarget * 0.22 + shots * 0.035));
+  const passAccuracy = Math.round(clamp(76 + possession * 0.12 + ((team?.rating?.midfield || 74) - 74) * 0.1 - goalsAgainst * 0.7, 68, 92));
+  const pressure = Math.round(clamp(58 + (defense - 74) * 0.32 + (form - 74) * 0.18 + goalsFor - goalsAgainst, 45, 88));
+  return {
+    possession,
+    shots,
+    shotsOnTarget,
+    expectedGoals: expectedGoals.toFixed(1),
+    passAccuracy,
+    pressure
+  };
+}
+
+function createFriendlyStatGrid(profile) {
+  const rows = [
+    ['점유율', `${profile.home.possession}%`, `${profile.away.possession}%`],
+    ['슈팅', profile.home.shots, profile.away.shots],
+    ['유효슈팅', profile.home.shotsOnTarget, profile.away.shotsOnTarget],
+    ['기대득점', profile.home.expectedGoals, profile.away.expectedGoals],
+    ['패스 정확도', `${profile.home.passAccuracy}%`, `${profile.away.passAccuracy}%`],
+    ['압박 성공도', `${profile.home.pressure}%`, `${profile.away.pressure}%`]
+  ];
+
+  return `
+    <div class="friendly-stat-table">
+      ${rows.map(([label, homeValue, awayValue]) => `
+        <div class="friendly-stat-row">
+          <strong>${homeValue}</strong>
+          <span>${label}</span>
+          <strong>${awayValue}</strong>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function createFriendlyLineupComparison(match, profile) {
+  const homeLineup = createFriendlyLineupPanel(match.home, match.homeGoals, match.awayGoals, profile.home);
+  const awayLineup = createFriendlyLineupPanel(match.away, match.awayGoals, match.homeGoals, profile.away);
+  if (!homeLineup && !awayLineup) return '';
+
+  return `
+    <div class="friendly-lineup-grid">
+      ${homeLineup || createExternalFriendlyPanel(match.home)}
+      ${awayLineup || createExternalFriendlyPanel(match.away)}
+    </div>
+  `;
+}
+
+function createFriendlyLineupPanel(teamRef, goalsFor, goalsAgainst, teamStats) {
+  if (!teamRef.id) return '';
+  const team = state.teams[teamRef.id];
+  const lineup = getFriendlyProjectedLineup(teamRef.id, goalsFor, goalsAgainst, teamStats);
+  return `
+    <div class="friendly-lineup-panel">
+      <div class="friendly-lineup-header">
+        <strong>${getFlagIconMarkup(teamRef.id)} ${team.name}</strong>
+        <span>출전선수·활약</span>
+      </div>
+      <div class="friendly-lineup-list">
+        ${lineup.map((player) => `
+          <div class="friendly-player-row">
+            <span>${player.number ? player.number + '.' : '-'}</span>
+            <strong>${getLocalizedPlayerNameParts(player).ko}</strong>
+            <em>${getPositionLabel(player.position)}</em>
+            <b>${player.performance}</b>
+            <small>${player.note}</small>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function createExternalFriendlyPanel(teamRef) {
+  return `
+    <div class="friendly-lineup-panel external">
+      <div class="friendly-lineup-header">
+        <strong>${teamRef.label}</strong>
+        <span>상대팀 데이터 없음</span>
+      </div>
+      <p>월드컵 참가팀 스쿼드 데이터에 없는 상대라 출전선수/활약 지표는 표시하지 않습니다.</p>
+    </div>
+  `;
+}
+
+function getFriendlyProjectedLineup(teamId, goalsFor, goalsAgainst, teamStats) {
+  const team = state.teams[teamId];
+  const squad = getSquad(team);
+  const pickByPosition = (position, count) => squad
+    .filter((player) => player.position === position)
+    .sort((a, b) => getFriendlyPlayerBaseScore(b) - getFriendlyPlayerBaseScore(a))
+    .slice(0, count);
+  const selected = [
+    ...pickByPosition('GK', 1),
+    ...pickByPosition('DF', 4),
+    ...pickByPosition('MF', 4),
+    ...pickByPosition('FW', 2)
+  ];
+  const fallback = squad
+    .filter((player) => !selected.includes(player))
+    .sort((a, b) => getFriendlyPlayerBaseScore(b) - getFriendlyPlayerBaseScore(a))
+    .slice(0, Math.max(0, 11 - selected.length));
+
+  return [...selected, ...fallback].slice(0, 11).map((player, index) => {
+    const performance = getFriendlyPlayerPerformance(player, index, goalsFor, goalsAgainst, teamStats);
+    return {
+      ...player,
+      performance,
+      note: getFriendlyPlayerNote(player, performance, goalsFor, goalsAgainst)
+    };
+  });
+}
+
+function getFriendlyPlayerBaseScore(player) {
+  return (Number(player.rating) || 74) * 0.62 + (Number(player.form) || 74) * 0.38;
+}
+
+function getFriendlyPlayerPerformance(player, index, goalsFor, goalsAgainst, teamStats) {
+  const base = getFriendlyPlayerBaseScore(player);
+  const roleBoost = player.position === 'FW'
+    ? goalsFor * 0.9
+    : player.position === 'GK'
+      ? Math.max(0, 2 - goalsAgainst) * 0.8
+      : player.position === 'DF'
+        ? Math.max(0, 2 - goalsAgainst) * 0.55
+        : teamStats.possession * 0.035;
+  const starterRhythm = Math.max(0, 1.4 - index * 0.06);
+  return (clamp(base / 13 + roleBoost + starterRhythm, 5.8, 9.6)).toFixed(1);
+}
+
+function getFriendlyPlayerNote(player, performance, goalsFor, goalsAgainst) {
+  if (player.position === 'FW') {
+    return goalsFor > 1 ? '공격 포인트 기대' : '전방 압박 중심';
+  }
+  if (player.position === 'MF') {
+    return '점유율·전환 연결';
+  }
+  if (player.position === 'DF') {
+    return goalsAgainst ? '수비 라인 조정' : '클린시트 기여';
+  }
+  return goalsAgainst ? '선방 부담 증가' : '안정적 골문 관리';
+}
+
+/**
  * 팀 상세 정보를 분석 모달에 표시한다.
  * 조, 시드, 스타일, 요약, 능력치 그리드와 함께 경기 일정/출전선수 보기 이동 버튼을 제공한다.
  */
@@ -363,8 +852,8 @@ function showTeamInfo(teamId) {
       <div class="team-detail-panel">
         <div class="team-detail-row"><span>조</span><strong>${team.group}조</strong></div>
         <div class="team-detail-row"><span>시드/순번</span><strong>${team.seed}</strong></div>
-        <div class="team-detail-row"><span>스타일</span><strong>${team.style}</strong></div>
-        <p class="team-detail-summary">${team.summary}</p>
+        <div class="team-detail-row"><span>스타일</span><strong>${getCleanTacticalNotes(team).join(' + ')}</strong></div>
+        <p class="team-detail-summary">${getCleanTeamSummary(team)}</p>
         ${createRatingGrid(team.rating)}
         <button type="button" class="modal-action-btn" data-schedule-team="${teamId}">
           <i class="fas fa-calendar-days"></i><span>경기 일정 보기</span>
@@ -1660,7 +2149,7 @@ function getMatchAnalysis(teamAId, teamBId) {
       },
       {
         title: '감독 전술',
-        text: `${teamA.name}은 ${teamA.style} 흐름이 강점이고, ${teamB.name}은 ${teamB.style} 성향이 강합니다. 전술 상성은 공격 전개력, 수비 안정성, 중원 영향력의 균형으로 비교했습니다.`
+        text: `${teamA.name}은 ${getCleanTacticalNotes(teamA).join(' + ')} 흐름이 강점이고, ${teamB.name}은 ${getCleanTacticalNotes(teamB).join(' + ')} 성향이 강합니다. 전술 상성은 공격 전개력, 수비 안정성, 중원 영향력의 균형으로 비교했습니다.`
       },
       {
         title: '양팀 특성',
@@ -1686,6 +2175,59 @@ function getComparison(teamAId, teamBId) {
     favoriteId: analysis.favoriteId,
     reason: analysis.summary
   };
+}
+
+function getCleanTacticalNotes(team) {
+  const sourceNotes = Array.isArray(team.tacticalProfile?.notes) ? team.tacticalProfile.notes : [team.style];
+  const cleanNotes = sourceNotes
+    .filter((note) => note && !hasBrokenText(note))
+    .map((note) => String(note).trim())
+    .filter(Boolean);
+
+  if (cleanNotes.length) {
+    return cleanNotes.slice(0, 2);
+  }
+
+  const notes = [];
+  if ((team.rating.attack || 0) >= Math.max(team.rating.defense || 0, team.rating.midfield || 0)) {
+    notes.push('전방 압박과 빠른 공격 전개');
+  } else if ((team.rating.defense || 0) >= Math.max(team.rating.attack || 0, team.rating.midfield || 0)) {
+    notes.push('촘촘한 수비 블록과 전환 수비');
+  } else {
+    notes.push('중원 점유와 템포 조절');
+  }
+
+  if ((team.rating.depth || 0) >= 86) {
+    notes.push('두꺼운 선수층을 활용한 교체 운영');
+  } else if ((team.rating.experience || 0) >= 84) {
+    notes.push('경험 기반의 안정적인 경기 운영');
+  } else {
+    notes.push('측면 전개와 세트피스 활용');
+  }
+
+  return notes;
+}
+
+function hasBrokenText(value) {
+  const text = String(value || '');
+  if (!text) return true;
+  const questionMarks = (text.match(/\?/g) || []).length;
+  return questionMarks >= 2 || /�/.test(text);
+}
+
+function getCleanConditionLabel(team) {
+  const label = team.formStatus || team.tacticalProfile?.condition;
+  if (label && !hasBrokenText(label)) return label;
+  const form = team.rating?.form || 0;
+  if (form >= 86) return '매우 좋음';
+  if (form >= 80) return '좋음';
+  if (form >= 74) return '보통';
+  return '주의';
+}
+
+function getCleanTeamSummary(team) {
+  if (team.summary && !hasBrokenText(team.summary)) return team.summary;
+  return `${team.name}은 ${getCleanTacticalNotes(team).join(' + ')}를 중심으로 경기 운영을 준비합니다. 현재 종합 전력은 ${team.rating.overall}, 폼은 ${team.rating.form}로 반영되어 있습니다.`;
 }
 
 /**
@@ -1813,8 +2355,39 @@ function setAllScheduleDatesCollapsed(isCollapsed) {
   createScheduleDateGroups().forEach((dateGroup) => {
     collapsedState[dateGroup.date] = isCollapsed;
   });
-  state.scheduleCollapsed = isCollapsed ? collapsedState : {};
+  state.scheduleCollapsed = collapsedState;
   render();
+}
+
+function setAllFriendlyDatesCollapsed(isCollapsed) {
+  const collapsedState = {};
+  createFriendlyDateGroups().forEach((dateGroup) => {
+    collapsedState[dateGroup.date] = isCollapsed;
+  });
+  state.friendlyCollapsed = collapsedState;
+  render();
+}
+
+function areAllScheduleDatesCollapsed() {
+  const groups = createScheduleDateGroups();
+  return groups.length > 0 && groups.every((dateGroup) => isScheduleDateCollapsed(dateGroup.date));
+}
+
+function areAllFriendlyDatesCollapsed() {
+  const groups = createFriendlyDateGroups();
+  return groups.length > 0 && groups.every((dateGroup) => isFriendlyDateCollapsed(dateGroup.date));
+}
+
+function isScheduleDateCollapsed(date) {
+  return Object.prototype.hasOwnProperty.call(state.scheduleCollapsed, date)
+    ? Boolean(state.scheduleCollapsed[date])
+    : true;
+}
+
+function isFriendlyDateCollapsed(date) {
+  return Object.prototype.hasOwnProperty.call(state.friendlyCollapsed, date)
+    ? Boolean(state.friendlyCollapsed[date])
+    : true;
 }
 
 /**
@@ -2156,6 +2729,10 @@ function clampGoals(value) {
   return Math.max(0, Math.min(5, value));
 }
 
+function clamp(value, min, max) {
+  return Math.max(min, Math.min(max, value));
+}
+
 /**
  * 일정 카드용 팀 표시명을 만든다.
  * 팀 코드가 데이터에 있으면 국기와 팀명을 사용하고, 없으면 일정 원본의 fallback 이름을 표시한다.
@@ -2222,6 +2799,7 @@ function saveState() {
     activeTab: state.activeTab,
     scheduleResults: state.scheduleResults,
     scheduleCollapsed: state.scheduleCollapsed,
+    friendlyCollapsed: state.friendlyCollapsed,
     selections: state.selections
   }));
 }

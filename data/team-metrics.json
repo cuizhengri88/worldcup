@@ -1,12 +1,28 @@
 {
-  "generatedAt": "2026-06-02T06:04:52.497Z",
-  "modelVersion": "internet-metrics-v1",
-  "sources": {
-    "fifaRanking": "https://inside.fifa.com/fifa-world-ranking/men",
-    "fifaRankingDataPage": "https://football-technology.fifa.com/fifa-world-ranking/{TEAM_CODE}",
-    "recentResults": "https://github.com/martj42/international_results/blob/master/results.csv",
-    "notes": "FIFA ranking rows are read from official FIFA team ranking pages. Recent form uses the last 10 full international results available up to 2026-06-02."
-  },
+  "generatedAt": "2026-06-05T16:30:00+08:00",
+  "modelVersion": "2026-06-05-pre-world-cup-refresh",
+  "sources": [
+    {
+      "name": "FIFA/Coca-Cola Men's World Ranking",
+      "url": "https://inside.fifa.com/fifa-world-ranking/men?dateId=id13678",
+      "note": "Last official update 2026-04-01; next official update listed by FIFA as 2026-06-11 on the ranking page."
+    },
+    {
+      "name": "FIFA World Cup 2026 squads confirmed",
+      "url": "https://inside.fifa.com/organisation/media-releases/world-cup-2026-48-squads-confirmed",
+      "note": "FIFA confirmed 48 squads and 1,248 players on 2026-06-02 after final squad submission."
+    },
+    {
+      "name": "World Cup Ranking official squad list index",
+      "url": "https://worldcupranking.com/world-cup-2026/squads/",
+      "note": "Mirrors FIFA official 26-player lists for all 48 teams, published 2026-06-03."
+    },
+    {
+      "name": "The Kenya Times international friendlies tracker",
+      "url": "https://thekenyatimes.com/sports/fifa-international-friendlies-2026-live-scores-results-and-fixtures-today/",
+      "note": "Completed international friendly results through early 2026-06-05 were used for short-term form."
+    }
+  ],
   "teams": {
     "MEX": {
       "fifaName": "Mexico",
@@ -15,18 +31,55 @@
       "fifaPreviousRank": 16,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 62,
+        "score": 79,
         "matches": 10,
         "wins": 5,
         "draws": 4,
         "losses": 1,
         "goalsFor": 12,
-        "goalsAgainst": 4
+        "goalsAgainst": 4,
+        "preTournamentFriendlies": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 1,
+          "goalDifference": 5,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "호주",
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W"
+            },
+            {
+              "date": "2026-06-05",
+              "opponent": "Serbia",
+              "goalsFor": 5,
+              "goalsAgainst": 1,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 81,
-      "internetPower": 79,
+      "playerQuality": 86,
+      "internetPower": 84,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 91,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "? ?? ???? ?? ??",
+          "?? ?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "KOR": {
       "fifaName": "Korea Republic",
@@ -35,18 +88,55 @@
       "fifaPreviousRank": 22,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 63,
+        "score": 79,
         "matches": 10,
         "wins": 6,
         "draws": 1,
         "losses": 3,
         "goalsFor": 18,
-        "goalsAgainst": 12
+        "goalsAgainst": 12,
+        "preTournamentFriendlies": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 0,
+          "goalDifference": 6,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "Trinidad & Tobago",
+              "goalsFor": 5,
+              "goalsAgainst": 0,
+              "result": "W"
+            },
+            {
+              "date": "2026-06-04",
+              "opponent": "El Salvador",
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 81,
-      "internetPower": 76,
+      "playerQuality": 86,
+      "internetPower": 82,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 91,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ??",
+          "???-??? ??? ?????? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "CZE": {
       "fifaName": "Czechia",
@@ -55,18 +145,55 @@
       "fifaPreviousRank": 43,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 57,
+        "score": 75,
         "matches": 10,
         "wins": 4,
         "draws": 4,
         "losses": 2,
         "goalsFor": 18,
-        "goalsAgainst": 13
+        "goalsAgainst": 13,
+        "preTournamentFriendlies": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 2,
+          "goalDifference": 3,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "Kosovo",
+              "goalsFor": 2,
+              "goalsAgainst": 1,
+              "result": "W"
+            },
+            {
+              "date": "2026-06-05",
+              "opponent": "Guatemala",
+              "goalsFor": 3,
+              "goalsAgainst": 1,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 76,
-      "internetPower": 69,
+      "playerQuality": 81,
+      "internetPower": 77,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 88,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "???? ?? ??",
+          "????"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "SUI": {
       "fifaName": "Switzerland",
@@ -75,18 +202,48 @@
       "fifaPreviousRank": 18,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 79,
+        "score": 88,
         "matches": 10,
         "wins": 6,
         "draws": 3,
         "losses": 1,
         "goalsFor": 25,
-        "goalsAgainst": 7
+        "goalsAgainst": 7,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "요르단",
+              "goalsFor": 4,
+              "goalsAgainst": 1,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 81,
-      "internetPower": 82,
+      "playerQuality": 85,
+      "internetPower": 85,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 87,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ?? ??",
+          "???? ???"
+        ],
+        "condition": "?? ??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "CAN": {
       "fifaName": "Canada",
@@ -95,18 +252,48 @@
       "fifaPreviousRank": 29,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 57,
+        "score": 75,
         "matches": 10,
         "wins": 4,
         "draws": 5,
         "losses": 1,
         "goalsFor": 11,
-        "goalsAgainst": 4
+        "goalsAgainst": 4,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 0,
+          "goalDifference": 2,
+          "results": [
+            {
+              "date": "2026-06-02",
+              "opponent": "우즈베키스탄",
+              "goalsFor": 2,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 77,
-      "internetPower": 72,
+      "playerQuality": 82,
+      "internetPower": 79,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 89,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ?? ??",
+          "?? ?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "BRA": {
       "fifaName": "Brazil",
@@ -115,18 +302,48 @@
       "fifaPreviousRank": 5,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 72,
+        "score": 85,
         "matches": 10,
         "wins": 6,
         "draws": 1,
         "losses": 3,
         "goalsFor": 24,
-        "goalsAgainst": 10
+        "goalsAgainst": 10,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 2,
+          "goalDifference": 4,
+          "results": [
+            {
+              "date": "2026-06-01",
+              "opponent": "파나마",
+              "goalsFor": 6,
+              "goalsAgainst": 2,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 90,
-      "internetPower": 86,
+      "playerQuality": 93,
+      "internetPower": 91,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 96,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ??? ?? ???",
+          "?? ???"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "MAR": {
       "fifaName": "Morocco",
@@ -135,18 +352,48 @@
       "fifaPreviousRank": 8,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 81,
+        "score": 90,
         "matches": 10,
         "wins": 7,
         "draws": 3,
         "losses": 0,
         "goalsFor": 20,
-        "goalsAgainst": 3
+        "goalsAgainst": 3,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 0,
+          "goalDifference": 4,
+          "results": [
+            {
+              "date": "2026-06-02",
+              "opponent": "Madagascar",
+              "goalsFor": 4,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 81,
-      "internetPower": 86,
+      "playerQuality": 85,
+      "internetPower": 88,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 88,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ??",
+          "?? ?? ??"
+        ],
+        "condition": "?? ??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "SCO": {
       "fifaName": "Scotland",
@@ -155,18 +402,48 @@
       "fifaPreviousRank": 38,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 68,
+        "score": 82,
         "matches": 10,
         "wins": 6,
         "draws": 1,
         "losses": 3,
         "goalsFor": 21,
-        "goalsAgainst": 10
+        "goalsAgainst": 10,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "results": [
+            {
+              "date": "2026-05-30",
+              "opponent": "퀴라소",
+              "goalsFor": 4,
+              "goalsAgainst": 1,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 75,
-      "internetPower": 72,
+      "playerQuality": 80,
+      "internetPower": 78,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 86,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ???",
+          "??? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "USA": {
       "fifaName": "USA",
@@ -175,18 +452,48 @@
       "fifaPreviousRank": 15,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 54,
+        "score": 72,
         "matches": 10,
         "wins": 5,
         "draws": 1,
         "losses": 4,
         "goalsFor": 18,
-        "goalsAgainst": 17
+        "goalsAgainst": 17,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 2,
+          "goalDifference": 1,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "세네갈",
+              "goalsFor": 3,
+              "goalsAgainst": 2,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 83,
-      "internetPower": 77,
+      "playerQuality": 87,
+      "internetPower": 82,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 94,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ???",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "TUR": {
       "fifaName": "T?rkiye",
@@ -195,18 +502,48 @@
       "fifaPreviousRank": 25,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 71,
+        "score": 84,
         "matches": 10,
         "wins": 7,
         "draws": 1,
         "losses": 2,
         "goalsFor": 21,
-        "goalsAgainst": 14
+        "goalsAgainst": 14,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 0,
+          "goalDifference": 4,
+          "results": [
+            {
+              "date": "2026-06-01",
+              "opponent": "North Macedonia",
+              "goalsFor": 4,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 79,
-      "internetPower": 78,
+      "playerQuality": 83,
+      "internetPower": 82,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 87,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "??? ???? ??",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "AUS": {
       "fifaName": "Australia",
@@ -215,18 +552,48 @@
       "fifaPreviousRank": 27,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 58,
+        "score": 48,
         "matches": 10,
         "wins": 6,
         "draws": 0,
         "losses": 4,
         "goalsFor": 14,
-        "goalsAgainst": 10
+        "goalsAgainst": 10,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "멕시코",
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "result": "L"
+            }
+          ]
+        }
       },
-      "playerQuality": 74,
-      "internetPower": 72,
+      "playerQuality": 78,
+      "internetPower": 67,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 73,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "???? ????",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "GER": {
       "fifaName": "Germany",
@@ -235,18 +602,48 @@
       "fifaPreviousRank": 10,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 84,
+        "score": 91,
         "matches": 10,
         "wins": 8,
         "draws": 0,
         "losses": 2,
         "goalsFor": 26,
-        "goalsAgainst": 9
+        "goalsAgainst": 9,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 0,
+          "goalDifference": 4,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "Finland",
+              "goalsFor": 4,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 88,
-      "internetPower": 88,
+      "playerQuality": 91,
+      "internetPower": 91,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 93,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?????? ??",
+          "?? ?? ??"
+        ],
+        "condition": "?? ??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "ECU": {
       "fifaName": "Ecuador",
@@ -255,18 +652,48 @@
       "fifaPreviousRank": 23,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 52,
+        "score": 70,
         "matches": 10,
         "wins": 3,
         "draws": 7,
         "losses": 0,
         "goalsFor": 9,
-        "goalsAgainst": 5
+        "goalsAgainst": 5,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "사우디아라비아",
+              "goalsFor": 2,
+              "goalsAgainst": 1,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 79,
-      "internetPower": 73,
+      "playerQuality": 82,
+      "internetPower": 79,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 91,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ???",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "CIV": {
       "fifaName": "C?te d'Ivoire",
@@ -275,18 +702,48 @@
       "fifaPreviousRank": 37,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 75,
+        "score": 83,
         "matches": 10,
         "wins": 7,
         "draws": 1,
         "losses": 2,
         "goalsFor": 20,
-        "goalsAgainst": 7
+        "goalsAgainst": 7,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1,
+          "results": [
+            {
+              "date": "2026-06-04",
+              "opponent": "프랑스",
+              "goalsFor": 2,
+              "goalsAgainst": 1,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 78,
-      "internetPower": 76,
+      "playerQuality": 81,
+      "internetPower": 79,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 84,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "??? ??",
+          "???? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "NED": {
       "fifaName": "Netherlands",
@@ -295,18 +752,48 @@
       "fifaPreviousRank": 7,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 88,
+        "score": 64,
         "matches": 10,
         "wins": 7,
         "draws": 3,
         "losses": 0,
         "goalsFor": 30,
-        "goalsAgainst": 6
+        "goalsAgainst": 6,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1,
+          "results": [
+            {
+              "date": "2026-06-03",
+              "opponent": "알제리",
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "result": "L"
+            }
+          ]
+        }
       },
-      "playerQuality": 86,
-      "internetPower": 89,
+      "playerQuality": 91,
+      "internetPower": 81,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 83,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ???",
+          "?? ????"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "JPN": {
       "fifaName": "Japan",
@@ -315,18 +802,48 @@
       "fifaPreviousRank": 19,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 76,
+        "score": 82,
         "matches": 10,
         "wins": 7,
         "draws": 2,
         "losses": 1,
         "goalsFor": 19,
-        "goalsAgainst": 6
+        "goalsAgainst": 6,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "Iceland",
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 83,
-      "internetPower": 82,
+      "playerQuality": 87,
+      "internetPower": 84,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 88,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ??? ?? ??",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "SWE": {
       "fifaName": "Sweden",
@@ -341,12 +858,49 @@
         "draws": 2,
         "losses": 4,
         "goalsFor": 16,
-        "goalsAgainst": 18
+        "goalsAgainst": 18,
+        "preTournamentFriendlies": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2,
+          "results": [
+            {
+              "date": "2026-06-01",
+              "opponent": "노르웨이",
+              "goalsFor": 1,
+              "goalsAgainst": 3,
+              "result": "L"
+            },
+            {
+              "date": "2026-06-04",
+              "opponent": "Greece",
+              "goalsFor": 2,
+              "goalsAgainst": 2,
+              "result": "D"
+            }
+          ]
+        }
       },
-      "playerQuality": 76,
+      "playerQuality": 80,
       "internetPower": 67,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 80,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "??? ???",
+          "??? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "BEL": {
       "fifaName": "Belgium",
@@ -355,18 +909,48 @@
       "fifaPreviousRank": 9,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 85,
+        "score": 90,
         "matches": 10,
         "wins": 6,
         "draws": 4,
         "losses": 0,
         "goalsFor": 35,
-        "goalsAgainst": 10
+        "goalsAgainst": 10,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 0,
+          "goalDifference": 2,
+          "results": [
+            {
+              "date": "2026-06-02",
+              "opponent": "크로아티아",
+              "goalsFor": 2,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 84,
-      "internetPower": 87,
+      "playerQuality": 89,
+      "internetPower": 89,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 89,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "2? ???",
+          "?? ?? ?? ??"
+        ],
+        "condition": "?? ??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "IRN": {
       "fifaName": "IR Iran",
@@ -375,18 +959,55 @@
       "fifaPreviousRank": 20,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 57,
+        "score": 75,
         "matches": 10,
         "wins": 4,
         "draws": 3,
         "losses": 3,
         "goalsFor": 17,
-        "goalsAgainst": 8
+        "goalsAgainst": 8,
+        "preTournamentFriendlies": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 1,
+          "goalDifference": 4,
+          "results": [
+            {
+              "date": "2026-05-29",
+              "opponent": "Gambia",
+              "goalsFor": 3,
+              "goalsAgainst": 1,
+              "result": "W"
+            },
+            {
+              "date": "2026-06-04",
+              "opponent": "Mali",
+              "goalsFor": 2,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 76,
-      "internetPower": 74,
+      "playerQuality": 80,
+      "internetPower": 80,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 88,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "???? ??",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "ESP": {
       "fifaName": "Spain",
@@ -395,18 +1016,48 @@
       "fifaPreviousRank": 1,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 88,
+        "score": 74,
         "matches": 10,
         "wins": 7,
         "draws": 3,
         "losses": 0,
         "goalsFor": 31,
-        "goalsAgainst": 8
+        "goalsAgainst": 8,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "results": [
+            {
+              "date": "2026-06-04",
+              "opponent": "이라크",
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "result": "D"
+            }
+          ]
+        }
       },
-      "playerQuality": 88,
-      "internetPower": 93,
+      "playerQuality": 93,
+      "internetPower": 85,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 85,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "???? ?? ??",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "URU": {
       "fifaName": "Uruguay",
@@ -421,12 +1072,34 @@
         "draws": 4,
         "losses": 2,
         "goalsFor": 10,
-        "goalsAgainst": 9
+        "goalsAgainst": 9,
+        "preTournamentFriendlies": {
+          "matches": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "results": []
+        }
       },
-      "playerQuality": 83,
-      "internetPower": 76,
+      "playerQuality": 88,
+      "internetPower": 75,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 86,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ??",
+          "???? ?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "NOR": {
       "fifaName": "Norway",
@@ -435,18 +1108,48 @@
       "fifaPreviousRank": 32,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 86,
+        "score": 92,
         "matches": 10,
         "wins": 7,
         "draws": 2,
         "losses": 1,
         "goalsFor": 31,
-        "goalsAgainst": 6
+        "goalsAgainst": 6,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2,
+          "results": [
+            {
+              "date": "2026-06-01",
+              "opponent": "스웨덴",
+              "goalsFor": 3,
+              "goalsAgainst": 1,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 81,
-      "internetPower": 80,
+      "playerQuality": 86,
+      "internetPower": 85,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 88,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ????? ??",
+          "?? ??"
+        ],
+        "condition": "?? ??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "SEN": {
       "fifaName": "Senegal",
@@ -455,18 +1158,48 @@
       "fifaPreviousRank": 12,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 72,
+        "score": 58,
         "matches": 10,
         "wins": 7,
         "draws": 1,
         "losses": 2,
         "goalsFor": 19,
-        "goalsAgainst": 9
+        "goalsAgainst": 9,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "goalDifference": -1,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "미국",
+              "goalsFor": 2,
+              "goalsAgainst": 3,
+              "result": "L"
+            }
+          ]
+        }
       },
-      "playerQuality": 80,
-      "internetPower": 81,
+      "playerQuality": 83,
+      "internetPower": 75,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 78,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "???? ?? ??",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "ARG": {
       "fifaName": "Argentina",
@@ -481,12 +1214,34 @@
         "draws": 1,
         "losses": 1,
         "goalsFor": 25,
-        "goalsAgainst": 4
+        "goalsAgainst": 4,
+        "preTournamentFriendlies": {
+          "matches": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "results": []
+        }
       },
-      "playerQuality": 90,
-      "internetPower": 93,
+      "playerQuality": 95,
+      "internetPower": 92,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 92,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ???",
+          "?? ?? ?? ??"
+        ],
+        "condition": "?? ??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "AUT": {
       "fifaName": "Austria",
@@ -501,12 +1256,42 @@
         "draws": 1,
         "losses": 1,
         "goalsFor": 28,
-        "goalsAgainst": 5
+        "goalsAgainst": 5,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1,
+          "results": [
+            {
+              "date": "2026-06-01",
+              "opponent": "튀니지",
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 80,
+      "playerQuality": 84,
       "internetPower": 83,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 83,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "???? ??",
+          "?? ?? ??"
+        ],
+        "condition": "?? ??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "POR": {
       "fifaName": "Portugal",
@@ -521,12 +1306,34 @@
         "draws": 3,
         "losses": 1,
         "goalsFor": 26,
-        "goalsAgainst": 10
+        "goalsAgainst": 10,
+        "preTournamentFriendlies": {
+          "matches": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "results": []
+        }
       },
-      "playerQuality": 89,
+      "playerQuality": 93,
       "internetPower": 88,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 90,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "2? ???",
+          "??-?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "COL": {
       "fifaName": "Colombia",
@@ -535,18 +1342,48 @@
       "fifaPreviousRank": 14,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 66,
+        "score": 81,
         "matches": 10,
         "wins": 5,
         "draws": 3,
         "losses": 2,
         "goalsFor": 21,
-        "goalsAgainst": 10
+        "goalsAgainst": 10,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2,
+          "results": [
+            {
+              "date": "2026-06-02",
+              "opponent": "Costa Rica",
+              "goalsFor": 3,
+              "goalsAgainst": 1,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 81,
-      "internetPower": 80,
+      "playerQuality": 86,
+      "internetPower": 85,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 91,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ???",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "ENG": {
       "fifaName": "England",
@@ -561,12 +1398,34 @@
         "draws": 1,
         "losses": 2,
         "goalsFor": 22,
-        "goalsAgainst": 5
+        "goalsAgainst": 5,
+        "preTournamentFriendlies": {
+          "matches": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "results": []
+        }
       },
-      "playerQuality": 90,
-      "internetPower": 90,
+      "playerQuality": 94,
+      "internetPower": 88,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 91,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ?? ??",
+          "????"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "CRO": {
       "fifaName": "Croatia",
@@ -575,18 +1434,48 @@
       "fifaPreviousRank": 11,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 90,
+        "score": 63,
         "matches": 10,
         "wins": 8,
         "draws": 1,
         "losses": 1,
         "goalsFor": 29,
-        "goalsAgainst": 8
+        "goalsAgainst": 8,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -2,
+          "results": [
+            {
+              "date": "2026-06-02",
+              "opponent": "벨기에",
+              "goalsFor": 0,
+              "goalsAgainst": 2,
+              "result": "L"
+            }
+          ]
+        }
       },
-      "playerQuality": 80,
-      "internetPower": 87,
+      "playerQuality": 85,
+      "internetPower": 77,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 76,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ??? ?? ??",
+          "?? ?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "GHA": {
       "fifaName": "Ghana",
@@ -595,18 +1484,48 @@
       "fifaPreviousRank": 72,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 46,
+        "score": 51,
         "matches": 10,
         "wins": 4,
         "draws": 1,
         "losses": 5,
         "goalsFor": 14,
-        "goalsAgainst": 13
+        "goalsAgainst": 13,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "results": [
+            {
+              "date": "2026-06-02",
+              "opponent": "Wales vs Ghana",
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "result": "D"
+            }
+          ]
+        }
       },
-      "playerQuality": 75,
-      "internetPower": 59,
+      "playerQuality": 79,
+      "internetPower": 63,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 80,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "???? ??",
+          "???"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "FRA": {
       "fifaName": "France",
@@ -615,18 +1534,48 @@
       "fifaPreviousRank": 3,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 86,
+        "score": 64,
         "matches": 10,
         "wins": 8,
         "draws": 1,
         "losses": 1,
         "goalsFor": 27,
-        "goalsAgainst": 11
+        "goalsAgainst": 11,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "goalDifference": -1,
+          "results": [
+            {
+              "date": "2026-06-04",
+              "opponent": "코트디부아르",
+              "goalsFor": 1,
+              "goalsAgainst": 2,
+              "result": "L"
+            }
+          ]
+        }
       },
-      "playerQuality": 92,
-      "internetPower": 94,
+      "playerQuality": 96,
+      "internetPower": 84,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 86,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ???",
+          "?? ??? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "RSA": {
       "fifaName": "South Africa",
@@ -641,12 +1590,42 @@
         "draws": 3,
         "losses": 3,
         "goalsFor": 14,
-        "goalsAgainst": 10
+        "goalsAgainst": 10,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "results": [
+            {
+              "date": "2026-05-29",
+              "opponent": "Nicaragua",
+              "goalsFor": 0,
+              "goalsAgainst": 0,
+              "result": "D"
+            }
+          ]
+        }
       },
-      "playerQuality": 73,
-      "internetPower": 64,
+      "playerQuality": 76,
+      "internetPower": 63,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 76,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ?? ??",
+          "?? ?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "BIH": {
       "fifaName": "Bosnia and Herzegovina",
@@ -655,18 +1634,48 @@
       "fifaPreviousRank": 71,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 57,
+        "score": 55,
         "matches": 10,
         "wins": 3,
         "draws": 5,
         "losses": 2,
         "goalsFor": 20,
-        "goalsAgainst": 11
+        "goalsAgainst": 11,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "results": [
+            {
+              "date": "2026-05-29",
+              "opponent": "North Macedonia",
+              "goalsFor": 0,
+              "goalsAgainst": 0,
+              "result": "D"
+            }
+          ]
+        }
       },
-      "playerQuality": 75,
-      "internetPower": 64,
+      "playerQuality": 79,
+      "internetPower": 65,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 78,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ???",
+          "????"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "QAT": {
       "fifaName": "Qatar",
@@ -681,12 +1690,34 @@
         "draws": 4,
         "losses": 5,
         "goalsFor": 9,
-        "goalsAgainst": 17
+        "goalsAgainst": 17,
+        "preTournamentFriendlies": {
+          "matches": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "results": []
+        }
       },
-      "playerQuality": 72,
-      "internetPower": 58,
+      "playerQuality": 76,
+      "internetPower": 57,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 75,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ??",
+          "???? ?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "HAI": {
       "fifaName": "Haiti",
@@ -695,18 +1726,48 @@
       "fifaPreviousRank": 83,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 45,
+        "score": 70,
         "matches": 10,
         "wins": 3,
         "draws": 4,
         "losses": 3,
         "goalsFor": 12,
-        "goalsAgainst": 11
+        "goalsAgainst": 11,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 0,
+          "goalDifference": 4,
+          "results": [
+            {
+              "date": "2026-06-03",
+              "opponent": "뉴질랜드",
+              "goalsFor": 4,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 70,
-      "internetPower": 56,
+      "playerQuality": 73,
+      "internetPower": 65,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 81,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "???? ??",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "PAR": {
       "fifaName": "Paraguay",
@@ -721,12 +1782,34 @@
         "draws": 2,
         "losses": 4,
         "goalsFor": 10,
-        "goalsAgainst": 10
+        "goalsAgainst": 10,
+        "preTournamentFriendlies": {
+          "matches": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "results": []
+        }
       },
-      "playerQuality": 78,
-      "internetPower": 67,
+      "playerQuality": 81,
+      "internetPower": 68,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 81,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "??? ??",
+          "????"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "CUW": {
       "fifaName": "Cura?ao",
@@ -735,18 +1818,48 @@
       "fifaPreviousRank": 81,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 50,
+        "score": 42,
         "matches": 0,
         "wins": 0,
         "draws": 0,
         "losses": 0,
         "goalsFor": 0,
-        "goalsAgainst": 0
+        "goalsAgainst": 0,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 4,
+          "goalDifference": -3,
+          "results": [
+            {
+              "date": "2026-05-30",
+              "opponent": "스코틀랜드",
+              "goalsFor": 1,
+              "goalsAgainst": 4,
+              "result": "L"
+            }
+          ]
+        }
       },
-      "playerQuality": 69,
-      "internetPower": 57,
+      "playerQuality": 72,
+      "internetPower": 54,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 67,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "????? ???",
+          "?? ?? ?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "TUN": {
       "fifaName": "Tunisia",
@@ -755,18 +1868,48 @@
       "fifaPreviousRank": 47,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 50,
+        "score": 43,
         "matches": 10,
         "wins": 3,
         "draws": 5,
         "losses": 2,
         "goalsFor": 14,
-        "goalsAgainst": 10
+        "goalsAgainst": 10,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1,
+          "results": [
+            {
+              "date": "2026-06-01",
+              "opponent": "오스트리아",
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "result": "L"
+            }
+          ]
+        }
       },
-      "playerQuality": 75,
-      "internetPower": 67,
+      "playerQuality": 79,
+      "internetPower": 64,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 74,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "???? ?? ??",
+          "??? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "EGY": {
       "fifaName": "Egypt",
@@ -781,12 +1924,34 @@
         "draws": 3,
         "losses": 1,
         "goalsFor": 14,
-        "goalsAgainst": 5
+        "goalsAgainst": 5,
+        "preTournamentFriendlies": {
+          "matches": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "results": []
+        }
       },
-      "playerQuality": 80,
-      "internetPower": 76,
+      "playerQuality": 85,
+      "internetPower": 77,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 84,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ??? ???",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "NZL": {
       "fifaName": "New Zealand",
@@ -795,18 +1960,48 @@
       "fifaPreviousRank": 85,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 27,
+        "score": 28,
         "matches": 10,
         "wins": 2,
         "draws": 1,
         "losses": 7,
         "goalsFor": 9,
-        "goalsAgainst": 15
+        "goalsAgainst": 15,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 4,
+          "goalDifference": -4,
+          "results": [
+            {
+              "date": "2026-06-03",
+              "opponent": "아이티",
+              "goalsFor": 0,
+              "goalsAgainst": 4,
+              "result": "L"
+            }
+          ]
+        }
       },
-      "playerQuality": 71,
+      "playerQuality": 74,
       "internetPower": 51,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 74,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "???? ????",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "CPV": {
       "fifaName": "Cabo Verde",
@@ -815,18 +2010,48 @@
       "fifaPreviousRank": 67,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 60,
+        "score": 78,
         "matches": 10,
         "wins": 4,
         "draws": 5,
         "losses": 1,
         "goalsFor": 17,
-        "goalsAgainst": 10
+        "goalsAgainst": 10,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 0,
+          "goalDifference": 3,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "Serbia",
+              "goalsFor": 3,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 74,
-      "internetPower": 64,
+      "playerQuality": 77,
+      "internetPower": 72,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 85,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "??? ?? ??",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "KSA": {
       "fifaName": "Saudi Arabia",
@@ -841,12 +2066,42 @@
         "draws": 0,
         "losses": 6,
         "goalsFor": 10,
-        "goalsAgainst": 15
+        "goalsAgainst": 15,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "goalDifference": -1,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "에콰도르",
+              "goalsFor": 1,
+              "goalsAgainst": 2,
+              "result": "L"
+            }
+          ]
+        }
       },
-      "playerQuality": 75,
+      "playerQuality": 79,
       "internetPower": 60,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 78,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "??? ??",
+          "?? ?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "IRQ": {
       "fifaName": "Iraq",
@@ -855,18 +2110,55 @@
       "fifaPreviousRank": 58,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 60,
+        "score": 65,
         "matches": 10,
         "wins": 6,
         "draws": 2,
         "losses": 2,
         "goalsFor": 11,
-        "goalsAgainst": 7
+        "goalsAgainst": 7,
+        "preTournamentFriendlies": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1,
+          "results": [
+            {
+              "date": "2026-05-29",
+              "opponent": "Andorra",
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W"
+            },
+            {
+              "date": "2026-06-04",
+              "opponent": "스페인",
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "result": "D"
+            }
+          ]
+        }
       },
-      "playerQuality": 74,
-      "internetPower": 67,
+      "playerQuality": 78,
+      "internetPower": 68,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 79,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "??? ?? ??",
+          "?? ???"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "ALG": {
       "fifaName": "Algeria",
@@ -875,18 +2167,48 @@
       "fifaPreviousRank": 28,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 82,
+        "score": 85,
         "matches": 10,
         "wins": 7,
         "draws": 2,
         "losses": 1,
         "goalsFor": 23,
-        "goalsAgainst": 5
+        "goalsAgainst": 5,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1,
+          "results": [
+            {
+              "date": "2026-06-03",
+              "opponent": "네덜란드",
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 79,
-      "internetPower": 79,
+      "playerQuality": 84,
+      "internetPower": 82,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 84,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "??? 2?",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "JOR": {
       "fifaName": "Jordan",
@@ -895,18 +2217,48 @@
       "fifaPreviousRank": 64,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 58,
+        "score": 47,
         "matches": 10,
         "wins": 5,
         "draws": 2,
         "losses": 3,
         "goalsFor": 19,
-        "goalsAgainst": 16
+        "goalsAgainst": 16,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 4,
+          "goalDifference": -3,
+          "results": [
+            {
+              "date": "2026-05-31",
+              "opponent": "스위스",
+              "goalsFor": 1,
+              "goalsAgainst": 4,
+              "result": "L"
+            }
+          ]
+        }
       },
-      "playerQuality": 72,
-      "internetPower": 64,
+      "playerQuality": 76,
+      "internetPower": 60,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 70,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ??? ??",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "COD": {
       "fifaName": "Congo DR",
@@ -915,18 +2267,48 @@
       "fifaPreviousRank": 48,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 70,
+        "score": 62,
         "matches": 10,
         "wins": 7,
         "draws": 2,
         "losses": 1,
         "goalsFor": 12,
-        "goalsAgainst": 3
+        "goalsAgainst": 3,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "results": [
+            {
+              "date": "2026-06-03",
+              "opponent": "Denmark",
+              "goalsFor": 0,
+              "goalsAgainst": 0,
+              "result": "D"
+            }
+          ]
+        }
       },
-      "playerQuality": 77,
-      "internetPower": 72,
+      "playerQuality": 80,
+      "internetPower": 70,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 76,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "???? ?? ??",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ?? ??? ??? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "UZB": {
       "fifaName": "Uzbekistan",
@@ -935,18 +2317,48 @@
       "fifaPreviousRank": 52,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 59,
+        "score": 46,
         "matches": 10,
         "wins": 4,
         "draws": 5,
         "losses": 1,
         "goalsFor": 15,
-        "goalsAgainst": 7
+        "goalsAgainst": 7,
+        "preTournamentFriendlies": {
+          "matches": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -2,
+          "results": [
+            {
+              "date": "2026-06-02",
+              "opponent": "캐나다",
+              "goalsFor": 0,
+              "goalsAgainst": 2,
+              "result": "L"
+            }
+          ]
+        }
       },
-      "playerQuality": 74,
-      "internetPower": 68,
+      "playerQuality": 78,
+      "internetPower": 63,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 72,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "?? ???",
+          "?? ??"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     },
     "PAN": {
       "fifaName": "Panama",
@@ -955,18 +2367,62 @@
       "fifaPreviousRank": 33,
       "fifaLastUpdate": "2026-04-01T13:00:00+00:00",
       "recentForm": {
-        "score": 53,
+        "score": 58,
         "matches": 10,
         "wins": 4,
         "draws": 4,
         "losses": 2,
         "goalsFor": 15,
-        "goalsAgainst": 14
+        "goalsAgainst": 14,
+        "preTournamentFriendlies": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 6,
+          "goalsAgainst": 8,
+          "goalDifference": -2,
+          "results": [
+            {
+              "date": "2026-06-01",
+              "opponent": "브라질",
+              "goalsFor": 2,
+              "goalsAgainst": 6,
+              "result": "L"
+            },
+            {
+              "date": "2026-06-04",
+              "opponent": "Dominican Republic",
+              "goalsFor": 4,
+              "goalsAgainst": 2,
+              "result": "W"
+            }
+          ]
+        }
       },
-      "playerQuality": 73,
-      "internetPower": 69,
+      "playerQuality": 77,
+      "internetPower": 70,
       "sourceConfidence": "high",
-      "analysisBasis": "FIFA ranking + FIFA points + last 10 full internationals + local squad/player quality model"
+      "analysisBasis": "FIFA April 2026 ranking + FIFA final squad confirmation + completed pre-tournament friendlies through 2026-06-05 + local squad/player quality model",
+      "tacticalPower": 79,
+      "managerTacticalProfile": {
+        "managerModel": "??/?? ?? ?? ???",
+        "notes": [
+          "???? ??",
+          "?? ???"
+        ],
+        "condition": "??",
+        "risk": "?? ???? ??/?? ?? ?? ??"
+      },
+      "lastDataUpdate": "2026-06-05T16:30:00+08:00",
+      "dataCutoffDate": "2026-06-05"
     }
+  },
+  "updateSummary": {
+    "cutoffDate": "2026-06-05",
+    "teamsUpdated": 48,
+    "friendlyMatchesApplied": 34,
+    "officialSquadBasis": "Final 26-player squads confirmed by FIFA; existing roster tables retained and condition/form values refreshed.",
+    "rankingBasis": "FIFA 2026-04-01 official ranking remains the latest official ranking available before the 2026-06-11 update."
   }
 }
